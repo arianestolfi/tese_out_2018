@@ -1,0 +1,77 @@
+\changetocdepth {4}
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax
+\babel@toc {brazil}{}
+\contentsline {chapter}{INTRODU\IeC {\c C}\IeC {\~A}O}{31}{section*.17}
+\contentsline {subsection}{\numberline {0.0.1}interfaces n\IeC {\~a}o gesturais}{38}{subsection.0.0.1}
+\contentsline {subsection}{\numberline {0.0.2}ag\IeC {\^e}ncia}{39}{subsection.0.0.2}
+\contentsline {subsection}{\numberline {0.0.3}Cultura Livre}{40}{subsection.0.0.3}
+\contentsline {subsection}{\numberline {0.0.4}Brutalismo Digital}{41}{subsection.0.0.4}
+\contentsline {subsection}{\numberline {0.0.5}Trans-disciplinaridade}{42}{subsection.0.0.5}
+\contentsline {subsection}{\numberline {0.0.6}Antropofagia}{42}{subsection.0.0.6}
+\contentsline {subsection}{\numberline {0.0.7}M\IeC {\'u}sica Pr\IeC {\'a}tica}{43}{subsection.0.0.7}
+\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {Percurso}}{49}{chapter.1}
+\contentsline {section}{\numberline {1.1}A m\IeC {\'u}sica me levou \IeC {\`a} rede}{49}{section.1.1}
+\contentsline {section}{\numberline {1.2}A rede me levou \IeC {\`a} m\IeC {\'u}sica}{51}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Cultura Digital}{53}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Records}{54}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.3}Pure Data}{56}{subsection.1.2.3}
+\contentsline {subsection}{\numberline {1.2.4}essa \IeC {\'e} pra tocar}{59}{subsection.1.2.4}
+\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Pesquisa}}{63}{chapter.2}
+\contentsline {section}{\numberline {2.1}In\IeC {\'\i }cio da Pesquisa}{63}{section.2.1}
+\contentsline {subsubsection}{\numberline {2.1.0.1}Interface como pesquisa}{64}{subsubsection.2.1.0.1}
+\contentsline {subsubsection}{\numberline {2.1.0.2}Interfaces gr\IeC {\'a}ficas para produ\IeC {\c c}\IeC {\~a}o musical}{67}{subsubsection.2.1.0.2}
+\contentsline {subsubsection}{\numberline {2.1.0.3}Interfaces para produ\IeC {\c c}\IeC {\~a}o musical na web}{76}{subsubsection.2.1.0.3}
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Experimentos}}{79}{chapter.3}
+\contentsline {section}{\numberline {3.1}Primeiros Experimentos}{79}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Bandas Cr\IeC {\'\i }ticas}{79}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}QWERTY}{81}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Protesta Fora Temer}{84}{subsection.3.1.3}
+\contentsline {section}{\numberline {3.2}Banda Aberta}{85}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Introdu\IeC {\c c}\IeC {\~a}o}{85}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Descri\IeC {\c c}\IeC {\~a}o do Projeto}{90}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Desenvolvimento do Projeto}{93}{subsection.3.2.3}
+\contentsline {subsubsection}{\numberline {3.2.3.1}Tradu\IeC {\c c}\IeC {\~a}o Inter Semi\IeC {\'o}tica}{95}{subsubsection.3.2.3.1}
+\contentsline {subsection}{\numberline {3.2.4}Segunda Vers\IeC {\~a}o: Web Audio Type -- Tipografia sonora}{101}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.5}Apresenta\IeC {\c c}\IeC {\~o}es p\IeC {\'u}blicas}{105}{subsection.3.2.5}
+\contentsline {section}{\numberline {3.3}An\IeC {\'a}lise preliminar}{111}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}An\IeC {\'a}lise da intera\IeC {\c c}\IeC {\~a}o com a audi\IeC {\^e}ncia}{112}{subsection.3.3.1}
+\contentsline {subsubsection}{\numberline {3.3.1.1}Resultados}{114}{subsubsection.3.3.1.1}
+\contentsline {subsubsection}{\numberline {3.3.1.2}Thematic Analysis}{116}{subsubsection.3.3.1.2}
+\contentsline {subsubsection}{\numberline {3.3.1.3}Conclus\IeC {\~o}es}{123}{subsubsection.3.3.1.3}
+\contentsline {section}{\numberline {3.4}Playsound}{126}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Motiva\IeC {\c c}\IeC {\~o}es}{132}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Desenvolvimento do Projeto}{132}{subsection.3.4.2}
+\contentsline {chapter}{Considera\IeC {\c c}\IeC {\~o}es Finais}{135}{section*.64}
+\contentsline {section}{\numberline {3.5}Porque fazer?}{135}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}O que fazer?}{137}{subsection.3.5.1}
+\vspace {0em}
+\vspace {0em}
+\contentsline {chapter}{Bibliografia}{139}{section*.68}
+\renewcommand *{\cftappendixname }{AP\^ENDICE \space }
+\setlength {\cftpartindent }{\cftlastnumwidth } \setlength {\cftpartnumwidth }{\cftnumberboxnumberwidth }
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {Ap\IeC {\^e}ndice A}}{153}{appendix.A}
+\contentsline {section}{\numberline {A.1}Linguagens}{154}{section.A.1}
+\contentsline {subsection}{\numberline {A.1.1}HTML5}{154}{subsection.A.1.1}
+\contentsline {subsection}{\numberline {A.1.2}JavaScript}{154}{subsection.A.1.2}
+\contentsline {subsection}{\numberline {A.1.3}API's}{154}{subsection.A.1.3}
+\contentsline {subsubsection}{\numberline {A.1.3.1}WebAudio API}{155}{subsubsection.A.1.3.1}
+\contentsline {subsubsection}{\numberline {A.1.3.2}Freesound API}{155}{subsubsection.A.1.3.2}
+\contentsline {section}{\numberline {A.2}Ferramentas}{155}{section.A.2}
+\contentsline {subsection}{\numberline {A.2.1}Terminal}{155}{subsection.A.2.1}
+\contentsline {subsection}{\numberline {A.2.2}Git}{155}{subsection.A.2.2}
+\contentsline {subsection}{\numberline {A.2.3}Node.js}{155}{subsection.A.2.3}
+\contentsline {subsection}{\numberline {A.2.4}Latex}{155}{subsection.A.2.4}
+\contentsline {subsection}{\numberline {A.2.5}}{155}{subsection.A.2.5}
+\contentsline {subsubsection}{\numberline {A.2.5.1} }{155}{subsubsection.A.2.5.1}
+\cftinsert {AAA}
+\renewcommand *{\cftappendixname }{ANEXO \space }
+\setlength {\cftpartindent }{\cftlastnumwidth } \setlength {\cftpartnumwidth }{\cftnumberboxnumberwidth }
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {Artigo publicado}}{159}{appendix.anexochapback.1}
+\contentsline {section}{\numberline {A.1}English guidelines for publication}{159}{section.anexochapback.1.1}
+\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase {Anexo exemplo}}{161}{appendix.anexochapback.2}
+\contentsline {section}{\numberline {B.1}Some encoding tests}{161}{section.anexochapback.2.1}
+\contentsline {subsection}{\numberline {B.1.1} }{161}{subsection.anexochapback.2.1.1}
+\contentsline {subsubsection}{\numberline {B.1.1.1} }{162}{subsubsection.anexochapback.2.1.1.1}
+\contentsline {paragraph}{\numberline {B.1.1.1.1} }{162}{paragraph.anexochapback.2.1.1.1.1}

@@ -1,0 +1,59 @@
+\swapcontents
+{
+    % Changing babel package inside a single chapter
+    % https://tex.stackexchange.com/questions/20987/changing-babel-package-inside-a-single-chapter
+    %
+    % Multiple-language document - babel - selectlanguage vs begin/end{otherlanguage}
+    % https://tex.stackexchange.com/questions/36526/multiple-language-document-babel-selectlanguage-vs-begin-endotherlanguage
+    \addtotextpreliminarycontent{English's Abstract}
+    \begin{otherlanguage*}{english}
+    \begin{resumo}[Abstract]
+
+        This is the english abstract.
+
+        \imprimirpalavraschave{Keywords}{\begin{inparaitem}[]\palavraschaveingles\end{inparaitem}}
+
+    \end{resumo}
+    \end{otherlanguage*}
+}
+{
+    \addtotextpreliminarycontent{Resumo em Português}
+    \begin{otherlanguage*}{brazil}
+    \begin{resumo}[Resumo]
+
+        O presente projeto visa explorar potenciais de aplicação de tecnologias de produção musical na web, para experimentar interfaces experimentais para criação musical acessíveis e ubíquas.
+        
+        Sendo uma pesquisa prática em música, trataremos aqui do percurso que nos levou a esta prática, os fundamentos metodológicos e conceituais e uma descrição e análise de projetos práticos desenvolvidos no âmbito dessa pesquisa: Banda Aberta, um projeto de performance participativa, onde a audiência interage através de um site que converte letras em sons; e Playsound.space, um projeto de interface para produção musical ao vivo online baseado em buscas textuais e visualização por espectrogramas.  
+        
+
+        \imprimirpalavraschave{Palavras-chaves}{\begin{inparaitem}[]\palavraschaveportugues\end{inparaitem}}
+
+    \end{resumo}
+    \end{otherlanguage*}
+}
+
+
+
+% % resumo em francês
+% \addtotextpreliminarycontent{Français Résumé}
+% \begin{resumo}[Résumé]
+%   \begin{otherlanguage*}{french}
+%       Il s'agit d'un résumé en français.
+
+%       \imprimirpalavraschave{Mots-clés}{latex. abntex. publication de textes.}
+%   \end{otherlanguage*}
+% \end{resumo}
+
+
+% % resumo em espanhol
+% \addtotextpreliminarycontent{Español Resumen}
+% \begin{resumo}[Resumen]
+%   \begin{otherlanguage*}{spanish}
+%       Este es el resumen en español.
+
+%       \imprimirpalavraschave{Palabras clave}{latex. abntex. publicación de textos.}
+%   \end{otherlanguage*}
+% \end{resumo}
+
+
+
