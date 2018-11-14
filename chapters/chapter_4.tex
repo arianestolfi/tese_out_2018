@@ -61,14 +61,106 @@ Os resultados são apresentados na forma de spectrogramas, que permitem que o us
 
 \begin{figure}
 \centering
-\includegraphics[width=0.8\textwidth]{pictures/cap4/audioquery}
-\caption{\label{pstimeline}Primeira versão funcional do software desenvolvida.}
+\includegraphics[width=0.8\textwidth]{pictures/cap4/audioquery_browsers}
+\caption{\label{audiquery}Primeira versão funcional do software desenvolvida.}
 \label{fig:audioquery}
 \end{figure}
 
+Durante esta primeira fase, as avaiações foram feitas principalmente pela autora, mas também contando com a opinião de alguns colegas convidados para testar informalmente a ferramenta. Esses testes fora de condições de laboratório são previstos  
  %Mais adiante, passei a contar com a ajuda da {}programadora Alessia Millo, que colaborou no desenvolvimento do tocador e de outros recursos que implantamos no sistema. Ela trabalhou na adaptação do sistema para utilizar as tecnologias de Web Audio, ao invés dos objetos HTML, que permitiu uma série de recursos que implementamos posteriormente, como a possibilidade de escolher o começo e o fim dos pontos de loop, alterar a velocidade de reprodução de sons e posição estéreo dos sons.
 
+\subsection{Primeiras avaliações}
 
+When the system was judged ready to be used in live performances (Audioquery multitrack player in Figure \ref{fig:timeline}), we conducted several user evaluations \cite{Stolfi2018b}. First, we established a small ensemble including musicians playing PS and other musicians playing electronic or traditional instruments such as guitar and effects, piano, percussions, and vocals. In each session, participants were invited to play together an improvisation piece for about 10 minutes, and to discuss their experience after each piece. We examined three sessions with this kind of ensemble, involving 6 musicians in total. Following this study, we improved the interface to provide individual volume control and information about the audio file on the playlist.\footnote{Audio recordings of seven 10 min improvisation pieces are available at the link:\url{http://finetanks.com/records/puppets/}}
+
+In another evaluation, PS was tested in controlled lab settings with trios of participants both with and without prior music performance experience. Participants were invited to play three five-minute long free improvisations using the system on their laptops. 15 participants took part in the study (5 females, 10 males, mean$\pm$SD age = 32.7$\pm$5.4), 8 of them considered themselves as musicians (4 intermediate and 4 experienced), while 7 did not. We measured system usability \cite{Jordan1996} and creativity support \cite{Cherry2014} using an online survey to be completed just after the performances. We also conducted inductive thematic analyses \cite{Braun2006} from focus group discussions and self-reports related to workflow, hedonic quality, engagement, learning, contexts of use and improvements. The prototype yielded a high usability score (M = 82.5/100, SD = 8.94) and creativity support index (M =71.7, SD =15.6) with no significant differences between non musicians and musicians.
+
+The system proved to be inclusive with respect to musical expertise since it enabled creative musical collaborations without training and for users who did not have prior musical skills. We identified design challenges like a will for more control of audio processing (e.g. volume, loop, effects, timing) and increased sense of identification and co-presence between performers. To improve sound retrieval, participants wished to have access to filtering and clustering techniques and to be able to search for sounds by features, e.g. by timbre.
+
+These initial user evaluations were followed by a first live solo performance with PS by the first author at the A'mas event held at the Total Refreshment Centre in London on 25 March 2017 \footnote{Excerpt from the performance can be found at \url{https://youtu.be/LmjmpQagBG8}}. After a 30 minutes solo performance, the performer also joined a jam session with 8 other invited musicians who played synthesizers and other electronic instruments. During the jam, most of the instruments were connected trough a central Midi clock providing beat synchronization. Although PS does not offer this possibility, since it is not grid-based, it was still possible to play live in this format. The performer had to develop a strategy to select in real time sounds that wouldn't conflict with the established rhythm, working with sonic materials such as textures and effects instead of more structured loops. By using this system as part of a public live electronic performance, we acknowledged that it could be used as a basis for real music practice. But as in previous evaluations, the performer also found that the creative control would benefit from enriched audio processing.
+
+\subsection{Melhorias}
+
+Following users' desire for more expressive control, we added a range of audio editing, processing and mixing capabilities. This included the possibility of queuing sounds in the playlist and manipulating their duration and pitch by varying their playback speed. We also enabled editing by selecting segments and control custom loops during playback. To implement this feature, we used the buffer object from the Web Audio API library which replaced the HTML media element object (despite the HTML media object can start playing upon selection large files while still buffering). We also introduced a panning control for each sound object, allowing to position them in the stereo field. We are planning to introduce a panning control on the master channel e.g. to help musicians from laptop ensembles to identify individual sonic contributions spatially.
+
+\subsection{Evaluation with Orquestra Errante Improvisation Ensemble}
+
+
+
+
+\subsubsection{Analysis of the performances}
+
+Audition of the recordings showed that, comparing to the previous tests, most performers from the improvisation ensemble chose to work with fewer sonic materials and spend more time at exploring sound processing instead of using large amount of sound samples. This may be due to the richer amount of expressive controls present in the updated interface, but also a will to closely work with sonorities, which is characteristic of FMI. The performed pieces present a great degree of variation in dynamics and textures, depending on the group configurations. There were interesting musical dialogues between the performers, with question-response situations and different ground-figure relations between PS and traditional instruments. At times, PS players produced accompanying textures and in other occasions, they acted as soloists, as commonly takes place in the practice of the ensemble.
+
+
+\subsubsection{Thematic analysis}
+
+We conducted a thematic analysis \cite{Braun2006} on the transcriptions of the group discussion and answers to the survey. We identified the recurrent themes below which were also present in the previous analysis \cite{Stolfi2018b}.
+
+\textbf{Creativity support and narrative.} (10 occurrences) Users commented about the process of playing together (\textit{``the sound you played directly influenced on what I was doing, and the inverse also happened"}, \textit{``I've changed the velocity based on what you were playing"}), and about the type of sounds played (\textit{``there were some interesting sounds out of context that we embraced, but sometimes it was almost funny"}). 
+
+\textbf{Relevance and excitement.} (7 occurrences) Some users showed excitement to play with the tool (\textit{``can we play!?"}, \textit{``there's every sound in the universe!"}, \textit{``it's well resolved in terms of sound"}).
+
+\textbf{Emotional engagement and playing strategies.} (10 occurrences) Users reported about the novelty of the tool which provided a different way to play (\textit{``this generates a specific way of playing"}, \textit{``there are interesting sound samples you can manipulate like a sound object"}, \textit{``the nice thing here is the search through words"}), and about how they used the tool during the performances (\textit{``I was playing, then I changed the tempo, then I started to select excerpts of the samples"}).
+
+\textbf{Limitations.} (9 occurrences) Users reported some issues with the current interface, that had misleading controllers and lack of visual feedback about the sounds being played. During the study, the interface faced a bug preventing the playhead positions to show the current position in each audio sample. Participants also commented on the speed of the response, since the Internet speed was very slow during the test.
+
+\textbf{Identification of sounds and sources.} (3 occurrences) Users reported that they were able to listen to the digital sounds. One participant reported the difficulty to know who was playing what, and another suggested that the performance would be better if everyone had their own pair of speakers.
+
+\textbf{Improvements.} Users suggested some desirable improvements such as: including capabilities for time stretching, synchronization of all sounds, to stop all sounds, to use a midi controller, to have a fade in/out options for each sound, and interface with other hardware (e.g. Arduino, Raspberry Pi).
+
+In the survey question on what they most enjoyed using PS, users reported on the quantity of sounds available and empowerment (\textit{``I felt a kind of power to have available a huge quantity of sounds to use"}), and about the possibility of combining \textit{``textures with superimposed layers''}. About the type of sounds used, they reported searching for \textit{``Non-musical sounds"} and \textit{``Low pitched sounds, from the nature"}. One of them interestingly reported \textit{``I didn't search for anything, the sound came to my encounter."}.
+
+\section{New Directions}
+
+Since the last evaluation, we have included new features which will be the object of future evaluations. These features have been developed mostly to enhance participatory processes, by providing a chat environment, and accessibility, through a built-in translation system aiming to let non-English speakers use the tool.
+
+\subsection{Chat}
+At the address \url{http://www.playsound.space/chat}, the user can type messages that are shared with other users connected to the same address. Moreover, the messages, once sent, become hyperlinks which, when selected, trigger a query in the Freesound database. This in return shows results for the related word. 
+
+The chat is based on socket communication, implemented in node.js through socket.io. Ids are assigned automatically to the clients accessing the address, and we are currently implementing the creation of user-defined chatrooms.
+
+\subsection{Translation}
+
+Freesound APIs \footnote{https://www.freesound.org/docs/api/overview.html} propose a text search mechanism that operates by matching tags and other metadata. This simple mechanism (exploited by PS) does not account for mismatches between the language that users employ in their queries and the ones used in tagged Freesound content. As this can impair the inclusion of non-english speakers, it motivated us to implement a translation tool, which now allows the user to select its own language and receive possible translations to English, the main language of the metadata. 
+
+Playsound's translation tool relies on Yandex APIs\footnote{\url{https://tech.yandex.com/translate/}}, that supports 90 languages. To simplify the interface, we reduced the range to 17 languages that are more present on Freesound. When users type in a keyword in the research field, PS issues a request to the translate API and propose the results to the users. They are then allowed to click on the suggestion to start the research with the English keyword.
+
+To illustrate how the translation tool can be useful for a user we provide an example based on the Portuguese word \textit{``pandeiro"} (i.e. tambourine in English). At the time of writing, Freesound hosts 52 sounds matching the word ``pandeiro". If Portuguese is set as the input language, PS translation let users query sounds with the English translation of the word, which yields 460 results.
+
+\subsection{Tag and Audio Content-based Recommendation}
+
+Another feature which we develop in parallel provides recommendations of audio files that sound similar to selected ones \cite{Viola2018}. This contribution is framed within the EU-funded Audio Commons project that aims at easing the access to Creative Commons audio content to the creative industries. The implemented recommendation mechanism is a complex multi-agent system based on the Semantic Web of Things. It operates through a two-stages approach: in the first stage it looks for audio files with the same tags on Freesound as well as on Europeana and Jamendo (all these three are content providers of the Audio Commons Ecosystem). In the second stage, an audio analysis is performed to reject results that differ too much from the originally selected file (at the moment a simple similarity function is implemented using spectral linear centroid computed with Sonic Annotator and Vamp plugins \cite{Cannam2010}).
+
+\section{Discussion}
+
+There are currently three instances of Playsound that are developed in parallel. The main instance can be used as a single user instrument or composition tool. The version including the chat system will be developed to become a fully participatory music making tool. The Playsound recommendation system should include in the future sounds from other resources and be integrated into the other instances upon positive result from testing. While some of the features developed came from necessities identified among the test users, other features followed design choices discussed by the authors to better support inclusion (for example the translation system) and to provide access to the Audio Commons Ecosystem (recommendations). Even though tests were made with different users during different phases of development, the core of the analysis mostly comes from the author's continuous practice with the system itself. Eventually, we realized that although porting the system to Web Audio buffers may offer more support in music processing, it also makes the system loose part of its real-time playing capabilities, as currently sound buffers need to be fully loaded before playing.
+
+
+
+
+Numa segunda oportunidade, o professor Leonardo trouxe uma série de playlists com diferentes tipos de sons como glissandos, batidas para realizar uma atividade de preparação de corpo sonoro com a turma de alunos. Um dos alunos operou com facilidade essas playlist improvisando com os sons reúnidos enquanto o professor coordenava a atividade de corpo. 
+
+Mais adiante no curso, quando partimos para produção musical, passamos a utilizar outras ferramentas como editores de áudio e trackers com sintetizadores e samplers. Nesta fase, usamos o Playsound principalmente para pesquisar sons para serem adicionados aos projetos dos alunos, que foram montados posteriormentes nos sequenciadores. Essa breve experiência foi importante para testar vários potenciais de aplicação do Playsound também na esfera educacional. Por ser livre, aberto e sem a necessidade de instalação, é uma ferramenta versátil que pode ser adotada por educadores em diversas práticas.
+
+
+\begin{figure}[htb]
+\label{audiqueryminipage}
+\centering
+ \begin{minipage}{0.49\textwidth}
+   \centering
+   \caption{Primeira versão da interface do software} \label{fig_minipage_imagem1}
+   \includegraphics[width=\textwidth]{pictures/cap4/audioquery_firefox}
+   \legend{Fonte: Screenshot da autora no navegador Chrome}
+ \end{minipage}
+ \hfill
+ \begin{minipage}{0.49\textwidth}
+   \centering
+   \caption{} \label{fig_minipage_grafico2}
+   \includegraphics[width=\textwidth]{pictures/cap4/audioquery_firefox}
+   \legend{Fonte: Screenshot no navegador Firefox}
+ \end{minipage}
+\end{figure}
 
 
 \end{otherlanguage*}

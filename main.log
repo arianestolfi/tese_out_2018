@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.8.31)  13 NOV 2018 10:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.8.31)  13 NOV 2018 20:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3451,137 +3451,142 @@ Overfull \hbox (1.23878pt too wide) detected at line 38
 
 
 Overfull \hbox (1.23878pt too wide) detected at line 39
- []\T1/phv/m/n/10.5 116
+ []\T1/phv/m/n/10.5 117
  []
 
 
 Overfull \hbox (1.23878pt too wide) detected at line 40
- []\T1/phv/m/n/10.5 123
+ []\T1/phv/m/n/10.5 125
  []
 
 
 Overfull \hbox (1.23878pt too wide) detected at line 41
- []\T1/phv/m/n/10.5 126
+ []\T1/phv/m/n/10.5 128
  []
 
 
 Overfull \hbox (1.23878pt too wide) detected at line 42
- []\T1/phv/b/n/10.5 132
+ []\T1/phv/b/n/10.5 134
  []
 
 
 Overfull \hbox (1.23878pt too wide) detected at line 43
- []\T1/phv/b/n/10.5 132
+ []\T1/phv/b/n/10.5 134
  []
 
 
 Overfull \hbox (1.23878pt too wide) detected at line 44
- []\T1/phv/b/n/10.5 135
+ []\T1/phv/b/n/10.5 136
  []
 
 
 Overfull \hbox (1.23878pt too wide) detected at line 45
- []\T1/phv/m/n/10.5 135
+ []\T1/phv/b/n/10.5 138
  []
 
 
 Overfull \hbox (1.23878pt too wide) detected at line 46
- []\T1/phv/b/n/10.5 137
+ []\T1/phv/b/n/10.5 138
+ []
+
+
+Overfull \hbox (1.23878pt too wide) detected at line 47
+ []\T1/phv/m/n/10.5 138
+ []
+
+
+Overfull \hbox (1.23878pt too wide) detected at line 48
+ []\T1/phv/m/n/10.5 139
  []
 
 
 Overfull \hbox (1.23878pt too wide) detected at line 49
- []\T1/phv/b/n/10.5 139
+ []\T1/phv/m/n/10.5 140
+ []
+
+
+Overfull \hbox (1.23878pt too wide) detected at line 50
+ []\T1/phv/b/n/10.5 141
+ []
+
+
+Overfull \hbox (1.23878pt too wide) detected at line 51
+ []\T1/phv/b/n/10.5 141
+ []
+
+
+Overfull \hbox (1.23878pt too wide) detected at line 52
+ []\T1/phv/b/n/10.5 142
  []
 
 
 Overfull \hbox (1.23878pt too wide) detected at line 53
- []\T1/phv/b/n/10.5 153
+ []\T1/phv/m/n/10.5 142
  []
 
 
 Overfull \hbox (1.23878pt too wide) detected at line 54
- []\T1/phv/m/n/10.5 154
+ []\T1/phv/b/n/10.5 145
  []
 
 
 Overfull \hbox (1.23878pt too wide) detected at line 55
- []\T1/phv/b/n/10.5 154
+ []\T1/phv/m/n/10.5 145
  []
 
 
 Overfull \hbox (1.23878pt too wide) detected at line 56
- []\T1/phv/b/n/10.5 154
- []
-
-
-Overfull \hbox (1.23878pt too wide) detected at line 57
- []\T1/phv/b/n/10.5 154
- []
-
-
-Overfull \hbox (1.23878pt too wide) detected at line 58
- []\T1/phv/m/n/10.5 155
+ []\T1/phv/b/n/10.5 147
  []
 
 
 Overfull \hbox (1.23878pt too wide) detected at line 59
- []\T1/phv/m/n/10.5 155
- []
-
-
-Overfull \hbox (1.23878pt too wide) detected at line 60
- []\T1/phv/m/n/10.5 155
- []
-
-
-Overfull \hbox (1.23878pt too wide) detected at line 61
- []\T1/phv/b/n/10.5 155
- []
-
-
-Overfull \hbox (1.23878pt too wide) detected at line 62
- []\T1/phv/b/n/10.5 155
+ []\T1/phv/b/n/10.5 149
  []
 
 
 Overfull \hbox (1.23878pt too wide) detected at line 63
- []\T1/phv/b/n/10.5 155
+ []\T1/phv/b/n/10.5 165
  []
 
 
 Overfull \hbox (1.23878pt too wide) detected at line 64
- []\T1/phv/b/n/10.5 155
+ []\T1/phv/m/n/10.5 166
  []
 
 
 Overfull \hbox (1.23878pt too wide) detected at line 65
- []\T1/phv/b/n/10.5 155
+ []\T1/phv/b/n/10.5 166
  []
 
 
 Overfull \hbox (1.23878pt too wide) detected at line 66
- []\T1/phv/m/n/10.5 155
+ []\T1/phv/b/n/10.5 166
+ []
+
+
+Overfull \hbox (1.23878pt too wide) detected at line 67
+ []\T1/phv/b/n/10.5 166
+ []
+
+
+Overfull \hbox (1.23878pt too wide) detected at line 68
+ []\T1/phv/m/n/10.5 167
+ []
+
+
+Overfull \hbox (1.23878pt too wide) detected at line 69
+ []\T1/phv/m/n/10.5 167
+ []
+
+
+Overfull \hbox (1.23878pt too wide) detected at line 70
+ []\T1/phv/m/n/10.5 167
  []
 
 
 Overfull \hbox (1.23878pt too wide) detected at line 71
- []\T1/phv/b/n/10.5 159
- []
-
-
-Overfull \hbox (1.23878pt too wide) detected at line 72
- []\T1/phv/m/n/10.5 159
- []
-
-
-Overfull \hbox (1.23878pt too wide) detected at line 73
- []\T1/phv/b/n/10.5 161
- []
-
-
-Overfull \hbox (1.23878pt too wide) detected at line 74
- []\T1/phv/m/n/10.5 161
+ []\T1/phv/b/n/10.5 167
  []
 
 \openout6 = `main.mw'.
@@ -3590,20 +3595,65 @@ Overfull \hbox (1.23878pt too wide) detected at line 74
 \openout6 = `main.mw'.
 
 
+Overfull \hbox (1.23878pt too wide) detected at line 72
+ []\T1/phv/b/n/10.5 167
+ []
+
+
+Overfull \hbox (1.23878pt too wide) detected at line 73
+ []\T1/phv/b/n/10.5 167
+ []
+
+
+Overfull \hbox (1.23878pt too wide) detected at line 74
+ []\T1/phv/b/n/10.5 167
+ []
+
+
 Overfull \hbox (1.23878pt too wide) detected at line 75
- []\T1/phv/b/n/10.5 161
+ []\T1/phv/b/n/10.5 167
  []
 
 
 Overfull \hbox (1.23878pt too wide) detected at line 76
- []\T1/phv/m/n/10.5 162
+ []\T1/phv/m/n/10.5 167
+ []
+
+
+Overfull \hbox (1.23878pt too wide) detected at line 81
+ []\T1/phv/b/n/10.5 171
+ []
+
+
+Overfull \hbox (1.23878pt too wide) detected at line 82
+ []\T1/phv/m/n/10.5 171
+ []
+
+
+Overfull \hbox (1.23878pt too wide) detected at line 83
+ []\T1/phv/b/n/10.5 173
+ []
+
+
+Overfull \hbox (1.23878pt too wide) detected at line 84
+ []\T1/phv/m/n/10.5 173
+ []
+
+
+Overfull \hbox (1.23878pt too wide) detected at line 85
+ []\T1/phv/b/n/10.5 173
+ []
+
+
+Overfull \hbox (1.23878pt too wide) detected at line 86
+ []\T1/phv/m/n/10.5 174
  []
 
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.5> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 77.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 87.
 
-Overfull \hbox (1.23878pt too wide) detected at line 77
- []\T1/phv/m/sl/10.5 162
+Overfull \hbox (1.23878pt too wide) detected at line 87
+ []\T1/phv/m/sl/10.5 174
  []
 
 )
@@ -3636,7 +3686,7 @@ ll (1979)
 [31] (./main.mw)
 \openout6 = `main.mw'.
 
-<pictures/radio_garden_2018-06-10.png, id=475, 1490.56876pt x 957.5775pt>
+<pictures/radio_garden_2018-06-10.png, id=505, 1490.56876pt x 957.5775pt>
 File: pictures/radio_garden_2018-06-10.png Graphic file (type png)
 <use pictures/radio_garden_2018-06-10.png>
 Package pdftex.def Info: pictures/radio_garden_2018-06-10.png  used on input li
@@ -3712,7 +3762,7 @@ Overfull \hbox (10.16148pt too wide) in paragraph at lines 114--117
 \openout6 = `main.mw'.
 
 
-Overfull \hbox (1.73155pt too wide) in paragraph at lines 180--182
+Overfull \hbox (1.73155pt too wide) in paragraph at lines 190--192
 \T1/cmr/m/n/10.95 cam-po e-mer-gen-te, on-de "a prá-ti-ca cor-re na fren-te da 
 te-o-ri-a"(BARRY,
  []
@@ -3723,12 +3773,12 @@ te-o-ri-a"(BARRY,
 \openout6 = `main.mw'.
 
 
-Overfull \hbox (6.28328pt too wide) in paragraph at lines 204--205
+Overfull \hbox (6.28328pt too wide) in paragraph at lines 214--215
  \T1/cmr/m/n/8 for web (com-mer-ci-al re-cord sa-les sam-ples, sound
  []
 
 
-Overfull \hbox (10.37073pt too wide) in paragraph at lines 204--205
+Overfull \hbox (10.37073pt too wide) in paragraph at lines 214--215
  \T1/cmr/m/n/8 ments, mul-ti-me-di-a de-ve-lop-ment, bus-king, lawyer,
  []
 
@@ -3738,7 +3788,7 @@ Overfull \hbox (10.37073pt too wide) in paragraph at lines 204--205
 \openout6 = `main.mw'.
 
 
-Overfull \hbox (1.08823pt too wide) in paragraph at lines 220--223
+Overfull \hbox (1.08823pt too wide) in paragraph at lines 230--233
  \T1/cmr/m/n/8 synthe-sis soft-ware \TS1/cmr/m/n/8 ˆ \T1/cmr/m/n/8 live- per-fo
 r-man-ce soft-ware
  []
@@ -3758,19 +3808,24 @@ r-man-ce soft-ware
  [46] (./main.mw)
 \openout6 = `main.mw'.
 
-)
 \openout6 = `main.mw'.
 
  [47] (./main.mw)
 \openout6 = `main.mw'.
 
-\openout2 = `chapters/chapter_1.aux'.
-
-
-(./chapters/chapter_1.tex
+)
 \openout6 = `main.mw'.
 
- [48
+ [48]
+(./main.mw)
+\openout6 = `main.mw'.
+
+\openout2 = `chapters/chapter_1.aux'.
+
+ (./chapters/chapter_1.tex
+\openout6 = `main.mw'.
+
+ [49
 
 
 
@@ -3778,19 +3833,14 @@ r-man-ce soft-ware
 \openout6 = `main.mw'.
 
 
-Overfull \hbox (5.69356pt too wide) in paragraph at lines 31--32
+Overfull \hbox (5.69356pt too wide) in paragraph at lines 37--38
 []\T1/cmr/m/n/10.95 Quando sur-giu o Au-di-o-ga-laxy, que i-nau-gu-rou a e-ra d
 os softwa-
  []
 
 \openout6 = `main.mw'.
 
-[49] (./main.mw)
-\openout6 = `main.mw'.
-
-\openout6 = `main.mw'.
-
- [50] (./main.mw)
+[50] (./main.mw)
 \openout6 = `main.mw'.
 
 \openout6 = `main.mw'.
@@ -3805,13 +3855,13 @@ os softwa-
 
 \openout6 = `main.mw'.
 
- [53]
+ [53] (./main.mw)
+\openout6 = `main.mw'.
+
+\openout6 = `main.mw'.
+
+ [54]
 (./main.mw)
-\openout6 = `main.mw'.
-
-\openout6 = `main.mw'.
-
- [54] (./main.mw)
 \openout6 = `main.mw'.
 
 \openout6 = `main.mw'.
@@ -3829,20 +3879,20 @@ os softwa-
  [57] (./main.mw)
 \openout6 = `main.mw'.
 
+\openout6 = `main.mw'.
 
-Overfull \hbox (7.48161pt too wide) in paragraph at lines 103--104
+ [58] (./main.mw)
+\openout6 = `main.mw'.
+
+
+Overfull \hbox (7.48161pt too wide) in paragraph at lines 111--112
 []\T1/cmr/m/n/10.95 Quando fui con-vi-da-da por Da-ni-el S-can-dur-ra e Ga-bri-
 el Kerhart
  []
 
 \openout6 = `main.mw'.
 
-[58] (./main.mw)
-\openout6 = `main.mw'.
-
-\openout6 = `main.mw'.
-
- [59] (./main.mw)
+[59] (./main.mw)
 \openout6 = `main.mw'.
 
 \openout6 = `main.mw'.
@@ -3857,14 +3907,14 @@ el Kerhart
 
 \openout6 = `main.mw'.
 
- [62]
-(./main.mw)
+ [62] (./main.mw)
 \openout6 = `main.mw'.
 
 )
 \openout2 = `chapters/chapter_2.aux'.
 
- (./chapters/chapter_2.tex
+
+(./chapters/chapter_2.tex
 \openout6 = `main.mw'.
 
  [63
@@ -3881,13 +3931,13 @@ el Kerhart
 
 \openout6 = `main.mw'.
 
-
-[65] (./main.mw)
+ [65] (./main.mw)
 \openout6 = `main.mw'.
 
 \openout6 = `main.mw'.
 
- [66] (./main.mw)
+
+[66] (./main.mw)
 \openout6 = `main.mw'.
 
 
@@ -3900,7 +3950,7 @@ Overfull \hbox (10.01175pt too wide) in paragraph at lines 60--61
 [67] (./main.mw)
 \openout6 = `main.mw'.
 
-<pictures/analogicos.jpg, id=743, 1435.3625pt x 459.7175pt>
+<pictures/analogicos.jpg, id=788, 1435.3625pt x 459.7175pt>
 File: pictures/analogicos.jpg Graphic file (type jpg)
 <use pictures/analogicos.jpg>
 Package pdftex.def Info: pictures/analogicos.jpg  used on input line 79.
@@ -3910,7 +3960,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 81--81
 [][]|\T1/cmr/m/n/10.95 Fon-te: ([][][]HAY-LEY WIL-LI-AMS[][], [][]2015[][]) e
  []
 
-<pictures/MaxHolmes-251.jpg, id=752, 277.035pt x 275.5896pt>
+<pictures/MaxHolmes-251.jpg, id=797, 277.035pt x 275.5896pt>
 File: pictures/MaxHolmes-251.jpg Graphic file (type jpg)
 <use pictures/MaxHolmes-251.jpg>
 Package pdftex.def Info: pictures/MaxHolmes-251.jpg  used on input line 89.
@@ -3940,12 +3990,12 @@ Package pdftex.def Info: pictures/MaxHolmes-251.jpg  used on input line 89.
  [72] (./main.mw)
 \openout6 = `main.mw'.
 
-<pictures/protools.jpg, id=798, 256.0767pt x 144.2991pt>
+<pictures/protools.jpg, id=842, 256.0767pt x 144.2991pt>
 File: pictures/protools.jpg Graphic file (type jpg)
 <use pictures/protools.jpg>
 Package pdftex.def Info: pictures/protools.jpg  used on input line 118.
 (pdftex.def)             Requested size: 307.0pt x 173.00171pt.
-<pictures/protools2.jpg, id=799, 436.9926pt x 221.628pt>
+<pictures/protools2.jpg, id=843, 436.9926pt x 221.628pt>
 File: pictures/protools2.jpg Graphic file (type jpg)
 <use pictures/protools2.jpg>
 Package pdftex.def Info: pictures/protools2.jpg  used on input line 119.
@@ -4024,7 +4074,7 @@ Overfull \hbox (8.3605pt too wide) in paragraph at lines 157--157
 [80] (./main.mw)
 \openout6 = `main.mw'.
 
-<pictures/banda_aberta_mob_crowd.png, id=866, 803.0pt x 657.45625pt>
+<pictures/banda_aberta_mob_crowd.png, id=911, 803.0pt x 657.45625pt>
 File: pictures/banda_aberta_mob_crowd.png Graphic file (type png)
 <use pictures/banda_aberta_mob_crowd.png>
 Package pdftex.def Info: pictures/banda_aberta_mob_crowd.png  used on input lin
@@ -4117,7 +4167,7 @@ e 109.
  [91] (./main.mw)
 \openout6 = `main.mw'.
 
-<pictures/server.jpg, id=1000, 597.1911pt x 597.1911pt>
+<pictures/server.jpg, id=1044, 597.1911pt x 597.1911pt>
 File: pictures/server.jpg Graphic file (type jpg)
 <use pictures/server.jpg>
 Package pdftex.def Info: pictures/server.jpg  used on input line 151.
@@ -4153,7 +4203,7 @@ R; REI-BEL[][], [][]2007[][])
 [96] (./main.mw)
 \openout6 = `main.mw'.
 
-<pictures/cap3/bandagalaxias.jpg, id=1064, 1439.3775pt x 2006.49625pt>
+<pictures/cap3/bandagalaxias.jpg, id=1108, 1439.3775pt x 2006.49625pt>
 File: pictures/cap3/bandagalaxias.jpg Graphic file (type jpg)
 <use pictures/cap3/bandagalaxias.jpg>
 Package pdftex.def Info: pictures/cap3/bandagalaxias.jpg  used on input line 19
@@ -4164,13 +4214,13 @@ Package pdftex.def Info: pictures/cap3/bandagalaxias.jpg  used on input line 19
  [97 <./pictures/cap3/bandagalaxias.jpg>] (./main.mw)
 \openout6 = `main.mw'.
 
-<pictures/cap3/bandapercussao.jpg, id=1072, 1439.3775pt x 2006.49625pt>
+<pictures/cap3/bandapercussao.jpg, id=1116, 1439.3775pt x 2006.49625pt>
 File: pictures/cap3/bandapercussao.jpg Graphic file (type jpg)
 <use pictures/cap3/bandapercussao.jpg>
 Package pdftex.def Info: pictures/cap3/bandapercussao.jpg  used on input line 2
 08.
 (pdftex.def)             Requested size: 214.89906pt x 299.55309pt.
-<pictures/cap3/bandaabertacolab.jpg, id=1074, 1439.3775pt x 2006.49625pt>
+<pictures/cap3/bandaabertacolab.jpg, id=1118, 1439.3775pt x 2006.49625pt>
 File: pictures/cap3/bandaabertacolab.jpg Graphic file (type jpg)
 <use pictures/cap3/bandaabertacolab.jpg>
 Package pdftex.def Info: pictures/cap3/bandaabertacolab.jpg  used on input line
@@ -4192,15 +4242,21 @@ Package pdftex.def Info: pictures/cap3/bandaabertacolab.jpg  used on input line
  [100 <./pictures/cap3/bandaabertacolab.jpg>] (./main.mw)
 \openout6 = `main.mw'.
 
-<pictures/cap3/bandaorquestra.jpg, id=1092, 1439.3775pt x 2006.49625pt>
+<pictures/cap3/bandaorquestra.jpg, id=1137, 1439.3775pt x 2006.49625pt>
 File: pictures/cap3/bandaorquestra.jpg Graphic file (type jpg)
 <use pictures/cap3/bandaorquestra.jpg>
 Package pdftex.def Info: pictures/cap3/bandaorquestra.jpg  used on input line 2
 29.
 (pdftex.def)             Requested size: 214.89906pt x 299.55309pt.
+
+Overfull \hbox (25.32785pt too wide) in paragraph at lines 236--237
+[]\T1/cmr/m/n/10.95 Em u-ma se-gun-da ver-são do pro-je-to ([][][][]S-TOL-FI, A
+-ri-a-ne; BARTHET,
+ []
+
 \openout6 = `main.mw'.
 
- [101 <./pictures/cap3/bandaorquestra.jpg>] (./main.mw)
+[101 <./pictures/cap3/bandaorquestra.jpg>] (./main.mw)
 \openout6 = `main.mw'.
 
 \openout6 = `main.mw'.
@@ -4208,18 +4264,18 @@ Package pdftex.def Info: pictures/cap3/bandaorquestra.jpg  used on input line 2
  [102] (./main.mw)
 \openout6 = `main.mw'.
 
-<pictures/metamagical.png, id=1120, 741.7311pt x 406.6392pt>
+<pictures/metamagical.png, id=1165, 741.7311pt x 406.6392pt>
 File: pictures/metamagical.png Graphic file (type png)
 <use pictures/metamagical.png>
 Package pdftex.def Info: pictures/metamagical.png  used on input line 260.
 (pdftex.def)             Requested size: 245.60094pt x 134.6443pt.
 \openout6 = `main.mw'.
 
- [103 <./pictures/metamagical.png>]
-(./main.mw)
+
+[103 <./pictures/metamagical.png>] (./main.mw)
 \openout6 = `main.mw'.
 
-<pictures/audiotype_sketch.png, id=1130, 948.54375pt x 705.63625pt>
+<pictures/audiotype_sketch.png, id=1175, 948.54375pt x 705.63625pt>
 File: pictures/audiotype_sketch.png Graphic file (type png)
 <use pictures/audiotype_sketch.png>
 Package pdftex.def Info: pictures/audiotype_sketch.png  used on input line 282.
@@ -4230,30 +4286,29 @@ Package pdftex.def Info: pictures/audiotype_sketch.png  used on input line 282.
  [104 <./pictures/audiotype_sketch.png>] (./main.mw)
 \openout6 = `main.mw'.
 
-<pictures/audiotype_v1_noise.png, id=1146, 458.4327pt x 89.6148pt>
+<pictures/audiotype_v1_noise.png, id=1191, 458.4327pt x 89.6148pt>
 File: pictures/audiotype_v1_noise.png Graphic file (type png)
 <use pictures/audiotype_v1_noise.png>
 Package pdftex.def Info: pictures/audiotype_v1_noise.png  used on input line 32
 1.
 (pdftex.def)             Requested size: 307.0pt x 60.01561pt.
-<pictures/audiotype_v1_sine.png, id=1147, 459.3963pt x 89.3739pt>
+<pictures/audiotype_v1_sine.png, id=1192, 459.3963pt x 89.3739pt>
 File: pictures/audiotype_v1_sine.png Graphic file (type png)
 <use pictures/audiotype_v1_sine.png>
 Package pdftex.def Info: pictures/audiotype_v1_sine.png  used on input line 327
 .
 (pdftex.def)             Requested size: 307.0pt x 59.72745pt.
-<pictures/spectrogram.png, id=1148, 1374.13374pt x 164.615pt>
+<pictures/spectrogram.png, id=1193, 1374.13374pt x 164.615pt>
 File: pictures/spectrogram.png Graphic file (type png)
 <use pictures/spectrogram.png>
 Package pdftex.def Info: pictures/spectrogram.png  used on input line 336.
 (pdftex.def)             Requested size: 307.0pt x 36.77554pt.
 \openout6 = `main.mw'.
 
- [105]
-(./main.mw)
+ [105] (./main.mw)
 \openout6 = `main.mw'.
 
-<pictures/bigorna.jpg, id=1155, 284.5029pt x 188.8656pt>
+<pictures/bigorna.jpg, id=1200, 284.5029pt x 188.8656pt>
 File: pictures/bigorna.jpg Graphic file (type jpg)
 <use pictures/bigorna.jpg>
 Package pdftex.def Info: pictures/bigorna.jpg  used on input line 363.
@@ -4336,66 +4391,139 @@ Overfull \hbox (13.52754pt too wide) in paragraph at lines 473--490
 [113] (./main.mw)
 \openout6 = `main.mw'.
 
+
+Overfull \hbox (236.47986pt too wide) in paragraph at lines 501--501
+[]\T1/pcr/m/n/10.5 [:message, "{\"text\":\"Com consciência na mente, a mente nã
+o mente!!!!\",\"touch\":0}"][] 
+ []
+
+
+Overfull \hbox (0.3351pt too wide) in paragraph at lines 505--505
+[]\T1/pcr/m/n/10.5 [:message, "{\"text\":\"/samples\",\"touch\":0}"][] 
+ []
+
+
+Overfull \hbox (75.93513pt too wide) in paragraph at lines 506--506
+[]\T1/pcr/m/n/10.5 [:message, "{\"text\":\"11111112222221111122\",\"touch\":0}"
+][] 
+ []
+
+
+Overfull \hbox (80.87009pt too wide) in paragraph at lines 507--507
+[]\T1/pcr/m/n/10.5 [:message, "{\"text\":\"HOMOFOBICO RSCROTOOOO\",\"touch\":0}
+"][] 
+ []
+
+
+Overfull \hbox (0.3351pt too wide) in paragraph at lines 508--508
+[]\T1/pcr/m/n/10.5 [:message, "{\"text\":\"Hahahaha\",\"touch\":0}"][] 
+ []
+
+
+Overfull \hbox (52.93997pt too wide) in paragraph at lines 509--509
+[]\T1/pcr/m/n/10.5 [:message, "{\"text\":\"Solta o som DJ!!!\",\"touch\":0}"][]
+ 
+ []
+
+
+Overfull \hbox (50.73512pt too wide) in paragraph at lines 510--510
+[]\T1/pcr/m/n/10.5 [:message, "{\"text\":\"ACORDAAAAAA!!!!!\",\"touch\":0}"][] 
+
+ []
+
+
+Overfull \hbox (3.905pt too wide) in paragraph at lines 512--512
+[]\T1/pcr/m/n/10.5 [:message, "{\"text\":\"NO LOGIC \",\"touch\":0}"][] 
+ []
+
+
+Overfull \hbox (97.04pt too wide) in paragraph at lines 521--521
+[]\T1/pcr/m/n/10.5 [:message, "{\"text\":\"HOMOFBICO ESCRITO.. e EU\",\"touch\"
+:0}"][] 
+ []
+
+LaTeX Font Info:    Try loading font information for TS1+pcr on input line 525.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ts1pcr.fd
+File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `pcr' (encoding: TS1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
 \openout6 = `main.mw'.
 
- [114] (./main.mw)
+ [114]
+(./main.mw)
 \openout6 = `main.mw'.
+
+
+Overfull \hbox (0.3351pt too wide) in paragraph at lines 532--532
+[]\T1/pcr/m/n/10.5 [:message, "{\"text\":\"/samples\",\"touch\":0}"][] 
+ []
+
+
+LaTeX Warning: Reference `.' on page 115 undefined on input line 537.
 
 \openout6 = `main.mw'.
 
- [115] (./main.mw)
+[115] (./main.mw)
 \openout6 = `main.mw'.
 
-File: pictures/server.jpg Graphic file (type jpg)
-<use pictures/server.jpg>
-Package pdftex.def Info: pictures/server.jpg  used on input line 577.
-(pdftex.def)             Requested size: 307.0pt x 306.99644pt.
 \openout6 = `main.mw'.
 
  [116] (./main.mw)
 \openout6 = `main.mw'.
 
+<pictures/cap3/wordcloud_performances.png, id=1280, 2000.47375pt x 1934.22626pt
+>
+File: pictures/cap3/wordcloud_performances.png Graphic file (type png)
+<use pictures/cap3/wordcloud_performances.png>
+Package pdftex.def Info: pictures/cap3/wordcloud_performances.png  used on inpu
+t line 618.
+(pdftex.def)             Requested size: 307.0pt x 296.82108pt.
+<pictures/cap3/wordcloud_pb.png, id=1281, 1905.1175pt x 1192.455pt>
+File: pictures/cap3/wordcloud_pb.png Graphic file (type png)
+<use pictures/cap3/wordcloud_pb.png>
+Package pdftex.def Info: pictures/cap3/wordcloud_pb.png  used on input line 625
+.
+(pdftex.def)             Requested size: 307.0pt x 192.14316pt.
 \openout6 = `main.mw'.
 
+ [117] (./main.mw)
+\openout6 = `main.mw'.
 
-[117] (./main.mw)
+\openout6 = `main.mw'.
+
+ [118 <./pictures/cap3/wordcloud_performances.png>] (./main.mw)
+\openout6 = `main.mw'.
+
+\openout6 = `main.mw'.
+
+ [119 <./pictures/cap3/wordcloud_pb.png (PNG copy)>] (./main.mw)
 \openout6 = `main.mw'.
 
 File: pictures/server.jpg Graphic file (type jpg)
 <use pictures/server.jpg>
-Package pdftex.def Info: pictures/server.jpg  used on input line 621.
+Package pdftex.def Info: pictures/server.jpg  used on input line 669.
 (pdftex.def)             Requested size: 307.0pt x 306.99644pt.
 \openout6 = `main.mw'.
 
- [118] (./main.mw)
-\openout6 = `main.mw'.
-
-\openout6 = `main.mw'.
-
- [119] (./main.mw)
+ [120] (./main.mw)
 \openout6 = `main.mw'.
 
 File: pictures/server.jpg Graphic file (type jpg)
 <use pictures/server.jpg>
-Package pdftex.def Info: pictures/server.jpg  used on input line 661.
+Package pdftex.def Info: pictures/server.jpg  used on input line 709.
 (pdftex.def)             Requested size: 337.70187pt x 337.69609pt.
 
-Overfull \hbox (30.70187pt too wide) in paragraph at lines 661--662
+Overfull \hbox (30.70187pt too wide) in paragraph at lines 709--710
  [][] 
  []
 
-File: pictures/server.jpg Graphic file (type jpg)
-<use pictures/server.jpg>
-Package pdftex.def Info: pictures/server.jpg  used on input line 672.
-(pdftex.def)             Requested size: 307.0pt x 306.99644pt.
 \openout6 = `main.mw'.
 
-[120] (./main.mw)
-\openout6 = `main.mw'.
-
-\openout6 = `main.mw'.
-
- [121] (./main.mw)
+[121] (./main.mw)
 \openout6 = `main.mw'.
 
 \openout6 = `main.mw'.
@@ -4403,6 +4531,10 @@ Package pdftex.def Info: pictures/server.jpg  used on input line 672.
  [122] (./main.mw)
 \openout6 = `main.mw'.
 
+File: pictures/server.jpg Graphic file (type jpg)
+<use pictures/server.jpg>
+Package pdftex.def Info: pictures/server.jpg  used on input line 720.
+(pdftex.def)             Requested size: 307.0pt x 306.99644pt.
 \openout6 = `main.mw'.
 
  [123] (./main.mw)
@@ -4410,22 +4542,33 @@ Package pdftex.def Info: pictures/server.jpg  used on input line 672.
 
 \openout6 = `main.mw'.
 
+ [124] (./main.mw)
+\openout6 = `main.mw'.
 
-[124] (./main.mw)
+\openout6 = `main.mw'.
+
+
+[125] (./main.mw)
+\openout6 = `main.mw'.
+
+\openout6 = `main.mw'.
+
+ [126] (./main.mw)
 \openout6 = `main.mw'.
 
 )
 \openout6 = `main.mw'.
 
- [125] (./main.mw)
+ [127] (./main.mw)
 \openout6 = `main.mw'.
 
 \openout2 = `chapters/chapter_4.aux'.
 
- (./chapters/chapter_4.tex
+
+(./chapters/chapter_4.tex
 \openout6 = `main.mw'.
 
- [126
+ [128
 
 
 ] (./main.mw)
@@ -4433,7 +4576,7 @@ Package pdftex.def Info: pictures/server.jpg  used on input line 672.
 
 \openout6 = `main.mw'.
 
- [127] (./main.mw)
+ [129] (./main.mw)
 \openout6 = `main.mw'.
 
 
@@ -4443,15 +4586,15 @@ Overfull \hbox (3.88991pt too wide) in paragraph at lines 21--22
 
 \openout6 = `main.mw'.
 
-[128] (./main.mw)
+[130] (./main.mw)
 \openout6 = `main.mw'.
 
 \openout6 = `main.mw'.
 
- [129] (./main.mw)
+ [131] (./main.mw)
 \openout6 = `main.mw'.
 
-<pictures/playsoundtimeline.png, id=1376, 2088.80376pt x 2936.9725pt>
+<pictures/playsoundtimeline.png, id=1436, 2088.80376pt x 2936.9725pt>
 File: pictures/playsoundtimeline.png Graphic file (type png)
 <use pictures/playsoundtimeline.png>
 Package pdftex.def Info: pictures/playsoundtimeline.png  used on input line 47.
@@ -4459,81 +4602,60 @@ Package pdftex.def Info: pictures/playsoundtimeline.png  used on input line 47.
 (pdftex.def)             Requested size: 245.60094pt x 345.29599pt.
 \openout6 = `main.mw'.
 
- [130] (./main.mw)
-\openout6 = `main.mw'.
-
-\openout6 = `main.mw'.
-
- [131 <./pictures/playsoundtimeline.png>] (./main.mw)
-\openout6 = `main.mw'.
-
-\openout6 = `main.mw'.
-
  [132] (./main.mw)
 \openout6 = `main.mw'.
 
-)
 \openout6 = `main.mw'.
 
- [133] (./main.mw)
+ [133 <./pictures/playsoundtimeline.png>] (./main.mw)
 \openout6 = `main.mw'.
 
-\openout2 = `chapters/conclusion.aux'.
-
-
-(./chapters/conclusion.tex
 \openout6 = `main.mw'.
 
- [134
-
-
-
-] (./main.mw)
+ [134] (./main.mw)
 \openout6 = `main.mw'.
 
+<pictures/cap4/audioquery_browsers.png, id=1457, 2409.0pt x 3006.23125pt>
+File: pictures/cap4/audioquery_browsers.png Graphic file (type png)
+<use pictures/cap4/audioquery_browsers.png>
+Package pdftex.def Info: pictures/cap4/audioquery_browsers.png  used on input l
+ine 64.
+(pdftex.def)             Requested size: 245.60094pt x 306.4664pt.
 \openout6 = `main.mw'.
 
  [135] (./main.mw)
 \openout6 = `main.mw'.
 
-
-Underfull \hbox (badness 7133) in paragraph at lines 40--40
- \T1/pcr/m/n/8 290401 ,[] 43461 ,[] 314864 ,[] 399466 ,[] 295858 ,[] 278084 ,[]
- 334534 ,[] 428800 ,[]
- []
-
-
-Overfull \hbox (113.31099pt too wide) in paragraph at lines 52--52
- [] 
- []
-
 \openout6 = `main.mw'.
 
-[136] (./main.mw)
+ [136 <./pictures/cap4/audioquery_browsers.png>] (./main.mw)
 \openout6 = `main.mw'.
 
-
-Overfull \hbox (6.228pt too wide) in paragraph at lines 54--55
- \T1/cmr/m/n/8 em ques-tão as for-mas de produção-criação
- []
-
-)
 \openout6 = `main.mw'.
 
  [137] (./main.mw)
 \openout6 = `main.mw'.
 
-\openout6 = `main.mw'.
 
- [138
-
-
-] (./main.mw)
-\openout6 = `main.mw'.
+Overfull \hbox (3.20853pt too wide) in paragraph at lines 86--86
+[]\T1/phv/b/n/10.5 Evaluation with Or-ques-tra Er-ran-te Im-pro-vi-sa-ti-on En-
+sem-
+ []
 
 \openout6 = `main.mw'.
 
- [139] (./main.mw)
+[138] (./main.mw)
+\openout6 = `main.mw'.
+
+
+Overfull \hbox (4.81728pt too wide) in paragraph at lines 98--99
+[]\T1/cmr/m/n/10.95 We con-duc-ted a the-ma-tic a-naly-sis ([][][][]BRAUN; CLAR
+-KE[][], [][]2006[][])
+ []
+
+\openout6 = `main.mw'.
+
+[139] (./main.mw)
 \openout6 = `main.mw'.
 
 \openout6 = `main.mw'.
@@ -4543,8 +4665,7 @@ Overfull \hbox (6.228pt too wide) in paragraph at lines 54--55
 
 \openout6 = `main.mw'.
 
-
-[141] (./main.mw)
+ [141] (./main.mw)
 \openout6 = `main.mw'.
 
 \openout6 = `main.mw'.
@@ -4552,18 +4673,47 @@ Overfull \hbox (6.228pt too wide) in paragraph at lines 54--55
  [142] (./main.mw)
 \openout6 = `main.mw'.
 
+
+Underfull \hbox (badness 6396) in paragraph at lines 152--152
+\T1/cmr/m/n/10.95 in-ter-fa-ce do soft-
+ []
+
+<pictures/cap4/audioquery_firefox.png, id=1522, 1246.6575pt x 846.16125pt>
+File: pictures/cap4/audioquery_firefox.png Graphic file (type png)
+<use pictures/cap4/audioquery_firefox.png>
+Package pdftex.def Info: pictures/cap4/audioquery_firefox.png  used on input li
+ne 153.
+(pdftex.def)             Requested size: 150.43169pt x 102.10306pt.
+File: pictures/cap4/audioquery_firefox.png Graphic file (type png)
+<use pictures/cap4/audioquery_firefox.png>
+Package pdftex.def Info: pictures/cap4/audioquery_firefox.png  used on input li
+ne 160.
+(pdftex.def)             Requested size: 150.43169pt x 102.10306pt.
+)
 \openout6 = `main.mw'.
 
- [143] (./main.mw)
+ [143 <./pictures/cap4/audioquery_firefox.png>] (./main.mw)
 \openout6 = `main.mw'.
 
+\openout2 = `chapters/conclusion.aux'.
+
+
+(./chapters/conclusion.tex
 \openout6 = `main.mw'.
 
- [144] (./main.mw)
+ [144
+
+
+
+] (./main.mw)
 \openout6 = `main.mw'.
 
-\openout6 = `main.mw'.
 
+Overfull \hbox (2.3588pt too wide) in paragraph at lines 19--21
+ \T1/cmr/m/n/8 nos a-nos 1970: o ne-o-li-be-ra-lis-mo.([][][][]BARBROOK[][],
+ []
+
+\openout6 = `main.mw'.
 
 [145] (./main.mw)
 \openout6 = `main.mw'.
@@ -4573,11 +4723,28 @@ Overfull \hbox (6.228pt too wide) in paragraph at lines 54--55
  [146] (./main.mw)
 \openout6 = `main.mw'.
 
+
+Underfull \hbox (badness 7133) in paragraph at lines 52--52
+ \T1/pcr/m/n/8 290401 ,[] 43461 ,[] 314864 ,[] 399466 ,[] 295858 ,[] 278084 ,[]
+ 334534 ,[] 428800 ,[]
+ []
+
+
+Overfull \hbox (113.31099pt too wide) in paragraph at lines 64--64
+ [] 
+ []
+
+
+Overfull \hbox (6.228pt too wide) in paragraph at lines 66--67
+ \T1/cmr/m/n/8 em ques-tão as for-mas de produção-criação
+ []
+
 \openout6 = `main.mw'.
 
- [147] (./main.mw)
+[147] (./main.mw)
 \openout6 = `main.mw'.
 
+)
 \openout6 = `main.mw'.
 
  [148] (./main.mw)
@@ -4585,8 +4752,10 @@ Overfull \hbox (6.228pt too wide) in paragraph at lines 54--55
 
 \openout6 = `main.mw'.
 
+ [149
 
-[149] (./main.mw)
+
+] (./main.mw)
 \openout6 = `main.mw'.
 
 \openout6 = `main.mw'.
@@ -4596,9 +4765,8 @@ Overfull \hbox (6.228pt too wide) in paragraph at lines 54--55
 
 \openout6 = `main.mw'.
 
- [151
 
-] (./main.mw)
+[151] (./main.mw)
 \openout6 = `main.mw'.
 
 \openout6 = `main.mw'.
@@ -4606,19 +4774,11 @@ Overfull \hbox (6.228pt too wide) in paragraph at lines 54--55
  [152] (./main.mw)
 \openout6 = `main.mw'.
 
-\openout2 = `aftertext/apendice_a.aux'.
-
-
-(./aftertext/apendice_a.tex
 \openout6 = `main.mw'.
 
- [153
-
-
-] (./main.mw)
+ [153] (./main.mw)
 \openout6 = `main.mw'.
 
-)
 \openout6 = `main.mw'.
 
  [154] (./main.mw)
@@ -4626,16 +4786,13 @@ Overfull \hbox (6.228pt too wide) in paragraph at lines 54--55
 
 \openout6 = `main.mw'.
 
- [155]
-(./main.mw)
+
+[155] (./main.mw)
 \openout6 = `main.mw'.
 
 \openout6 = `main.mw'.
 
- [156
-
-
-] (./main.mw)
+ [156] (./main.mw)
 \openout6 = `main.mw'.
 
 \openout6 = `main.mw'.
@@ -4648,29 +4805,15 @@ Overfull \hbox (6.228pt too wide) in paragraph at lines 54--55
  [158] (./main.mw)
 \openout6 = `main.mw'.
 
-\openout2 = `aftertext/anexo_a.aux'.
-
-
-(./aftertext/anexo_a.tex)
 \openout6 = `main.mw'.
 
- [159
 
-
-] (./main.mw)
+[159] (./main.mw)
 \openout6 = `main.mw'.
 
-\openout2 = `aftertext/anexo_b.aux'.
-
- (./aftertext/anexo_b.tex
 \openout6 = `main.mw'.
 
- [160
-
-
-
-]
-(./main.mw)
+ [160] (./main.mw)
 \openout6 = `main.mw'.
 
 \openout6 = `main.mw'.
@@ -4680,13 +4823,102 @@ Overfull \hbox (6.228pt too wide) in paragraph at lines 54--55
 
 \openout6 = `main.mw'.
 
- [162] (./main.mw)
+ [162
+
+] (./main.mw)
+\openout6 = `main.mw'.
+
+\openout6 = `main.mw'.
+
+
+[163] (./main.mw)
+\openout6 = `main.mw'.
+
+\openout6 = `main.mw'.
+
+ [164] (./main.mw)
+\openout6 = `main.mw'.
+
+\openout2 = `aftertext/apendice_a.aux'.
+
+ (./aftertext/apendice_a.tex
+\openout6 = `main.mw'.
+
+ [165
+
+
+]
+(./main.mw)
 \openout6 = `main.mw'.
 
 )
 \openout6 = `main.mw'.
 
- [163] (./main.mw)
+ [166] (./main.mw)
+\openout6 = `main.mw'.
+
+\openout6 = `main.mw'.
+
+ [167] (./main.mw)
+\openout6 = `main.mw'.
+
+\openout6 = `main.mw'.
+
+ [168
+
+
+] (./main.mw)
+\openout6 = `main.mw'.
+
+\openout6 = `main.mw'.
+
+ [169]
+(./main.mw)
+\openout6 = `main.mw'.
+
+\openout6 = `main.mw'.
+
+ [170] (./main.mw)
+\openout6 = `main.mw'.
+
+\openout2 = `aftertext/anexo_a.aux'.
+
+ (./aftertext/anexo_a.tex)
+\openout6 = `main.mw'.
+
+ [171
+
+
+] (./main.mw)
+\openout6 = `main.mw'.
+
+\openout2 = `aftertext/anexo_b.aux'.
+
+
+(./aftertext/anexo_b.tex
+\openout6 = `main.mw'.
+
+ [172
+
+
+
+] (./main.mw)
+\openout6 = `main.mw'.
+
+\openout6 = `main.mw'.
+
+ [173] (./main.mw)
+\openout6 = `main.mw'.
+
+\openout6 = `main.mw'.
+
+ [174] (./main.mw)
+\openout6 = `main.mw'.
+
+)
+\openout6 = `main.mw'.
+
+[175] (./main.mw)
 \openout6 = `main.mw'.
 
  (./main.ind) 
@@ -5052,8 +5284,64 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 313.
 
 \openout6 = `main.mw'.
 
+\openout6 = `main.mw'.
+
+\openout6 = `main.mw'.
+
 )
 (./chapters/chapter_4.aux
+\openout6 = `main.mw'.
+
+\openout6 = `main.mw'.
+
+\openout6 = `main.mw'.
+
+\openout6 = `main.mw'.
+
+\openout6 = `main.mw'.
+
+\openout6 = `main.mw'.
+
+\openout6 = `main.mw'.
+
+\openout6 = `main.mw'.
+
+\openout6 = `main.mw'.
+
+\openout6 = `main.mw'.
+
+\openout6 = `main.mw'.
+
+\openout6 = `main.mw'.
+
+\openout6 = `main.mw'.
+
+\openout6 = `main.mw'.
+
+\openout6 = `main.mw'.
+
+\openout6 = `main.mw'.
+
+\openout6 = `main.mw'.
+
+\openout6 = `main.mw'.
+
+\openout6 = `main.mw'.
+
+\openout6 = `main.mw'.
+
+\openout6 = `main.mw'.
+
+\openout6 = `main.mw'.
+
+\openout6 = `main.mw'.
+
+\openout6 = `main.mw'.
+
+\openout6 = `main.mw'.
+
+\openout6 = `main.mw'.
+
 \openout6 = `main.mw'.
 
 \openout6 = `main.mw'.
@@ -5252,6 +5540,10 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 313.
 ))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 313.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 313.
+
+
+LaTeX Warning: There were undefined references.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
@@ -5269,13 +5561,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 57108 strings out of 492649
- 1114454 string characters out of 6129622
- 1822803 words of memory out of 5000000
- 59107 multiletter control sequences out of 15000+600000
- 622508 words of font info for 133 fonts, out of 8000000 for 9000
+ 57276 strings out of 492649
+ 1117345 string characters out of 6129622
+ 1826389 words of memory out of 5000000
+ 59211 multiletter control sequences out of 15000+600000
+ 622801 words of font info for 134 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
- 76i,13n,115p,10421b,4153s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 76i,13n,115p,10421b,4156s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{
 /usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texl
@@ -5302,10 +5594,10 @@ mf-dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2018/texmf
 nts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/typ
 e1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/
 helvetic/uhvro8a.pfb>
-Output written on main.pdf (165 pages, 10419405 bytes).
+Output written on main.pdf (177 pages, 21744085 bytes).
 PDF statistics:
- 2171 PDF objects out of 2487 (max. 8388607)
- 1911 compressed objects within 20 object streams
- 396 named destinations out of 1000 (max. 500000)
- 34159 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 2370 PDF objects out of 2487 (max. 8388607)
+ 2090 compressed objects within 21 object streams
+ 427 named destinations out of 1000 (max. 500000)
+ 34771 words of extra memory for PDF output out of 35830 (max. 10000000)
 

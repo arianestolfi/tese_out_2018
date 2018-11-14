@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1542115961 "chapter_4.tex" "chapter_4.pdf" "chapter_4" 1542115962
+["pdflatex"] 1542144873 "chapter_4.tex" "chapter_4.pdf" "chapter_4" 1542144875
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1480098701 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmti10.tfm" 1480098701 1480 aa8e34af0eb6a2941b776984cf1dfdc4 ""
@@ -7,8 +7,8 @@
   "/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1523934492 2717033 f61a5287d9c22a39a74f1979fe3f905c ""
   "/usr/local/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt" 1535726502 4220280 f63c701076ae2351363bf86b3ea068b8 ""
   "/usr/local/texlive/2018/texmf.cnf" 1523934483 577 0b39adfd7c93507ff20c9c14c2f1a33f ""
-  "chapter_4.aux" 1542115862 8615 5989769fe67129d47c68c0a422f931a0 ""
-  "chapter_4.tex" 1542115961 10946 0cba198372b511130785772306847fca ""
+  "chapter_4.aux" 1542144827 9927 9cc0002cfdb5e67401eebd61d4b0fc23 ""
+  "chapter_4.tex" 1542144872 30650 89ea06aa362bb20926e42fc03bbdfb73 ""
   (generated)
-  "chapter_4.log"
   "chapter_4.pdf"
+  "chapter_4.log"

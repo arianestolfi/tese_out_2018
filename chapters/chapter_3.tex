@@ -496,7 +496,7 @@ Situação & Co-locada & \\
 O software não registrava o endereço IP dos usuários, mas funcionava atrás de mensagens que eram enviadas ao servidor, que ficam registradas em um arquivo na raiz do servidor. No código abaixo está um pequeno extrato das mensagens registradas no servidor. 
 
 
-\begin{lstlisting}[caption={Extrato do log de mensagens do servidor do Banda Aberta.},label={lst:msgs}]
+\begin{verbatim}
 
 [:message, "{\"text\":\"Com consciência na mente, a mente não mente!!!!\",\"touch\":0}"]
 [:message, "{\"text\":\"Piiiiiu\",\"touch\":0}"]
@@ -531,7 +531,7 @@ O software não registrava o endereço IP dos usuários, mas funcionava atrás d
 [:message, "{\"text\":\"÷×\",\"touch\":0}"]
 [:message, "{\"text\":\"/samples\",\"touch\":0}"]
 
-\end{lstlisting}
+\end{verbatim}
 
 
 Para o tratamento dos dados brutos, utilizamos um script em Python para extrair o conteúdo textual das mensagens de cada performance. Nossa primeira abordagem em relação aos dados gerados pela performance foi o de gerar núvens de tags a partir dos dados das mensagens. Em seguida, fizemos uma análise temática \cite{Braun2006} para identificar temas e tópicos recorrentes durante as performances que apresentamos na seção \ref. O processo de análise temática envolve a ``codificação'' do texto em temas comuns, e para isso, construímos tabelas em excel com listas de cada performance onde marcamos os códigos correspondentes a cada mensagem. Os resultados dessa análise temática será apresentado mais adiante na seção \ref{sec:thematic}. 
@@ -615,14 +615,14 @@ Utilizando o texto total das mensagens, geramos uma núvem de tags com a ferrame
 
 \begin{figure}[ht!]
 \centering
-\includegraphics[width=1\linewidth]{pictures/wordcloud_performances}
+\includegraphics[width=1\linewidth]{pictures/cap3/wordcloud_performances}
 \caption{Nuvem de tags gerada pelas palavras utilizadas nas performances analisadas. (Gerada pela autora utilizando a ferramenta Word Cloud).}
 \label{fig:clouds}
 \end{figure}
 
 \begin{figure}[ht!]
 \centering
-\includegraphics[width=1\linewidth]{pictures/wordcloud_pb}
+\includegraphics[width=1\linewidth]{pictures/cap3/wordcloud_pb}
 \caption{Nuvem de tags gerada pelas palavras utilizadas nas performances analisadas. (Gerada pela autora utilizando a ferramenta Word Cloud).}
 \label{fig:cloud}
 \end{figure}

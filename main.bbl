@@ -226,13 +226,15 @@
       \field{year}{2009}
       \field{pages}{447}
       \range{pages}{1}
+      \verb{file}
+      \verb :Users/mac/Google Drive/00{\_}doutorado/livros/Richard Barbrook Futuros Imagin{\'{a}}rios - Das M{\'{a}}quinas Pensantes {\'{A}} Aldeia Global.pdf:pdf
+      \endverb
       \verb{urlraw}
       \verb http://futurosimaginarios.midiatatica.info/futuros{\_}imaginarios.pdf
       \endverb
       \verb{url}
       \verb http://futurosimaginarios.midiatatica.info/futuros%7B%5C_%7Dimaginarios.pdf
       \endverb
-      \keyw{Globaliza{ç}{ã}o,Internet - aspectos sociais,Previs{ã}o,Sociedade da informa{ç}{ã}o,Tecnologias de Informa{ç}{ã}o e Comunica{ç}{ã}o}
     \endentry
     \entry{barbrook1999cyber}{misc}{}
       \name{author}{1}{}{%
@@ -565,6 +567,35 @@
       \verb http://www.tandfonline.com/doi/abs/10.1191/1478088706qp063oa
       \endverb
     \endentry
+    \entry{Jordan1996}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=813064283275c281401d7a7483420c67}{%
+           family={Brooke},
+           familyi={B\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor {\&} Francis}%
+      }
+      \strng{namehash}{813064283275c281401d7a7483420c67}
+      \strng{fullhash}{813064283275c281401d7a7483420c67}
+      \strng{bibnamehash}{813064283275c281401d7a7483420c67}
+      \strng{authorbibnamehash}{813064283275c281401d7a7483420c67}
+      \strng{authornamehash}{813064283275c281401d7a7483420c67}
+      \strng{authorfullhash}{813064283275c281401d7a7483420c67}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{SUS: a 'quick and dirty' usability scale}}
+      \field{year}{1996}
+      \field{pages}{252}
+      \range{pages}{1}
+    \endentry
     \entry{campos_teoria_2014}{book}{}
       \name{author}{3}{}{%
         {{uniquename=1,uniquepart=given,hash=06b1c33db0c8fe3b010b30f288e21acc}{%
@@ -650,6 +681,74 @@
       \field{year}{2004}
       \field{pages}{127}
       \range{pages}{1}
+    \endentry
+    \entry{Cannam2010}{article}{}
+      \name{author}{5}{}{%
+        {{uniquename=0,uniquepart=base,hash=2f5601a645ec93b1afbc464c7fe67978}{%
+           family={Cannam},
+           familyi={C\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=8f90fd131c2bbfde4d0e9fdd7ed4ea8b}{%
+           family={Sandler},
+           familyi={S\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=a709362125cbd8e10bf191813bdcb860}{%
+           family={Jewell},
+           familyi={J\bibinitperiod},
+           given={Michael\bibnamedelima O.},
+           giveni={M\bibinitperiod\bibinitdelim O\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=1bb1e68f5013369afba54690f02d029f}{%
+           family={Rhodes},
+           familyi={R\bibinitperiod},
+           given={Christophe},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=13c8eca18a6987fb54b31ac21f8f3a9d}{%
+           family={d'Inverno},
+           familyi={d\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Routledge}%
+      }
+      \strng{namehash}{4f3a3c748182028d315a6cc36a7552a5}
+      \strng{fullhash}{5e2045084115104b595fd6449e8ba0ae}
+      \strng{bibnamehash}{4f3a3c748182028d315a6cc36a7552a5}
+      \strng{authorbibnamehash}{4f3a3c748182028d315a6cc36a7552a5}
+      \strng{authornamehash}{4f3a3c748182028d315a6cc36a7552a5}
+      \strng{authorfullhash}{5e2045084115104b595fd6449e8ba0ae}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of New Music Research}
+      \field{number}{4}
+      \field{title}{Linked Data and You: Bringing Music Research Software into the Semantic Web}
+      \field{volume}{39}
+      \field{year}{2010}
+      \field{pages}{313\bibrangedash 325}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1080/09298215.2010.522715
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1080/09298215.2010.522715
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1080/09298215.2010.522715
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1080/09298215.2010.522715
+      \endverb
     \endentry
     \entry{Canonne2016}{misc}{}
       \name{author}{1}{}{%
@@ -823,6 +922,47 @@
       \verb{url}
       \verb http://bibliotecavirtual.clacso.org.ar/ar/libros/secret/CyE/cye3S2a.pdf
       \endverb
+    \endentry
+    \entry{Cherry2014}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=71ea854b62fdb0e5dedd9fc05ab7b736}{%
+           family={Cherry},
+           familyi={C\bibinitperiod},
+           given={Erin},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=393d5bb4e047a65c9d85f501843591f9}{%
+           family={Latulipe},
+           familyi={L\bibinitperiod},
+           given={Celine},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{cbe8a9b8dbe62969c3094b2825fabb51}
+      \strng{fullhash}{cbe8a9b8dbe62969c3094b2825fabb51}
+      \strng{bibnamehash}{cbe8a9b8dbe62969c3094b2825fabb51}
+      \strng{authorbibnamehash}{cbe8a9b8dbe62969c3094b2825fabb51}
+      \strng{authornamehash}{cbe8a9b8dbe62969c3094b2825fabb51}
+      \strng{authorfullhash}{cbe8a9b8dbe62969c3094b2825fabb51}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{10730516}
+      \field{journaltitle}{ACM Transactions on Computer-Human Interaction}
+      \field{month}{6}
+      \field{number}{4}
+      \field{title}{{Quantifying the Creativity Support of Digital Tools through the Creativity Support Index}}
+      \field{volume}{21}
+      \field{year}{2014}
+      \field{pages}{1\bibrangedash 25}
+      \range{pages}{25}
+      \keyw{Creativity support tools,evaluation,psychometrics,surveys}
     \endentry
     \entry{Chion1983}{article}{}
       \name{author}{1}{}{%
@@ -3320,19 +3460,19 @@
       \endverb
     \endentry
     \entry{Stolfi2017w}{inproceedings}{}
-      \name{author}{5}{uniquelist=1}{%
+      \name{author}{5}{uniquelist=2}{%
         {{uniquename=2,uniquepart=given,hash=5371ee9a9527e9431c2d73776f90faaa}{%
            family={Stolfi},
            familyi={S\bibinitperiod},
            given={Ariane},
            giveni={A\bibinitperiod},
            givenun=2}}%
-        {{uniquename=0,uniquepart=base,hash=018cf62bd03e53ac67d841ba16d42c85}{%
+        {{uniquename=2,uniquepart=given,hash=018cf62bd03e53ac67d841ba16d42c85}{%
            family={Barthet},
            familyi={B\bibinitperiod},
            given={Mathieu},
            giveni={M\bibinitperiod},
-           givenun=0}}%
+           givenun=2}}%
         {{uniquename=0,uniquepart=base,hash=d832e031cf00b396675a22940bc27c5d}{%
            family={Gor{ó}dscy},
            familyi={G\bibinitperiod},
@@ -3352,11 +3492,11 @@
            giveni={F\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{208ff965c12bcaec276154f8cd8f8884}
+      \strng{namehash}{18ecc48c163098e020d334249447115f}
       \strng{fullhash}{46c6101a43d56576547079b837ffdfeb}
-      \strng{bibnamehash}{208ff965c12bcaec276154f8cd8f8884}
-      \strng{authorbibnamehash}{208ff965c12bcaec276154f8cd8f8884}
-      \strng{authornamehash}{208ff965c12bcaec276154f8cd8f8884}
+      \strng{bibnamehash}{18ecc48c163098e020d334249447115f}
+      \strng{authorbibnamehash}{18ecc48c163098e020d334249447115f}
+      \strng{authornamehash}{18ecc48c163098e020d334249447115f}
       \strng{authorfullhash}{46c6101a43d56576547079b837ffdfeb}
       \field{sortinit}{S}
       \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
@@ -3376,6 +3516,49 @@
       \verb{url}
       \verb http://eecs.qmul.ac.uk/%7B~%7Dkeno/11.pdf
       \endverb
+    \endentry
+    \entry{Stolfi2018b}{inproceedings}{}
+      \name{author}{4}{uniquelist=2}{%
+        {{uniquename=2,uniquepart=given,hash=5371ee9a9527e9431c2d73776f90faaa}{%
+           family={Stolfi},
+           familyi={S\bibinitperiod},
+           given={Ariane},
+           giveni={A\bibinitperiod},
+           givenun=2}}%
+        {{uniquename=0,uniquepart=base,hash=e0d35ea40961877a0faf4c85d20c9ee5}{%
+           family={Ceriani},
+           familyi={C\bibinitperiod},
+           given={Miguel},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=4170a8bd2631178a2564a3d89525c3f5}{%
+           family={Turchet},
+           familyi={T\bibinitperiod},
+           given={Luca},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=018cf62bd03e53ac67d841ba16d42c85}{%
+           family={Barthet},
+           familyi={B\bibinitperiod},
+           given={Mathieu},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7bfb723413a540b0e87c528fdd69305b}
+      \strng{fullhash}{61dfa7c163a8f5857e2dc16b3b72c2d4}
+      \strng{bibnamehash}{7bfb723413a540b0e87c528fdd69305b}
+      \strng{authorbibnamehash}{7bfb723413a540b0e87c528fdd69305b}
+      \strng{authornamehash}{7bfb723413a540b0e87c528fdd69305b}
+      \strng{authorfullhash}{61dfa7c163a8f5857e2dc16b3b72c2d4}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proc. Int. Conf. on New Interfaces for Musical Expression}
+      \field{title}{{Playsound.space: Inclusive Free Music Improvisations Using Audio Commons}}
+      \field{year}{2018}
     \endentry
     \entry{Tenney1988}{book}{}
       \name{author}{2}{}{%
@@ -3471,6 +3654,64 @@
       \field{title}{{( inter ) facing the music The history of the Fairlight Computer Musical Instrument}}
       \field{type}{phdthesis}
       \field{year}{2004}
+    \endentry
+    \entry{Viola2018}{inproceedings}{}
+      \name{author}{6}{}{%
+        {{uniquename=0,uniquepart=base,hash=5fe6121db340f7bc1617a2a31cb5e231}{%
+           family={Viola},
+           familyi={V\bibinitperiod},
+           given={Fabio},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=5371ee9a9527e9431c2d73776f90faaa}{%
+           family={Stolfi},
+           familyi={S\bibinitperiod},
+           given={Ariane},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=295250a88c728fd47ea5e23daa5879ed}{%
+           family={Milo},
+           familyi={M\bibinitperiod},
+           given={Alessia},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=e0d35ea40961877a0faf4c85d20c9ee5}{%
+           family={Ceriani},
+           familyi={C\bibinitperiod},
+           given={Miguel},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=018cf62bd03e53ac67d841ba16d42c85}{%
+           family={Barthet},
+           familyi={B\bibinitperiod},
+           given={Mathieu},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=812ba93003a670846b47f09b2ad370f0}{%
+           family={Fazekas},
+           familyi={F\bibinitperiod},
+           given={{Gÿorgy}},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{0db3acaa24c375c4c06e8db3283315f3}
+      \strng{fullhash}{6d41cb430626bf00399c91d48b508893}
+      \strng{bibnamehash}{0db3acaa24c375c4c06e8db3283315f3}
+      \strng{authorbibnamehash}{0db3acaa24c375c4c06e8db3283315f3}
+      \strng{authornamehash}{0db3acaa24c375c4c06e8db3283315f3}
+      \strng{authorfullhash}{6d41cb430626bf00399c91d48b508893}
+      \field{sortinit}{V}
+      \field{sortinithash}{75dd7385c90b2252c3ae853a80ca853b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proc. 1st SAAM Workshop (in press)}
+      \field{title}{{Playsound.space: enhancing a live performance tool with semantic recommendations}}
+      \field{year}{2018}
     \endentry
     \entry{Weitzner2012}{inproceedings}{}
       \name{author}{4}{}{%
