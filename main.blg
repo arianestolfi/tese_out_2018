@@ -1,37 +1,38 @@
 [0] Config.pm:302> INFO - This is Biber 2.11
 [0] Config.pm:305> INFO - Logfile is 'main.blg'
-[56] biber-darwin:313> INFO - === Tue Nov 13, 2018, 20:36:04
-[88] Biber.pm:371> INFO - Reading 'main.bcf'
-[210] Biber.pm:857> INFO - Found 102 citekeys in bib section 0
-[228] Biber.pm:3976> INFO - Processing section 0
-[243] Biber.pm:4136> INFO - Looking for bibtex format file 'aftertext/references.bib' for section 0
-[254] bibtex.pm:1500> INFO - LaTeX decoding ...
-[605] bibtex.pm:1316> INFO - Found BibTeX data source 'aftertext/references.bib'
-[609] Utils.pm:193> WARN - Duplicate entry key: 'Barbrook2009' in file 'aftertext/references.bib', skipping ...
-[615] Utils.pm:193> WARN - Duplicate entry key: 'Font2016' in file 'aftertext/references.bib', skipping ...
-[615] Utils.pm:193> WARN - Duplicate entry key: 'Font2013' in file 'aftertext/references.bib', skipping ...
-[618] Utils.pm:193> WARN - Duplicate entry key: 'Keller2018' in file 'aftertext/references.bib', skipping ...
-[623] Utils.pm:193> WARN - Duplicate entry key: 'PucketteMiller' in file 'aftertext/references.bib', skipping ...
-[625] Utils.pm:193> WARN - Duplicate entry key: 'Stolfi2017' in file 'aftertext/references.bib', skipping ...
-[627] Utils.pm:193> WARN - Duplicate entry key: 'Stolfi2018' in file 'aftertext/references.bib', skipping ...
-[662] Utils.pm:193> WARN - month field 'dec' in entry 'Oliveros2012' is not an integer - this will probably not sort properly.
-[693] Utils.pm:193> WARN - month field 'sep' in entry 'Born2015' is not an integer - this will probably not sort properly.
-[731] Utils.pm:193> WARN - ISBN '0749-4467' in entry 'Smalley1996' is invalid - run biber with '--validate_datamodel' for details.
-[808] Utils.pm:193> WARN - month field 'aug' in entry 'Jillings2017' is not an integer - this will probably not sort properly.
-[896] Utils.pm:193> WARN - ISBN '1471-003X' in entry 'Koelsch:2014' is invalid - run biber with '--validate_datamodel' for details.
-[904] Utils.pm:193> WARN - month field 'aug' in entry 'Schnell2017' is not an integer - this will probably not sort properly.
-[924] Utils.pm:193> WARN - month field 'dec' in entry 'Collins2003' is not an integer - this will probably not sort properly.
-[957] Utils.pm:193> WARN - ISBN '3642065147, 9783642065149' in entry 'Kostek:2010' is invalid - run biber with '--validate_datamodel' for details.
-[1006] Utils.pm:193> WARN - ISBN '9780465045662,0465045669' in entry 'Metamagical1986' is invalid - run biber with '--validate_datamodel' for details.
-[1020] Utils.pm:193> WARN - month field 'jan' in entry 'Braun2006' is not an integer - this will probably not sort properly.
-[1070] Utils.pm:193> WARN - month field 'feb' in entry 'Font2016' is not an integer - this will probably not sort properly.
-[1101] Utils.pm:193> WARN - month field 'may' in entry 'Albert2012' is not an integer - this will probably not sort properly.
-[1110] Utils.pm:193> WARN - month field 'mar' in entry 'Wilson2014' is not an integer - this will probably not sort properly.
-[1181] Utils.pm:193> WARN - month field 'jun' in entry 'Cherry2014' is not an integer - this will probably not sort properly.
-[1419] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1419] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1419] Biber.pm:3804> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'pt-BR'
-[1419] Biber.pm:3810> INFO - No sort tailoring available for locale 'pt-BR'
-[1571] bbl.pm:617> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[1653] bbl.pm:720> INFO - Output to main.bbl
-[1653] Biber.pm:110> INFO - WARNINGS: 21
+[57] biber-darwin:313> INFO - === Wed Nov 14, 2018, 01:44:26
+[92] Biber.pm:371> INFO - Reading 'main.bcf'
+[219] Biber.pm:857> INFO - Found 103 citekeys in bib section 0
+[238] Biber.pm:3976> INFO - Processing section 0
+[252] Biber.pm:4136> INFO - Looking for bibtex format file 'aftertext/references.bib' for section 0
+[266] bibtex.pm:1500> INFO - LaTeX decoding ...
+[640] bibtex.pm:1316> INFO - Found BibTeX data source 'aftertext/references.bib'
+[645] Utils.pm:193> WARN - Duplicate entry key: 'Barbrook2009' in file 'aftertext/references.bib', skipping ...
+[651] Utils.pm:193> WARN - Duplicate entry key: 'Font2016' in file 'aftertext/references.bib', skipping ...
+[651] Utils.pm:193> WARN - Duplicate entry key: 'Font2013' in file 'aftertext/references.bib', skipping ...
+[655] Utils.pm:193> WARN - Duplicate entry key: 'Keller2018' in file 'aftertext/references.bib', skipping ...
+[661] Utils.pm:193> WARN - Duplicate entry key: 'PucketteMiller' in file 'aftertext/references.bib', skipping ...
+[664] Utils.pm:193> WARN - Duplicate entry key: 'Stolfi2017' in file 'aftertext/references.bib', skipping ...
+[664] Utils.pm:193> WARN - Duplicate entry key: 'Stolfi2018' in file 'aftertext/references.bib', skipping ...
+[709] Utils.pm:193> WARN - month field 'dec' in entry 'Oliveros2012' is not an integer - this will probably not sort properly.
+[744] Utils.pm:193> WARN - month field 'sep' in entry 'Born2015' is not an integer - this will probably not sort properly.
+[785] Utils.pm:193> WARN - ISBN '0749-4467' in entry 'Smalley1996' is invalid - run biber with '--validate_datamodel' for details.
+[806] Utils.pm:193> WARN - month field 'feb' in entry 'Barry2008' is not an integer - this will probably not sort properly.
+[880] Utils.pm:193> WARN - month field 'aug' in entry 'Jillings2017' is not an integer - this will probably not sort properly.
+[982] Utils.pm:193> WARN - ISBN '1471-003X' in entry 'Koelsch:2014' is invalid - run biber with '--validate_datamodel' for details.
+[994] Utils.pm:193> WARN - month field 'aug' in entry 'Schnell2017' is not an integer - this will probably not sort properly.
+[1018] Utils.pm:193> WARN - month field 'dec' in entry 'Collins2003' is not an integer - this will probably not sort properly.
+[1069] Utils.pm:193> WARN - ISBN '3642065147, 9783642065149' in entry 'Kostek:2010' is invalid - run biber with '--validate_datamodel' for details.
+[1130] Utils.pm:193> WARN - ISBN '9780465045662,0465045669' in entry 'Metamagical1986' is invalid - run biber with '--validate_datamodel' for details.
+[1139] Utils.pm:193> WARN - month field 'jan' in entry 'Braun2006' is not an integer - this will probably not sort properly.
+[1182] Utils.pm:193> WARN - month field 'feb' in entry 'Font2016' is not an integer - this will probably not sort properly.
+[1210] Utils.pm:193> WARN - month field 'may' in entry 'Albert2012' is not an integer - this will probably not sort properly.
+[1220] Utils.pm:193> WARN - month field 'mar' in entry 'Wilson2014' is not an integer - this will probably not sort properly.
+[1339] Utils.pm:193> WARN - month field 'jun' in entry 'Cherry2014' is not an integer - this will probably not sort properly.
+[1619] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1619] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1619] Biber.pm:3804> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'pt-BR'
+[1619] Biber.pm:3810> INFO - No sort tailoring available for locale 'pt-BR'
+[1774] bbl.pm:617> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[1860] bbl.pm:720> INFO - Output to main.bbl
+[1861] Biber.pm:110> INFO - WARNINGS: 22

@@ -260,6 +260,51 @@
       \field{title}{The:: Cyber. com/munist:: Manifesto}
       \field{year}{1999}
     \endentry
+    \entry{Barry2008}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=6c8905f1f63c289ec9b5e62c81b19439}{%
+           family={Barry},
+           familyi={B\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=8fe24725c122c3279f0cd3e752c4e793}{%
+           family={Born},
+           familyi={B\bibinitperiod},
+           given={Georgina},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=f4c4faae8ca53c797962497f47c9830d}{%
+           family={Weszkalnys},
+           familyi={W\bibinitperiod},
+           given={Gisa},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{81c48c54758fc9d8caf4486e23fc2fed}
+      \strng{fullhash}{81c48c54758fc9d8caf4486e23fc2fed}
+      \strng{bibnamehash}{81c48c54758fc9d8caf4486e23fc2fed}
+      \strng{authorbibnamehash}{81c48c54758fc9d8caf4486e23fc2fed}
+      \strng{authornamehash}{81c48c54758fc9d8caf4486e23fc2fed}
+      \strng{authorfullhash}{81c48c54758fc9d8caf4486e23fc2fed}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Economy and Society}
+      \field{month}{2}
+      \field{number}{1}
+      \field{title}{{Logics of interdisciplinarity}}
+      \field{volume}{37}
+      \field{year}{2008}
+      \field{pages}{20\bibrangedash 49}
+      \range{pages}{30}
+      \verb{file}
+      \verb :Users/mac/Google Drive/00{\_}doutorado/artigos referencia/Logics{\_}of{\_}interdisciplinarity.pdf:pdf
+      \endverb
+    \endentry
     \entry{Barthet:11a}{article}{}
       \name{author}{4}{}{%
         {{uniquename=2,uniquepart=given,hash=875b5daa464b2aecb296df343788aa60}{%
