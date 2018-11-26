@@ -47,6 +47,89 @@ Massive amounts of digital data can now be researched, collected, interpreted, r
 \subsubsection{WebAudio API}
 
 \subsubsection{Freesound API}
+O site Freesound.org \cite{Font2013} é uma ferramenta bastante reconhecida para a comunidade de produtores musicais. O site, que foi crido em 2005 conta com um acervo de centenas de milhares de sons originais licenciados em algum dos tipos de licensa Creative Commons. 
+
+Em 2011 o site foi reformulado para oferecer uma interface de acesso a seu banco de dados (restfull API) \cite{Akkermans2011} via JSON. Para acessar seu banco de dados é preciso fazer um processo de autenticação que exige uma chave (API KEY), que pode ser obtida no site. A chave padrão ofere certas restrições como limites de acesso por hora. 
+
+A interface permite a pesquisa no banco de dados a partir de buscas textuais, ou atráves de buscas por recursos sonoros. Isso porque todo o banco de dados do Freesound passa por processos de análise computacionais, através do software Essentia \cite{Bogdanov2013}, de onde se extraem uma série de informações sobre parâmetros sonoros. Até o momento, estamos usando nessa pesquisa principalmente a busca textual, mas no futuro gostaríamos de aperfeiçoar o sistema de busca para incluir parâmetros mais complexos oferecidos pela API.
+
+O procesamento via essencia oferece uma série de descritores espectrais, como: energia de cada faixa de frequência; complexidade espetral; contraste de espectro; dissonância; distribuição espectral; momentos centrais de banda de espectro; tom; energia por banda; saliência tonal; taxa de siêncio; entropia espectral entre outros.
+
+Conta com descritores rítmicos, como: BPM; BPM da primeira batida; intervalos de BPM (bpm\_intervals) (first\_peak\_bpm); tempo até o início do som (onsetTimes); volume das batidas (beats\_loudness); duração da primeira batida (first\_peak\_spread). Provém também descritos tonais como: entropia; escala de acordes; acordes; progressões de acordes; afinação; contagem de picos; decaimento temporal; inaharmonicidade; entre vários descritores de áudio complexos.
+
+Buscas pela interface de análise podem ser feitas por um acesso HTTP do tipo:
+
+\begin{verbatim}
+\url{curl https://freesound.org/api/sounds/<sound_id>
+/analysis/lowlevel/pitch
+\end{verbatim}
+
+A busca textual no banco de dados do Freesound pode conter uma série de filtros como:
+
+id	
+username:	
+created	(date)
+original\_filename
+description
+tag
+license
+is\_remix
+was\_remixed
+pack
+pack\_tokenized
+is\_geotagged
+type (“``wav”'', ``aif'', ``ogg'', ``mp3'', ``m4a'' ou ``flac'')
+duration:	
+bitdepth:	
+bitrate:	
+samplerate:	
+filesize:	
+channels:	integer, number of channels in sound (mostly 1 or 2)
+md5:	string, 32-byte md5 hash of file
+num_downloads:	
+avg_rating:	 average rating, from 0 to 5
+num_ratings: number of ratings
+comment:	
+comments:	number of comments
+
+\begin{verbatim}
+HTTP 200 OK
+Allow: GET, HEAD, OPTIONS
+Content-Type: application/json
+Vary: Accept
+
+{
+    "count": 1080,
+    "next": "http://freesound.org/apiv2/search/text/
+    	?&query=%22bass%20drum%22%20-double&page=2",
+    "results": [
+        {
+            "id": 389153,
+            "name": "but there is a bass drum",
+            "tags": [
+                "analog",
+                "electronic",
+                "electro",
+                "synth",
+                "sample-and-hold",
+                "eurorack",
+                "synthesizer",
+                "bass-drum",
+                "bass",
+                "drum",
+                "noise"
+            ],
+            "license": "http://creativecommons.org/
+				publicdomain/zero/1.0/",
+            "username": "gis_sweden"
+        },
+        
+    "previous": null
+}
+
+\end{verbatim}
+
+
 
 \section{Ferramentas}
 \subsection{Terminal}
@@ -67,7 +150,7 @@ Neste trabalho, a linha de comando serviu também como inspiração para a inter
 
 
 \subsection{Git}
-Git é uma ferramenta de controlde de versões voltadas para se criar repositórios de códigos fonte. Além do Git existem outras ferramentas similares, como CVN Com o Git, é possível que uma equipe compartilhe os mesmos arquivos, que ficam organizados em um servidor central. O git tem uma interface gráfica, mas é mais prático e eficiente de ser usado através da linha de comando. 
+Git é uma ferramenta de controle de versões voltadas para se criar repositórios de códigos fonte. Além do Git existem outras ferramentas similares, como CVN Com o Git, é possível que uma equipe compartilhe os mesmos arquivos, que ficam organizados em um servidor central. O git tem uma interface gráfica, mas é mais prático e eficiente de ser usado através da linha de comando. 
 
 Quando se criamos um repositório, podemos incluir arquivos que podem ser copiados por qualquer pessoa que tiver acesso a ele. Existem repositórios provados, aos quais você em geral precisa ter que pagar, mas se você estiver disposto a disponibilizar seu código como software livre, exitem vários serviços gratuitos para hospedagem online, como Github, Bitbucket etc. 
 
