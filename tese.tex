@@ -1,0 +1,712 @@
+%% abtex2-modelo-trabalho-academico.tex, v-1.9.6 laurocesar
+%% Copyright 2012-2016 by abnTeX2 group at http://www.abntex.net.br/ 
+%%
+%% This work may be distributed and/or modified under the
+%% conditions of the LaTeX Project Public License, either version 1.3
+%% of this license or (at your option) any later version.
+%% The latest version of this license is in
+%%   http://www.latex-project.org/lppl.txt
+%% and version 1.3 or later is part of all distributions of LaTeX
+%% version 2005/12/01 or later.
+%%
+%% This work has the LPPL maintenance status `maintained'.
+%% 
+%% The Current Maintainer of this work is the abnTeX2 team, led
+%% by Lauro César Araujo. Further information are available on 
+%% http://www.abntex.net.br/
+%% 
+%% This work consists of the files abntex2-modelo-trabalho-academico.tex,
+%% abntex2-modelo-include-comandos and abntex2-modelo-references.bib
+%%
+
+% ------------------------------------------------------------------------
+% ------------------------------------------------------------------------
+% abnTeX2: Modelo de Trabalho Academico (tese de doutorado, dissertacao de
+% mestrado e trabalhos monograficos em geral) em conformidade com 
+% ABNT NBR 14724:2011: Informacao e documentacao - Trabalhos academicos -
+% Apresentacao
+% ------------------------------------------------------------------------
+% ------------------------------------------------------------------------
+
+\documentclass[
+	% -- opções da classe memoir --
+	12pt,				% tamanho da fonte
+	openright,			% capítulos começam em pág ímpar (insere página vazia caso preciso)
+	twoside,			% para impressão em recto e verso. Oposto a oneside
+	a4paper,			% tamanho do papel. 
+	% -- opções da classe abntex2 --
+	%chapter=TITLE,		% títulos de capítulos convertidos em letras maiúsculas
+	%section=TITLE,		% títulos de seções convertidos em letras maiúsculas
+	%subsection=TITLE,	% títulos de subseções convertidos em letras maiúsculas
+	%subsubsection=TITLE,% títulos de subsubseções convertidos em letras maiúsculas
+	% -- opções do pacote babel --
+	english,			% idioma adicional para hifenização
+	french,				% idioma adicional para hifenização
+	spanish,			% idioma adicional para hifenização
+	brazil				% o último idioma é o principal do documento
+	]{abntex2}
+
+% ---
+% Pacotes básicos 
+% ---
+\usepackage{lmodern}			% Usa a fonte Latin Modern			
+\usepackage[T1]{fontenc}		% Selecao de codigos de fonte.
+\usepackage[utf8]{inputenc}		% Codificacao do documento (conversão automática dos acentos)
+\usepackage{lastpage}			% Usado pela Ficha catalográfica
+\usepackage{indentfirst}		% Indenta o primeiro parágrafo de cada seção.
+\usepackage{color}				% Controle das cores
+\usepackage{graphicx}			% Inclusão de gráficos
+\usepackage{microtype} 			% para melhorias de justificação
+\usepackage{todonotes}			% notas
+\usepackage{tgpagella}			% fonte palatino	
+\usepackage{mathpazo} 			% fonte palatino
+\usepackage{url}
+%\usepackage[font={small}]{caption}
+%\usepackage[font=sf, small]{caption}
+
+
+
+
+ \usepackage{caption}
+ \captionsetup{%
+  font={footnotesize}, % small font size
+  labelfont={bf,sf},      % label in bold, sans-serif
+  singlelinecheck=false, % centered single-lined captions
+  font=sf,             % indention=1cm,
+  labelsep={colon},         % default separator: none, colon, period, space, quad, newline, endash
+}
+%\usepackage[font=sf]{floatrow}
+
+% ---
+		
+% ---
+% Pacotes adicionais, usados apenas no âmbito do Modelo Canônico do abnteX2
+% ---
+\usepackage{lipsum}				% para geração de dummy text
+% ---
+
+% ---
+% Pacotes de citações
+% ---
+\usepackage[brazilian,hyperpageref]{backref}	 % Paginas com as citações na bibl
+\usepackage[alf]{abntex2cite}	% Citações padrão ABNT
+\graphicspath{{pictures/}}             % caminho das figuras (recomendável)
+%\bibliographystyle{abnt-num}% --- 
+% CONFIGURAÇÕES DE PACOTES
+% --- 
+
+% ---
+% Configurações do pacote backref
+% Usado sem a opção hyperpageref de backref
+\renewcommand{\backrefpagesname}{Citado na(s) página(s):~}
+% Texto padrão antes do número das páginas
+\renewcommand{\backref}{}
+% Define os textos da citação
+\renewcommand*{\backrefalt}[4]{
+	\ifcase #1 %
+		Nenhuma citação no texto.%
+	\or
+		Citado na página #2.%
+	\else
+		Citado #1 vezes nas páginas #2.%
+	\fi}%
+% ---
+
+% ---
+% Informações de dados para CAPA e FOLHA DE ROSTO
+% ---
+\titulo{Música em Rede: \\experimentos em interação musical}
+\autor{Ariane de Souza Stolfi}
+\local{São Paulo}
+\data{2018}
+\orientador{Fernando Henrique de Oliveira Iazzetta}
+%\coorientador{Equipe \abnTeX}
+\instituicao{%
+  Universidade de São Paulo
+  \par
+  Escola de Comunicações e Artes
+  \par
+  Programa de Pós-Graduação em Música}
+\tipotrabalho{Tese (Doutorado)}
+% O preambulo deve conter o tipo do trabalho, o objetivo, 
+% o nome da instituição e a área de concentração 
+\preambulo{Tese apresentada à Escola de Comunicação e Artes para obtenção do título de Doutor em Música. Área de concentração: Processos de Criação Musical.}
+%Linha de pesquisa: Sonologia
+% ---
+
+
+% ---
+% Configurações de aparência do PDF final
+
+% alterando o aspecto da cor azul
+\definecolor{blue}{RGB}{100,100,100}
+
+% informações do PDF
+\makeatletter
+\hypersetup{
+     	%pagebackref=true,
+		pdftitle={\@title}, 
+		pdfauthor={\@author},
+    	pdfsubject={\imprimirpreambulo},
+	    pdfcreator={LaTeX with abnTeX2},
+		pdfkeywords={abnt}{latex}{abntex}{abntex2}{trabalho acadêmico}, 
+		colorlinks=true,       		% false: boxed links; true: colored links
+    	linkcolor=blue,          	% color of internal links
+    	citecolor=blue,        		% color of links to bibliography
+    	filecolor=magenta,      		% color of file links
+		urlcolor=blue,
+		bookmarksdepth=4
+}
+\makeatother
+% --- 
+
+% --- 
+% Espaçamentos entre linhas e parágrafos 
+% --- 
+
+% O tamanho do parágrafo é dado por:
+\setlength{\parindent}{0cm}
+
+% Controle do espaçamento entre um parágrafo e outro:
+\setlength{\parskip}{1em}  % tente também \onelineskip
+
+% ---
+% compila o indice
+% ---
+\makeindex
+% ---
+
+% ----
+% Início do documento
+% ----
+\begin{document}
+
+% Seleciona o idioma do documento (conforme pacotes do babel)
+%\selectlanguage{english}
+\selectlanguage{brazil}
+
+% Retira espaço extra obsoleto entre as frases.
+\frenchspacing 
+
+% ----------------------------------------------------------
+% ELEMENTOS PRÉ-TEXTUAIS
+% ----------------------------------------------------------
+% \pretextual
+
+% ---
+% Capa
+% ---
+\imprimircapa
+% ---
+
+% ---
+% Folha de rosto
+% (o * indica que haverá a ficha bibliográfica)
+% ---
+\imprimirfolhaderosto*
+% ---
+
+% ---
+% Inserir a ficha bibliografica
+% ---
+
+% Isto é um exemplo de Ficha Catalográfica, ou ``Dados internacionais de
+% catalogação-na-publicação''. Você pode utilizar este modelo como referência. 
+% Porém, provavelmente a biblioteca da sua universidade lhe fornecerá um PDF
+% com a ficha catalográfica definitiva após a defesa do trabalho. Quando estiver
+% com o documento, salve-o como PDF no diretório do seu projeto e substitua todo
+% o conteúdo de implementação deste arquivo pelo comando abaixo:
+%
+% \begin{fichacatalografica}
+%     \includepdf{fig_ficha_catalografica.pdf}
+% \end{fichacatalografica}
+
+\begin{fichacatalografica}
+	\sffamily
+	\vspace*{\fill}					% Posição vertical
+	\begin{center}					% Minipage Centralizado
+	\fbox{\begin{minipage}[c][8cm]{13.5cm}		% Largura
+	\small
+	\imprimirautor
+	%Sobrenome, Nome do autor
+	
+	\hspace{0.5cm} \imprimirtitulo  / \imprimirautor. --
+	\imprimirlocal, \imprimirdata-
+	
+	\hspace{0.5cm} \pageref{LastPage} p. : il. (algumas color.) ; 30 cm.\\
+	
+	\hspace{0.5cm} \imprimirorientadorRotulo~\imprimirorientador\\
+	
+	\hspace{0.5cm}
+	\parbox[t]{\textwidth}{\imprimirtipotrabalho~--~\imprimirinstituicao,
+	\imprimirdata.}\\
+	
+	\hspace{0.5cm}
+		1. Música.
+		2. Design de interface.
+		3. Improvisação livre.
+		I. Fernando Henrique de Oliveira Iazzetta.
+		II. Universidade de São Paulo.
+		III. Escola de Comunicação e Artes.
+		IV. Práticas de luteria na música experimental brasileira 			
+	\end{minipage}}
+	\end{center}
+\end{fichacatalografica}
+% ---
+
+% ---
+% Inserir errata
+% ---
+%\begin{errata}
+%Elemento opcional da %\citeonline[4.2.1.2]{NBR14724:2011}. Exemplo:
+
+%\vspace{\onelineskip}
+
+%FERRIGNO, C. R. A. \textbf{Tratamento de neoplasias ósseas apendiculares com
+%reimplantação de enxerto ósseo autólogo autoclavado associado ao plasma
+%rico em plaquetas}: estudo crítico na cirurgia de preservação de membro em
+%cães. 2011. 128 f. Tese (Livre-Docência) - Faculdade de Medicina Veterinária e
+%Zootecnia, Universidade de São Paulo, São Paulo, 2011.
+
+%\begin{table}[htb]
+%\center
+%\footnotesize
+%\begin{tabular}{|p{1.4cm}|p{1cm}|p{3cm}|p{3cm}|}
+%  \hline
+%   \textbf{Folha} & \textbf{Linha}  & \textbf{Onde se lê}  & \textbf{Leia-se}  \\
+%    \hline
+%    1 & 10 & auto-conclavo & autoconclavo\\
+%   \hline
+%\end{tabular}
+%\end{table}
+
+%\end{errata}
+% ---
+
+% ---
+% Inserir folha de aprovação
+% ---
+
+% Isto é um exemplo de Folha de aprovação, elemento obrigatório da NBR
+% 14724/2011 (seção 4.2.1.3). Você pode utilizar este modelo até a aprovação
+% do trabalho. Após isso, substitua todo o conteúdo deste arquivo por uma
+% imagem da página assinada pela banca com o comando abaixo:
+%
+% \includepdf{folhadeaprovacao_final.pdf}
+%
+\begin{folhadeaprovacao}
+
+  \begin{center}
+    {\ABNTEXchapterfont\large\imprimirautor}
+
+    \vspace*{\fill}\vspace*{\fill}
+    \begin{center}
+      \ABNTEXchapterfont\bfseries\Large\imprimirtitulo
+    \end{center}
+    \vspace*{\fill}
+    
+    \hspace{.45\textwidth}
+    \begin{minipage}{.5\textwidth}
+        \imprimirpreambulo
+    \end{minipage}%
+    \vspace*{\fill}
+   \end{center}
+        
+   Trabalho aprovado. \imprimirlocal,    de           de 2018:
+%
+   \assinatura{\textbf{\imprimirorientador} \\ Orientador} 
+   \assinatura{\textbf{Professor} \\ Convidado 1}
+   \assinatura{\textbf{Professor} \\ Convidado 2}
+   \assinatura{\textbf{Professor} \\ Convidado 3}
+   \assinatura{\textbf{Professor} \\ Convidado 4}
+%      
+   \begin{center}
+    \vspace*{0.5cm}
+    {\large\imprimirlocal}
+    \par
+    {\large\imprimirdata}
+    \vspace*{1cm}
+  \end{center}
+  
+\end{folhadeaprovacao}
+
+% ---
+
+% ---
+% Dedicatória
+% ---pdf
+\begin{dedicatoria}
+   \vspace*{\fill}
+   \begin{flushright}
+   \textit{A quem queiser tocar}
+   \end{flushright}
+   \vspace*{\fill}
+\end{dedicatoria}
+
+% ---
+
+% ---
+% Agradecimentos
+% ---
+%\begin{agradecimentos}
+%
+% À toda a minha família, agradeço pelo apoio e instigação constante, às Júlias e ao pequeno Miguel, agradeço pela paciência e pelo amor em todos os momentos;
+%
+%A todos os entrevistados e todas as pessoas que colaboraram com dicas valiosas ao longo do trabalho: Löis Lancaster, Eric Marke, Scott Lee, Nelson Ribeiro, George Romano, Marcelo Conter, Eduardo Santos, 
+%
+% A todas as professoras e professores que tive a sorte de encontrar pelo caminho e ter como amigos, em especial a Paulo Lima, Carlos Sandroni, John Murphy, Carlos Palombini por terem mostrado os caminhos e também por terem me ajudado a permanecer pesquisando.
+
+% Aos meus companheiros do Mombojó, Alessandra Leão e banda, todas as irmãs e irmãos da graxa e da música pela alegria de trabalhar
+
+%A Fernando Iazzetta pela paciência, pela amizade e pela inspiração;
+
+% A Tony da Gatorra pela generosidade de abrir seu mundo e compartilhar suas ideias e sua música não só comigo;
+%
+%\end{agradecimentos}
+
+% ---
+
+% ---
+% Epígrafe
+% ---
+\begin{epigrafe}
+    \vspace*{\fill}
+	\begin{flushright}
+		\textit{Alegria é a prova dos nove \\(Oswald de andrade)}
+	\end{flushright}
+\end{epigrafe}
+% ---
+
+% ---
+% RESUMOS
+% ---
+
+% resumo em português
+\setlength{\absparsep}{18pt} % ajusta o espaçamento dos parágrafos do resumo
+\begin{resumo}
+
+
+%Este trabalho faz um levantamento da produção brasileira de luteria experimental, com ênfase na produção realizada ao longo das últimas duas décadas. Inicialmente é delineado um panorama de referências relacionadas com este tido de produção na literatura europeia e estadunidense, assim como discutida a atuação de alguns artistas e criadores fundamentais para o estabelecimento de práticas de luteria experimental no século XX. No segundo capítulo faço um levantamento de referências sobre este tipo de produção no Brasil, assim como relaciono artistas em atividade no país nos últimos 20 anos, detalhando na maior parte dos casos algumas de suas obras. Partindo deste panorama, realizo um estudo mais aprofundado sobre o instrumento conhecido por gatorra, fabricado por Tony da Gatorra, artesão, técnico em eletrônica e músico gaúcho que criou seu instrumento nos anos 1990 a partir de materiais de sucata, componentes eletrônicos reaproveitados e da combinação de projetos de circuitos eletrônicos geradores de som. Por fim, relaciono a produção estudada com referenciais que lidam com a noção de cultura material, alguns dos quais já realizam uma aproximação com a atividade musical e artística.
+
+
+ \textbf{Palavras-chave}: Música experimental. Luteria digital, Música Interativa. \textit{WebAudio}. Música Ubíqua. 
+\end{resumo}
+
+% resumo em inglês
+\begin{resumo}[Abstract]
+\begin{otherlanguage*}{english}
+%This work presents a survey on the Brazilian production of experimental lutherie, with emphasis on the production over the last two decades. A framework of references related to this production in the European and American literature is outlined as an introduction, as well as the works of some key artists and creators whose production influenced experimental instrument building practices in the 20th century. In the second chapter I make a survey of references on this type of production in Brazil, as well a profile of artists active in the country for the last 20 years, detailing in most cases some of his works. Based on this outline, I carry out a more detailed study on the instrument known as gatorra, manufactured by Tony da Gatorra, an artisan, technician and musician who created his instrument in the 1990s from scrap materials, reused electronic components and the combination of electronic circuits sound generators. Finally, I relate the production studied with references that deal with the notion of material culture, some of which already make an approximation with musical and artistic activity.
+
+
+   \vspace{\onelineskip}
+ 
+   \noindent 
+   %\textbf{Keywords}: Experimental Music. Experimental Lutherie. Readymade. \textit{Gambiarra}. Technological desobedience. Material culture. Gatorra.
+ \end{otherlanguage*}
+\end{resumo}
+
+% resumo em francês 
+%\begin{resumo}[Résumé]
+% \begin{otherlanguage*}{french}
+%    Il s'agit d'un résumé en français.
+ 
+%   \textbf{Mots-clés}: latex. abntex. publication de textes.
+% \end{otherlanguage*}
+%\end{resumo}
+
+% resumo em espanhol
+%\begin{resumo}[Resumen]
+% \begin{otherlanguage*}{spanish}
+%   Este es el resumen en español.
+  
+%   \textbf{Palabras clave}: latex. abntex. publicación de textos.
+% \end{otherlanguage*}
+%\end{resumo}
+% ---
+
+% ---
+% inserir lista de ilustrações
+% ---
+\pdfbookmark[0]{\listfigurename}{lof}
+\listoffigures*
+\cleardoublepage
+% ---
+
+% ---
+% inserir lista de tabelas
+% ---
+%\pdfbookmark[0]{\listtablename}{lot}
+%\listoftables*
+%\cleardoublepage
+% ---
+
+% ---
+% inserir lista de abreviaturas e siglas
+% ---
+\begin{siglas}
+%  \item[ABNT] Associação Brasileira de Normas Técnicas
+%  \item[abnTeX] ABsurdas Normas para TeX
+\item[W3C] \textit{World Wide Web Consortium}, entidade que define os padrões das linguages web.
+
+\item[FFT] \textit{Fast Fourier Transform}, transformada rápida de Fourrier.
+\item[SVG] \textit{Standard Vector Graphics}, ou ``faça você mesmo'' mais especificamente aplicado à construção de circuitos eletrônicos.
+\item[MIDI] \textit{Musical Instrument Digital Interface}, Interface Digital de Instrumentos Musicais, um protocolo para comunicaçnao entre instrumentos digitais.
+\item[HTML] \textit{HyperText Markup Language}, linguagem de marcação para formatação de páginas web.
+\item[CSS] \textit{Cascading Stylesheets}, linguagem de estilização de páginas web.
+\item[IRCAM] \textit{IRCAM}, instituição francesa dedicada à pesquisa e à criação de música contemporânea.
+\item[FAU] \textit{Faculdade de Arquitetura e Urbanismo da Universidade de São Paulo}
+\item[CC] \textit{Creative Commons}, sistema de licensas livres para conteúdo criativo. 
+\item[IHC] \textit{Interação Humano Computador}
+\item[NIME] Conferência New Interfaces for Musical Expression
+\item[NuSom] Núcleo de estudos em sonologia da Universidade de São Paulo
+\item[USP] Universidade de São Paulo
+\item[QMUL] \textit{Queen Mary University of London}, sistema doméstico de gravação e reprodução de vídeo
+\end{siglas}
+% ---
+
+% ---
+% inserir lista de símbolos
+% ---
+%\begin{simbolos}
+%  \item[$ \Gamma $] Letra grega Gama
+%  \item[$ \Lambda $] Lambda
+%  \item[$ \zeta $] Letra grega minúscula zeta
+%  \item[$ \in $] Pertence
+%\end{simbolos}
+% ---
+
+% ---
+% inserir o sumario
+% ---
+\pdfbookmark[0]{\contentsname}{toc}
+\tableofcontents*
+\cleardoublepage
+% ---
+
+
+
+% ----------------------------------------------------------
+% ELEMENTOS TEXTUAIS
+% ----------------------------------------------------------
+\textual
+
+\input{cap-00-intro}
+\input{cap-01-percurso}
+\input{cap-02-pesquisa}
+\input{cap-03-experimentos}
+\input{cap-04-conclusao}
+
+% ----------------------------------------------------------
+% Introdução (exemplo de capítulo sem numeração, mas presente no Sumário)
+% ----------------------------------------------------------
+%\chapter*[Introdução]{Introdução}
+%\addcontentsline{toc}{chapter}{Introdução}
+% ----------------------------------------------------------
+
+%Este documento e seu código-fonte são exemplos de referência de uso da classe
+%\textsf{abntex2} e do pacote \textsf{abntex2cite}. O documento 
+%exemplifica a elaboração de trabalho acadêmico (tese, dissertação e outros do
+%gênero) produzido conforme a ABNT NBR 14724:2011 \emph{Informação e documentação
+%- Trabalhos acadêmicos - Apresentação}.
+
+%A expressão ``Modelo Canônico'' é utilizada para indicar que \abnTeX\ não é
+%modelo específico de nenhuma universidade ou instituição, mas que implementa tão
+%somente os requisitos das normas da ABNT. Uma lista completa das normas
+%observadas pelo \abnTeX\ é apresentada em \citeonline{abntex2classe}.
+
+%Sinta-se convidado a participar do projeto \abnTeX! Acesse o site do projeto em
+%\url{http://www.abntex.net.br/}. Também fique livre para conhecer,
+%estudar, alterar e redistribuir o trabalho do \abnTeX, desde que os arquivos
+%modificados tenham seus nomes alterados e que os créditos sejam dados aos
+%autores originais, nos termos da ``The \LaTeX\ Project Public
+%License''\footnote{\url{http://www.latex-project.org/lppl.txt}}.
+
+%Encorajamos que sejam realizadas customizações específicas deste exemplo para
+%universidades e outras instituições --- como capas, folha de aprovação, etc.
+%Porém, recomendamos que ao invés de se alterar diretamente os arquivos do
+%\abnTeX, distribua-se arquivos com as respectivas customizações.
+%Isso permite que futuras versões do \abnTeX~não se tornem automaticamente
+%incompatíveis com as customizações promovidas. Consulte
+%\citeonline{abntex2-wiki-como-customizar} par mais informações.
+
+%Este documento deve ser utilizado como complemento dos manuais do \abnTeX\ 
+%\cite{abntex2classe,abntex2cite,abntex2cite-alf} e da classe \textsf{memoir}
+%\cite{memoir}. 
+
+%Esperamos, sinceramente, que o \abnTeX\ aprimore a qualidade do trabalho que
+%%você produzirá, de modo que o principal esforço seja concentrado no principal:
+%na contribuição científica.
+
+%Equipe \abnTeX 
+
+%Lauro César Araujo
+
+% ----------------------------------------------------------
+% PARTE
+% ----------------------------------------------------------
+%\part{Preparação da pesquisa}
+% ----------------------------------------------------------
+
+% ---
+% Capitulo com exemplos de comandos inseridos de arquivo externo 
+% ---
+\include{abntex2-modelo-include-comandos}
+% ---
+
+% ----------------------------------------------------------
+% PARTE
+% ----------------------------------------------------------
+%\part{Referenciais teóricos}
+% ----------------------------------------------------------
+
+% ---
+% Capitulo de revisão de literatura
+% ---
+%\chapter{Lorem ipsum dolor sit amet}
+% ---
+
+% ---
+%\section{Aliquam vestibulum fringilla lorem}
+% ---
+
+%\lipsum[1]
+
+%\lipsum[2-3]
+
+% ----------------------------------------------------------
+% PARTE
+% ----------------------------------------------------------
+%\part{Resultados}
+% ----------------------------------------------------------
+
+% ---
+% primeiro capitulo de Resultados
+% ---
+%\chapter{Lectus lobortis condimentum}
+% ---
+
+% ---
+%\section{Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+%posuere cubilia Curae}
+% ---
+
+%\lipsum[21-22]
+
+% ---
+% segundo capitulo de Resultados
+% ---
+%\chapter{Nam sed tellus sit amet lectus urna ullamcorper tristique interdum elementum}
+% ---
+
+% ---
+%\section{Pellentesque sit amet pede ac sem eleifend consectetuer}
+% ---
+
+%\lipsum[24]
+
+% ----------------------------------------------------------
+% Finaliza a parte no bookmark do PDF
+% para que se inicie o bookmark na raiz
+% e adiciona espaço de parte no Sumário
+% ----------------------------------------------------------
+\phantompart
+
+% ---
+% Conclusão
+% ---
+%\chapter{Conclusão}
+% ---
+
+%\lipsum[31-33]
+
+% ----------------------------------------------------------
+% ELEMENTOS PÓS-TEXTUAIS
+% ----------------------------------------------------------
+\postextual
+% ----------------------------------------------------------
+
+% ----------------------------------------------------------
+% Referências bibliográficas
+% ----------------------------------------------------------
+\bibliography{biblioz}
+
+% ----------------------------------------------------------
+% Glossário
+% ----------------------------------------------------------
+%
+% Consulte o manual da classe abntex2 para orientações sobre o glossário.
+%
+%\glossary
+
+% ----------------------------------------------------------
+% Apêndices
+% ----------------------------------------------------------
+
+% ---
+% Inicia os apêndices
+% ---
+\begin{apendicesenv}
+
+% Imprime uma página indicando o início dos apêndices
+\partapendices
+
+\include{ape-tabelagatorra}
+\include{ape-entrevistas} 
+\include{ape-complementos}
+
+% ----------------------------------------------------------
+%\chapter{Quisque libero justo}
+% ----------------------------------------------------------
+
+%\lipsum[50]
+
+% ----------------------------------------------------------
+%\chapter{Nullam elementum urna vel imperdiet sodales elit ipsum pharetra ligula
+%ac pretium ante justo a nulla curabitur tristique arcu eu metus}
+% ----------------------------------------------------------
+%\lipsum[55-57]
+
+\end{apendicesenv}
+% ---
+
+
+% ----------------------------------------------------------
+% Anexos
+% ----------------------------------------------------------
+
+% ---
+% Inicia os anexos
+% ---
+%\begin{anexosenv}
+
+% Imprime uma página indicando o início dos anexos
+%\partanexos
+%\includepdf{ManualGatorra.pdf}      % associado ao arquivo: 'ape-conjuntos.tex'
+% ---
+%\chapter{Morbi ultrices rutrum lorem.}
+% ---
+%\lipsum[30]
+
+% ---
+%\chapter{Cras non urna sed feugiat cum sociis natoque penatibus et magnis dis
+%parturient montes nascetur ridiculus mus}
+% ---
+
+%\lipsum[31]
+
+% ---
+%\chapter{Fusce facilisis lacinia dui}
+% ---
+
+%\lipsum[32]
+
+%\end{anexosenv}
+
+%---------------------------------------------------------------------
+% INDICE REMISSIVO
+%---------------------------------------------------------------------
+\phantompart
+\printindex
+%---------------------------------------------------------------------
+
+\end{document}
