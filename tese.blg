@@ -15,34 +15,34 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-Reallocated field_info (elt_size=4) to 13832 items from 5000.
+Reallocated field_info (elt_size=4) to 14660 items from 5000.
 Database file #1: abntex2-options.bib
 Database file #2: biblioz.bib
 Repeated entry---line 501 of file biblioz.bib
  : @book{Barbrook2009
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1151 of file biblioz.bib
+Repeated entry---line 1191 of file biblioz.bib
  : @inproceedings{Font2016
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1170 of file biblioz.bib
+Repeated entry---line 1210 of file biblioz.bib
  : @article{Font2013
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1454 of file biblioz.bib
+Repeated entry---line 1522 of file biblioz.bib
  : @article{Keller2018
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2002 of file biblioz.bib
+Repeated entry---line 2109 of file biblioz.bib
  : @article{PucketteMiller
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2272 of file biblioz.bib
+Repeated entry---line 2379 of file biblioz.bib
  : @inproceedings{Stolfi2017
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2305 of file biblioz.bib
+Repeated entry---line 2412 of file biblioz.bib
  : @article{Stowell
  :                 ,
 I'm skipping whatever remains of this entry
@@ -50,6 +50,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Warning--campo year vazio ou faltando em Freeman
 Warning--campo year vazio ou faltando em JasonDavies
 Warning--campo year vazio ou faltando em noauthor_transglasphone_nodate
 Warning--faltando school em Twyman2004
@@ -58,45 +59,45 @@ Warning--faltando school em Twyman2004
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 128 entries,
+You've used 140 entries,
             6714 wiz_defined-function locations,
-            2028 strings with 31901 characters,
-and the built_in function-call counts, 157152 in all, are:
-= -- 16881
-> -- 3299
-< -- 3447
-+ -- 4541
-- -- 1014
-* -- 10066
-:= -- 19764
-add.period$ -- 507
-call.type$ -- 128
-change.case$ -- 1185
-chr.to.int$ -- 241
-cite$ -- 130
-duplicate$ -- 14565
-empty$ -- 7508
-format.name$ -- 4828
-if$ -- 32381
+            2102 strings with 33907 characters,
+and the built_in function-call counts, 172550 in all, are:
+= -- 18617
+> -- 3552
+< -- 3852
++ -- 5016
+- -- 1094
+* -- 11014
+:= -- 21687
+add.period$ -- 553
+call.type$ -- 140
+change.case$ -- 1281
+chr.to.int$ -- 268
+cite$ -- 143
+duplicate$ -- 16133
+empty$ -- 8153
+format.name$ -- 5200
+if$ -- 35426
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 2245
-newline$ -- 648
-num.names$ -- 636
-pop$ -- 2885
+missing$ -- 2446
+newline$ -- 713
+num.names$ -- 696
+pop$ -- 3136
 preamble$ -- 1
-purify$ -- 472
+purify$ -- 512
 quote$ -- 0
-skip$ -- 14767
+skip$ -- 16344
 stack$ -- 1
-substring$ -- 6472
-swap$ -- 5406
-text.length$ -- 162
+substring$ -- 7165
+swap$ -- 5972
+text.length$ -- 182
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 30
-warning$ -- 3
-while$ -- 924
+warning$ -- 4
+while$ -- 1017
 width$ -- 0
-write$ -- 2014
+write$ -- 2201
 (There were 7 error messages)

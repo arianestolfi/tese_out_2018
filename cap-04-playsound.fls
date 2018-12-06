@@ -1,0 +1,11 @@
+PWD /Users/mac/Google Drive/00_doutorado/tese_dez_2018
+INPUT /usr/local/texlive/2018/texmf.cnf
+INPUT /usr/local/texlive/2018/texmf-dist/web2c/texmf.cnf
+INPUT /usr/local/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT cap-04-playsound.tex
+OUTPUT cap-04-playsound.log
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
+OUTPUT cap-04-playsound.pdf
+INPUT /usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map
