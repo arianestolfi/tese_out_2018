@@ -524,6 +524,9 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmss17.tfm
 INPUT ./pictures/cap1/audiogalaxy.png
 INPUT ./pictures/cap1/audiogalaxy.png
 INPUT ./pictures/cap1/audiogalaxy.png
+INPUT ./pictures/cap1/manualdosbixos.png
+INPUT ./pictures/cap1/manualdosbixos.png
+INPUT ./pictures/cap1/manualdosbixos.png
 INPUT ./pictures/cap1/tosconcreto.png
 INPUT ./pictures/cap1/tosconcreto.png
 INPUT ./pictures/cap1/tosconcreto.png
@@ -562,6 +565,9 @@ INPUT ./pictures/cap1/hp1.png
 INPUT ./pictures/cap1/cromocinetica.png
 INPUT ./pictures/cap1/cromocinetica.png
 INPUT ./pictures/cap1/cromocinetica.png
+INPUT ./pictures/cap1/mosaicages.png
+INPUT ./pictures/cap1/mosaicages.png
+INPUT ./pictures/cap1/mosaicages.png
 INPUT ./pictures/cap1/gil701.png
 INPUT ./pictures/cap1/gil701.png
 INPUT ./pictures/cap1/gil701.png
@@ -599,8 +605,9 @@ INPUT ./pictures/protools.jpg
 INPUT ./pictures/protools2.jpg
 INPUT ./pictures/protools2.jpg
 INPUT ./pictures/protools2.jpg
-INPUT ./pictures/MaxHolmes-251.jpg
-INPUT ./pictures/MaxHolmes-251.jpg
+INPUT ./pictures/cap2/patcher.jpg
+INPUT ./pictures/cap2/patcher.jpg
+INPUT ./pictures/cap2/patcher.jpg
 INPUT ./pictures/cap2/laloli.png
 INPUT ./pictures/cap2/laloli.png
 INPUT ./pictures/cap2/laloli.png

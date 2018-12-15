@@ -15,34 +15,34 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-Reallocated field_info (elt_size=4) to 14660 items from 5000.
+Reallocated field_info (elt_size=4) to 15212 items from 5000.
 Database file #1: abntex2-options.bib
 Database file #2: biblioz.bib
 Repeated entry---line 501 of file biblioz.bib
  : @book{Barbrook2009
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1191 of file biblioz.bib
+Repeated entry---line 1200 of file biblioz.bib
  : @inproceedings{Font2016
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1210 of file biblioz.bib
+Repeated entry---line 1219 of file biblioz.bib
  : @article{Font2013
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1522 of file biblioz.bib
+Repeated entry---line 1531 of file biblioz.bib
  : @article{Keller2018
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2109 of file biblioz.bib
+Repeated entry---line 2137 of file biblioz.bib
  : @article{PucketteMiller
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2379 of file biblioz.bib
+Repeated entry---line 2426 of file biblioz.bib
  : @inproceedings{Stolfi2017
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2412 of file biblioz.bib
+Repeated entry---line 2459 of file biblioz.bib
  : @article{Stowell
  :                 ,
 I'm skipping whatever remains of this entry
@@ -59,45 +59,45 @@ Warning--faltando school em Twyman2004
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 140 entries,
+You've used 148 entries,
             6714 wiz_defined-function locations,
-            2102 strings with 33907 characters,
-and the built_in function-call counts, 172550 in all, are:
-= -- 18617
-> -- 3552
-< -- 3852
-+ -- 5016
-- -- 1094
-* -- 11014
-:= -- 21687
-add.period$ -- 553
-call.type$ -- 140
-change.case$ -- 1281
-chr.to.int$ -- 268
-cite$ -- 143
-duplicate$ -- 16133
-empty$ -- 8153
-format.name$ -- 5200
-if$ -- 35426
+            2146 strings with 35139 characters,
+and the built_in function-call counts, 180044 in all, are:
+= -- 19327
+> -- 3733
+< -- 3969
++ -- 5194
+- -- 1151
+* -- 11495
+:= -- 22668
+add.period$ -- 581
+call.type$ -- 148
+change.case$ -- 1348
+chr.to.int$ -- 279
+cite$ -- 151
+duplicate$ -- 16753
+empty$ -- 8612
+format.name$ -- 5470
+if$ -- 37035
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 2446
-newline$ -- 713
-num.names$ -- 696
-pop$ -- 3136
+missing$ -- 2586
+newline$ -- 749
+num.names$ -- 736
+pop$ -- 3314
 preamble$ -- 1
-purify$ -- 512
+purify$ -- 540
 quote$ -- 0
-skip$ -- 16344
+skip$ -- 16976
 stack$ -- 1
-substring$ -- 7165
-swap$ -- 5972
-text.length$ -- 182
+substring$ -- 7422
+swap$ -- 6195
+text.length$ -- 186
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 30
+type$ -- 31
 warning$ -- 4
-while$ -- 1017
+while$ -- 1067
 width$ -- 0
-write$ -- 2201
+write$ -- 2321
 (There were 7 error messages)

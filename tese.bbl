@@ -56,6 +56,10 @@ Dispon{\'\i}vel em: \url{https://hal.inria.fr/hal-01158080/}.}
 {BARRY, A.; BORN, G.; WESZKALNYS, G. {Logics of interdisciplinarity}.
 \emph{Economy and Society}, v.~37, n.~1, p. 20--49, feb 2008.}
 
+\bibitem[Barthes 1978]{Barthes1978}
+\abntrefinfo{Barthes}{BARTHES}{1978}
+{BARTHES, R. \emph{{Image-Music-Text}}. New York: Hill and Wang, 1978. 220~p.}
+
 \bibitem[Barthet et al. 2011]{Barthet:11a}
 \abntrefinfo{Barthet et al.}{BARTHET et al.}{2011}
 {BARTHET, M. et al. Analysis-by-synthesis of timbre, timing, and dynamics in
@@ -118,6 +122,17 @@ Dispon{\'\i}vel em:
 International Society for Music Information Retrieval (ISMIR), 2013.
 Dispon{\'\i}vel em: \url{https://repositori.upf.edu/handle/10230/32252}.}
 
+\bibitem[{Borges, Fabiane Moraes} e {Etlin, Marc}
+  2010]{FabianeMoraesBorges2010}
+\abntrefinfo{{Borges, Fabiane Moraes} e {Etlin, Marc}}{{Borges, Fabiane
+  Moraes}; {Etlin, Marc}}{2010}
+{{Borges, Fabiane Moraes}; {Etlin, Marc}. {Imers{\~{o}}es, reciclagens e
+  singularidades}.
+\emph{BIS. Boletim do Instituto de Saúde (Impresso)}, Instituto de Saúde,
+  v.~12, n.~1, p. 94--98, 2010.
+Dispon{\'\i}vel em:
+  \url{http://periodicos.ses.sp.bvs.br/scielo.php?script=sci{\\_}arttext{\&}pid=S1518-18122010000100017{\&}lng=en{\&}nrm}.}
+
 \bibitem[Born e Devine 2015]{Born2015}
 \abntrefinfo{Born e Devine}{BORN; DEVINE}{2015}
 {BORN, G.; DEVINE, K. {Music Technology, Gender, and Class: Digitization,
@@ -158,6 +173,12 @@ Taylor {\&} Francis, p.~252, 1996.}
 Dispon{\'\i}vel em:
   \url{http://www.nomads.usp.br/virus/virus07/?sec=7{\&}item=1{\&}lang=en[Accessed00Month}.}
 
+\bibitem[Cage e Retallack 2015]{Cage2015}
+\abntrefinfo{Cage e Retallack}{CAGE; RETALLACK}{2015}
+{CAGE, J.; RETALLACK, J. \emph{{MUSICAGE – palavras. John Cage em
+  conversa{\c{c}}{\~{o}}es com Joan Retallack -}}. S{\~{a}}o Paulo: Numa
+  Editora, 2015.}
+
 \bibitem[Campos, Campos e Pignatari 2014]{campos_teoria_2014}
 \abntrefinfo{Campos, Campos e Pignatari}{CAMPOS; CAMPOS; PIGNATARI}{2014}
 {CAMPOS, A.~d.; CAMPOS, H.~d.; PIGNATARI, D. \emph{Teoria {Da} {Poesia}
@@ -186,6 +207,12 @@ Dispon{\'\i}vel em: \url{http://www.jstor.org/stable/43869452}.}
 \abntrefinfo{Caroline et al.}{CAROLINE et al.}{2016}
 {CAROLINE, M. et al. radio. garden.
 2016.}
+
+\bibitem[Castro 2008]{Castro2008}
+\abntrefinfo{Castro}{CASTRO}{2008}
+{CASTRO, G. G.~S. {Web music: produ{\c{c}}{\~{a}}o e consumo de m{\'{u}}sica na
+  cibercultura}.
+\emph{M{\'{i}}dia e Consumo}, 2008.}
 
 \bibitem[Chau{\'{i}} 2008]{MarilenaChaui2008}
 \abntrefinfo{Chau{\'{i}}}{CHAU{\'{I}}}{2008}
@@ -217,13 +244,6 @@ Dispon{\'\i}vel em:
   of the International Conference on NIME}. Daejeon, Republic of Korea:
   Graduate School of Culture Technology, KAIST, 2013. p. 499--502.}
 
-\bibitem[{Chris Halaby} 2011]{ChrisHalaby2011}
-\abntrefinfo{{Chris Halaby}}{{Chris Halaby}}{2011}
-{{Chris Halaby}. \emph{{KVR: "It was 21 years ago today..." - How The First
-  Software DAW Came About}}. 2011.
-Dispon{\'\i}vel em:
-  \url{https://www.kvraudio.com/focus/it{\\_}was{\\_}21{\\_}years{\\_}ago{\\_}today{\\_}how{\\_}the{\\_}first{\\_}so}.}
-
 \bibitem[Collins et al. 2003]{Collins2003}
 \abntrefinfo{Collins et al.}{COLLINS et al.}{2003}
 {COLLINS, N. et al. {Live coding in laptop performance}.
@@ -240,15 +260,26 @@ Dispon{\'\i}vel em:
   improvisa{\c{c}}{\~a}o.
 \emph{Revista M{\'u}sica Hodie}, v.~13, n.~1, 2013.}
 
+\bibitem[{Cranmer, David} 2009]{DavidCranmer2009}
+\abntrefinfo{{Cranmer, David}}{{Cranmer, David}}{2009}
+{{Cranmer, David}. \emph{{Daphne Oram's Oramics Machine}}. 2009.
+Dispon{\'\i}vel em: \url{http://www.nervoussquirrel.com/oramics.html}.}
+
 \bibitem[Cryer 2018]{Cryer2018}
 \abntrefinfo{Cryer}{CRYER}{2018}
 {CRYER, A.~B. \emph{Max (software) explained}. 2018.
 Dispon{\'\i}vel em: \url{http://everything.explained.today}.}
 
-\bibitem[{David Cranmer} 2009]{DavidCranmer2009}
-\abntrefinfo{{David Cranmer}}{{David Cranmer}}{2009}
-{{David Cranmer}. \emph{{Daphne Oram's Oramics Machine}}. 2009.
-Dispon{\'\i}vel em: \url{http://www.nervoussquirrel.com/oramics.html}.}
+\bibitem[{Dahl, Luke }, {Herrera, Jorge } e {Wilkerson, Carr } 2011]{Dahl2011}
+\abntrefinfo{{Dahl, Luke }, {Herrera, Jorge } e {Wilkerson, Carr }}{{Dahl, Luke
+  }; {Herrera, Jorge }; {Wilkerson, Carr }}{2011}
+{{Dahl, Luke }; {Herrera, Jorge }; {Wilkerson, Carr }. {TweetDreams: Making
+  music with the audience and the world using real-time Twitter data}.
+\emph{Proceedings of the International Conference on NIME}, n.~June, p.
+  272--275, 2011.
+ISSN 22204806.
+Dispon{\'\i}vel em:
+  \url{http://www.nime2011.org/proceedings/papers/G16-Dahl.pdf}.}
 
 \bibitem[Delacroix 2009]{Delacroix2009}
 \abntrefinfo{Delacroix}{DELACROIX}{2009}
@@ -262,11 +293,6 @@ Dispon{\'\i}vel em: \url{http://www.nervoussquirrel.com/oramics.html}.}
   computer interfaces}.
 \emph{Proc. NIME}, IRCAM — Centre Pompidou, p. 277--282, 2006.
 Dispon{\'\i}vel em: \url{https://dl.acm.org/citation.cfm?id=1142283}.}
-
-\bibitem[{Donald E. Knuth} 1982]{knuth-meta-font_1982}
-\abntrefinfo{{Donald E. Knuth}}{{Donald E. Knuth}}{1982}
-{{Donald E. Knuth}. The {Concept} of {Meta}-{Font}.
-\emph{Visble Language}, XVI, p. 3--27, 1982.}
 
 \bibitem[Eco 1991]{Eco1991}
 \abntrefinfo{Eco}{ECO}{1991}
@@ -289,16 +315,6 @@ Dispon{\'\i}vel em: \url{https://www.youtube.com/watch?v=jFD2A8bX8TM}.}
 \emph{Contract}, v.~49, p.~80, 1962.
 Dispon{\'\i}vel em:
   \url{https://www.dougengelbart.org/pubs/augment-3906.html}.}
-
-\bibitem[{Fabiane Moraes Borges} e {Marc Etlin} 2010]{FabianeMoraesBorges2010}
-\abntrefinfo{{Fabiane Moraes Borges} e {Marc Etlin}}{{Fabiane Moraes Borges};
-  {Marc Etlin}}{2010}
-{{Fabiane Moraes Borges}; {Marc Etlin}. {Imers{\~{o}}es, reciclagens e
-  singularidades}.
-\emph{BIS. Boletim do Instituto de Saúde (Impresso)}, Instituto de Saúde,
-  v.~12, n.~1, p. 94--98, 2010.
-Dispon{\'\i}vel em:
-  \url{http://periodicos.ses.sp.bvs.br/scielo.php?script=sci{\\_}arttext{\&}pid=S1518-18122010000100017{\&}lng=en{\&}nrm}.}
 
 \bibitem[Fazekas, Barthet e Sandler 2014]{Fazekas:2014}
 \abntrefinfo{Fazekas, Barthet e Sandler}{FAZEKAS; BARTHET; SANDLER}{2014}
@@ -387,12 +403,12 @@ Dispon{\'\i}vel em:
 {GOTHELF, J. \emph{Lean UX: Applying lean principles to improve user
   experience}. [S.l.]: O'Reilly Media, Inc., 2013.}
 
-\bibitem[{Hayley Williams} 2015]{HayleyWilliams2015}
-\abntrefinfo{{Hayley Williams}}{{Hayley Williams}}{2015}
-{{Hayley Williams}. \emph{{Invisible Women: The Six Human Computers Behind The
-  ENIAC | Lifehacker Australia}}. 2015.
+\bibitem[{Halaby, Chris} 2011]{ChrisHalaby2011}
+\abntrefinfo{{Halaby, Chris}}{{Halaby, Chris}}{2011}
+{{Halaby, Chris}. \emph{{KVR: "It was 21 years ago today..." - How The First
+  Software DAW Came About}}. 2011.
 Dispon{\'\i}vel em:
-  \url{https://www.lifehacker.com.au/2015/11/invisible-women-the-six-human-computers-behind-the-eniac/}.}
+  \url{https://www.kvraudio.com/focus/it{\\_}was{\\_}21{\\_}years{\\_}ago{\\_}today{\\_}how{\\_}the{\\_}first{\\_}so}.}
 
 \bibitem[Hofstadter 1985]{Metamagical1986}
 \abntrefinfo{Hofstadter}{HOFSTADTER}{1985}
@@ -448,17 +464,6 @@ Dispon{\'\i}vel em: \url{https://www.jasondavies.com/wordcloud/}.}
   In:  \emph{WAC 2017}. [s.n.], 2017. Dispon{\'\i}vel em:
   \url{https://qmro.qmul.ac.uk/xmlui/handle/123456789/26146}.}
 
-\bibitem[{Joseph Paradiso} 1998]{JosephParadiso1998}
-\abntrefinfo{{Joseph Paradiso}}{{Joseph Paradiso}}{1998}
-{{Joseph Paradiso}. \emph{{Electronic Music Interfaces}}. 1998.
-Dispon{\'\i}vel em:
-  \url{https://web.archive.org/web/20150302082747/http://web.media.mit.edu/{~}joep/SpectrumWeb/SpectrumX.ht}.}
-
-\bibitem[{Julio Plaza} 1969]{JulioPlaza1969}
-\abntrefinfo{{Julio Plaza}}{{Julio Plaza}}{1969}
-{{Julio Plaza}. \emph{{Tradu{\c{c}}{\~{a}}o Intersemi{\'{o}}tica}}. S{\~{a}}o
-  Paulo: Perspectiva, 1969.}
-
 \bibitem[Kattwinkel 2003]{kattwinkel2003audience}
 \abntrefinfo{Kattwinkel}{KATTWINKEL}{2003}
 {KATTWINKEL, S. \emph{Audience participation: Essays on inclusion in
@@ -469,6 +474,11 @@ Dispon{\'\i}vel em:
 {KELLER, D. {Challenges for a second decade of ubimus research : Knowledge
   transfer in ubimus activities}.
 \emph{Revista M{\'{u}}sica Hodie}, v.~13, n.~1, p. 147--165, 2018.}
+
+\bibitem[{Knuth, Donald E.} 1982]{knuth-meta-font_1982}
+\abntrefinfo{{Knuth, Donald E.}}{{Knuth, Donald E.}}{1982}
+{{Knuth, Donald E.} The {Concept} of {Meta}-{Font}.
+\emph{Visble Language}, XVI, p. 3--27, 1982.}
 
 \bibitem[Koelsch 2014]{Koelsch:2014}
 \abntrefinfo{Koelsch}{KOELSCH}{2014}
@@ -542,17 +552,6 @@ Tese (Doutorado) --- Universidade de S{\~{a}}o Paulo, 2018.}
 {LUHAN, M. \emph{Marshall: Understanding Media--the extensions of man}. [S.l.]:
   Mc Graw Hill, New York, 1964.}
 
-\bibitem[{Luke Dahl}, {Jorge Herrera} e {Carr Wilkerson} 2011]{Dahl2011}
-\abntrefinfo{{Luke Dahl}, {Jorge Herrera} e {Carr Wilkerson}}{{Luke Dahl};
-  {Jorge Herrera}; {Carr Wilkerson}}{2011}
-{{Luke Dahl}; {Jorge Herrera}; {Carr Wilkerson}. {TweetDreams: Making music
-  with the audience and the world using real-time Twitter data}.
-\emph{Proceedings of the International Conference on NIME}, n.~June, p.
-  272--275, 2011.
-ISSN 22204806.
-Dispon{\'\i}vel em:
-  \url{http://www.nime2011.org/proceedings/papers/G16-Dahl.pdf}.}
-
 \bibitem[Madell e Muncer 2007]{Madell:2007}
 \abntrefinfo{Madell e Muncer}{MADELL; MUNCER}{2007}
 {MADELL, D. D.~E.; MUNCER, S.~J. Control over social interactions: An important
@@ -597,6 +596,23 @@ ISBN 026263189X.}
 {MERZ, E.~X. {Composing with All Sound Using the FreeSound and Wordnik APIs}.
 \emph{Musical Metacreation: AIIDE Workshop}, p. 83--90, 2013.}
 
+\bibitem[Miranda 2016]{Miranda2016}
+\abntrefinfo{Miranda}{MIRANDA}{2016}
+{MIRANDA, E.~R. {On the evolution of music in a society of self-taught digital
+  creatures}.
+\emph{Digital Creativity}, v.~6268, n. January, 2016.}
+
+\bibitem[Miranda 2018]{miranda2018artibiotics}
+\abntrefinfo{Miranda}{MIRANDA}{2018}
+{MIRANDA, E.~R. Artibiotics: An artificial biology musical experiment. In:
+  \emph{The Art of Antibiotics}. [S.l.]: Biofaction KG, 2018.}
+
+\bibitem[Miranda e Wanderley 2006]{Miranda2006}
+\abntrefinfo{Miranda e Wanderley}{MIRANDA; WANDERLEY}{2006}
+{MIRANDA, E.~R.; WANDERLEY, M.~M. \emph{{New Digital Musical Instruments:
+  Control And Interaction Beyond the Keyboard (Computer Music and Digital Audio
+  Series)}}. [S.l.: s.n.], 2006. 295~p.}
+
 \bibitem[Murphy 1991]{Murphy1991}
 \abntrefinfo{Murphy}{MURPHY}{1991}
 {MURPHY, M.~S. {Familiar Strangers: The Household Words of Gertrude Stein's
@@ -635,6 +651,18 @@ Dispon{\'\i}vel em: \url{http://www.jstor.org/stable/1208563?origin=crossref}.}
 {ORDIALES, H.; BRUNO, M.~L. {Sound recycling from public databases}. In:
   \emph{Proc. Audio Mostly}. [S.l.: s.n.], 2017.}
 
+\bibitem[{Paoli, Jessica Smetak} 2010]{JessicaSmetakPaoli2010}
+\abntrefinfo{{Paoli, Jessica Smetak}}{{Paoli, Jessica Smetak}}{2010}
+{{Paoli, Jessica Smetak}. \emph{{SMETAK, SOM E ESP{\'{I}}RITO}}. 2010.
+Dispon{\'\i}vel em:
+  \url{https://www.youtube.com/watch?v=KXH9I1qnLQI{\&}fbclid=IwAR2DeAvc3ZgyDY2QUl2TJ7eZDrK9QsuefUHkZ8uA1BoXhrO6vORFfyAg}.}
+
+\bibitem[{Paradiso, Joseph} 1998]{JosephParadiso1998}
+\abntrefinfo{{Paradiso, Joseph}}{{Paradiso, Joseph}}{1998}
+{{Paradiso, Joseph}. \emph{{Electronic Music Interfaces}}. 1998.
+Dispon{\'\i}vel em:
+  \url{https://web.archive.org/web/20150302082747/http://web.media.mit.edu/{~}joep/SpectrumWeb/SpectrumX.ht}.}
+
 \bibitem[Perloff 1996]{Perloff1996}
 \abntrefinfo{Perloff}{PERLOFF}{1996}
 {PERLOFF, M. {Grammar in Use: Wittgenstein / Gertrude Stein / Marinetti}.
@@ -643,12 +671,23 @@ Dispon{\'\i}vel em: \url{http://www.jstor.org/stable/1208563?origin=crossref}.}
 Dispon{\'\i}vel em:
   \url{https://www.jstor.org/stable/3190371?origin=crossref}.}
 
+\bibitem[{Plaza, Julio } 1969]{JulioPlaza1969}
+\abntrefinfo{{Plaza, Julio }}{{Plaza, Julio }}{1969}
+{{Plaza, Julio }. \emph{{Tradu{\c{c}}{\~{a}}o Intersemi{\'{o}}tica}}. S{\~{a}}o
+  Paulo: Perspectiva, 1969.}
+
 \bibitem[PMSP 2008]{PMSP2008}
 \abntrefinfo{PMSP}{PMSP}{2008}
 {PMSP. \emph{{CCJ realiza cursos em software livre - Portal da Prefeitura da
   Cidade de S{\~{a}}o Paulo}}. 2008.
 Dispon{\'\i}vel em:
   \url{http://www.prefeitura.sp.gov.br/cidade/secretarias/cultura/teatromunicipal/noticias/?p=3872}.}
+
+\bibitem[Poupyrev et al. 2001]{Poupyrev2001}
+\abntrefinfo{Poupyrev et al.}{POUPYREV et al.}{2001}
+{POUPYREV, I. et al. {New Interfaces for Musical Expression}.
+\emph{ACM Conference on Human Factors in Computing Systems (CHI)}, ACM, New
+  York, NY, USA, p.~491, 2001.}
 
 \bibitem[Puckette 2014]{PucketteMiller}
 \abntrefinfo{Puckette}{PUCKETTE}{2014}
@@ -846,6 +885,13 @@ Tese (Doutorado), 2004.}
 {WHITNEY, J. \emph{{Digital harmony : on the complementarity of music and
   visual art}}. [S.l.]: Byte Books, 1980. 235~p.
 ISBN 007070015X.}
+
+\bibitem[{Williams, Hayley} 2015]{HayleyWilliams2015}
+\abntrefinfo{{Williams, Hayley}}{{Williams, Hayley}}{2015}
+{{Williams, Hayley}. \emph{{Invisible Women: The Six Human Computers Behind The
+  ENIAC | Lifehacker Australia}}. 2015.
+Dispon{\'\i}vel em:
+  \url{https://www.lifehacker.com.au/2015/11/invisible-women-the-six-human-computers-behind-the-eniac/}.}
 
 \bibitem[Wilson et al. 2014]{Wilson2014}
 \abntrefinfo{Wilson et al.}{WILSON et al.}{2014}
