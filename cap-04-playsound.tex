@@ -32,9 +32,17 @@ No contexto de novas interfaces para produção musical uma série de abordagens
 
 
 \subsection{Re-aproveitamento de sons}
-A ideia de tocar com uma ``paleta de sons expandida'' tem sido explorada na música desde Luigi Russolo\footnote{\cite{Merz2013}} e especialmente depois da música concreta. A digitalização e a disponibilização de sons online potencializa essa ideia, como aponta Schnell:
+
+A ideia de tocar com uma ``paleta de sons expandida'' tem sido explorada na música desde Luigi Russolo\footnote{\cite{Merz2013}} e especialmente depois da música concreta. Em 1952, Pierre Schaeffer em carta para Pierre Boulez relata sobre a dificuldade de tocar música concreta com intrumentos tradicionais: 
+
 \begin{citacao}
-``In the age of digital sound databases and online music publishing services, the total disembodiment of digital sound turns into the promise of perpetual reincarnation of digital sounds through their permanent exchange and transformation."\footnote{\cite{Schnell2013}}
+There is no instrument to play concrete music. This is the biggest difficulty. Or else, it is necessary to imagine an enormous machine, of the cybernetic type, capable to perform millions of combinations, but we have not yet got there. So long as I have only two or three record players to realize approximative chains, I shall remain trapped in a discontinuous style where everything seemsto have been hacked out. Is there a compromise? (Scheffer, 1952 in Palombini \citeyear{Palombini1993})
+\end{citacao}
+
+Esse dispositivo que seria capaz de realiza múltiplas compinações hoje está acessível a uma parcela considerável da população. Somado isso à digitalização e a disponibilização de sons online potencializa essa ideia, como aponta Schnell:
+
+\begin{citacao}
+In the age of digital sound databases and online music publishing services, the total disembodiment of digital sound turns into the promise of perpetual reincarnation of digital sounds through their permanent exchange and transformation.\cite{Schnell2013}
 \end{citacao}
 
 Nos instrumentos que funcionam a base de amostras de sons (samplers), as potencialidades sonoras são ampliadas pela possibilidade de utilização de sons não-musicais, ou em outras escalas, mas são dependes de se ter acesso e conhecimento de uma biblioteca grande de sons. 
@@ -49,9 +57,11 @@ O músico Kutiman, no álbum \emph{Tru-you} \citeyear{Kutiman2010}, utiliza trec
 \end{figure}
 
 
-Localizar samples em tempo real durante uma improvisação musical pode ser desafiador\footnote{\cite{Xambo2018}}, principalmente porque a improvisação exige do musicista uma reação espontânea e instantânea em tempo real \footnote{\cite{canonne2011model}}. Isso exige que o performer conheça bem e previamente os sons de uma determinada coleção, o que se torna impraticável se a coleção de sons é muito grande. Para contornar este problema, os praticantes normalmente selecionam uma amostra reduzida de sons, o que acaba também por reduzir suas possibilidades criativas durante as performances.
+Localizar samples em tempo real durante uma improvisação musical pode ser desafiador\footnote{\cite{Xambo2018}}, principalmente porque a improvisação exige da musicista uma reação espontânea e instantânea em tempo real \footnote{\cite{canonne2011model}}. Isso exige que a performer conheça bem e previamente os sons de uma determinada coleção, o que se torna impraticável se a coleção de sons é muito grande. Para contornar este problema, praticantes normalmente selecionam uma amostra reduzida de sons, o que acaba também por reduzir suas possibilidades criativas durante as performances.
 
-A digitalização do som, em conjunto com tecnologias Web e bancos de dados de áudio digital abre muitas possibilidades criativas, que como Schnell aponta, pode levar à ``promessa de reencarnação perpétua de sons digitais através da sua permanente troca e transformação'' \footnote{\cite{Schnell2013}}. A utilização de amostras de sons pré-gravados é largamente empregada em uma série de tradições estéticas musicais como no emph{Hip Hop, Plunderphonics, Música Eletrônica, Música Concreta, composição de Paisagens Sonoras}. Bibliotecas online de áudio como Freesound.org, Redpanal.org, Sampleswap.org entre outras são utilizadas por compositores e produtores musicais de vários tipos de aplicações multimídia como cinema, publicidade, video games, e composições musicais \footnote{\cite{Roma2013}}. 
+%A digitalização do som, em conjunto com tecnologias Web e bancos de dados de áudio digital abre muitas possibilidades criativas, que como Schnell aponta, pode levar à ``promessa de reencarnação perpétua de sons digitais através da sua permanente troca e transformação'' \footnote{\cite{Schnell2013}}. 
+
+A utilização de amostras de sons pré-gravados é largamente empregada em uma série de tradições estéticas musicais como no emph{Hip Hop, Plunderphonics, Música Eletrônica, Música Concreta, composição de Paisagens Sonoras}. Bibliotecas online de áudio como Freesound.org, Redpanal.org, Sampleswap.org entre outras são utilizadas por compositores e produtores musicais de vários tipos de aplicações multimídia como cinema, publicidade, video games, e composições musicais \footnote{\cite{Roma2013}}. 
 
 Alguns projetos desenvolvidos recentemente têm também esse norte como paradigma. O projeto API Cultor, por exemplo \footnote{\cite{Ordiales2017}} usa técnicas de \emph{machine learning} para prover um ambiente para re-utilização de sons de blibliotecas online. Lee et al. propõe uma ferramenta para \emph{live coding} com a API do Youtube para improvisação livre \footnote{\cite{Lee}}. Ao prover acesso a seu banco de dados por uma REST API \footnote{\cite{Akkermans2011}}, o site Freesound.org permite que musicistas e designers criem aplicativos que explorem seu conteúdo online para utilização ao vivo. BeatPush \footnote{\cite{Feenstra2016}}, é um exemplo de sequenciador usando esta API e o Freesound Explorer \footnote{\cite{Font2016}}, por exemplo, organiza os sons em uma configuração espacial por similaridade e usa cores para representar aspectos timbrais, no entanto, é uma aplicação mais voltada para navegação e exploração do que para tocar em tempo real, e não permite que os usuários selecionem sons a partir de buscas múltiplas. 
 Arne Eingenfeld, do Metacration Lab usa o Freesound como base para produzir música generativa a partir de algoritmos computacionais na peça Coming Together - Freesound\footnote{Vídeo da peça pode ser visto em: \url{https://www.youtube.com/watch?v=jFD2A8bX8TM}}
@@ -63,17 +73,16 @@ An autonomous soundscape composition created by four autonomous artificial agent
 Entre diversos serviços que provém conteúdo sonoro online, uma imensa gama de sons musicais e não musicais são oferecidos pelo Audio Commons Ecossystem \footnote{\cite{Font2015}}. A ideia no desenvolvimento do Playsound era de ser uma tentativa de contornar essas questões, promovendo o acesso a esses sons em tempo real através da API do Freesound \footnote{\cite{Akkermans2011}}, oferecendo feedback visual através de espectrográficos, de uma forma que pudesse ser tocada sem um grid de tempo fixo e por usuários sem domínio de técnicas musicais.
 
 
-
-
-
-Freesound Radio
-
-
-
-
 \subsection{Motivações}
 
-Compor a partir de espectrogramas era uma idéia que acompanhava meu trabalho já faz algum tempo. Em 2011 publiquei um trabalho chamado UTOPIA (Figura \ref{utopia}), onde desenhava a palavra utopia através de síntese subtrativa sobre uma gravação feita de uma serra de fita em funcionamento, que era uma amostra bastante saturada. Essa idéia também voltou outras vezes no meu trabalho, na composição da peça Bandas Críticas e no processo de composição de sons para o Banda Aberta. Quando começamos a publicar os primeiros artigos a respeito do projeto Banda Aberta comecei a buscar ferramentas para conseguir imprimir os conjuntos de samples (ver figuras \ref{samplesgalaxias}, \ref{samplespercussao}, \ref{samplescolab} e \ref{samplesorquestra}) e não consegui encontrar nenhuma ferramenta pronta que pudesse gerar espectrogramas de um conjunto grande de sons que fosse acessível, então para gerar essas imagens, bem como os sites que reúnem os samples do projeto, precisamos desenvolver uma ferramenta própria, que chamamos de spectrogram player, que foi o esboço de um player para tocar a partir de espectrogramas, em JavaScript e HTML \footnote{A ferramenta foi desenvolvida em código aberto e está disponível no endereço: \url{https://github.com/arianestolfi/spectrogramplayer}}. Quando comecei a desenvolver este novo projeto, descobri que a API do Freesound já fornecia os espectrogramas dos sons de sua biblioteca, o que era muito conveniente para o projeto, já que diminui o tempo necessário para a análise via FFT que poderia gerar os espectrogramas em tempo real. Além disso, ao oferecer os espectrogramas como imagens, a API do Freesound permite realizar a pesquisa sonora sem a necessidade de baixar os sons toda vez no computador do usuário.
+Compor a partir de espectrogramas era uma ideia que acompanhava meu trabalho já faz algum tempo. Em 2011 publiquei um trabalho chamado UTOPIA (Figura \ref{utopia}), onde desenhava a palavra utopia através de síntese subtrativa sobre uma gravação feita de uma serra de fita em funcionamento, que era uma amostra bastante saturada. Essa ideia também voltou outras vezes no meu trabalho, na composição da peça Bandas Críticas e no processo de composição de sons para o Banda Aberta. 
+
+Espectrogramas (ou sonogramas) são imagens geradas a partir da análise do som por um algoritmo chamado de \emph{Fast Fourier Transform} (FFT), que decompõe as frequências formantes de ondas complexas\footnote{\cite[55]{Roads}}. Diferente da representação da forma de onda, que é a mais comum em softwares de edição de áudio eletrônico, e é uma representação bi-dimensional, onde estão representadas intensidade e tempo de um som, os espectrogramas trazem uma representação que ``incorpora todas as três dimensões do som'' \footnote{\cite{Schafer2011}}, intensidade, frequência e tempo. 
+
+
+Quando começamos a publicar os primeiros artigos a respeito do projeto Banda Aberta comecei a buscar ferramentas para conseguir imprimir os conjuntos de samples (ver figuras \ref{samplesgalaxias}, \ref{samplespercussao}, \ref{samplescolab} e \ref{samplesorquestra}) e não consegui encontrar nenhuma ferramenta pronta que pudesse gerar espectrogramas de um conjunto grande de sons que fosse acessível. Então, para gerar essas imagens, bem como os sites que reúnem os samples do projeto Banda Aberta, tivemos que desenvolver uma ferramenta própria, que chamamos de ``Spectrogram player'', que foi o esboço de um player para tocar a partir de espectrogramas, em JavaScript e HTML \footnote{A ferramenta foi desenvolvida em código aberto e está disponível no endereço: \url{https://github.com/arianestolfi/spectrogramplayer}}. 
+
+Quando comecei a desenvolver este novo projeto, descobri que a API do Freesound\footnote{\cite{Akkermans2011}} já fornecia os espectrogramas dos sons de sua biblioteca em forma de imagens, o que era muito conveniente para o projeto, já que diminui o tempo necessário para a análise via FFT que poderia gerar os espectrogramas em tempo real. Além disso, ao oferecer os espectrogramas como imagens, a API do Freesound permite realizar a pesquisa sonora sem a necessidade de baixar os sons toda vez no computador do usuário.
 
 \begin{figure}
 \includegraphics[width=1\textwidth]{pictures/cap4/utopia}

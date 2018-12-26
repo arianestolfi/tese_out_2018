@@ -7,7 +7,7 @@
 
 
 \section{Primeiros Experimentos}
-Partindo desta pesquisa inicial, procurei desenvolver alguns experimentos musicais iniciais.  Por um lado, tinham as tecnologias de programação, que estavam surgindo naquele momento, mas também havia um repertório e teorias da música que se colocavam com meu ingresso no Doutorado. Esses primeiros estudos que eram projetos bastante simples, foram importantes como exercícios estéticos e para começar um aprendizado dessas novas tecnologias.
+Partindo desta pesquisa inicial, procurei começar a desenvolver de fato alguns experimentos práticos voltados à música.  De um lado, tinham as tecnologias de programação, que estavam surgindo naquele momento, mas também havia um repertório e teorias da música que se colocavam com meu ingresso no Doutorado. Esses primeiros estudos que eram projetos bastante simples, foram importantes como exercícios estéticos e para começar um aprendizado dessas novas tecnologias.
 
 
 \subsection{Bandas Críticas}
@@ -585,13 +585,13 @@ Situação & Co-locada & \\
 
 \subsubsection{Resultados}
 
-O software não registrava o endereço IP dos usuários, mas funcionava atrás de mensagens que eram enviadas ao servidor, que ficam registradas em um arquivo na raiz do servidor. No código abaixo está um pequeno extrato das mensagens registradas no servidor. 
+O sistema não registrava o endereço IP dos usuários. Funcionava atrás de mensagens que eram enviadas ao servidor. %Essas mensagens ficaram registradas em um arquivo na raiz do servidor. No código abaixo está um pequeno extrato das mensagens registradas no servidor. 
 
 
 \todo[inline]{trecho de mensagens}
 
 
-Para o tratamento dos dados brutos, utilizamos um script em Python para extrair o conteúdo textual das mensagens de cada performance. Nossa primeira abordagem em relação aos dados gerados pela performance foi o de gerar nuvens de tags a partir dos dados das mensagens. Em seguida, fizemos uma análise temática \footnote{\cite{Braun2006}} para identificar temas e tópicos recorrentes durante as performances que apresentamos na seção \ref{}. O processo de análise temática envolve a ``codificação'' do texto em temas comuns, e para isso, construímos tabelas em excel com listas de cada performance onde marcamos os códigos correspondentes a cada mensagem. Os resultados dessa análise temática será apresentado mais adiante na seção \ref{sec:thematic}. 
+Para tratar os dados brutos, utilizamos um script em Python que extraiu o conteúdo textual das mensagens de cada performance. Nossa primeira abordagem em relação aos dados gerados pela performance foi o de gerar nuvens de tags a partir dos dados das mensagens. Essas nuvens de tags apontaram temas para analizarmos as mensagens. Em seguida, fizemos uma análise temática \footnote{\cite{Braun2006}} para identificar temas e tópicos recorrentes durante as performances. O processo de análise temática envolve a ``codificação'' do texto em temas comuns, e para isso, construímos tabelas em excel com listas de mensagens de cada performance onde marcamos os códigos correspondentes a elas. Os resultados dessa análise temática será apresentado mais adiante na seção \ref{sec:thematic}. 
 
 %We analyzed the server message logs using descriptive statistics and generated tag clouds related to each performance \footnote{Log data is formatted to send only the text and info about the type of message. A new message typed is stored as: [:message, "\{\textbackslash''text\textbackslash":\textbackslash''BASS\textbackslash",\textbackslash''touch\textbackslash":0\}'']; and a message clicked on the screen is stored as: [:message, "\{\textbackslash''text\textbackslash":\textbackslash''Som\textbackslash",\textbackslash''touch\textbackslash":1\}''].}. We then conducted a thematic analysis \cite{Braun2006} to identify recurring themes and topics during the performances.%We sorted and parsed the messages to extract semantic metadata information and analyzed the textual parts.
 
@@ -614,16 +614,16 @@ Como o anonimato era importante dentro da proposta do projeto, nós não guardam
 \label{tab:overallmsg}
 \end{table}
 
-A Tabela \ref{tab:overallmsg} mostra o número total de mensagens (7322) enviadas pelo chat em todas as performances. No total, houveram 865 sessões únicas que acessaram o sistema, esse número pode corresponder a mais de uma sessão por usuário. Baseado no registro dos ID das sessões, não é possível calcular o número total de usuários, mas somente o número de pessoas utilizando o sistema simultaneamente, que chegou a 31.
+A Tabela \ref{tab:overallmsg} mostra o número total de mensagens (7322) enviadas pelo chat em todas as performances analisadas. No total, houveram 865 sessões únicas que acessaram o sistema, esse número pode corresponder a mais de uma sessão por usuário. Baseado no registro dos ID das sessões, não é possível calcular o número total de usuários, mas somente o número de pessoas utilizando o sistema simultaneamente, que chegou a 31.
 
 %Table  shows the overall number of messages (7322) sent through the chat system across all four performances. In total, there were 865 unique web sessions that accessed the Open Band application. It is not possible to infer the number of participants from the number of sessions as users may have used several sessions during a same performance with different IP addresses. Based on the number of IP addresses allocated to users by the router, the maximum number of simultaneous users in the performances reached 31.
 
-O sistema de mensagem do projeto permite dois tipos de interação dos usuários, eles podem tanto digitar um texto e mandá-lo para o servidor, fazendo com que a mensagem chegue para os demais usuários e apareça escrito no site, ou então apenas repetir um determinado som, clicando nas mensagens já enviadas. A tabela \ref{tab:msgtype} registra o número de mensagens de cada tipo entre as performances. A duração e o número de participantes difere em cada performance, o que ajuda a explicar as diferenças na frequência de mensagens.
+O sistema de mensagem do projeto permite dois tipos de interação dos usuários, eles podem tanto digitar um texto e mandar para o servidor, fazendo com que a mensagem chegue para os demais usuários e apareça escrito no site, ou então apenas repetir um determinado som, clicando nas mensagens já enviadas. A tabela \ref{tab:msgtype} registra o número de mensagens de cada tipo entre as performances. A duração e o número de participantes difere em cada performance, o que ajuda a explicar as diferenças na frequência de mensagens.
 
 %The messaging process in Open Band can be twofold, either new content is written and sent to the server, or previously written messages are repeated. The latter can be done by tapping on a specific message on the mobile phone interface. Repeating a message re-triggers the sounds generated by the message. Table \ref{tab:msgtype} reports the number of messages from each type across performances. As the duration and number of participants differed in each performance, these count amongst the factors explaining the differences message frequency. 
 
 \begin{table}[ht!]
-\tabcolsep6.1pt
+\tabcolsep8.1pt
 %\tbl{General data about the performances}{%
 \caption{Número de mensagens escritas e repetidas em cada performance}{%
 \begin{tabular}{@{}lccccc@{}}
@@ -638,7 +638,7 @@ Total &             2399&   1411 &  1892 & 1620 & 7322 \\
 \end{table}
 
 
-Todas performances aconteceram no Brasil, portanto a maior parte das mensagens foi escrita em português. Antes de fazer a análise temática das mensagens, fizemos uma análise computacional utilizando técnicas de processamento de linguagem natural com auxílio de scripts em Python\footnote{http://www.nltk.org/}. 
+Todas performances aconteceram no Brasil, logo, a maior parte das mensagens foi escrita em português. Antes de fazer a análise temática das mensagens, fizemos uma análise computacional utilizando técnicas de processamento de linguagem natural com auxílio de scripts em Python\footnote{http://www.nltk.org/}. 
 
 A Tabela \ref{tab:words} relata o número de \emph{tokens} \footnote{Um token é uma instância de uma sequência de caracteres.} de cada performance. Nós descobrimos que apenas uma pequena quantidade desses tokens (variando de 20 a 30\% em cada performance) podia ser encontrado no dicionário que utilizamos para comparação\footnote{Utilizamos o Hunspell Dictionary, disponível em: \url{http://hunspell.github.io/}.}. A partir desta constatação inicial, prosseguimos para uma análise temática das mensagens para uma compreensão melhor do conteúdo das mesmas.
 
@@ -740,7 +740,7 @@ O gráfico representado na Figura \ref{donut} mostra a proporção de mensagens 
 
  %the proportion of the messages in each of the identified themes considering all the performances on average. Overall we can see that messages containing a single character is the most dominating theme. We can note that the audience had different behaviors in respect of the proportion of themes used during the performances. For example, much more exploring "single character'' messages in p1 and less in p3, and much more use of "code'' in p3.  
 
-Depois de categorizar as mensagens em temas de acordo com suas funções linguísticas, fizemos uma nova análise temática, desta vez procurando buscar mais especificamente mensagens de suporte ou crítica, e também com a tentativa de perceber diferenças de comportamentos entre os diferentes conjuntos de samples. A figura \ref{subj} mostra a distribuição de temas subjetivos pelas performances. Nós identificamos os seguintes temas\footnote{Os temas não são exclsivos, podendo ser aplicados a mais de uma menagem, número total de mensagens entre parêntesis}: sem sentido (1989), slogans (180), questões (73), bullying (77), imperativo (99), auto-presença (81), reclamações (89), amor (84), humor (284), música (174), satisfação (518), e teste/condução (237). Exemplos incluem slogans (e.g. ``Do it"), amor (e.g. ``Paz e amor"), expressões de auto-presença (e.g.``Estou online"), referencias a outros músicos (``Lady gaga") e programas de TV (``Winter is coming" referência à série Game of Thrones), questões (``tem alguém aí?"). 
+Depois de categorizar as mensagens em temas de acordo com suas funções linguísticas, fizemos uma nova análise temática, desta vez procurando buscar mais especificamente mensagens de suporte ou crítica, e também com a tentativa de perceber diferenças de comportamentos entre os diferentes conjuntos de samples. A figura \ref{subj} mostra a distribuição de temas subjetivos pelas performances. Nós identificamos os seguintes temas\footnote{Os temas não são exclsivos, podendo ser aplicados a mais de uma menagem, número total de mensagens entre parêntesis}: sem sentido (1989), slogans (180), questões (73), bullying (77), imperativas (99), presença própria (81), reclamações (89), amor (84), humor (284), música (174), satisfação (518) e teste/condução (237). Exemplos incluem slogans (e.g. ``Do it"), amor (e.g. ``Paz e amor"), expressões de auto-presença (e.g.``Estou online"), referencias a outros músicos (``Lady gaga") e programas de TV (``Winter is coming" referência à série Game of Thrones), questões (``tem alguém aí?"). 
 
 %After categorizing the messages into functional themes, we further analyzed their content to search for differences in expressions of support from the audience and how the sample packs affected the nature of the messages. We identified  the following (non exclusive) themes (total number of messages reported in brackets): senseless (1989), slogan (180), questioning (73), bullying (77), commanding (99), self-presence (81), complaining (89), love (84), humor (284), music (174), satisfaction (518), and testing/conduction (237). Examples include slogans (e.g. ``Do it"), love (e.g. ``Paz e amor": `` Peace and love"), expressions of self-presence (e.g.``I'm online"), references to musicians (``Lady gaga") and TV shows (``Winter is coming" referring to the Game of Thrones series), questions (``Is there anybody out there?"). %Some out of context copy/pasted text also appeared on the logs now and then.
 
