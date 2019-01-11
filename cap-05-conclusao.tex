@@ -18,139 +18,195 @@ Oswald de Andrade – Manifesto Pau Brasil
 %}\end{quote}
 % Inicio este capítulo aprofundando um percurso sugerido por Théberge...
 
-O desenvolvimento dessa pesquisa trouxe algumas respostas para nossas indagações iniciais. Mostrou que sim, é possível pensar novas formas de interface que permitam o acesso de pessoas não virtuosas em situações de práticas musical. Também confirmou nossa hipótese de que as tecnologias de sistemas web são viáveis para a construção de interfaces experimentais, como as que desenvolvemos. E trouxe algumas questões e indagações, que também apontam para desenvolvimentos futuros: Porque fazer? e o que fazer? São questões que não têm uma responta exata, mas que ficam apontadas para uma pesquisa que não se encerra com essa tese.
+O desenvolvimento dessa pesquisa trouxe algumas respostas para nossas indagações iniciais. Mostrou que sim, é possível pensar novas formas de interface que permitam o acesso de pessoas não virtuosas em situações de práticas musical. Também confirmou nossa hipótese de que as tecnologias de sistemas web são viáveis para a construção de interfaces experimentais, como as que desenvolvemos. E trouxe algumas questões e indagações, que também apontam para desenvolvimentos futuros: Porque fazer? e o que fazer? São questões que não têm uma resposta exata, mas que ficam apontadas para uma pesquisa que não se encerra com essa tese.
+
+
+\section{O que fazer?}
+
+Um instrumento musical é um meio de comunicação. As novas tecnologias podem vir a transformar a música como as mídias digitais transformaram as comuniçãções humanas. O maior desejo de continuidade desta pesquisa é de desenvolver o Playsound para ampliar suas potencialidades de comunicação. A idéia é chegar em algo que sintetize os porjetos Banda Aberta de alguma forma, oferencendo um ambiente de comunicação e tocar colaborativo de forma a possibilitar a interação entre pessoas em um ambiente virtual. Essa direção, que é uma das mais excitantes, é também a mais complexa e custosa em termos de recursos humanos e conhecimentos necessários.
+
+Nos últimos meses, tivemos a colaboração do programador Sasha Rudin para desenvolver uma nova versão do Playsound que permitiria essa funcionalidade desejada. Sua abordagem no entanto, foi de tentar reescrever o programa do zero, o que descartou todos desenvolvimentos que fizemos na interface. Talvez por falta de intimidade com a prática musical, foram descartados recursos importantes de processamento e edição de som em tempo real, e a ênfase foi dada em recuperar sons de outras fontes parceiras do projeto AC. Não ficamos satisfeitas com a velocidade, as fucionalidades e nem com a aparência do sistema desenvolvido por ele, o que nos levou a abandonar essa versão nova e voltar para o desenvolvimento da versão atual. 
+
+Cage fala de um processo de composição através do fluxo ``uma das formas de compor é examinar o que você está fazendo e e ver se ainda funciona se acrescentar algo mais Apenas examine novamente e veja como continua''\cite{Cage2015}. Aqui, também nosso processo se deu dessa forma. As vezes, no desenvolvimento do projeto exploramos diversas direções de para onde ir e chegamos à conclusão de que não eram interessantes, ou que não tínhamos recursos disponíveis para sua realização. Isso aconteceu por exemplo com essa versão nova, e aconteceu também com a colaboração do pesquisador Fábio Viola, que trabalhou por um tempo também em um sistema de recomendações automáticas para a ferramenta\footnote{\cite{Viola2018}}, quando percebemos que os recursos incuídos estavam deixando mais complexa. Puckette \citeyear{PucketteMiller}, aponta que ``complexidade não é sinônimo de poder expressivo'' e que as pessoas querem ``ter o maior poder expressivo, da maiera mais simples possível''. Nesses dois momentos mencionados, tivemos que voltar atrás também ao perceber que estávamos ampliando o nível de complexidade, mas prejudicando o poder expressivo da ferramenta.
+
+Também pensamos em uma série de recursos que poderiam ser implementados em versões futuras, como incluir a possibilidade de sequenciamento de sons em grade, ou criar sequências de sons, incluir filtros mais complexos. A possibilidade de incluir silêncio depois dos loops é uma que permitiria construir estruturas mais ricas em variação dinâmica. Automatização de processos como criação de crossfades ou variações de loops, poderíam também ser incluídos, mas será necessário um trabalho intensivo de design de interface para conseguir incluir esses recursos sem dificultar o uso da ferramenta como um todo. O mesmo podemos dizer de incluir também mecanismos de síntese sonora na plataforma: poderia ser interessante para ampliar a riqueza de sons produzidos, mas também surgem questões de como incluir isso sem reproduzir novamente parâmetros de tonalidade impostas pela música tradicional, e de como disparar esses sons sem fazer novamente a mimese do piano no computador.
+
+Analizando as faixas produzidas utilizando playsound, percebemos que existe uma certa tendência à saturação sonora, porque atualmente a interface só permite cortar e repetir trechos de um áudio. Idealmente, para permitir maiores possibilidades de composição pensamos em incluir a possibilidade de adicionar intervalos de silêncio entre as faixas. Isso também premitiria sincronizar diferentes trechos de loop, com a formatação de loops de uma mesma duração ou durações múltiplas entre si.
+
+Outra possibilidade interessante seria criar uma forma de dar vazão às produções feitas com o uso da ferramenta, criando uma espécie de rádio ou repositório de faixas produzidas pelo Playsound. Também pensamos em incluir outras fontes de dados inclusive de fora do ambiente AC, como sons próprios autorais ou o prórpio Youtube.
+
+Da nossa prática com o instrumento, percebemos também que apesar de ser acessível, e tocável sem a necessidade de um virtuosismo do gesto musical, a complexidade de sons e de processamento ofertada pelo sistema até permite que se desenvolva uma virtuosidade no uso da ferramenta, que leva em conta também a capacidade de ler espectrogramas e de compreender os sons mas também um conhecimento sobre os sons disponibiliados pela ferramenta e de como pesquisar utilizando o sistema. O fato de qualquer um conseguir usar o sistema não significa que qualquer um seja capaz de produzir um som agradável ou desejável com ele, e isso vai depender também da habilidade do músicista. 
+
+No momento atual, o Playsound não é um produto, ele se encontra atualmente hospedado na plataforma Heroku\footnote{\url{Heroku.com}}, que oferece hospedagem gratuita para projetos web. Isso limita o número de usuários permitidos simultaneamente no sistema, então para garantir que esteja sempre funcionando, o ideal é manter uma versão instalada em um servidor local no computador. De agora em diante, teremos também que pensar na sustentabilidade do sistema, para garantir recursos para colocar o projeto em um servidor dedicado, e também para o desenvolvimento futuro da ferramenta. 
+
+
+
+%Complexity is not the same thing as expressive power. One wants one’s software to have the greatest expressive power possible, in the simplest possible way. \cite{PucketteMiller}
+%Além disso surgiram muitas idéias de desenvolvimento também das capacidades de processamento musical da ferramenta
+
+
+
+
 
 
 \section{Porque fazer?}
 
-
-``No momento em que todos tivessem acesso à Internet, a democracia participativa e a criatividade cooperativa seriam a ordem do dia. Entretanto'' \cite[360]{Barbrook2009}
-
-
-Sobre a Gambiarra:
+Desde que a web foi criada, como um sistema de compartilhamento de informações entre computadores em rede, ela já mudou bastante, No princípio, muitos acreditaram que a web seria uma ferramenta capaz de trazer a ``democracia participativa e a criatividade cooperativa''\footnote{\cite[360]{Barbrook2009}}, como aponta Barbrook \citeyear{barbrook2009}:
 
 \begin{citacao}
-Sua prática é uma ação que não parte de um projeto (design). Em geral emerge em contextos precários – em relação a recursos, materiais, ferramentas limitadas ou inexistentes – e é uma solução técnica que não se preocupa necessariamente com a solução bem-acabada. Pela falta de projeto, o improviso configura-se como uma ação empírica e informal, às vezes com uma postura oposta ao saber formal e teorizado, porém não necessariamente contrária, porque seria possível falar em gambiarra num contexto do saber formal e técnico. \cite[7]{Obici2014}
-\end{citacao}
+Todos os sonhos de democracia participativa e criatividade cooperativa seriam realizados dentro da aldeia global por vir. Em estágios iniciais da modernidade, esses princípios libertários foram somente parcialmente realizados. Felizmente, uma vez que estivessem conectados à Internet, todos – inclusive os descendentes dos escravos – desfrutariam dos benefícios da democracia da alta tecnologia jeffersoniana.
+\end{citacao}\cite[365]{Barbrook2009}
+
+Mas o que temos visto acontecer na verdade é quase o contrário. Novas coorporações surgiram para estabelecer monopólios e concentração de dados, como é o caso das redes sociais. A indústria cultural hoje controla por meio de algoritmos obscuros o que se vê, o que se pode falar, o que se pode mostrar, e analisa dados da população em escala global, sempre com a desculpa de oferecer melhores e mais direcionados anúncios publicitários, ou nas palavras de Barbrook: ``graças ao panóptico em rede, a elite corporativa era agora capaz de controlar suas vidas muito mais detalhadamente do que no passado fordista''\footnote{\cite[345]{Barbrook2009}}. Em ``Educação como prática da liberdade'' pedagogo Paulo Freire nota o caráter nocivo dessa nivelação, que já era praticado pela indústria cultural mesmo antes da internet:
 
 
-
+%\begin{citacao}
+%Dos sistemas de câmeras de vigilância aos programas de monitoramento de mensagens eletrônicas, o governo dos Estados Unidos e seus aliados sistematicamente adquiriam as ferramentas para uma vigilância constante de toda a população global. No setor privado, as tecnologias da informação similarmente revitalizaram as hierarquias tayloristas. (...) graças ao panóptico em rede, a elite corporativa era agora capaz de controlar suas vidas muito mais detalhadamente do que no passado fordista. O tecno-coletivismo do mcluhanismo metamorfoseou-se no tecno-autoritarismo da consultoria gerencial de McKinsey. 
+%\end{citacao}
 
 
 \begin{citacao}
-O hacker usa seu computador como meio de fazer dinheiro, mas, além disso, ele usa o computador em si como entretenimento. Foi assim que o Linux surgiu, na fusão do entretenimento e o trabalho.
-Vale dizer que tal entretenimento, apontado como uma forma de escapar dos aspectos alienantes do trabalho pode, por outro lado, funcionar também como modo de alimentar a força produtiva da dimensão miserável do trabalho, considerado como valor E (valor de entretenimento). A própria dinâmica de produção que se dá pelo desejo e consumo tende a não separar o lugar do trabalho e do entretenimento, implicando num contínuo estado de cooptação da força produtiva que implica no engajamento lúdico e pessoal como uma nova ética e valor nas relações do trabalho contemporâneo. \cite[24]{Obici2014}
-\end{citacao}
+Uma das grandes, senão a maior, tragédia do homem moderno está em que é hoje dominado pela força dos mitos e comandado pela publicidade organizada, ideológica ou não, e por isso vem renunciando cada vez, sem o saber, à sua capacidade de decidir. Vem sendo expluso da órbita das decisões. As tarefas do seu tempo não são capatadas pelo homem simples, mas a eles apresentadas por uma ``elite" que as interpreta e as entrega em forma de receita, de prescrição a ser seguida. E, quando julga que se salva seguindo as prescrições, afoga-se no anonimato nivelador da massificação, sem esperança e sem fé, domesticado e acomodado: já não é sujeito. Rebaixa-se a puro objeto. Coisifica-se. \cite[60]{Freire2015}
+\end{citacao} 
+
+
+As eleições de 2018 provaram o potencial destruidor dos novos meios de comunicação, esse sujeito objeto massificado, impulsionado pela era da pós-verdade, em ambientes completamente controlados por algoritmos que não se sabe o que e quem controlam. Contra essa massificação que nos é imposta, Freire \citeyear{Freire2015} aponta a necessidade de se pensar novos processos pedagógicos que formem sujeitos capazes de criar e recriar as suas próprias realidades:
+
+\begin{citacao}
+A partir das relações do homem com a realidade, resultantes de estar com ela e de estar nela, pelos atos de criação, recriação e decisão, vai ele dinamizando o seu mundo. Vai dominando a realidade. Vai humanizando-a. Vai acrescentando a ela algo de que ele mesmo é o fazedor. Vai temporalizando os espaços geográficos. Faz Cultura. E é ainda o jogo destas relações do homem com o mundo e do mundo e do homem com os homens, desafiado e respondendo ao desafio, alterando, criando, que não permite a imobilidade, a não ser em termos de relativa preponderância, nem das sociedades nem das culturas. E, à medida que cria, recria e decide, vão se conformando as épocas históricas. É também criando, recriando e decidindo o que o homem deve participar destas épocas. \cite[60]{Freire2015}
+\end{citacao} 
+
+
+%``No momento em que todos tivessem acesso à Internet, a democracia participativa e a criatividade cooperativa seriam a ordem do dia. Entretanto'' 
+
+
+Ao decidir seguir a carreira de professora, de ter um compromisso com a educação e as potências que emanam dessas relações, nos obriga também a pensar em desenhar novas ferramentas que também possam fomentar processos de prática musical mais inclusivas. Tive felizmente, no final deste processo a oportunidade de lecionar e utilizar ferramentas desenvolvidas nessa pesquisa em aulas. Pude também exercitar de maneira livre uma prática de design, na busca de construir ferramentas que são objetos técnicos mas também exercícios estéticos, ao propor formas novas de interação musical. 
+
+
+
+Se o desejo partiu de uma necessidade própria, os resultados mostraram que alguns dos exercícios desenvolvidos servem para além disso. Ao procurar resolver problemas de nossa própria prática musical, chegamos no Playsound, que também é uma ferramenta aberta e acessível para qualquer pessoa através da web, que possibilita também uma exeriência de ``tocar sem saber tocar'', ao oferecer acesso aos sons por meio de conceitos semânticos e textuais. Com isso, nos inserimos no campo de pesquisa da música ubíquia, que tem como norte esse propósito de desenvolver ferramentas acessíveis e portáveis. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+%Sobre a Gambiarra:
+
+%\begin{citacao}
+%Sua prática é uma ação que não parte de um projeto (design). Em geral emerge em contextos precários – em relação a recursos, materiais, ferramentas limitadas ou inexistentes – e é uma solução técnica que não se preocupa necessariamente com a solução bem-acabada. Pela falta de projeto, o improviso configura-se como uma ação empírica e informal, às vezes com uma postura oposta ao saber formal e teorizado, porém não necessariamente contrária, porque seria possível falar em gambiarra num contexto do saber formal e técnico. \cite[7]{Obici2014}
+%\end{citacao}
+
+
+
+
+
+%\begin{citacao}
+%O hacker usa seu computador como meio de fazer dinheiro, mas, além disso, ele usa o computador em si como entretenimento. Foi assim que o Linux surgiu, na fusão do entretenimento e o trabalho.
+%Vale dizer que tal entretenimento, apontado como uma forma de escapar dos aspectos alienantes do trabalho pode, por outro lado, funcionar também como modo de alimentar a força produtiva da dimensão miserável do trabalho, considerado como valor E (valor de entretenimento). A própria dinâmica de produção que se dá pelo desejo e consumo tende a não separar o lugar do trabalho e do entretenimento, implicando num contínuo estado de cooptação da força produtiva que implica no engajamento lúdico e pessoal como uma nova ética e valor nas relações do trabalho contemporâneo. \cite[24]{Obici2014}
+%\end{citacao}
 
 %Nos amparamos um tanto pela a ética do hacker, no sentido que aponta Giuliano Obici, tendo ``a paixão pelo fazer como uma busca exploratória'' que ``que se fundamentam pela liberdade, criatividade aberta ao jogo e à experimentação''\cite[366]{Obici2014}, mas também um pouco tanto de \emph{bricoleur}, que segundo ele:
 
 %Ao mesmo tempo, o  se difere do engenheiro por seu conjunto de meios não se basear em um projeto, seguindo o princípio de que “algo sempre pode servir para algo”, sua instrumentalidade parte de elementos recolhidos e/ou achados. Sem um planejamento preconcebido, afastado dos processos e normas adotados pelo pensamento técnico instrumental, o bricoleur se vale de materiais fragmentários pré-elaborados.
 
 
-Complexity is not the same thing as expressive power. One wants one’s software to have the greatest expressive power possible, in the simplest possible way. \cite{PucketteMiller}
 
 
-[...] já não é suficiente seguir o senso comum de que a dimensão de aparência ``estética'' não-funcional é sempre suplementar da utilidade funcional básica de um instrumento; é na verdade, o sentido contrário: a dimensão de aparência estética não funcional dos objetos produzidos é primordial, e sua eventual utilidade vem em seguida, i. e., ela tem o status de um sub-produto, de algo que parasita a função básica. Em outras palavras, a definição atual de homem não deve ser mais o homem como animal que fabrica ferramentas: O HOMEM É O ANIMAL QUE DESENHA SUAS FERRAMENTAS. (ZIZEK, 2006, tradução nossa)
+%[...] já não é suficiente seguir o senso comum de que a dimensão de aparência ``estética'' não-funcional é sempre suplementar da utilidade funcional básica de um instrumento; é na verdade, o sentido contrário: a dimensão de aparência estética não funcional dos objetos produzidos é primordial, e sua eventual utilidade vem em seguida, i. e., ela tem o status de um sub-produto, de algo que parasita a função básica. Em outras palavras, a definição atual de homem não deve ser mais o homem como animal que fabrica ferramentas: O HOMEM É O ANIMAL QUE DESENHA SUAS FERRAMENTAS. (ZIZEK, 2006, tradução nossa)
 
 
-\begin{citacao}
-Todos os sonhos de democracia participativa e criatividade cooperativa seriam realizados dentro da aldeia global por vir. Em estágios iniciais da modernidade, esses princípios libertários foram somente parcialmente realizados. Felizmente, uma vez que estivessem conectados à Internet, todos – inclusive os descendentes dos escravos – desfrutariam dos benefícios da democracia da alta tecnologia jeffersoniana.
-\end{citacao}\cite[365]{Barbrook2009}
+
   
-\begin{citacao}
-A partir das relações do homem com a realidade, resultantes de estar com ela e de estar nela, pelos atos de criação, recriação e decisão, vai ele dinamizando o seu mundo. Vai dominando a realidade. Vai humanizando-a. Vai acrescentando a ela algo de que ele mesmo é o fazedor. Vai temporalizando os espaços geográficos. Faz Cultura. E é ainda o jogo destas relações do homem com o mundo e do mundo e do homem com os homens, desafiado e respondendo ao desafio, alterando, criando, que não permite a imobilidade, a não ser em termos de relativa preponderância, nem das sociedades nem das culturas. E, à medida que cria, recria e decide, vão se conformando as épocas históricas. É também criando, recriando e decidindo o que o homem deve participar destas épocas. \cite[60]{Freire2015}
-\end{citacao} 
+
+
+
+
+
+
+
+
+
+
+
+
+%\footnote{\url{http://www.playsound.space/sounds=308270,308618,309333,290401,43461,314864,399466,295858,278084,334534,428800,246658,357370,355118,356661,374567,220747}}
+
+
+
+%The hardest thing for a digital musician to decide is not what skills should be acquired but what not to learn. Given that the skill set draws upon so many different and well- established disciplines, it is always possible to go further into any one of them in order to specialise in a particular area. 
+
+
+%A theme that emerges, therefore, is the sheer number and variety of employment situations or careers. Here is a quick list of just some of them: programmer, music and effects for games, music and effects for cinema (location sound, ADR, Foley, sound effects, re-recording engineer, composer, session engineer, etc.), music and effects for industrial video, audio- loops designer, audio-effects designer, mobile phone ringtone designer, radio producer, studio engineer, record producer, mastering engineer, music- related retail sales, music software support, jingle writing, music- events producer, live- sound engineer, band member, session musician, arts administrator, self- promoted musician, Internet- based microsales, record- label manager, talent scout, A\&R (artist and repertoire) representative, acoustic designer, arts/sound museum\/events coordinator, events\/festivals technical support, PA system consulting and installation, DSP inventor, instrument inventor, writer for electronic music magazines, sound for web (commercial record sales samples, sound design for sites, interactive sound), bulk media reproduction, teaching, music therapy, new- age market (relaxation tapes, mind manipulation, etc.), Muzak, corporate sonic environments, multimedia development, busking, lawyer, music librarian, artist.\footnote{\cite[191]{Hugill2012}}
+%\end{citacao}
+
+
+%\begin{citacao}
+%De volta à metade dos anos 1960, o mcluhanismo fora inventado como o credo do Centro Vital. Duas décadas depois, o significado dessa teoria essencial no meio da elite dos Estados Unidos moveu-se para a direita. Com a Esquerda da Guerra Fria desacreditada, muitos de seus membros acharam consolo ideológico no renascimento do liberalismo de livre mercado nos anos 1970: o neoliberalismo.\cite[347]{Barbrook2009}
+%\end{citacao}
+
+
+
+
+%\subsection{O que fazer?} 
+
+
+%Durante a pesquisa pude desenvolver uma série de projetos, e de cada pro
+
+%O projeto Banda Aberta foi uma tentativa de dialogar com isso, propor novas formas de interação, mas a relação de controle imposta pela separação condutor/audiência, não me deixou ainda confortável. 
+
+
+%\todo[inline]{posicionar essa citacao}
+%\begin{citacao}
+%Tanto multimídia como intermídia, são categorias interdisciplinares que, como colagem ou síntese-qualitativa, colocam em questão as formas de produção-criação individual e sobretudo a noção de autor. A criação é hoje o resultado da interação dessas práticas, como forma de tradução e inter-relação. O que não quer dizer que já não seja possível instaurar um estilo: ele é hoje a marca invariante que estabelece a diferença transmutadora em quaisquer dos suportes utilizados. O diálogo entre o singular-individual (ego) e o coletivo (superego) é uma das caracterísiticas da prática tecnológica. Por outro lado, os meios tecnológicos absorvem e incorporam os mais diferentes sistemas sígnicos, traduzindo as diferentes linguagens históricas para o novo suporte. Essas linguagens transcodificadas efetivam a colaboração entre os diversos sentidos, possibilitando o trânsito intersemiótico e criativo entre o visual, o verbal, o acústico e o tátil \cite[66]{JulioPlaza1969}
+%\end{citacao}
+
+
+
+
+
+
+
+
+
+%Os projetos desenvolvidos no decorrer desta tese também apontam para uma série de desejos de desenvolvimentos futuros. 
+
+
+
+
+%peque um objeto
+%faça alguma coisa com ele
+%faça algo mais para ele
+
+%\cite[71]{Cage2015} 
+
+%- ferramenta colaborativa
+%- tracker
+%- sons autorais
+%- remixagem com faixas 
+%- sintetizador
+%- radio
+%- upload'
+
+
+%forma=conteúdo
+
+%os meios são os fins.
+
+%fazer mesmo sem virtude
+
+
 
 \begin{citacao}
-Uma das grandes, senão a maior, tragédia do homem moderno está em que é hoje dominado pela força dos mitos e comandado pela publicidade organizada, ideológica ou não, e por isso vem renunciando cada vez, sem o saber, à sua capacidade de decidir. Vem sendo expluso da órbita das decisões. As tarefas do seu tempo não são capatadas pelo homem simples, mas a eles apresentadas por uma ``elite" que as interpreta e as entrega em forma de receita, de prescrição a ser seguida. E, quando julga que se salva seguindo as prescrições, afoga-se no anonimato nivelador da massificação, sem esperança e sem fé, domesticado e acomodado: já não é sujeito. Rebaixa-se a puro objeto. Coisifica-se. \cite[60]{Freire2015}
-\end{citacao} 
-
-As eleições de 2018 provaram o potencial destruidor dos novos meios de comunicação, esse sujeito objeto massificado, impulsionado pela era da pós-verdade, em ambientes completamente controlados por algoritmos que não se sabe o que e quem controlam. O projeto Banda Aberta foi uma tentativa de dialogar com isso, propor novas formas de interação, mas a relação de controle imposta pela separação condutor/audiência, compositor intérprete não me deixou ainda confortável. 
-
-\begin{citacao}
-A música não pode ser uma linguagem nem fixada, nem meramente codificada pelo uso. A música faz-se e inventa-se constantemente, procura-se um sentido, e qualquer passagem misteriosa e singular — na verdade bastante singular — entre natureza e
-cultura. \cite{Schaeffer2007}
+Operar sobre o passado encerra um problema de valor. Não é escolher um dado do passado, uma referência passada; é uma referência a uma situação passada de forma que seja capaz de resolver um problema presente e tenha afinidade com suas necessidades precisas e concretas, de modo a projetar o presente sobre o futuro. Toda época distingue entre formas conservadoras e mais inovadoras. As inovadoras são as que se projetam para o futuro através do caráter inacabado que aponta para um possível leitor, o que é também uma forma de ``perceber na cultura de hoje os traços reais e inconfundíveis do amanhã''. Operar sobre o passado, além de um problema de valor, constitui-se também numa operação ideológica através da qual podemos confirmar a produção do presente ou encobrir essa realidade. Se, no primeiro caso se favorece um encontro dialético com o passado para preparar o futuro, no segundo, trata-se de distanciar esse futuro indefinidamente. No primeiro caso, os valores da história constituem-se num modelo para a ação, já no segundo, trata-se de um fantasma a ser evocado como nostalgia, moda ou revival. \footnote{\cite{JulioPlaza1969}}
 \end{citacao}
-
-
-Decidir seguir a carreira de professora, de ter um compromisso com a educação e as potências que emanar dessas relações, faz pensar em ferramentas que possam ser apreendidas de uma maneira mais abrangente. Tive felizmente, no final deste processo a oportunidade de lecionar e utilizar minhas própias ferramentas em aula.
-
-
-\footnote{\url{http://www.playsound.space/sounds=308270,308618,309333,290401,43461,314864,399466,295858,278084,334534,428800,246658,357370,355118,356661,374567,220747}}
-
-
-
-The hardest thing for a digital musician to decide is not what skills should be acquired but what not to learn. Given that the skill set draws upon so many different and well- established disciplines, it is always possible to go further into any one of them in order to specialise in a particular area. 
-
-
-A theme that emerges, therefore, is the sheer number and variety of employment situations or careers. Here is a quick list of just some of them: programmer, music and effects for games, music and effects for cinema (location sound, ADR, Foley, sound effects, re-recording engineer, composer, session engineer, etc.), music and effects for industrial video, audio- loops designer, audio-effects designer, mobile phone ringtone designer, radio producer, studio engineer, record producer, mastering engineer, music- related retail sales, music software support, jingle writing, music- events producer, live- sound engineer, band member, session musician, arts administrator, self- promoted musician, Internet- based microsales, record- label manager, talent scout, A\&R (artist and repertoire) representative, acoustic designer, arts/sound museum\/events coordinator, events\/festivals technical support, PA system consulting and installation, DSP inventor, instrument inventor, writer for electronic music magazines, sound for web (commercial record sales samples, sound design for sites, interactive sound), bulk media reproduction, teaching, music therapy, new- age market (relaxation tapes, mind manipulation, etc.), Muzak, corporate sonic environments, multimedia development, busking, lawyer, music librarian, artist.\footnote{\cite[191]{Hugill2012}}
-\end{citacao}
-
-
-\begin{citacao}
-De volta à metade dos anos 1960, o mcluhanismo fora inventado
-como o credo do Centro Vital. Duas décadas depois, o signifi cado dessa teoria essencial no meio da elite dos Estados Unidos moveu-se para a direita. Com a Esquerda da Guerra Fria desacreditada, muitos de seus membros acharam consolo ideológico no renascimento do liberalismo de livre mercado nos anos 1970: o neoliberalismo.\cite[347]{Barbrook2009}
-\end{citacao}
-
-\begin{citacao}
-Dos sistemas de câmeras de vigilância aos programas de monitoramento de mensagens eletrônicas, o governo dos Estados Unidos e seus aliados sistematicamente adquiriam as ferramentas para uma vigilância constante de toda a população global. No setor privado, as tecnologias da informação similarmente revitalizaram as hierarquias tayloristas. (...) graças ao panóptico em rede, a elite corporativa era agora capaz de controlar suas vidas muito mais detalhadamente do que no passado fordista. O tecno-coletivismo do mcluhanismo metamorfoseou-se no tecno- autoritarismo da consultoria gerencial de McKinsey. \cite[345]{Barbrook2009}
-\end{citacao}
-
-
-\subsection{O que fazer?} 
-
-\todo[inline]{posicionar essa citacao}
-\begin{citacao}
-Tanto multimídia como intermídia, são categorias interdisciplinares que, como colagem ou síntese-qualitativa, colocam em questão as formas de produção-criação individual e sobretudo a noção de autor. A criação é hoje o resultado da interação dessas práticas, como forma de tradução e inter-relação. O que não quer dizer que já não seja possível instaurar um estilo: ele é hoje a marca invariante que estabelece a diferença transmutadora em quaisquer dos suportes utilizados. O diálogo entre o singular-individual (ego) e o coletivo (superego) é uma das caracterísiticas da prática tecnológica. Por outro lado, os meios tecnológicos absorvem e incorporam os mais diferentes sistemas sígnicos, traduzindo as diferentes linguagens históricas para o novo suporte. Essas linguagens transcodificadas efetivam a colaboração entre os diversos sentidos, possibilitando o trânsito intersemiótico e criativo entre o visual, o verbal, o acústico e o tátil \cite[66]{JulioPlaza1969}
-\end{citacao}
-
-Um instrumento musical é um meio de comunicação. As novas tecnologias podem vir a transformar a música como as mídias digitais transformaram as comuniçãções humanas. O maior desejo de continuidade desta pesquisa é de desenvolver instrumentos que possibilitem realmente a interação entre pessoas em um ambiente virtual. 
-
-Também pensamos em uma série de recursos que poderiam ser implementados em versões futuras, como incluir a possibilidade de sequenciamento de sons em grade, ou criar sequências de sons, incluir filtros mais complexos. A possibilidade de incluir silêncio depois dos loops é uma que permitiria construir estruturas mais ricas em variação dinâmica. Automatização de processos como criação de crossfades ou variações de loops, 
-
-
-
-
-
-
-Os projetos desenvolvidos no decorrer desta tese também apontam para uma série de desejos de desenvolvimentos futuros. 
-
-
-
-Playsound não é um produto,
-
-peque um objeto
-faça alguma coisa com ele
-faça algo mais para ele
-
-\cite[71]{Cage2015} 
-
-- ferramenta colaborativa
-- tracker
-- sons autorais
-- remixagem com faixas 
-- sintetizador
-- radio
-- upload
-
-
-forma=conteúdo
-
-os meios são os fins.
-
-fazer mesmo sem virtude
-
-
-cage fala de um processo de composição através do fluxo ``uma das formas de compor é examinar o que você está fazendo e e ver se ainda funciona se acrescentar algo mais Apenas examine novamente e veja como continua''\cite{Cage2015}. As vezes, no desenvolvimento do projeto exploramos diversas direções de para onde ir. 
-
-Playsound colaborativo
-Entre essas direções, um desejo muito grande é de tornar playsound uma ferramenta colaborativa, como a do Multiplayer Piano, onde diversos agentes compartilhassem a mesma seção sonora do tocador, podedo criar seções públicas ou privadas.
-Essa direção, que é uma das mais excitantes, é também a mais complexa e custosa em termos de horas de desenvolvimento
-
-
-Silêncio
-Analizando as faixas produzidas utilizando playsound, percebemos que existe uma certa tendência à saturação sonora, porque atualmente a interface só permite cortar e repetir trechos de um áudio. Idealmente, para permitir maiores possibilidades de composição pensamos em incluir a possibilidade de adicionar intervalos de silêncio entre as faixas. Isso também premitiria sincronizar diferentes trechos de loop, com a formatação de loops de uma mesma duração ou durações múltiplas. 
-
-Rádio
-
 

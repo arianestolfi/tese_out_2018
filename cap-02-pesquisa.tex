@@ -1,13 +1,10 @@
 % !TEX encoding = UTF-8 Unicode
 % !TEX root = tese.tex
-\chapter{Pesquisa}
+\chapter{Interfaces para produção sonora}
 \label{ch:pesquisa}
+Nesse capítulo, apresento o início deste processo de pesquisa, da compreensão da problemática da questão da interface na produção musical ao mapeamento das experiências disponíveis no momento. Durante o mestrado\footnote{\cite{Stolfi}}, pesquisamos interfaces web e suas tecnologias. Agora o surgimento do HTML5 e das tecnologias de web áudio, aliado ao desenvolvimento do trabalho em homenagem a Gilberto Gil, que demonstrou que havia muita possibilidade na utilização criativa dessas novas tecnologias, apontaram uma possibilidade concreta de dar prosseguimento à pesquisa acadêmica na área da música.
 
-\section{Pesquisa}
-
-    Tendo pesquisado extensivamente tecnologias para web durante o mestrado\footnote{\cite{Stolfi}}, o surgimento do HTML5 e das tecnologias de web áudio, aliado ao desenvolvimento do trabalho em homenagem a Gilberto Gil, que demonstrou que havia muita possibilidade na utilização criativa dessas novas tecnologias, apontaram uma possibilidade concreta de dar prosseguimento à minha pesquisa acadêmica na área da música.
-
-Antes do HTML5, tudo que envolvia processamento de áudio em tempo real em páginas de internet era embasada em softwares proprietários como o \emph{Flash}, ou \emph{plugins} programados em alguma linguagem de baixo nível como Java, Python ou C++. O HTML5, junto com a WebAudio API, que estabelece parâmetros para processamento de áudio em JavaScript, permite que agora seja possível o controle de processos de áudio diretamente pelos navegadores, sem a necessidade de instalação de nenhum programa adicional. Um site como o Radio.garden, que mencionamos na introdução deste trabalho, possui uma interface que só é possível graças ao desenvolvimento dessas novas tecnologias de \emph{streaming} de áudio e geoprocessamento em 3D via JavaScript, que faz com que o grosso do processamento aconteça no computador do usuário, e não no servidor, diminuindo os custos com hospedagem.
+Antes do HTML5, tudo que envolvia processamento de áudio em tempo real em páginas de internet era embasado em softwares proprietários como o \emph{Flash}, ou \emph{plugins} programados em alguma linguagem de baixo nível como Java, Python ou C++. O HTML5, junto com a WebAudio API, que estabelece parâmetros para processamento de áudio em JavaScript, permite que agora seja possível o controle de processos de áudio diretamente pelos navegadores, sem a necessidade de instalação de nenhum programa adicional. Um site como o Radio.garden, que mencionamos na introdução deste trabalho, possui uma interface que só é possível graças ao desenvolvimento dessas novas tecnologias de \emph{streaming} de áudio e geoprocessamento em 3D via JavaScript, que faz com que o grosso do processamento aconteça no computador do usuário, e não no servidor, diminuindo os custos com hospedagem.
 
 Nossa hipótese era que utilizando essas tecnologias, poderíamos criar instrumentos musicais que explorassem possibilidades de inter-relação audiovisuais, acessíveis e que possam funcionar em qualquer computador que tenha instalado um navegador que suporte esses novos recursos, podendo funcionar inclusive localmente em máquinas sem acesso à internet e dispositivos móveis. Partimos da ideia de que seria possível utilizar criativamente essas tecnologias para propor novas interfaces para expressão musical.
     
@@ -19,7 +16,7 @@ Plaza aponta que intermídia e multimídia são ``categorias interdisciplinares 
 
 
 
-\subsubsection{Interface como pesquisa}
+\subsubsection{Precursores}
 A interface é considerada pelo campo de estudos de IHC, como “uma fronteira através da qual dois sistemas se comunicam (o humano e o programa)” \footnote{\cite{Magnusson2005}}, ou a parte visível de um sistema complexo, método ou classe, segundo a definição da engenharia de software: uma base de controle simples e inteligível que permite às pessoas um controle de alto nível sobre estruturas subjacentes. Ela pode ser considerada um sistema de comunicação, pois “conecta dois agentes e objetos” criando “um espaço sígnico comum a esses agentes” \footnote{\cite[105]{IAZZETTA1997}}. Ao mesmo tempo que permite que uma pessoa comunique certas coisas a um software, por exemplo, ela também é o que comunica coisas à pessoa sobre o software. Magnusson \citeyear{Magnusson2005} defende que a própria interface pode ser vista como uma ideologia musical: 
 %[212]
 
@@ -30,7 +27,7 @@ A interface é um instrumento. É uma manifestação gráfica de ideias musicais
 Uma grande referência no campo de pesquisa do design de interfaces é Douglas Engelbarth, que com o trabalho no Augmentation Research Center (ARC), deu origem a uma série de desenvolvimentos fundamentais nas interfaces para computadores. Em 1962, as companhias já tinham desenvolvido o computador, que era ainda utilizado principalmente para ferramentas militares, e eram grandes máquinas compartilhadas com interface mediada somente por texto. A pesquisa deles procurava desenvolver o potencial do computador como ferramenta para ampliação do intelecto humano \footnote{\cite{Engelbart1962}}. Em 1968, Engelbarth apresentou os resultados das pesquisas do ARC em uma apresentação em São Fanscisco que ficou conhecida como ``The mother of all demos'', onde demonstrou ao vivo recuros como o mouse, o primeiro editor de texto, e o conceito de espaço visual no computador, recursos que foram fundamentais na história da computação. 
 
 
-O trabalho do laboratório, que desencadeou em mudanças radicais em todas tecnologias posteriores era baseado em uma metodologia que chamavam de \emph{bootstrapping}, que se tratava basicamente em buscar construir ferramentas para o próprio trabalho, no caso, o de programação dos computadores compartilhados da época.  
+O trabalho do laboratório, que desencadeou em transformações radicais nas tecnologias posteriores, era baseado em uma metodologia que chamavam de \emph{bootstrapping}, que se tratava basicamente em buscar construir ferramentas para o próprio trabalho, no caso, o de programação dos computadores compartilhados da época.  
 
 
 \begin{figure}
@@ -43,7 +40,7 @@ O trabalho do laboratório, que desencadeou em mudanças radicais em todas tecno
 
 
 
-O conceito de \emph{bootstraping} fez, de uma certa maneira, que eu mudasse o foco inicial da pesquisa, que era de construir coisas genéricas para um usuário genérico, como é tradicionalmente a metodologia do design, para procurar construir instrumentos que fossem acima de tudo, ferramentas para a nossa própria pesquisa prática em música experimental, individual e coletiva junto a redes como NuSom, Sonora, Tecnoxamanismo, BlóKõKê, Orquestra Errante entre outras.
+O conceito de \emph{bootstraping} fez, de uma certa maneira, que mudasse o foco inicial da pesquisa, que era de construir coisas genéricas para um usuário genérico, como é tradicionalmente a metodologia do design, para procurar construir instrumentos que fossem acima de tudo, ferramentas para a nossa própria pesquisa prática em música experimental, individual e coletiva junto a redes como NuSom, Sonora, Tecnoxamanismo, BlóKõKê, Orquestra Errante entre outras.
 
 
 Na história da música existe uma série de casos onde a ideia de desenvolver seus próprias tecnologias para produção sonora moveu parte da pesquisa dos músicos. Uma referência histórica importante é o trabalho de Daphne Oram, precursora da música eletrônica que desenvolveu um sintetizador de música baseado em desenhos. O Oramics funcionava através de desenhos que definiam envelope, e perfil melódico do som. Oram observou que a música eletrônica dital na época era regida principalmente por ``processos impositivos", principalmente baseados em tom, volume e duração, ou baseados em sons puros, como de osciladores, ou em desenhos de onda definidos digitalmente, que segundo ela ``tinham pouca finesse'' \footnote{\cite[101]{Oram1972}}: 
@@ -72,8 +69,6 @@ Outra referência importante são os irmãos John and James Whitney, considerado
 Nosso instrumento de som subsônico consistia em uma série de pêndulos ligados mecanicamente a uma cunha ótica. (...) Nenhum som audível era gerado pelo instrumento. Ao invés disso, uma trilha sonora ótica de dimensões padrão era sinteticamente exposta no filme, que depois de processado podia ser tocado em um projetor de filmes padrão."\footnote{\cite[152]{Whitney1980}, tradução nossa} 
 \end{citacao}
 
-Com esse instrumento, os irmãos fizeram ``Five Abstract Film Exercises''. O resultado sonoro, que trazia ondas pura senoidais e até glissandos foram chocantes para época, e garantiu à dupla o prêmio pelo som na competição de filmes experimentais de Bruxelas de 1949 \footnote{https://www.youtube.com/watch?v=kuZbgM8yxtY}.
-
 \begin{figure}
     \caption{\label{witney}Três imagem extraídas do filme ``Five Abstract Film Exercises'' de John e James Whitney.}
     
@@ -82,7 +77,11 @@ Com esse instrumento, os irmãos fizeram ``Five Abstract Film Exercises''. O res
     \legend{Fonte: Screenshots da autora.}
 \end{figure}
 
-Enquanto seu irmão James, foi com o tempo passando a se voltar mais à pintura e a questões místicas e de espiritualidade, John procurou a se dedicar mais ao desenvolvimento tecnológico e a sistematizar um pensamento sobre música e linguagem visual. Ao longo dos anos ele foi desenvolvendo um computador mecânico analógico, especialmente para animação com tipografia de ``design concreto'' \footnote{\cite{Youngblood1970}}, prestando serviços para a indústria de filmes. Ele colaborou com Saul Bass na famosa abertura para o filme Vertigo, de Hitchcock, por exemplo. Sua máquina era formada por câmeras e mecanismos rotativos capazes de produzir imagens em movimento no filme a partir de moldes de cartolina e cálculos matemáticos complexos. Era, na visão de Youngblood \footnote{\cite{Youngblood1970}}, ``um homem de amanhã no mundo de hoje''. Whitney usou como base para seu primeiro computador analálogico um dispositivo antimísseis M-5, ressignificando um equipamento militar, ou nas palavras de Youngblood, ``uma arma da morte'' em uma máquina capaz de produzir beleza.
+
+Com esse instrumento, os irmãos fizeram ``Five Abstract Film Exercises''. O resultado sonoro, que trazia ondas pura senoidais e até glissandos foram chocantes para época, e garantiu à dupla o prêmio pelo som na competição de filmes experimentais de Bruxelas de 1949\footnote{Disponível em: \url{https://www.youtube.com/watch?v=kuZbgM8yxtY}}.
+
+
+Enquanto seu irmão James, foi com o tempo passando a se voltar mais à pintura e a questões místicas e de espiritualidade, John procurou a se dedicar mais ao desenvolvimento tecnológico e a sistematizar um pensamento sobre música e linguagem visual. Ao longo dos anos ele foi desenvolvendo um computador mecânico analógico, especialmente para animação com tipografia\footnote{\cite{Youngblood1970}}, prestando serviços para a indústria de filmes. Ele colaborou com Saul Bass na famosa abertura para o filme Vertigo, de Hitchcock, por exemplo. Sua máquina era formada por câmeras e mecanismos rotativos capazes de produzir imagens em movimento no filme a partir de moldes de cartolina e cálculos matemáticos complexos.  Whitney usou como base para seu primeiro computador analálogico um dispositivo antimísseis M-5, ressignificando um equipamento militar, ou nas palavras de Youngblood, ``uma arma da morte'' em uma máquina capaz de produzir beleza\footnote{\cite{Youngblood1970}}.
 
 Suas pesquisas com o computador analógico levaram em 1966 a IBM se tornar a primeira empresa a abrigar um artista em residência, para explorar as potencialidades estéticas da computação. O filme ``Permutations'', seu primeiro desenvolvido em um computador digital, era considerado por John como o desenvolvimento de um novo modo de comunicação. Com a IBM, Whitney começou a trabalhar com o computador digital, que não exigia mais a necessidade dos estênceis analógicos. \footnote{\cite{Youngblood1970}}. 
 Em seu livro ``Digital Harmony – on the complementarity of musical and visual art'', publicado em 80, Whitney defende uma idéia de harmonia que ultrapassa a esfera da música, ``um contexto mais amplo no qual as leis Pitagóricas da harmonia operam''. Em seus filmes ``Permutations'' (1968) , ``Matrix I'' e ``III'' (1970 e 1972), e ``Arabesque'' (1973), Whitney programa formas em movimento segundo parâmetros matemáticos inspirados na harmonia de músicas de outros artistas, como Terry Rilley (Matrix III) por exemplo, procurando interpretar princípios harmônicos e rítmicos como formas e processos geométricos no tempo. Passou a perseguir a idéia da construção de um instrumento que fosse capaz de gerar som e imagem simultaneamente e em consonância. Esse instrumento partiria de parâmetros harmônicos do som, que eram mapeados em forma de coordenadas polares ou cartesianas. \footnote{\cite{Whitney1980}}
@@ -115,19 +114,15 @@ Xenakis defende que tudo é sujeito às leis da lógica e suas operações, como
     \legend{Fonte: \cite{Whitney1980}}
 \end{figure}
 
-Uma outra referência importante para a pesquisa, está fora do campo do desenvolvimento de interfaces, a partitura visual de ``Artikulation'', de Gÿorgy Ligeti, criada por Rainer Wehinger. Nela, as formas desenhadas correspodem a entidades sonoras da peça composta em fita. O trabalho não é uma representação literal do espectro gráfico da peça, mas uma leitura aproximada e sintetizada, num diálogo com princípios estéticos baseados também na teoria da forma (Gestalt).
+%Uma outra referência importante para a pesquisa, está fora do campo do desenvolvimento de interfaces, a partitura visual de ``Artikulation'', de Gyorgy Ligeti, criada por Rainer Wehinger. Nela, as formas desenhadas correspodem a entidades sonoras da peça composta em fita. O trabalho não é uma representação literal do espectro gráfico da peça, mas uma leitura aproximada e sintetizada, num diálogo com princípios estéticos baseados também na teoria da forma (Gestalt).
 
-\begin{figure}
-    \caption{\label{ligeti}Trecho da partitura visual criada por Rainer Wehinger para a peça Artikulation, de Giorgy Ligeti.
-.}
+%\begin{figure}
+ %   \caption{\label{ligeti}Trecho da partitura visual criada por Rainer Wehinger para a peça Artikulation, de Giorgy Ligeti..}
     
-        \includegraphics[width=1\linewidth]{pictures/cap2/ligeti}
+ %       \includegraphics[width=1\linewidth]{pictures/cap2/ligeti}
     
-    \legend{Fonte: \cite{Whitney1980}}
-\end{figure}
-
-
-
+  %  \legend{Fonte: \cite{Whitney1980}}
+%\end{figure}
 
 
 \subsubsection{Brasil}
@@ -143,41 +138,16 @@ Tenho procurado diferenciar claramente o fazer som, um meio de despertar novas f
 
 Quanto à autores contemporâneos, a tese de doutorado do pesquisador José Guilherme Allen de Lima \footnote{\cite{Lima2018}} ``Práticas de luteria na música experimental brasileira'', aprensenta uma panorama da luthieria experimental brasileira contemporânea, com uma pesquisa extensa de autores, espaços e tecnologias, principalmetne relativas a intrumentos físicos, muitos dos quais foram também desenvolvidos pelos próprios músicos que os tocam, como André Damião Bandeira, Cadós Snaches, Natacha Maurer e Marcelo Muniz, Arthur Jolly, Wilson Sukorsky, Pan\&Tone, LoopB entre outros.
 
-Quanto a pesquisadores trabalhando com luthieria digital, no Brasil, destacamos o trabalho de Jarbas Jacome, especialmente o ViMus, uma interface que faz a conversão em tempo real de áudio em imagens, e o trabalho de Jerônimo Barboza, o Illusio, que parte de uma interface desenhável para criar um sistema de samplers capaz de gerar uma ``banda de um homem só''. Jerônimo atualmente pesquisa na Universidade McGuill com Marcelo Wanderley, 
-
-
-\subsection{New Interfaces for Music Expression}
-
-
-\todo[inline]{
-outras práticas da comunidade NIME
-} 
+No campo da luthieria digital no Brasil, destacamos o trabalho de Jarbas Jacome, especialmente o ViMus, uma interface que faz a conversão em tempo real de áudio em imagens, e o trabalho de Jerônimo Barboza, que atualmente pesquisa na Universidade McGuill com Marcelo Wanderley, o Illusio, que parte de uma interface desenhável para criar um sistema de samplers capaz de gerar uma ``banda de um homem só''.  
 
 
 
-Existe no meio acadêmico um volume expressivo de trabalhos e artigos que tratam das capacidades e de aspectos mais técnicos da computação musical, como o livro de Dan Hosken, ``Introduction to Music Technology'' (2011) e as publicações de Curtis Roads Computer ``Music Tutorial'' (1996) e Foundations do Computer Music (1985), ou sobre história da computação musical, como o trabalho de Thom Holmes, ``Electronic and Experimental Music: Technology, Music, and Culture'', (1985). 
-
-Em 2001, um grupo de pesquisadores propôs para a conferência CHI (Conference on Human Factors in Computing Systems), uma das mais importantes conferências em estudos do campo de interação humano computador (IHC) um workshop sobre ``New Interfaces for Music Expression'', embasados no rápido desenvolvimento das novas tecnologias digitais e eletrônicas, que estavam trazendo novas potencialidades para o campo de pesquisa de tecnologia musical. Seus objetivos eram de pesquisar e discutir o estado atual de ferramentas de controle para performance musical; identificar questões relacionadas entre mudanças de tecnologias e mudanças nas formas musicais; identificar como controles alternativos afetavam a expressão musical e processo criativo de uma maneira geral e reunir experiências de trabalhos e estratégias dos participantes para resolver questões da área\footnote{\cite{Poupyrev2001}}. Depois disso, NIME se tornou uma conferência prórpia, que acontece anualmente reunindo diversos trabalhos de pesquisa e desenvolvimento de interfaces experimentais – físicas ou digitais. 
-
-
-Overholt (2009), quando define o ``espaço do design das tecnologias de interfaces musicais'', foca na questão do mapeamento e categorização dos gestos, que é uma posição mais ligada à ergonomia. O pesquisador Marcelo Wanderley, da universidade McGill, é um dos que vêm pesquisando a questão do mapeamento do gesto musical em novas interfaces para computação musical, no livro ``New Digital Instruments: control and interaction Beyond the keyborad'', escrito em conjunto com Eduardo Reck Miranda, eles tratam de diversas abordagens desenvolvidas nos últimos anos nesse sentido, como captura de gestos através de câmeras ou dispositivos baseados em sensores e software\footnote{\cite[67]{Miranda2006}}. 
-
-%cultura digital potencializou pesquisa em NIME
-
-O compositor Eduardo Reck Miranda, que também é um dos cientistas brasileiros com produção mais significativa no NIME, desenvolve pesquisa de ponta na área de tecnologia musical, com estudos que incluem o uso de inteligência artificial para composição musical, por exemplo, no trabalho ``Caossynth'' \citeyear{Miranda2016}, e também têm explorado o uso de ciência biomolecular em composições mais recentes como ``DNA: Artibiotics'' \citeyear{miranda2018artibiotics}, que utiliza moléculas de DNA sintetizadas como agentes para composição musical.
-
-
-Muito do trabalho desenvolvido no campo dessas novas interfaces é direcionado a um músico  
-
-\begin{citacao}
-Perhaps as a reflection of the dominant Western view that music should be played only by musicians, most work in the last thirty years using new interfaces for musical expression is primarily oriented toward virtuosic experiences and performances. With virtuoso-style instruments, the designer can reasonably expect the player to invest a significant amount of time learning the idiosyncrasies of the instrument. \cite{Blaine2003}
-\end{citacao}
 
 %Thus, as discussed in (Fels, Gadd, \& Mulder, 2002), the task of keeping the adopter of the instrument engaged, involves designing for increasing complexity and expressivity as the player becomes expert.
 
 %não se faz muita coisa sem software em música hoje em dia puckette
 
-\subsubsection{Interfaces gráficas para produção musical}
+\subsubsection{Interfaces digitais}
 
 Desde que os primeiros computadores estiveram disponíveis para pesquisa científica, músicos, compositores e pesquisadores têm desenvolvido interfaces para seu emprego em atividades musicais, processo que inclui também o desenvolvimento de interfaces nesse sentido. Nos primeiros computadores a interface era física e a programação era operada por meio de cabos e potenciômetros diretamente no nível do hardware, \footnote{\cite[110]{Henrique1996}}. O ENIAC (1943 - 1946) (figura 1), um dos primeiros computadores construídos durante a Segunda Guerra Mundial com fins militares \footnote{\cite[24]{Stolfi}}, era operado por pessoas com grau avançado de domínio da matemática, muitas das quais mulheres que já trabalhavam na guerra como computadoras fazendo manualmente cálculos de balística \footnote{\cite{HayleyWilliams2015}}, sua interface tem uma certa semelhança com a dos grandes sintetizadores modulares construídos anos depois, como o feito por Joseph Paradiso a partir de 1974, e que foi remontado em 2012 em uma exposição no MIT \ref{analogicos}. 
 
@@ -234,7 +204,7 @@ Outro paradigma de software voltado para produção musical é o dos programas q
 \begin{figure}
     \caption{\label{patcher}À esquerda, um exemplo de patch feito no software Patcher de 1988, e à direita, objetos pré-programados e elementos de controle para configuração da interface gráfica.}
     
-        \includegraphics[width=0.5\linewidth]{pictures/cap2/patcher}
+        \includegraphics[width=1\linewidth]{pictures/cap2/patcher}
     
     \legend{Fonte: \cite[6,9]{PucketteMiller}}
 \end{figure}
@@ -255,14 +225,38 @@ Por mais que programas como patchers seja tentativas de prover o múscio com um 
 
 %Complexity is not the same thing as expressive power. One wants one’s software to have the greatest expressive power possible, in the simplest possible way. \cite{PucketteMiller}
 
+%\begin{citacao}
+%There is also a more subtle, and perhaps more fundamental, aim: to make it so that the software doesn’t impose one or another stylistic bias on the musician. Such a bias might be easy to spot (a built-in set of available time signatures or musical scales, for instance), or might be so ingrained as to be almost invisible (for example, Max’s and Pd’s orientation toward reactivity that seems to privilege some approaches to real-time performance over others).
+%\end{citacao}
+
+\subsubsection{New Interfaces for Music Expression}
+
+
+%\todo[inline]{outras práticas da comunidade NIME} 
+
+Existe no meio acadêmico um volume expressivo de trabalhos e artigos que tratam das capacidades e de aspectos mais técnicos da computação musical, como o livro de Dan Hosken, ``Introduction to Music Technology'' (2011) e as publicações de Curtis Roads Computer ``Music Tutorial'' (1996) e Foundations do Computer Music (1985), ou sobre história da computação musical, como o trabalho de Thom Holmes, ``Electronic and Experimental Music: Technology, Music, and Culture'', (1985). 
+
+Em 2001, um grupo de pesquisadores propôs para a conferência CHI (Conference on Human Factors in Computing Systems), uma das mais importantes conferências em estudos do campo de interação humano computador (IHC) um workshop sobre ``New Interfaces for Music Expression'', embasados no rápido desenvolvimento das novas tecnologias digitais e eletrônicas, que estavam trazendo novas potencialidades para o campo de pesquisa de tecnologia musical. Seus objetivos eram de pesquisar e discutir o estado atual de ferramentas de controle para performance musical; identificar questões relacionadas entre mudanças de tecnologias e mudanças nas formas musicais; identificar como controles alternativos afetavam a expressão musical e processo criativo de uma maneira geral e reunir experiências de trabalhos e estratégias dos participantes para resolver questões da área\footnote{\cite{Poupyrev2001}}. Depois disso, NIME se tornou uma conferência prórpia, que acontece anualmente reunindo diversos trabalhos de pesquisa e desenvolvimento de interfaces experimentais – físicas ou digitais. 
+
+
+Overholt (2009), quando define o ``espaço do design das tecnologias de interfaces musicais'', foca na questão do mapeamento e categorização dos gestos, que é uma posição mais ligada à ergonomia. O pesquisador Marcelo Wanderley, da universidade McGill, é um dos que vêm pesquisando a questão do mapeamento do gesto musical em novas interfaces para computação musical, no livro ``New Digital Instruments: control and interaction Beyond the keyborad'', escrito em conjunto com Eduardo Reck Miranda, eles tratam de diversas abordagens desenvolvidas nos últimos anos nesse sentido, como captura de gestos através de câmeras ou dispositivos baseados em sensores e software\footnote{\cite[67]{Miranda2006}}. 
+
+%cultura digital potencializou pesquisa em NIME
+
+O compositor Eduardo Reck Miranda, que também é um dos cientistas brasileiros com produção mais significativa no NIME, desenvolve pesquisa de ponta na área de tecnologia musical, com estudos que incluem o uso de inteligência artificial para composição musical, por exemplo, no trabalho ``Caossynth'' \citeyear{Miranda2016}, e também têm explorado o uso de ciência biomolecular em composições mais recentes como ``DNA: Artibiotics'' \citeyear{miranda2018artibiotics}, que utiliza moléculas de DNA sintetizadas como agentes para composição musical.
+
+
+Muito do trabalho desenvolvido no campo dessas novas interfaces, no entanto, é direcionado a um músico virtuoso, com grande domínio de técnicas musicais, como aponta Yina Blaine, uma das propositoras do primeiro workshop NIME de 2001:
+
 \begin{citacao}
-There is also a more subtle, and perhaps more fundamental, aim: to make it so that the software doesn’t impose one or another stylistic bias on the musician. Such a bias might be easy to spot (a built-in set of available time signatures or musical scales, for instance), or might be so ingrained as to be almost invisible (for example, Max’s and Pd’s orientation toward reactivity that seems to privilege some approaches to real-time performance over others).
+Talvez como um reflexo da visão Ocidental dominante de que música deva ser tocada apenas por músicos, a maioria dos trabalhos utilizando novas interfaces para expressão musical dos últimos trinta anos é orientada principalmente para experiências e performances virtuosísticas. Com intrumentos em estilo virtuoso, o designer pode rasoalvelmente esperar que o musicista vá investir uma quantidade tempo significativa em aprender as idiossincrasias do instrumento.
+%Perhaps as a reflection of the dominant Western view that music should be played only by musicians, most work in the last thirty years using new interfaces for musical expression is primarily oriented toward virtuosic experiences and performances. With virtuoso-style instruments, the designer can reasonably expect the player to invest a significant amount of time learning the idiosyncrasies of the instrument. \cite{Blaine2003}
 \end{citacao}
 
-\subsubsection{Interfaces para produção musical na web}
-No primeiro ano desta pesquisa, além da pesquisa sobre interfaces gráficas para produção musical através de computadores, procuramos também estudar novas potencialidades que já surgiam utilizando a web como suporte.  fizemos um levantamento de experimentos organizados pelo site ``Chrome Experiments'' que reúne milhares de \emph{showcases} produzidos pela comunidade de ``programação criativa''\footnote{Disponível na url: \url{https://experiments.withgoogle.com/experiments}}. Em julho de 2016, apenas na categoria ``Sound and Music''  haviam listados 138 experimentos. Entre experimentos estéticos com música generativa, jogos sonoros, videoclipes interativos, visualizadores de áudio, mixers e tocadores de MIDI, alguns podiam ser considerados instrumentos musicais. 
 
-Entre eles encontramos vários exemplos de sintetizadores, samplers, processadores de áudio e sequenciadores, mas a maioria deles tinha como interface algo que mimetizam algum instrumento analógico ou eletrônico, principalmente o piano.
+
+\subsubsection{Experiências em Web Audio}
+Quando inciamos essa pesquisa, já haviam alguns produtos de programação criativa disponíveis que estavam explorando os novos recursos de Web Audio como suporte. Como forma de sistematizar a pesquisa, fizemos um levantamento de experimentos organizados pelo site ``Chrome Experiments'' que reúne milhares de casos de uso produzidos pela comunidade de ``programação criativa''\footnote{Disponível na url: \url{https://experiments.withgoogle.com/experiments}}. Em julho de 2016, apenas na categoria ``Sound and Music''  haviam listados 138 experimentos, desses uma série deles são experimentos estéticos com música generativa, jogos sonoros, videoclipes interativos, visualizadores de áudio, mixers e tocadores de MIDI, e alguns podiam ser considerados instrumentos musicais. Entre eles encontramos vários exemplos de sintetizadores, samplers, processadores de áudio e sequenciadores, mas a maioria deles tinha como interface algo que mimetizam algum instrumento analógico ou eletrônico, principalmente o piano.
 
 Encontrei algumas possibilidades interessantes como as experiências ``Lalo.li'' \footnote{Disponível em: <http://lalo.li/> }, que faz síntese de voz a partir de texto digitado na tela, podendo o usuário mudar o tom e a velocidade da voz. Sua interface é pareceida com a de um sistema de busca, bastante minimalista, com um input de texto e os controles para alterçnao dos parIametros de síntese.
 
@@ -296,7 +290,7 @@ Patatap\footnote{Disponível em: \url{http://patatap.com}}, uma espécie de bate
     \legend{Fonte: Screenshot da autora, dia 15 de março de 2016}
 \end{figure}
 
-Especialmente interessantes para o contexto dessa pesquisa são alguns experimentos multiusuário como o ``Plink'' (Figura \ref{plink}), onde cada pessoa que entra no site controlava um ``instrumento'' que se podia tocar com o mouse a partir de faixas verticais que representavam notas diferentes. O experimento, que não está mais no ar, tinha uma grade de tempo fixa, e os usuários que acessavam o site podiam tocar em conjunto a partir de uma lista de opções de timbres diferentes. Os timbres eram fixos e as notas também, então não havia possibilidade de trocar a velocidade nem alterar os timbres dos intrumentos. 
+Especialmente interessantes para o contexto dessa pesquisa são alguns experimentos multiusuário como o ``Plink'' (Figura \ref{plink}), onde cada pessoa que entra no site controlava um ``instrumento'' que se podia tocar com o mouse a partir de faixas verticais que representavam notas diferentes. O experimento, que não está mais no ar, tinha uma grade de tempo fixa, e os usuários que acessavam o site podiam tocar em conjunto a partir de uma lista de opções de timbres diferentes. Os instrumentos eram fixos e as notas também, e não havia possibilidade de trocar a velocidade nem alterar os timbres deles. 
 
 \begin{figure}
     \caption{\label{plink}Interface do Plink.}
@@ -317,23 +311,25 @@ O ``Multiplayer Piano''\footnote{Disponível em: http://www.multiplayerpiano.com
     \legend{Fonte: Screenshot da autora, dia 15 de março de 2016}
 \end{figure}
 
-Em 2016, com a profusão de trabalhos relacionados a tecnologias web e áudio, foi organizada a primerira WebAudioConference, que foi sediada no IRCAM. 
+Em 2016, com a profusão de trabalhos relacionados a tecnologias web e áudio, foi organizada a primerira WebAudioConference, que foi sediada no IRCAM. Entre os tópicos da conferência, estavam: experiências inovadoras em aplicações web para áudio e música; integração multimídia; visualização de áudio nos navegadores; processamento de áudio nos navegadores; hardware e interfaces tangíveis e uso da web audio api e outros temas relacionados à aplicação de tecnologias web para áudio e música\footnote{\url{https://wac.ircam.fr/}}. Nas conferências, que aconteceram anualmente desde 2016, foram apresentados uma série de trabalhos explorando essas tecnologias para produção musical, como emuladores de DAW \footnote{\cite{Jillings2017}} ou sequenciadores \footnote{\cite{Feenstra2016}}.
 
 
-Innovative audio and music based web applications (with social and user experience aspects)
-Client-side audio processing (real-time or non real-time)
-Audio data and metadata formats and network delivery
-Server-side audio processing and client access
-Client-side audio engine and rendering
-Frameworks for audio manipulation
-Web Audio API design and implementation
-Client-side audio visualization
-Multimedia integration
-Web standards and use of standards within audio based web projects 
-Hardware, tangible interface and use of Web Audio API
 
-\textbf{(ii) Instrumentos musicais online.} Nos últimos anos, principalmente depois do lançamento da Web Audio API, muitas pesquisas têm sido conduzidas no desenvolvimento de plataformas para tocar música na rede. Uma parte delas são baseadas em tipos existentes de instrumentos musicais digitais, como emuladores de DAW \footnote{\cite{Jillings2017}} ou sequenciadores \footnote{\cite{Feenstra2016}}.
-\todo{incluir mais referencias aqui}
+
+%Innovative audio and music based web applications (with social and user experience aspects)
+%Client-side audio processing (real-time or non real-time)
+%Audio data and metadata formats and network delivery
+%Server-side audio processing and client access
+%Client-side audio engine and rendering
+%Frameworks for audio manipulation
+%Web Audio API design and implementation
+%Client-side audio visualization
+%Multimedia integration
+%Web standards and use of standards within audio based web projects 
+%Hardware, tangible interface and use of Web Audio API
+
+%\textbf{(ii) Instrumentos musicais online.} Nos últimos anos, principalmente depois do lançamento da Web Audio API, muitas pesquisas têm sido conduzidas no desenvolvimento de plataformas para tocar música na rede. Uma parte delas são baseadas em tipos existentes de instrumentos musicais digitais, 
+%\todo{incluir mais referencias aqui}
 
 No Brasil, o projeto música móvel \footnote{\cite{Rohde2014}}, reuniu pesquisadores como Bruno Rohe, Glerm Soares e Cristiano Figueiró para produzir aplicativos de musicais para telas multique em sistema Android e software livre (Figura \ref{mmovel}). Eles usaram como base uma biblioteca que permite criar aplicativos baseados em PureData (libPD). Entre eles, o ``Looper'' \footnote{Vídeo demontrativo disponível em: https://www.youtube.com/watch?v=aTOdMNtC-sA}, que permite gravar loops em diversos canais e aplicar filtros e efeitos no domínio do tempo das frequências; B\/I\/T\/S\/L\/C (beatslicer), que ``construir
 recombinações de sequenciamento de fatias de áudio''; o Photosíntese, que trabalha com síntese sonora a partir das informações de cor da imagem da câmera do celular.
@@ -347,8 +343,4 @@ recombinações de sequenciamento de fatias de áudio''; o Photosíntese, que tr
 \end{figure}
 
 
-
-Essa diversidade de trabalhos demonstra o potencial das tecnologias web para o desenvolvimento de novas interfaces para produção musical, no entanto, a maioria dos instrumentos desenvolvidos até então ou exigiam um conhecimento prévio de técnicas musicais, ou são muitos simples e restritas em termos de expressividade musical\footnote{\cite{Dobrian2006}}, aproximando-se mais da idéia de um jogo musical do que de um instrumento propriamente dito. 
-
-
-Apesar de mostraram que existe uma imensa potencialidade latente em explorar essas novas tecnologias, permitindo processos complexos de síntese de áudio e sampleamento, esses experimentos ainda são relativamente precários em termos de potencialidades de produção musical, se compararmos às ferramentas disponíveis para produção musical em software, como os chamados digital audio workstations (DAW) ou os patchers.
+Essa diversidade de trabalhos demonstra o potencial das tecnologias web para o desenvolvimento de novas interfaces para produção musical, no entanto, a maioria dos instrumentos desenvolvidos até então ou exigiam um conhecimento prévio de técnicas musicais, ou são muitos simples e restritas em termos de expressividade musical\footnote{\cite{Dobrian2006}}, aproximando-se mais da idéia de um jogo musical do que de um instrumento propriamente dito. Apesar de mostraram que existe uma imensa potencialidade latente em explorar essas novas tecnologias, permitindo processos complexos de síntese de áudio e sampleamento, esses experimentos ainda eram relativamente precários em termos de potencialidades de produção musical, se compararmos às ferramentas disponíveis para produção musical em software, como os chamados digital audio workstations (DAW) ou os patchers.
