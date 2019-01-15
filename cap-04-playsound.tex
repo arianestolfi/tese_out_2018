@@ -48,7 +48,8 @@ O músico Kutiman, no álbum ``Tru-you'' (\citeyear{Kutiman2010}), utiliza trech
 
 \begin{figure}
 \includegraphics[width=1\textwidth]{pictures/cap4/kutiman}
-\caption{Screenshots da faixa ``Mother of All Funk Chords'' do compositor Kutiman. }
+\caption{Imagens do vídeo da faixa ``Mother of All Funk Chords'' do compositor Kutiman. }
+\legend{fonte: \url{http://thru-you.com/}}
 \label{Kutiman}
 \end{figure}
 
@@ -59,7 +60,7 @@ Localizar \emph{samples} durante uma improvisação musical pode ser desafiador\
 
 A utilização de amostras de sons pré-gravados é largamente empregada em uma série de tradições estéticas musicais como \emph{Hip Hop, Plunderphonics}, Música Eletrônica, Música Concreta, composição de Paisagens Sonoras. Bibliotecas \emph{online} de áudio como Freesound.org, Redpanal.org, Sampleswap.org entre outras são utilizadas por compositores e produtores musicais de vários tipos de aplicações multimídia como cinema, publicidade, video games, e composições musicais\footnote{\cite{Roma2013}}. 
 
-Alguns projetos desenvolvidos recentemente têm também esse norte como paradigma. O projeto ``API Cultor'' (2017), por exemplo\footnote{\cite{Ordiales2017}} usa técnicas de \emph{machine learning} para prover um ambiente para re-utilização de sons de bibliotecas \emph{online}. Lee et al. propõem uma ferramenta para \emph{live coding} com a API do Youtube para improvisação livre\footnote{\cite{Lee}}. Ao prover acesso a seu banco de dados por uma REST API\footnote{\cite{Akkermans2011}}, o site Freesound.org permite que musicistas e designers criem aplicativos que explorem seu conteúdo online para utilização ao vivo. BeatPush\footnote{\cite{Feenstra2016}}, é um exemplo de sequenciador e o Freesound Explorer\footnote{\cite{Font2016}}, outro exemplo, que organiza os sons em uma configuração espacial por similaridade e usa cores para representar aspectos timbrais. No entanto, é mais voltado para navegação e exploração do que para tocar em tempo real, e não permite que os usuários selecionem sons a partir de buscas múltiplas. Arne Eingenfeld, do Metacration Lab usa o Freesound como base para produzir música generativa a partir de algoritmos computacionais na peça ``Coming Together - Freesound''\footnote{Vídeo da peça pode ser visto em: \url{https://www.youtube.com/watch?v=jFD2A8bX8TM}}:
+Alguns projetos desenvolvidos recentemente têm também esse norte como paradigma. O projeto ``API Cultor'' (2017), por exemplo\footnote{\cite{Ordiales2017}} usa técnicas de \emph{machine learning} para prover um ambiente para re-utilização de sons de bibliotecas \emph{online}. Lee et al. (\citeyear{Lee}) propõem uma ferramenta para \emph{live coding} com a API do Youtube para improvisação livre\footnote{\cite{Lee}}. Ao prover acesso a seu banco de dados por uma REST API\footnote{\cite{Akkermans2011}}, o site Freesound.org permite que musicistas e designers criem aplicativos que explorem seu conteúdo online para utilização ao vivo. BeatPush\footnote{\cite{Feenstra2016}}, é um exemplo de sequenciador e o Freesound Explorer\footnote{\cite{Font2016}}, outro exemplo, que organiza os sons em uma configuração espacial por similaridade e usa cores para representar aspectos timbrais. No entanto, é mais voltado para navegação e exploração do que para tocar em tempo real, e não permite que os usuários selecionem sons a partir de buscas múltiplas. Arne Eingenfeld, do Metacration Lab usa o Freesound como base para produzir música generativa a partir de algoritmos computacionais na peça ``Coming Together - Freesound''\footnote{Vídeo da peça pode ser visto em: \url{https://www.youtube.com/watch?v=jFD2A8bX8TM}}:
 
 \begin{citacao}
 Uma composição de paisagem sonora autônoma criada por quatro agentes artificiais autônomos. Os agentes escolhem sons de uma base de dados ampla previamente pré-analizada de gravações de paisagens sonoras (do freesound.org), baseados nos seus conteúdos espectrais e tags de metadados. Agentes analisam em tempo real o som dos demais agentes, e tentam evitar áreas espectrais dominantes dos outros agentes, selecionando sons que não mascarem uns aos outros. Além disso, seleções do banco de dados são constritas por metadados que descrevem os sons. \cite{Arneeigenfeldt2010}
@@ -67,57 +68,69 @@ Uma composição de paisagem sonora autônoma criada por quatro agentes artifici
 %An autonomous soundscape composition created by four autonomous artificial agents. Agents choose sounds from a large pre- analyzed database of soundscape recordings (from freesound.org), based upon their spectral content and metadata tags. Agents analyze, in realtime, other agent's audio, and attempt to avoid dominant spectral areas of other agents, selecting sounds that do not mask one another. Furthermore, selections from the database are constrained by metadata tags describing the sounds. Thus, water sounds may trigger other water sounds, or agents can choose to oppose contextual references. As the composition progresses, convergence is further facilitated by lowering the bandwidth of the agent's resonant filters, projecting an artificial harmonic field upon the recordings that are derived from the spectral content of the recordings themselves. Finally, each agent adds granulated instrumental tones at the resonant frequencies, thereby completing the ``coming together''. \cite{Arneeigenfeldt2010}
 \end{citacao}
 
-Entre diversos serviços que provém conteúdo sonoro online, uma imensa gama de sons musicais e não musicais são oferecidos pelo Audio Commons Ecossystem \footnote{\cite{Font2015}}. A ideia no desenvolvimento do Playsound era de ser uma tentativa de contornar essas questões, promovendo o acesso a esses sons em tempo real através da API do Freesound \footnote{\cite{Akkermans2011}}, oferecendo feedback visual através de espectrográficos, de uma forma que pudesse ser tocada sem um grid de tempo fixo e por usuários sem domínio de técnicas musicais.
+Entre diversos serviços que provém conteúdo sonoro online, uma imensa gama de sons musicais e não musicais são oferecidos pelo Audio Commons Ecossystem \footnote{\cite{Font2015}}. A ideia no desenvolvimento do Playsound era de ser uma tentativa de contornar essas questões, promovendo o acesso a esses sons em tempo real através da API do Freesound \footnote{\cite{Akkermans2011}}, oferecendo \emph{feedback} visual através de espectrográficos, de uma forma que pudesse ser tocada sem um grid de tempo fixo e por usuários sem domínio de técnicas de gesto musical.
 
 
-\subsection{Compor por Espectrogramas}
+\subsection{Composição por Espectrogramas}
 
 Compor a partir de espectrogramas era uma ideia que acompanhava meu trabalho já faz algum tempo. Em 2011 publiquei um trabalho chamado UTOPIA (Figura \ref{utopia}), onde desenhava a palavra utopia através de síntese subtrativa sobre uma gravação feita de uma serra de fita em funcionamento, que era uma amostra bastante saturada. Essa ideia também voltou outras vezes no meu trabalho, na composição da peça Bandas Críticas e no processo de composição de sons para o Banda Aberta. 
 
-Espectrogramas (ou sonogramas) são imagens geradas a partir da análise do som por um algoritmo chamado de \emph{Fast Fourier Transform} (FFT), que decompõe as frequências formantes de ondas complexas\footnote{\cite[55]{Roads}}. Diferente da representação da forma de onda, que é a mais comum em softwares de edição de áudio eletrônico, e é uma representação bi-dimensional, onde estão representadas intensidade e tempo de um som, os espectrogramas trazem uma representação que ``incorpora todas as três dimensões do som''\footnote{\cite{Schafer2011}}, intensidade, frequência e tempo. 
+Espectrogramas (ou sonogramas) são imagens geradas a partir da análise do som por um algoritmo chamado de \emph{Fast Fourier Transform} (FFT), que decompõe as frequências formantes de ondas complexas\footnote{\cite[55]{Roads}} (Figura \ref{specrep}). Diferente da representação da forma de onda (Figura \ref{wave}), que é a mais comum em softwares de edição de áudio digital, e é uma representação bi-dimensional, onde estão representadas intensidade e tempo de um som, os espectrogramas trazem uma representação que ``incorpora todas as três dimensões do som''\footnote{\cite{Schafer2011}}, intensidade, frequência e tempo. 
 
 
-Quando começamos a publicar os primeiros artigos a respeito do projeto Banda Aberta comecei a buscar ferramentas para conseguir imprimir os conjuntos de samples (ver figuras \ref{samplesgalaxias}, \ref{samplespercussao}, \ref{samplescolab} e \ref{samplesorquestra}) e não consegui encontrar nenhuma ferramenta pronta que pudesse gerar espectrogramas de um conjunto grande de sons que fosse acessível. Então, para gerar essas imagens, bem como os sites que reúnem os samples do projeto Banda Aberta, tivemos que desenvolver uma ferramenta própria, que chamamos de ``Spectrogram player'', que foi o esboço de um player para tocar a partir de espectrogramas, em JavaScript e HTML\footnote{A ferramenta foi desenvolvida em código aberto e está disponível no endereço: \url{https://github.com/arianestolfi/spectrogramplayer}}. 
+\begin{figure}
+\includegraphics[width=1\textwidth]{pictures/cap4/exemplospec}
+\caption{\label{utopia}Exemplo de representação do som por espectrograma. }
+\label{specrep}
+\end{figure}
 
-Quando comecei a desenvolver este novo projeto, descobri que a API do Freesound\footnote{\cite{Akkermans2011}} já fornecia os espectrogramas dos sons de sua biblioteca em forma de imagens, o que era muito conveniente para o projeto, já que diminui o tempo necessário para a análise via FFT que poderia gerar os espectrogramas em tempo real. Além disso, ao oferecer os espectrogramas como imagens, a API do Freesound permite realizar a pesquisa sonora sem a necessidade de baixar os sons toda vez no computador do usuário.
+\begin{figure}
+\includegraphics[width=1\textwidth]{pictures/cap4/exemplowave}
+\caption{\label{utopia}Exemplo de representação do som pela forma da onda. }
+\label{wave}
+\end{figure}
+
+Quando começamos a publicar os primeiros artigos a respeito do projeto Banda Aberta comecei a buscar ferramentas para conseguir imprimir os conjuntos de samples (ver figuras \ref{samplesgalaxias}, \ref{samplespercussao}, \ref{samplescolab} e \ref{samplesorquestra}) e não consegui encontrar nenhuma ferramenta pronta que pudesse gerar espectrogramas de um conjunto grande de sons que fosse acessível. Então, para gerar essas imagens, bem como os sites que reúnem os samples do projeto Banda Aberta, tivemos que desenvolver uma ferramenta própria, que chamamos de ``Spectrogram Player'', que foi o esboço de um tocador em JavaScript e HTML que usasse espectrogramas como base\footnote{A ferramenta foi desenvolvida em código aberto e está disponível no endereço: \url{https://github.com/arianestolfi/spectrogramplayer}}. 
+
+Quando comecei a desenvolver este novo projeto, descobri que a API do Freesound\footnote{\cite{Akkermans2011}} já fornecia os espectrogramas dos sons de sua biblioteca em forma de imagens, o que era muito conveniente para o projeto, já que diminui o tempo necessário para a análise via FFT (que poderia gerar os espectrogramas em tempo real). Além disso, ao oferecer os espectrogramas como imagens, a API do Freesound permite realizar a pesquisa sonora sem a necessidade de baixar os sons toda vez no computador do usuário.
 
 \begin{figure}
 \includegraphics[width=1\textwidth]{pictures/cap4/utopia}
-\caption{\label{utopia}Utopia }
+\caption{\label{utopia}Utopia.}
+\legend: Fonte: screenshot da autora.
 \label{utopia}
 \end{figure}
 
-Queria desenvolver uma ferramenta que não dependesse de expertise técnica ou virtuosismo, que é um dos objetivos dessa pesquisa. Assim como no projeto Banda Aberta, decidimos manter o texto como forma de interação com o sistema, mas ao invés de fazer um mapeamento de sons por letras, como no projeto anterior, aqui o texto serve como fonte para buscar informações, ao permitir a busca através de significados semânticos ou descritivos, por exemplo: ``chuva pacífica'', ``crowd noise'' ou ``applause''. A solução técnica foi o desenvolvimento de um sistema de busca e de um tocador que permite o acesso a centenas de milhares de sons em Creative Commons baseada na API do Freesound.
+Queria desenvolver uma ferramenta que não dependesse de expertise técnica ou virtuosismo, que era um dos objetivos dessa pesquisa. Assim como no projeto Banda Aberta, decidimos manter o texto como forma de interação com o sistema, mas ao invés de fazer um mapeamento de sons por letras, como no projeto anterior, aqui o texto serve como fonte para buscar informações, ao permitir a busca através de significados semânticos ou descritivos, por exemplo: ``wood saw'', ``crowd noise'' ou ``applause''. A solução técnica foi o desenvolvimento de um sistema de busca e de um tocador que permite o acesso a centenas de milhares de sons em Creative Commons fornecidos com a mediação da API do Freesound.
 
 
 \subsection{Desenvolvimento do Projeto}
 
-Comecei a desenvolver o projeto em Julho de 2018, após apresentar o Banda Aberta em alguns eventos na Europa que descrevi na seção anterior. Estava acompanhando semanalmente as reuniões do projeto AC e imaginei um sistema onde pudesse se buscar os sons através de busca de texto, e escolhê-los pelo espectrograma. A primeira idéia, no entanto, era fazer uma espécie de linha do tempo onde se poderia arrastar os sons e compor no espaço da tela. Quando comecei a desenvolver, ideia de linha do tempo foi substituida pela playlist, para que o sistema não ficasse constrito a uma janela de loop fixo. 
+Comecei a desenvolver o projeto em Julho de 2018, após apresentar o Banda Aberta em alguns eventos na Europa que descrevi na seção anterior. Estava acompanhando semanalmente as reuniões do projeto AC e imaginei um sistema onde pudesse se buscar os sons através de busca de texto, e escolhê-los pelo espectrograma. A primeira idéia, no entanto, era fazer uma espécie de linha do tempo onde se poderia arrastar os sons e compor no espaço da tela (a figura \ref{fig:firstsketch} mostra um rascunho inicial do projeto). Quando comecei a desenvolver, ideia de linha do tempo foi substituida pela ideia de \emph{playlist} múltipla, para que o sistema não ficasse constrito a uma janela de loop fixo. 
 
 \begin{figure}
-
 \includegraphics[width=1\textwidth]{pictures/cap4/firstsketch}
-\caption{\label{firstsketch}Primeiro rascunho do sistema, que ainda se chamava audioquery}
+\caption{\label{firstsketch}Primeiro rascunho do sistema.}
 \label{fig:firstsketch}
 \end{figure}
 
 
-A figura \ref{fig:timeline} apresenta os principais estágios de desenvolvimento da ferramenta de Setembro de 2017 a Julho de 2018. Utilizei novamente Lean Ux \cite{Liikkanen2014} como metodologia de desenvolvimento de software. Dentro dos princípios desse método, começamos novamente o projeto a partir de um protótipo bem simples, que era apenas um sistema de busca que mostrava o resultado como um conjunto de espectrogramas. Inicialmente, contei com a ajuda do programador Miguel Ceriani para fazer a ligação com a API do freesound.
+A figura \ref{fig:timeline} apresenta os principais estágios de desenvolvimento da ferramenta de Setembro de 2017 a Julho de 2018. Utilizei novamente Lean Ux \cite{Liikkanen2014} como metodologia de desenvolvimento de software nos estágios iniciais. Dentro dos princípios desse método, começamos novamente o projeto a partir de um protótipo bem simples, que era apenas um sistema de busca que mostrava o resultado como um conjunto de espectrogramas. Inicialmente, contei com a ajuda do programador Miguel Ceriani para fazer a ligação com a API do Freesound.
 
 \begin{figure}
 
 \includegraphics[width=1\textwidth]{pictures/playsoundtimeline}
-\caption{\label{pstimeline}Timeline do desenvolvimento do Playsound}
+\caption{\label{pstimeline}Linha do tempo de desenvolvimento do Playsound}
 \label{fig:timeline}
 \end{figure}
 
-Utilizamos como \emph{framework} Angular.js\footnote{Angular.js é um \emph{framework} em JavaScript desenvolvido pela Google que permite automatizar certos processos computacionais e facilita a comunicação com bancos de dados}. O Framework fornece o recurso de ligação de dados bidirecional, que faz com que a busca aconteça no servidor simultaneamente ao se digitar o texto na caixa de busca. Deste modo, mesmo antes de se completar uma palavra, resultados já começam a aparecer na janela do navegador. Para o processo de improvisação livre, esse recurso se mostrou muito interessante, uma vez que sons não esperados podem surgir mesmo antes de se estabelecer um vocábulo definitivo. O site foi construído como um aplicativo de página única, o que permite com que os conteúdos sejam alterados sem que haja um recarregamento da página\footnote{\cite{Jadhav}}. Assim, a interação dos usuários não interrompe o fluxo sonoro.
+Utilizamos como \emph{framework} Angular.js\footnote{Angular.js é um \emph{framework} em JavaScript desenvolvido pela Google que permite automatizar certos processos computacionais e facilita a comunicação com bancos de dados} que fornece o recurso de ligação de dados bidirecional, que faz com que a busca aconteça no servidor simultaneamente ao se digitar o texto na caixa de busca. Deste modo, mesmo antes de se completar uma palavra, resultados já começam a aparecer na janela do navegador. Para o processo de improvisação livre, esse recurso se mostrou muito interessante, uma vez que sons não esperados podem surgir mesmo antes de se estabelecer um vocábulo definitivo para busca. O site foi construído como um aplicativo de página única, o que permite com que os conteúdos sejam alterados sem que haja um recarregamento da página\footnote{\cite{Jadhav}}. Assim, a interação dos usuários não interrompe o fluxo sonoro.
 
-Os resultados são apresentados na forma de espectrogramas, que permitem que o usuário do sistema tenha informações sobre ritmo e timbre das amostras recebidas antes de escolher o som para tocar. Aparecem como uma matriz, que permite que se compare os sons visualmente. Apesar de a leitura dos espectrogramas não ser uma coisa corriqueira para qualquer usuário do sistema, acreditamos que um aprendizado implícito pode acontecer no simples processo de pesquisar e tocar com o sistema, quando se percebe a co-relação entre a representação gráfica das propriedades espectro-temporais dos dos sons e suas qualidades audíveis. Quando selecionamos uma imagem, o som é adicionado a uma playlist na lateral da interface.
+Os resultados são apresentados na forma de espectrogramas, que permitem que o usuário do sistema tenha informações sobre ritmo e timbre das amostras recebidas antes de escolher o som para tocar. Aparecem como uma matriz, que permite que se compare os sons visualmente. Apesar de a leitura dos espectrogramas não ser uma coisa corriqueira para qualquer um, acreditamos que um aprendizado implícito pode acontecer no simples processo de pesquisar e tocar com o sistema, quando se percebe a co-relação entre a representação gráfica das propriedades espectro-temporais dos dos sons e suas qualidades audíveis. Quando selecionamos uma imagem, o som correspondente é adicionado a uma \emph{playlist} na lateral da interface.
 
- Assim que colocamos o sistema no ar, começamos a desenvolver recursos adicionais para transformar o sistema em um instrumento musical de fato. O primeiro recurso desenvolvido foi a capacidade de se fazer novas buscas enquanto os sons são tocados, recurso que já não existe no próprio Freesound. Em seguida, criamos um sistema de url para armazenar uma coleção de sons feita previamente. Cada som selecionado gera um código que fica registrado no endereço do navegador. Desta forma, é possível recuperar uma ``composição de sons'' para utilização futura. O próximo passo foi desenvolver a interface para tocar os arquivos. A primeira versão funcionava baseada em objetos HTML, utilizando o \emph{player} padrão dos navegadores para objetos de áudio que oferece controles apenas de pausar tocar, alterar o instante tocado e dependendo do navegador um controle de volume. Em uma segunda versão utilizamos o tocador do Freesound, que oferecia recursos de loop, mas isso exigia que se recarregasse a página, interrompendo o fluxo musical. 
+ Assim que colocamos o sistema no ar, começamos a desenvolver recursos adicionais para transformar o sistema em um instrumento musical de fato. O primeiro recurso desenvolvido foi a capacidade de se fazer novas buscas enquanto os sons são tocados, recurso que já não existe no próprio Freesound. Em seguida, criamos um sistema de url para armazenar uma coleção de sons feita previamente. Cada som selecionado gera um código que fica registrado no endereço do navegador. Desta forma, é possível recuperar uma seleção de sons para utilização futura, sem que haja necessidade de um sistema de \emph{login}. O próximo passo foi desenvolver a interface para tocar os arquivos. A primeira versão funcionava baseada em objetos HTML, utilizando o \emph{player} padrão dos navegadores para objetos de áudio que oferece controles apenas de pausar tocar, alterar o instante tocado e dependendo do navegador um controle de volume. Em uma segunda versão utilizamos o tocador do Freesound, que oferecia recursos de \emph{loop}, mas isso exigia que se recarregasse a página, interrompendo o fluxo musical. 
 
- Desenvolvemos alguns recursos básicos do tocador, adicionando a imagem do espectro sonoro como recurso mnemônico, e adicionamos controle individual de volume e loop para cada som que era adicionado à playlist. Como recurso de usabilidade, para dar feedback visual, a transparência da imagem é alterada conforme o volume do som aumenta ou abaixa. Adicionamos também um gravador embutido no sistema, que permite que as seções sejam gravadas em arquivos WAV. Esses arquivos podem ser salvos ou re-inseridos na interface para serem tocados. A figura \ref{fig:audioquery} mostra a interface da primeira versão do software no Google Chrome, que até esse momento chamávamos de Audioquery\footnote{Por questões acadêmicas, mantemos ainda uma versão funcional do software em \url{http://www.codigo.xyz/audioquery/\#/sounds=49333,415849}}..
+ Desenvolvemos alguns recursos básicos do tocador, adicionando a imagem do espectro sonoro como recurso mnemônico, e adicionamos controle individual de volume e \emph{loop} para cada som que era adicionado à playlist. Como recurso de usabilidade, para dar \emph{feedback} visual, a transparência da imagem é alterada conforme o volume do som aumenta ou abaixa. Adicionamos também um gravador embutido no sistema, que permite que as seções sejam gravadas em arquivos WAV. Esses arquivos podem ser salvos ou re-inseridos na interface para serem tocados. A figura \ref{fig:audioquery} mostra a interface da primeira versão do software, que até esse momento chamávamos de Audioquery, no Google Chrome e no Firefox\footnote{Por questões acadêmicas, mantemos ainda uma versão funcional do software em: \url{http://www.codigo.xyz/audioquery/\#/sounds=49333,415849}}.
 
 \begin{figure}
 
@@ -135,14 +148,16 @@ A primeira peça gravada com o sistema chamei de ``spacefrogs''\footnote{Dispon�
 \begin{figure}
 
 \includegraphics[width=1\textwidth]{pictures/cap4/spacefrogs_spectrogram}
-\caption{Espectrogramas da faixa ``spacefrogs''. Gerado pela autora utilizando o software sonic visualiser.}
+\caption{Espectrogramas da faixa ``Spacefrogs''. }
+\legend{Gerado pela autora utilizando o software Sonic Visualiser.}
 \label{fig:spacefrogs}
 \end{figure}
 
 \begin{figure}
 
 \includegraphics[width=1\textwidth]{pictures/cap4/spacefrogs_spectrogram_dt}
-\caption{Detalhes da faixa ``spacefrogs''. Gerado pela autora utilizando o software sonic visualiser.}
+\caption{Detalhes da faixa ``spacefrogs'' }
+\legend{Gerado pela autora utilizando o software Sonic Visualiser.}
 \label{fig:spacefrogsdt}
 \end{figure}
 
@@ -155,15 +170,13 @@ A primeira peça gravada com o sistema chamei de ``spacefrogs''\footnote{Dispon�
 
 \subsubsection{Puppets Ensemble}
 
-A partir do ponto que consideramos o sistema satisfatório para ser utilizado em performances ao vivo, (\ref{fig:timeline}), passamos a realizar com ele processos de avaliação mais formais. 
+A partir do ponto que consideramos o sistema satisfatório para ser utilizado em performances ao vivo (ver figura \ref{fig:timeline}), passamos a realizar com ele processos de avaliação mais formais. O primeiro deles, foi um processo de avaliação baseado na prática, e para isso, queríamos testar o sistema em condições ``reais'' de uso. Como a principal função do sistema era o de ser empregado em práticas de improvisação livre, montamos um pequeno grupo na QMUL, o ``Puppets Ensemble'' para o qual convidamos músicos e interessados dentro do C4DM. Marcamos alguns ensaios, com músicos tocando com o sistema e outros tocando instrumentos tradicionais ou eletrônicos que já praticavam. A proposta desses ensaios, que duraram cerca de uma hora cada e aconteceram no Laboratório de Performance da QMUL, era de tocar algumas sessões de improvisação livre de cerca de 10 minutos e discutir, na sequência de cada sessão, as impressões estéticas e o uso da ferramenta no processo.
 
-O primeiro deles, foi um processo de avaliação baseado na prática, e para isso, queríamos testar o sistema em condições ``reais'' de uso. Como a principal função do sistema era o de ser empregado em práticas de improvisação livre, montamos um pequeno grupo de improvisação na QMUL, o ``Puppets Ensemble'' para o qual convidamos músicos e interessados dentro do C4DM. Marcamos alguns ensaios, com músicos tocando com o sistema e outros tocando instrumentos tradicionais ou eletrônicos que já praticavam. A proposta desses ensaios, que duraram cerca de uma hora cada e aconteceram no Laboratório de Performance da QMUL, era de tocar algumas sessões de improvisação livre de cerca de 10 minutos e discutir, na sequência de cada sessão, as impressões estéticas e o uso da ferramenta no processo.
-
-Nessas sessões, toquei com Playsound e também com um microfone onde improvisei com a voz. Além disso, participaram Anna Xambó (Supercollider e Playsound), Simin Yang (Playsound), Parham Bahadoran (Percussão e aplicativos de celular). Luca Truchet (Playsound) e Mathieu Barthet (guitarra com efeitos), três mulheres e três homens, com idade média de 33 anos (Ver arranjo na tabela \ref{tab:puppets}). Dos participantes, somente Chen não tinha prática anterior em improvisação musical. Mesmo assim, ela foi capaz de utilizar o sistema sem treinamento anterior.
+Nessas sessões, toquei com Playsound e também com um microfone onde improvisei com a voz. Além disso, participaram Anna Xambó (Supercollider e Playsound), Simin Yang (Playsound), Parham Bahadoran (Percussão e aplicativos de celular). Luca Truchet (Playsound) e Mathieu Barthet (guitarra com efeitos), três mulheres e três homens, com idade média de 33 anos (Ver arranjo na tabela \ref{tab:puppets}). Dos participantes, somente Simin não tinha prática anterior em improvisação musical. Mesmo assim, ela foi capaz de utilizar o sistema sem treinamento anterior.
 
 Com esse processo, pudemos testar se o sistema poderia ser usado de fato como um instrumento musical, e se era possível de ser utilizado em conjunto com outros instrumentos em situações reais de performance. Em todas sessões, tanto quem tocou com a ferramenta quanto os demais musicistas ficaram satisfeitos com as improvisações. Nenhum dos participantes tinham tocado juntos previamente e foi possível estabelecer um diálogo musical durante as sessões. A ferramenta foi elogiada pela riqueza dos sons que provia, Um dos participantes comentou que gostava do fato de que ``qualquer ideia de som que eu tenho eu posso ter nas minhas mãos''. 
 
-O feedback dos usuários também foi importante para notarmos algumas limitações do sistema naquele momento. O primeiro protótipo, não tinha por exemplo o nome dos sons na playlist, o que dificultava o uso para pessoas sem prática de leitura dos espectrogramas. Também não tinha controle individual de volume para cada som, então a possibilidade de controle de dinâmica ainda era muito reduzida, e incluímos melhorias nesse sentido para realizar as próximas rodadas de avaliação\footnote{Gravações das seções podem ser encontradas em \url{http://finetanks.com/records/puppets/}}.
+O \emph{feedback} dos usuários também foi importante para notarmos algumas limitações do sistema naquele momento. Por exemplo: o primeiro protótipo, não tinha o nome dos sons na \emph{playlist}, o que dificultava o uso para pessoas sem prática de leitura dos espectrogramas; também não tinha controle individual de volume para cada som, então a possibilidade de controle de dinâmica era muito reduzida, e incluímos melhorias nesse sentido antes de realizar as rodadas seguintes de avaliação\footnote{Gravações das seções podem ser encontradas em: \url{http://finetanks.com/records/puppets/}}.
 
 \begin{table}
 
@@ -179,13 +192,13 @@ Sessões & Performers \\ \hline
 
 \subsubsection{Teste com usuários}
 
-Depois desta primeira avaliação prática, passamos a discutir como faríamos uma avaliação mais formal e se isso seria necessário para a publicação de um primeiro artigo científico sobre o uso da ferramenta, que foi publicado na Conferência New Interfaces for Music Expression (NIME) de 2018. Isso gerou um grande debate com meu orientador na QMUL, uma vez que testes de usuário em laboratório poderiam ser contradizentes com a ideia geral norteadora do projeto, que era o desenvolver um software sobretudo para uso pessoal e não necessariamente um produto para o mercado. 
+Depois desta primeira avaliação prática, passamos a discutir como faríamos uma avaliação mais formal e se isso seria necessário para a publicação de um primeiro artigo científico sobre o uso da ferramenta, que foi publicado na conferência New Interfaces for Music Expression (NIME) de 2018. Isso gerou um grande debate com meu orientador na QMUL, uma vez que testes de usuário em laboratório poderiam ser contraditórios com a ideia geral norteadora do projeto, que era o desenvolver software sobretudo para uso pessoal e não necessariamente um produto para o mercado. 
 
 
-A contradição maior era de que esses testes demorariam muito tempo e a análise dos resultados seria muito complexa, tomando tempo que poderia ser empregado no desenvolvimento e programação do sistema. Por outro lado, uma avaliação formal ou seja, ``que apresente um roteiro estruturado de coleta de dados e resultados''\footnote{\cite{Stowell}} era importante para o processo, e também para conseguir comparar a ferramenta com outras que estavam sendo desenvolvidas dentro do contexto do projeto Audio Commons, Audio texture, Sample Surfer e o próprio Freesound, para tanto, aplicaríamos um questionário similar ao que já estava sendo utilizado para avaliar essas ferramentas.
+A contradição maior era de que esses testes demorariam muito tempo e a análise dos resultados seria muito complexa, tomando tempo que poderia ser empregado no desenvolvimento e programação do sistema. Por outro lado, uma avaliação formal ou seja, ``que apresente um roteiro estruturado de coleta de dados e resultados''\footnote{\cite{Stowell}} era importante para o processo, e também para conseguir comparar a ferramenta com outras que estavam sendo desenvolvidas dentro do contexto do projeto AC, como Audio texture, Sample Surfer e o próprio Freesound; para tanto, aplicaríamos um questionário similar ao que já estava sendo utilizado para avaliar essas outras ferramentas.
 
 
-Decidimos então fazer o teste mais formal, em condições controladas de laboratório, para o qual convidamos 15 voluntários, com graus diferentes de intimidade com práticas musicais e de improvisação livre (Figura \ref{usertest}). O pesquisador Luca Truchet se dispôs a colaborar na aplicação dos testes e na análise estatística dos resultados obtidas, assim como meu supervisor no C4DM, que fez a análise temática das respostas dos questionários. Nesse momento também, onde começamos a divulgar a ferramenta para o público, passamos a chamar o sistema de Playsound e registramos o domínio onde o site está hospedado.
+Decidimos então fazer o teste mais formal, em condições controladas de laboratório, para o qual convidamos 15 voluntários, com graus diferentes de intimidade com práticas musicais e de improvisação livre (Figura \ref{usertest}). O pesquisador Luca Truchet se dispôs a colaborar na aplicação dos testes e na análise estatística dos resultados obtidas, assim como meu supervisor no C4DM, Mathieu Barthet, que fez a análise temática das respostas dos questionários. Nesse momento também, começamos a divulgar a ferramenta para o público, passamos a chamar o sistema de Playsound e registramos o domínio onde o site está hospedado.
 
 
 \begin{figure}
@@ -196,13 +209,15 @@ Decidimos então fazer o teste mais formal, em condições controladas de labora
 %When the system was judged ready to be used in live performances (Audioquery multitrack player in Figure \ref{fig:timeline}), we conducted several user evaluations \cite{Stolfi2018b}. First, we established a small ensemble including musicians playing PS and other musicians playing electronic or traditional instruments such as guitar and effects, piano, percussions, and vocals. In each session, participants were invited to play together an improvisation piece for about 10 minutes, and to discuss their experience after each piece. We examined three sessions with this kind of ensemble, involving 6 musicians in total. Following this study, we improved the interface to provide individual volume control and information about the audio file on the playlist.\footnote{Audio recordings of seven 10 min improvisation pieces are available at the link:\url{http://finetanks.com/records/puppets/}}
 
 
-Existe muita discussão sobre como fazer testes de avaliação de ferramentas para performance musical ao vivo\footnote{\cite{Barbosa2015}}, como aponta Stowell\footnote{\cite{Stowell}}, porque ``interações musicais tem aspectos criativos e afetivos'', que não são fáceis de medir através de tarefas, como é comum no campo do design de interação. Além disso, existe um debate sobre abordagens qualitativas, que são baseadas em relatos sobre a experiência e quantitativas, baseadas em estatísticas e levantamentos quantitativos. Nós decidimos por uma abordagem mista, com aspectos qualitativos e quantitativos.
+Há muita discussão sobre como fazer testes de avaliação de ferramentas para performance musical ao vivo\footnote{\cite{Barbosa2015}}, como aponta Stowell (\citeyear{Stowell}), porque ``interações musicais tem aspectos criativos e afetivos'', que não são fáceis de medir através de tarefas, como é comum no campo do design de interação. Além disso, existe um debate sobre a eficácia de abordagens qualitativas, que são baseadas em relatos sobre a experiência e quantitativas, baseadas em estatísticas e levantamentos quantitativos. Nós decidimos por seguir uma abordagem mista, levando em conta tanto aspectos qualitativos como quantitativos.
 
-Como atividade, propusemos aos voluntários, que foram organizados em cinco trios. Inicialmente, os participantes foram brevemente instruídos sobre o funcionamento do sistema, e em seguida convidados para tocar três sessões de improvisação livre. Como o grau de envolvimento dos participantes com esse tipo de prática musical era diferente, dissemos que poderiam tocar o que quisessem, mas que tentassem ouvir o que os outros estavam tocando para compor uma peça coletiva. Após cada sessão de improvisação, discutimos brevemente os resultados estéticos e como a ferramenta influenciou nesses resultados. O final, aplicamos um questionário (Ver Anexo), que incluíam questões sobre o perfil demográfico dos participantes (idade, gênero e experiência musical), de usabilidade (escala SUS de usabilidade\footnote{\cite{Jordan1996}}), questões específicas para medir o suporte à criatividade\footnote{\cite{Cherry2014}} e questões gerais para feedback sobre o sistema. 
+Convidamos 15 voluntários, que foram organizados em 5 trios. A cada trio, foi proposto que tocassem em conjunto 3 sessões de 5 minutos de improvisação livre. Inicialmente, os participantes foram brevemente instruídos sobre o funcionamento do sistema, e em seguida convidados para tocar três sessões de improvisação livre. Como o grau de envolvimento dos participantes com esse tipo de prática musical era diferente, dissemos que poderiam tocar o que quisessem, mas que tentassem ouvir o que os outros estavam tocando para compor uma peça coletiva. Após cada sessão de improvisação, discutimos brevemente os resultados estéticos e como a ferramenta influenciou nesses resultados. Ao final, aplicamos um questionário (Ver Anexo \ref{ch:questionarios}), que incluíam questões sobre o perfil demográfico dos participantes (idade, gênero e experiência musical), de usabilidade (escala SUS de usabilidade\footnote{\cite{Jordan1996}}), questões específicas para medir o suporte à criatividade\footnote{\cite{Cherry2014}} e questões gerais para \emph{feedback} sobre o sistema. 
+
+Os resultados apresentados aqui foram sintetizados a partir do que foi apresentado no relatório ``D6.4 - Evaluation report on the prototype of an embeddable tool for integrating Audio Commons music samples'', redigido por Mathieu Barthet e Anna Xambó a partir do material produzido nas avaliações da ferramenta\footnote{\cite{Barthet2018}}.
 
 As questões de usabilidade foram aplicadas utilizando uma escala Likert de cinco pontos\footnote{A escala Likert é uma escala psicométrica para medir o grau de concordância com determinadas afirmações, indo de discordo totalmente a concordo totalmente, com gradações intermediárias}. Foram incluídas também algumas questões para medir níveis de engajamento, aprendizado, inovação, relevância, qualidade da descoberta dos sons, familiaridade e utilidade dos espectrogramas. Essas questões respondidas em escala Likert foram submetidas a análises estatísticas usando o teste de Mann-Whitney-Wilcoxon, para observarmos também se havia alguma variação significativa na satisfação dos usuários músicos e não músicos.
 
-Quanto à usabilidade e engajamento, não houve diferença significativa entre os resultados obtidos pelos músicos e pelos não-músicos. A Figura \ref{fig:SUS} mostra os resultados obtidos na avaliação de usabilidade. Em geral, os usuários definiram o sistema como fácil de usar, fácil de aprender a usar, conveniente, que não havia necessidade de aprender muita coisa antes do uso, não necessita de suporte técnico para seu uso, que não é um sistema desnecessariamente complexo. Os usuários foram neutros quanto à possibilidade de usar o sistema frequentemente, isso talvez seja relacionado com a tarefa, já que vários usuários não têm perspectivas de práticas em improvisação livre. De um modo geral, o sistema obteve uma nota muito boa seguindo a métrica do sistema SUS (Média = 82.5, Desvio Padrão = 8.94)
+Quanto à usabilidade e engajamento, não houve diferença significativa entre os resultados obtidos pelos músicos e pelos não-músicos (Figura \ref{fig:SUS}). Em geral, os usuários definiram o sistema como fácil de usar, fácil de aprender a usar, conveniente, que não havia necessidade de aprender muita coisa antes do uso, não necessita de suporte técnico para seu uso, que não é um sistema desnecessariamente complexo. Os usuários foram neutros quanto à possibilidade de usar o sistema frequentemente, isso talvez seja relacionado com a tarefa, já que vários usuários não têm perspectivas de práticas em improvisação livre. De um modo geral, o sistema obteve uma nota muito boa seguindo a métrica do sistema SUS (Média = 82.5, Desvio Padrão = 8.94)
 
 \begin{figure}
 
@@ -211,9 +226,9 @@ Quanto à usabilidade e engajamento, não houve diferença significativa entre o
 \label{fig:SUS}
 \end{figure}
 
-Também fizemos uma avaliação quantitativa das respostas dos usuários sobre níveis engajamento, aprendizado e sobre a interface. A figura \ref{fig:questionnaire}, que apresenta os resultados obtidos indica que os participantes se sentiram engajados de uma maneira geral. Quanto à questão a respeito de se os usuários haviam aprendido algo com o instrumento, as respostas foram neutras. Nessa questão as pessoas que tinha mais prática com música também foram as que discordaram mais sobre aprender algo com o software. Os participantes concordaram em média que a forma de compor música usando Playsound era novidade para eles, e tiveram diferentes graus de dificuldade para encontrar os sons que esperavam durante as sessões. 
+Também fizemos uma avaliação quantitativa das respostas dos usuários sobre níveis engajamento, aprendizado e sobre a interface. A figura \ref{fig:questionnaire}, que apresenta os resultados obtidos, indica que os participantes se sentiram engajados de uma maneira geral. Quanto à questão a respeito de se os usuários haviam aprendido algo com o instrumento, as respostas foram neutras. Nessa questão as pessoas que tinha mais prática com música também foram as que discordaram mais sobre aprender algo com o software. Os participantes concordaram em média que a forma de compor música usando Playsound era novidade para eles, e tiveram diferentes graus de dificuldade para encontrar os sons que esperavam durante as sessões. 
 
-Quanto à familiaridade com o uso de espectrogramas, tivemos também um resultado neutro, uma vez que a maioria dos participantes tinha familiaridade e o restante não. Também foi neutro o resultado a respeito da utilidade do uso dos espectrogramas, que variou de acordo com a familiaridade dos usuários.
+Quanto à familiaridade com o uso de espectrogramas, tivemos também um resultado neutro, uma vez que a maioria dos participantes tinha familiaridade e o restante não. Também foi neutro o resultado a respeito da utilidade do uso dos espectrogramas, que variou de acordo com a familiaridade dos usuários com essa forma de representação.
 
 
 \begin{figure}
@@ -229,7 +244,8 @@ Uma segunda parte do questionário incluiu questões relativas à medição do �
 \begin{figure}
 
 \includegraphics[width=1\textwidth]{pictures/cap4/CSI}
-\caption{Resultados do questionário CSI, como os maiores valores médios em negrito.}
+\caption{Resultados do questionário CSI}
+\legend{Como os maiores valores médios em negrito.}
 \label{fig:questionnaire}
 \end{figure}
 
@@ -237,18 +253,16 @@ Uma segunda parte do questionário incluiu questões relativas à medição do �
  
 %In another evaluation, PS was tested in controlled lab settings with trios of participants both with and without prior music performance experience. Participants were invited to play three five-minute long free improvisations using the system on their laptops. 15 participants took part in the study (5 females, 10 males, mean$\pm$SD age = 32.7$\pm$5.4), 8 of them considered themselves as musicians (4 intermediate and 4 experienced), while 7 did not. We measured system usability \cite{Jordan1996} and creativity support \cite{Cherry2014} using an online survey to be completed just after the performances. We also conducted inductive thematic analyses \cite{Braun2006} from focus group discussions and self-reports related to workflow, hedonic quality, engagement, learning, contexts of use and improvements. The prototype yielded a high usability score (M = 82.5/100, SD = 8.94) and creativity support index (M =71.7, SD =15.6) with no significant differences between non musicians and musicians.
 
-Nós conduzimos análises temáticas\footnote{\cite{Braun2006}}, tanto das discussões realizadas após a execução das peças, quanto das respostas e comentários dos usuários apresentados nos questionários. 
-
-Nas discussões realizadas em grupo, reconhecemos os seguintes temas:
+Para avaliar qualitativamente os resultados, conduzimos análises temáticas\footnote{\cite{Braun2006}}, tanto das discussões realizadas após a execução das peças, quanto das respostas e comentários dos usuários apresentados nos questionários. Nas discussões realizadas em grupo, reconhecemos os seguintes temas:
 
 \begin{description}
  \item[Satisfação] Sete participantes expressaram verbalmente que gostaram de tocar com outras pessoas usando o sistema
 
   \item[Expressividade] Três participantes expressaram um grande nível de satisfação sobre a possibilidade de tocar com qualquer tipo de conteúdo sonoro (``Eu gosto do fato de poder pegar imediatamente qualquer tipo de som que vem na minha cabeça e usar isso para compor em tempo real'')
 
- \item[Monitoramento] Nove participantes mencionaram a impossibilidade de se ouvir o som antes de tocar e desconforto com o fato dos sons serem tocados instantaneamente em volume alto. Alguns mencionaram estratégias para contornar esse problema, eles clicavam bem rapidamente para diminuir o volume do som assim que selecionavam os samples e em seguida faziam manualmente um processo de fade-in.
+ \item[Monitoramento] Nove participantes mencionaram a impossibilidade de se ouvir o som antes de tocar e desconforto com o fato dos sons serem tocados instantaneamente em volume alto. 
 
- \item[Relevância e surpresa] Cinco participantes mencionaram que os sons tocados não correspondiam totalmente as expectativas geradas pelas buscas textuais, que se relaciona com o tagueamento e descrição dos sons no próprio Freesound. Três participantes também mencionaram o fator surpresa como algo interessante para gerar novas ideias sonoras.
+ \item[Relevância e surpresa] Cinco participantes mencionaram que os sons tocados não correspondiam totalmente às expectativas geradas pelas buscas textuais, que se relaciona com o tagueamento e descrição dos sons no próprio Freesound. Três participantes também mencionaram o fator surpresa como algo interessante para gerar novas ideias sonoras.
 
  \item[Controle Expressivo] Seis participantes, todos músicos, sentiram necessidade de haver mais controles de expressividade musical, uma vez que naquele momento a interface permitia somente o ajuste de volume de cada som. Eles mencionaram como sugestão um controle geral do volume da página; possibilidade de sincronização das batidas; associação de teclas do teclado com sons; possibilidade de avaliar os sons para ranquear os sons preferidos e a possibilidade de escolher os pontos de início e fim dos loops. Duas pessoas mencionaram que a impossibilidade de sincronização fez com mudassem suas estratégias composicionais (``eu evitei sons com ritmo e procurei sons não musicais'').
 
@@ -290,18 +304,18 @@ Nós também fizemos uma análise temática das respostas das questões discursi
 
 \end{itemize}
 
-A análise temática quantitativa, que foi conduzida por Mathieu Barthet com o auxílio do software MAXQDA\footnote{\url{https://www.maxqda.com/}}, encontrou 681 códigos diferentes nas respostas dos usuários. Os temas mais importantes foram: suporte à criatividade musical (128 ocorrências), busca sonora (64 ocorrências), limitações (61 ocorrências), engajamento emocional (56 ocorrências), técnica de tocar e agência criativa (52 ocorrências), melhorias (44 ocorrências), usabilidade (37 ocorrências) e contextos de uso (24 ocorrências). Abaixo apresentamos um resumo dos resultados encontrados:
+A análise temática quantitativa, que foi conduzida por Mathieu Barthet com o auxílio do software MAXQDA\footnote{\url{https://www.maxqda.com/}}, encontrou 681 códigos diferentes nas respostas dos usuários\footnote{\cite{Barthet2018}}. Os temas mais importantes foram: suporte à criatividade musical (128 ocorrências), busca sonora (64 ocorrências), limitações (61 ocorrências), engajamento emocional (56 ocorrências), técnica de tocar e agência criativa (52 ocorrências), melhorias (44 ocorrências), usabilidade (37 ocorrências) e contextos de uso (24 ocorrências). Abaixo apresentamos um resumo dos resultados encontrados:
 
 \begin{description}
-\item[Suporte à criatividade musical e busca sonora] Os usuários relataram frequentemente questões ligadas à criatividade musical, colaboração criativa, expressividade e riqueza dos sons encontrados, como``a possibilidade de tocar qualquer som que viesse à minha cabeça'', ou ``essa ferramenta me permitiu explorar um vocabulário sonoro que eu não costumo usar pra tocar''. Uma grande variedade de conteúdo sonoro foi utilizada durante as sessões, incluindo: sons musicais (ex. relativos a gêneros musicais ou instrumentos); sons temáticos, correspondentes a uma idéia ou tópico; sons de fundo (atmosferas e ambiências); sons de fala (ex. beatbox), efeitos especiais e sons sintéticos (ex. glitches, sons processados espectralmente, sons granulares); sons rítmicos (como padrões e loops de bateria, batidas, etc) e sons relativos à natureza (ex. ``pássaros'').
+\item[Suporte à criatividade musical e busca sonora] Foram relatadas frequentemente questões ligadas à criatividade musical, colaboração criativa, expressividade e riqueza dos sons encontrados, como``a possibilidade de tocar qualquer som que viesse à minha cabeça'', ou ``essa ferramenta me permitiu explorar um vocabulário sonoro que eu não costumo usar pra tocar''. Uma grande quantidade de conteúdo sonoro foi utilizada durante as sessões, incluindo: sons musicais (ex. relativos a gêneros musicais ou instrumentos); sons temáticos, correspondentes a uma idéia ou tópico; sons de fundo (atmosferas e ambiências); sons de fala (ex. beatbox), efeitos especiais e sons sintéticos (ex. glitches, sons processados espectralmente, sons granulares); sons rítmicos (como padrões e loops de bateria, batidas, etc) e sons relativos à natureza (ex. ``pássaros'').
 
-\item[Limitações] As limitações apresentadas pelos usuários sobre o sistema incluíam questões relacionadas à barreiras criativas e questões técnicas. Quanto às barreiras criativas, houveram menções ao fato de não ser possível reconhecer o que estava sendo tocado, sobre a curva de aprendizado, aleatoriedade dos resultados, falta de controle, falta de feedback sobre as atitudes dos outros. As questões técnicas foram relativas à falta de controle, falta de monitoramento, para saber o que seria tocado de antemão, controle do volume, relevância dos sons, metadados e qualidade sonora (ex. variação de dinâmica e equalização de volume)
+\item[Limitações] As limitações apresentadas pelos usuários sobre o sistema incluíam questões relacionadas à barreiras criativas e questões técnicas. Houveram menções ao fato de não ser possível reconhecer o que estava sendo tocado, sobre a curva de aprendizado, aleatoriedade dos resultados, falta de controle, falta de feedback sobre as atitudes dos outros. As questões técnicas foram relativas à falta de controle, falta de monitoramento para saber o que seria tocado de antemão, controle do volume, relevância dos sons, metadados e qualidade sonora (ex. variação de dinâmica e equalização de volume)
 
-\item[Engajamento emocional e estratégias de tocar] Um grande número de ocorrências (56) mencionam um engajamento emocional positivo com o sistema e as tarefas. Frequentemente mencionaram satisfação (18), engajamento (15), diversão (8), interesse (6), fluxo (5) e imersão (3). Muitas ocorrências (52) descrevem uma série de técnicas ou estratégias empregadas pelos participantes. Elas incluem tocar por idéias semânticas, liderar a composição, tocar ritmicamente, usar loops, tentar procurar sons semelhantes, tocar através de ideias musicais, sobreposição de camadas de sons, ser inspirado pelos outros, usar descoberta generativa, adicionar elementos faltantes ou divertidos, tocar randomicamente, por tentativa e erro, etc. Essa lista longa de estratégias possíveis foi um bom indicativo de que o sistema era útil como suporte para criatividade musical. 
+\item[Engajamento emocional e estratégias de tocar] Um grande número de ocorrências (56) mencionam um engajamento emocional positivo com o sistema e as tarefas. Frequentemente mencionaram satisfação (18), engajamento (15), diversão (8), interesse (6), fluxo (5) e imersão (3). Muitas ocorrências (52) descrevem uma série de técnicas ou estratégias empregadas pelos participantes. Elas incluem: tocar por idéias semânticas, liderar a composição, tocar ritmicamente, usar loops, tentar procurar sons semelhantes, tocar através de ideias musicais, sobreposição de camadas de sons, ser inspirado pelos outros, usar descoberta generativa, adicionar elementos faltantes ou divertidos, tocar randomicamente, por tentativa e erro, etc. Essa lista longa de estratégias possíveis foi um bom indicativo de que o sistema era útil como suporte para criatividade musical. 
 
 \item[Melhorias] O participantes indicaram várias melhorias possíveis para o sistema (44 ocorrências). Muitos aspectos relativos aos processos de controle sonoro, como melhor controle do volume e do loop, velocidade do sample, efeitos especiais, filtros e interface para controladores externos. Muitos mencionaram a falta de um monitor para ouvir os sons em um fone de ouvido antes de tocar, recurso que exigiria o uso de uma interface de áudio externa. Sugeriram também processos para sincronizar, ou agrupar sons, busca por parâmetros sonoros, como BPM ou gênero, por exemplo. Outro ponto comentado foi quanto a percepção do que se está tocando e do que os outros estavam tocando. Também foram mencionados aspectos de controle de dinâmica como fades automáticos, controle geral de volume e compressão de áudio. Outras fontes de conteúdo sonoro possíveis mencionadas foram Youtube e RedPanal.
 
-\item[Usabilidade] Aspectos de usabilidade foram notados. A simplicidade do sistema e clareza da interface foi notada por alguns participantes. Um deles apontou que ``é muito intuitivo''. Quanto ao uso dos espectrogramas, houveram menções em sentidos opostos. Alguns acharam útil enquanto outros não, fato que está relacionado com a experiência dos usuários nesse tipo de representação. Alguns usuários solicitaram mais informações para auxiliar a escolha dos sons. Muitos apontaram também positivamente a velocidade do sistema eu facilidade para encontrar os sons.
+\item[Usabilidade] A simplicidade do sistema e clareza da interface foi notada por alguns participantes. Um deles apontou que ``é muito intuitivo''. Quanto ao uso dos espectrogramas, houveram menções em sentidos opostos. Alguns acharam útil enquanto outros não, fato que está relacionado com a experiência dos usuários nesse tipo de representação. Alguns usuários solicitaram mais informações para auxiliar a escolha dos sons. Muitos apontaram também positivamente a velocidade do sistema eu facilidade para encontrar os sons.
 
 \item[Contextos de uso] Vários contextos possíveis de uso foram apresentados pelos participantes, como: improvisação livre; pesquisa de sons e samples; trilha sonora para vídeos; improvisações de dança; orquestras de laptop; como ferramenta de rascunho para produções musicais posteriores; composição de paisagens sonoras ou para se divertir.
 
@@ -311,16 +325,17 @@ Apesar de consumir um grande esforço, a realização dos testes com usuários f
 
 \subsubsection{Avaliação prática}
 
-Pouco tempo após a realização dessa avaliação mais formal em laboratório, tive a oportunidade de testar o sistema na prática em uma performance solo, no evento A'mas que aconteceu no Total Refreshment Centre em Londres, no dia 25 de Março de 2018\footnote{Um trecho da performance pode ser assistido em: \url{https://youtu.be/LmjmpQagBG8}}. Para a ocasião, decidi trabalhar com um material pré-selecionado, para garantir uma consistência durante a performance. Depois de uma performance solo de 30 minutos, onde toquei com o sistema e pratiquei improvisação vocal. Decidi por fazer uma seleção de bases, que usei para criar texturas e variações de ritmos durante a performance. 
+Pouco tempo após a realização dessa avaliação mais formal em laboratório, tive a oportunidade de testar o sistema na prática em uma performance solo de 30 minutos onde toquei com o sistema e pratiquei improvisação vocal, no evento A'mas que aconteceu no Total Refreshment Centre em Londres, no dia 25 de Março de 2018\footnote{Um trecho da performance pode ser assistido em: \url{https://youtu.be/LmjmpQagBG8}}. Para a ocasião, decidi trabalhar com um material pré-selecionado, para garantir uma consistência durante a performance. Fiz uma seleção de bases, que usei para criar texturas e variações de ritmos durante a performance. 
 
-No final, também participei de uma jam session com os outros 8 músicos. durante a jam, uma parte dos músicos estava conectada através de um relógio MIDI central, que sincronizava o BPM dos sistemas baseados em grid, como Playsound não é baseado em grid, tive que desenvolver estratégias específicas para não entrar em conflito com a grade musical que se estabeleceu. Isso incluiu tocar com texturas mais longas e não rítmicas, tocar com o botão play no ritmo (dispensando o recurso de loop), saturar elementos curtos em alguns momentos.
+No final, também participei de uma \emph{jam session} com os outros 8 músicos. durante a \emph{jam}, uma parte dos músicos estava conectada através de um relógio MIDI central, que sincronizava as batidas dos sistemas baseados em \emph{grid}. Como Playsound não é baseado em \emph{grid}, tive que desenvolver estratégias específicas para não entrar em conflito com a grade musical que se estabeleceu. Isso incluiu tocar com texturas mais longas e não rítmicas, tocar repedidamente com o botão play no ritmo (dispensando o recurso de \emph{loop}) ou saturar elementos curtos em alguns momentos.
 
-Apesar de ter sido possível tocar, houveram alguns problemas que notei durante a performance. Quando empregamos sons pré-selecionados, tivemos alguns problemas relativos a performance do computador devido a um sobrecarregamento da mémória. Além disso, senti o grau de controle de processos sonoros poderia ser desenvolvido para melhor aproveitamento dos materiais sonoros durante a performance.
+Apesar de ter sido possível tocar, houveram alguns problemas que notei durante a performance. Como de início carregamos uma quantidade considerável de sons pré-selecionados, tivemos um sobrecarregamento da memória do computador, o que causou pequenos cliques no som no começo da performance. Isso se resolveu removendo alguns sons da playlist. Além disso, senti que o grau de controle de processos sonoros poderia ser desenvolvido para melhor aproveitamento dos materiais sonoros durante a performance, o que procuramos fazer no ciclo de desenvolvimento seguinte.
 
 \begin{figure}
 
 \includegraphics[width=1\textwidth]{pictures/cap4/ariane_amas}
 \caption{\label{amas}Performance solo no evento A'mas em Londres.}
+\legend{foto: Alessia Milo}
 \label{fig:amas}
 \end{figure}
 
@@ -344,23 +359,22 @@ Apesar de ter sido possível tocar, houveram alguns problemas que notei durante 
 
 \subsection{Playsound WebAudio}
 
-Em seguida a esse primeiro círculo de desenvolvimento e avaliações, meu desejo era o de trabalhar no desensenvolvimento do tocador de áudio. Naquele momento, estava trabalhando como professora auxiliar no curso de ``Creative Coding'' (programação criativa), que estava sendo ministrado por Alessia Milo na Universidade de Greenwich. O curso abordava tópicos como o uso de tecnologias web e API's em projetos artísticos, afins a
- esta pesquisa. Ela se interessou em colaborar com o desenvolvimento do projeto e implementar tecnologias que permitissem um maior controle e processamento dos sons tocados.
+Em seguida a esse primeiro círculo de desenvolvimento e avaliações, meu desejo era o de trabalhar no aprimoramento do tocador de áudio. Naquele momento, estava trabalhando como professora auxiliar no curso de ``Creative Coding'' (programação criativa), que estava sendo ministrado por Alessia Milo na Universidade de Greenwich. O curso abordava tópicos como o uso de tecnologias web e API's em projetos artísticos. Ela se interessou em colaborar com o desenvolvimento do projeto e implementar tecnologias que permitissem um maior controle e processamento dos sons tocados. Ela se juntou ao time se tornando a principal colaboradora no desenvolvimento \emph{back-end}\footnote{No desenvolvimento de software, costuma-se a dividir os trabalhos entre \emph{front-end}, que é a parte do trabalho que trata da interface e da aparência e \emph{back-end}, que é a parte que trata das tecnologias embutidas que rodam ``por trás'' do sistema} desde então, além de participar também das performances e da redação das publicações relacionadas ao projeto. 
 
  A partir das análises das experiências realizadas, organizamos uma lista de demandas prioritárias para trabalhar, também observamos que algumas demandas apontadas pelos usuários, por exemplo, iam de encontro com necessidades que também senti como performer, enquanto outras eram divergentes dos objetivos gerais do projeto.
 
- A questão da sincronização de batidas, por exemplo, que alguns usuários mencionaram (todos eles músicos experientes), não é prioritária, uma vez que já existem várias opções de software profissionais para atender essas demandas, e um dos princípios norteadores desse trabalho era de propor algo que pudesse ser tocado sem esse tipo de constrição. Outro ponto apontado por alguns usuários seria a criação de um sistema para monitoramento dos samples antes de tocar. Para que isso seja possível, é necessário o uso de uma interface de áudio externa, o que diminui também a acessibilidade do site. Gostaríamos de manter o foco da pesquisa justamente em desenvolver soluções que não exijam a instalação de nenhum outro equipamento para tocar, além do computador ou celular com acesso à internet. 
+ A questão da sincronização de batidas, por exemplo, que alguns usuários mencionaram (todos eles músicos experientes), não era prioritária, uma vez que já existem várias opções de softwares profissionais para atender essas demandas, e um dos princípios norteadores desse trabalho era de propor algo que pudesse ser tocado sem esse tipo de constrição. Outro ponto apontado por alguns usuários seria a criação de um sistema para monitoramento dos sons antes de tocar. Para que isso seja possível, é necessário o uso de uma interface de áudio externa, o que diminui também a acessibilidade do site. Gostaríamos de manter o foco da pesquisa justamente em desenvolver soluções que não exijam a instalação de nenhum outro equipamento para tocar, além do computador ou celular com acesso à internet. 
 
- Uma questão que abordamos foi o fato dos sons sempre tocarem instantaneamente com a seleção, em volume médio. Alguns voluntários apontaram essa questão, que também senti na prática durante a performance solo. Para contornar essa questão, mudamos a forma com que os sons são tocados. Na nova versão, ao clicar na imagem correspondente ao som, o som é colocado na playlist, mas ele não toca, então é possível selecionar o volume desejado antes de tocar o sample. Adicionamos também um pequeno botãozinho de play sobre a imagem, que permite ainda tocar instantaneamente o som desejado.
+ Uma questão que abordamos foi o fato dos sons sempre tocarem instantaneamente com a seleção, em volume médio. Alguns voluntários apontaram essa questão, que também senti na prática durante a performance solo. Para contornar essa questão, mudamos a forma com que os sons são tocados. Na nova versão, ao clicar na imagem correspondente ao som, o som é colocado na playlist, mas ele não toca, então é possível selecionar o volume desejado antes de tocar o sample. Adicionamos também um pequeno botãozinho de play sobre a imagem, que permite ainda tocar instantaneamente o som desejado como na versão anterior.
 
- Desenvolvemos também a interface, para que fosse possível selecionar um trecho do loop para tocar. Para implementar esse recurso, mudamos toda a base do processamento de áudio do sistema. Enquanto a primeira versão se apoiava nos elementos HTML para tocar, na nova versão passamos a empregar a WebAudio API de forma mais direta, através do elemento \emph{buffer}, que carrega os sons na página e os manipula diretamente através de JavaScript. Implementamos também \emph{panning}, para distribuir os sons nos canais estéreo, e o controle da velocidade de reprodução do sample (\emph{playbackrate}), que permite mudar também o tom do sample (alterando também a duração em conjunto. Nas figuras \ref{handbell} e \ref{handbelldt}, que apresentam espectrogramas da peça da autora``Handbell''\footnote{Disponível em: \url{https://soundcloud.com/asss/handbell}}, feita a partir da manipulação de um som usando PS, podemos notar as capacidades transformativas dos novos recursos adicionados. 
+ Talvez a mudança mais significativa dessa nova versão foi que desenvolvemos a interface, para que fosse possível selecionar um trecho do som para tocar. Para implementar esse recurso, mudamos toda a base do processamento de áudio do sistema. Enquanto a primeira versão se apoiava nos elementos HTML para tocar, na nova versão passamos a empregar a WebAudio API de forma mais direta, através do elemento \emph{buffer}, que carrega os sons na página e os manipula diretamente através de JavaScript. Implementamos também \emph{panning}, para distribuir os sons nos canais estéreo, e o controle da velocidade de reprodução do sample (\emph{playbackrate}), que permite mudar também o tom do sample (alterando também a duração em conjunto. Nas figuras \ref{handbell} e \ref{handbelldt}, que apresentam espectrogramas da faixa ``Handbell''\footnote{Disponível em: \url{https://soundcloud.com/asss/handbell}}, feita a partir da manipulação de um som usando PS, podemos notar as capacidades transformativas dos novos recursos adicionados. 
 
 
 
 \begin{figure}
 
 \includegraphics[width=1\textwidth]{pictures/cap4/handbellreverse}
-\caption{\label{handbell}Espectrograma da peça Handbellreverse.}
+\caption{\label{handbell}Espectrograma da faixa Handbell.}
 \label{fig:handbell}
 \end{figure}
 
@@ -376,26 +390,61 @@ Em seguida a esse primeiro círculo de desenvolvimento e avaliações, meu desej
 \begin{figure}
 
 \includegraphics[width=1\textwidth]{pictures/cap4/handbellreverse_detail}
-\caption{\label{handbelldt}Detalhe do espectrograma da peça.}
+\caption{\label{handbelldt}Detalhe do espectrograma da faixa.}
 \label{fig:handbelldt}
 \end{figure}
 
 
-Uma mudança importante da primeira versão para a segunda, que na verdade não é uma melhoria mas uma restrição, foi motivada por discussões éticas quanto à questão dos direitos autorais e licenças dos sons. Enquanto na primeira versão oferecíamos acesso a todos os sons do banco de dados do Freesound, independente da licença. Decidimos restringir o acesso somente aos sons com licenças Creative Commons 0 (que equivale ao domínio público) e Attribution, que exige a citação do autor dos sons originais. Essa decisão, que excluiu uma quantidade relativamente pequena de sons\footnote{Em um levantamento em novembro de 2018, haviam 395183 sons no total no banco de dados do Freesound, sendo que deles 47361 tinham licensa atribuição não comercial.}, mas muitos deles de boa qualidade foi motivada não só por uma questão de evitar possíveis problemas legais decorridos do uso do software, como também por uma questão ética, de incentivar o uso de licensas livres por parte dos usuários do Playsound. Dessa forma, se um músico quiser utilizar seus próprios sons na plataforma\footnote{Como fizemos por exemplo na performance Tender Buttons | Sound | Space, que está descrita mais adiante nesta tese}, deverá necessariamente publicá-los com uma licença menos restritiva. 
+Uma mudança importante da primeira versão para a segunda, que na verdade não é uma melhoria mas uma restrição, foi motivada por discussões éticas quanto à questão dos direitos autorais e licenças dos sons. Enquanto na primeira versão oferecíamos acesso a todos os sons do banco de dados do Freesound, independente da licença. Na segunda versão, decidimos restringir o acesso somente aos sons com licenças Creative Commons 0 (que equivale ao domínio público) e Attribution, que exige a citação do autor dos sons originais. Essa decisão, que excluiu uma quantidade relativamente pequena de sons\footnote{Em um levantamento em novembro de 2018, haviam 395183 sons no total no banco de dados do Freesound, sendo que deles 47361 tinham licensa atribuição não comercial.}, mas muitos deles de boa qualidade, foi motivada não só por uma questão de evitar possíveis problemas legais decorridos do uso do software, como também por uma questão ética, de incentivar o uso de licensas livres por parte dos usuários do Playsound. Dessa forma, se um músico quiser utilizar seus próprios sons na plataforma\footnote{Como fizemos por exemplo na performance Tender Buttons | Sound | Space, que está descrita mais adiante nesta tese}, deverá necessariamente publicá-los com uma licença menos restritiva. 
 
-Em conjunto com a implementação deste filtro, colocamos também na interface do site uma seção de créditos, que se atualiza automaticamente na medida em que sons com a licença de ``Atribuição'' são tocados. Desta forma é fácil para alguém que queira fazer uso dos sons gerados pela ferramenta de dar os devidos créditos aos produtores de conteúdo original. 
+Também para tratar de questões éticas ligadas aos direitos autorais, colocamos na interface do site uma seção de créditos, que se atualiza automaticamente na medida em que sons com a licença de ``Atribuição'' são tocados. Desta forma é fácil para alguém que queira fazer uso dos sons gerados pela ferramenta dar os devidos créditos aos produtores de conteúdo original. 
 
-Na segunda versão, colocamos também em cada player, um link para a postagem do som original no Freesound, para quem quiser baixar o áudio em alta qualidade para fazer uso em algum outro programa de edição, por exemplo. 
+Na segunda versão, colocamos também em cada \emph{player}, um \emph{link} para a postagem do som original no Freesound, para quem quiser baixar o áudio em alta qualidade para fazer uso em algum outro programa de edição, por exemplo. Isso potencializa o uso do sistema também como ferramenta de pesquisa e descoberta de sons. 
 
+
+\subsubsection{Chat}
+Um desejo que esteve presente desde as primeiras ideias para esse software era de desenvolver uma plataforma colaborativa para performances coletivas. Quando fizemos a primeira avaliação formal, no laboratório da QMUL, os participantes da experiência também relataram desejos de se estabelecerem formas de comunicação entre os participantes.
+
+Começamos então a desenvolver uma interface para um sistema de chat cujo protótipo já está em funcionamento. Entrando no endereço \url{http://www.playsound.space/chat} o usuário é direcionado para uma sala de bate papo onde é possível se compartilhar texto. Cada palavra na janela do chat também se torna um link conectado com o campo de busca. Com isso é possível compartilhar informação entre os usuários conectados ao sistema.
+
+Na versão atual, o \emph{chat} é baseado na tecnologia de comunicação via \emph{websockets}, que foi implementada na versão atual em node.js através do uso da API socket.io\footnote{\url{https://socket.io/}}. 
+
+No futuro, gostaríamos de desenvolver uma nova versão do software, que permita a criação de salas individuais de bate papo e compartilhamento também dos processos sonoros, de modo que as pessoas pudessem controlar os sons uns dos outros. Isso depende de 
+%The chat is based on socket communication, implemented in node.js through socket.io. Id{}s are assigned automatically to the clients accessing the address, and we are currently implementing the creation of user-defined chatrooms.
+
+\begin{figure}
+\includegraphics[width=1\textwidth]{pictures/cap4/playsound-chat}
+\caption{\label{handbell}Interface da página de chat.}
+\legend{Fonte: screenshot da autora no dia 7 de janeiro de 2018}
+\label{fig:pschat}
+\end{figure}
+
+
+
+%Since the last evaluation, we have included new features which will be the object of future evaluations. These features have been developed mostly to enhance participatory processes, by providing a chat environment, and accessibility, through a built-in translation system aiming to let non-English speakers use the tool.
+
+%At the address \url{http://www.playsound.space/chat}, the user can type messages that are shared with other users connected to the same address. Moreover, the messages, once sent, become hyperlinks which, when selected, trigger a query in the Freesound database. This in return shows results for the related word. 
+
+
+\subsection{Tradução}
+
+Outra questão, que ficou ainda mais clara quando voltei ao Brasil foi de que o idioma seria uma barreira significativa para a acessibilidade do sistema. A busca na API do Freesound, é feita por um mecanismo que simples que funciona através de buscas textuais no banco de dados do site, que é construído majoritariamente em inglês. Para falantes de outra línguas, o acesso ao conteúdo do site passa por essa barreira da linguagem. Como tínhamos como objetivo desenvolver um sistema que também pudesse ser utilizado em aulas e oficinas para o estudantes no Brasil, procuramos implementar um sistema de tradução interno que permite selecionar a língua de entrada e a língua de saída, incluindo inglês, que é a língua principal nos metadados do Freesound. Esse sistema foi implementado pelo engenheiro de computação Fábio Viola, que colaborou durante alguns meses como pesquisador pós-doc no projeto Audio Commons na QMUL. Ele também começou a desenvolver um sistema de recomendações semânticas\footnote{\cite{Viola2018}}, que sugeria conteúdos relacionados de outros provedores como Jamendo e Europeana. Infelizmente, o desenvolvimento foi interrompido antes que fosse possível chegar em um protótipo funcional que pudesse ser empregado em performances ao vivo.
+
+O sistema de tradução que ele implementou é baseado na API Yandex\footnote{\url{https://tech.yandex.com/translate/}}, que suporta 90 línguas diferentes, para facilitar a seleção, reduzimos a possibilidade às 17 línguas mais presentes no banco de dados do Freesound. 
+
+Para exemplificar a utilidade da ferramenta de tradução, podemos testar um exemplo, baseado na palavra em português ``serra'' (``saw'' em inglês). No momento que implementamos a ferramenta, o Freesound tinha como resultado, 394 sons que continham a palavra no nome, descrição ou tags, se traduzirmos para o inglês, conseguimos 3662 resultados com a mesma busca. Isso se repete com outras palavras como por exemplo ``mar'', que tem 274 resultados, enquanto ``sea'' tem , ou ``pandeiro'', que tem 52 sons, enquanto ``tambourine'' tem 460.
 
 
 \subsubsection{Teste com a Orquestra Errante}
-Os testes com usuários feitos em laboratório foram úteis para comparar o sistema com outros projetos que também estavam sendo desenvolvidos no contexto do projeto Audio Commons, mas apesar disso, estávamos mais interessados em avaliar como o instrumento se sairia em condições mais realistas de uso. Para isso, seria interessante testar o projeto com grupos musicais já estabelecidos. Ao término do meu estágio de pesquisa na QMUL e antes de assumir a vaga de professora na Universidade Federal do Sul da Bahia, tive a oportunidade de passar alguns dias em São Paulo, onde consegui marcar uma sessão de avaliação do PS com a Orquestra Errante, grupo coordenado pelo professor Rogério Costa, do qual também faço parte. Avaliando criticamente o processo de avaliação em laboratório na QMUL, decidi concentrar os esforços na avaliação prática do instrumento, e otimizar o tempo dos músicos no ensaio, deixando o preenchimento do questionário como opcional para quem quisesse responder fora do horário do ensaio. No final, apenas 3 dos oito participantes preencheram o questionário, o que inviabilizou as análises quantitativas
-
-A dinâmica do trabalho do grupo é não hierarquizada, onde ``a criação se dá sempre de forma colaborativa, coletiva, compartilhada em tempo real e irrepetível.''\footnote{\cite{costa2013orquestra}}. O grupo sempre discute as propostas musicais apresentadas e como elas devem ser executadas pelo coletivo dos músicos. Sendo assim, deixamos também para discutir com os músicos no dia do ensaio os procedimentos que seriam seguidos e os arranjos para organizar os grupos para testar o sistema para a prática de improvisação livre. Nós decidimos conjuntamente organizar o grupo para tocar três peças curtas (de cerca de 2 minutos) em trios, com um usuário do sistema e dois músicos tocando seus instrumentos tradicionais e três peças mais longas (de tempo livre) com dois músicos tocando PS e os demais tocando seus instrumentos conjuntamente (Figura \ref{psorquestra}). Em cada sessão foram alternados os usuários do sistema de modo que todos membros da Orquestra puderam experimentar com a ferramenta. Antes de tocar, os músicos tinha um período curto de familiarização com o instrumento que levou cerca de 3 a 8 minutos, dependendo do músico. Depois de cada sessão, discutimos coletivamente sobre o instrumento e a sonoridade resultante de seu emprego no processo de improvisação.
+Os testes com usuários feitos em laboratório foram úteis para comparar o sistema com outros projetos que também estavam sendo desenvolvidos no contexto do projeto Audio Commons, mas apesar disso, estávamos mais interessados em avaliar como o instrumento se sairia em condições mais realistas de uso. Para isso, seria interessante testar o projeto com grupos musicais já estabelecidos. Ao final do estágio de pesquisa na QMUL e antes de assumir a vaga de professora na Universidade Federal do Sul da Bahia, tive a oportunidade de passar alguns dias em São Paulo, onde consegui marcar uma sessão de avaliação do PS com a Orquestra Errante (OE), grupo coordenado pelo professor Rogério Costa, do qual também faço parte. 
 
 
-Participaram do ensaio os músicos: Miguel D. Antar (contrabaixo acústico), Marina Mapurunga (violino com efeitos), Fábio Martinez (saxofone e piano), Fábio Manzone (percussão), Rogério Costa (saxofone), Caio Rigui (flauta) e Stênio Biazoni, e Yonara Dantas, que não se considera musicista, mas participou também do ensaio tocando a ferramenta. A tabela \ref{tab:orchestra} mostra a formação e a duração de cada uma das sessões tocadas\footnote{A sessões foram gravadas e o registro pode ser escutado em: \url{http://finetanks.com/records/playsound/orquestraerrante}}.  
+Pensando criticamente no processo de avaliação em laboratório que fizemos na QMUL, decidi dessa vez concentrar os esforços na avaliação prática do instrumento, e otimizar o tempo dos músicos no ensaio, deixando o preenchimento do questionário como opcional para quem quisesse responder fora do horário do ensaio. No final, apenas 3 dos oito participantes preencheram o questionário, o que inviabilizou as análises quantitativas, então essa etapa foi baseada nas análises qualitativas da discussão e das poucas respostas dadas pelos voluntários que preencheram os questionários. 
+
+A dinâmica do trabalho da OE não é hierarquizada, onde ``a criação se dá sempre de forma colaborativa, coletiva, compartilhada em tempo real e irrepetível.''\footnote{\cite{costa2013orquestra}}. Sempre se discutem as propostas musicais apresentadas e como elas devem ser executadas pelo coletivo dos músicos. Assim, deixamos também para discutir com os músicos no dia do ensaio os procedimentos que seriam seguidos e os arranjos para organizar as sessões para testar o sistema na prática de improvisação livre. Decidimos conjuntamente organizar o grupo para tocar três peças curtas (de cerca de 2 minutos) em trios, com um usuário do sistema e dois músicos tocando seus instrumentos tradicionais e três peças mais longas (de tempo livre) com dois músicos tocando PS e os demais tocando seus instrumentos (Figura \ref{psorquestra}). Em cada sessão foram alternados os usuários do sistema de modo que todos membros da Orquestra puderam experimentar com a ferramenta. Antes de tocar, os músicos tinha um período curto de familiarização com o instrumento que levou cerca de 3 a 8 minutos, dependendo do músico. Depois de cada sessão, discutimos coletivamente sobre o instrumento e a sonoridade resultante de seu emprego no processo de improvisação.
+
+
+Participaram do ensaio os músicos: Miguel D. Antar (contrabaixo acústico), Marina Mapurunga (violino com efeitos), Fábio Martinez (saxofone e piano), Fábio Manzone (percussão), Rogério Costa (saxofone), Caio Rigui (flauta) e Stênio Biazoni e a diretora e pesquisadora de teatro Yonara Dantas, que não se considera musicista, mas participou também do ensaio tocando a ferramenta. A tabela \ref{tab:orchestra} mostra a formação e a duração de cada uma das sessões tocadas\footnote{A sessões foram gravadas e o registro pode ser escutado em: \url{http://finetanks.com/records/playsound/orquestraerrante}}.  
 
 \begin{table}[ht]
 \caption{Configuração de instrumentos e duração das peças durante o ensaio com a Orquestra Errante.}
@@ -430,17 +479,17 @@ Ouvindo as gravações do ensaio, percebemos que comparando com o teste anterior
 
 
 \subsubsection{Análise temática}
-Para conduzir a análise temática\cite{Braun2006}, transcrevi os diálogos das discussões com o grupo e as três respostas dadas nas questões discursivas, que foram versões traduzidas das mesmas aplicadas nos testes na QMUL. Nós identificamos em uma tabela em Excel, os temas seguintes, que também estavam presentes na análise da versão anterior do projeto\footnote{\cite{Stolfi2018b}}.
+Para conduzir a análise temática\footnote{\cite{Braun2006}}, transcrevi os diálogos das discussões com o grupo e as três respostas dadas nas questões discursivas, que foram versões traduzidas das mesmas aplicadas nos testes na QMUL. Identificamos em uma tabela em Excel, os temas seguintes, que já estavam na análise da versão anterior do projeto\footnote{\cite{Stolfi2018b}}.
 
 %We conducted a thematic analysis \cite{Braun2006} on the transcriptions of the group discussion and answers to the survey. We identified the recurrent themes below which were also present in the previous analysis \cite{Stolfi2018b}.
 
-\textbf{Suporte à criatividade e narrativa.} (10 ocorrências) Usuários comentaram sobre o processo de tocar juntos (\textit{``o som que você tocou influenciou diretamente o que eu ia fazer, o contrário também aconteceu''}, \textit{``sim, eu mudei a velocidade em função do que você tocou"}), and sobre o tipo de sons tocados (\textit{``alguns sons interessantes fora de contexto que nós abraçamos, mas que foi quase no limiar do riso"} ). 
+\textbf{Suporte à criatividade e narrativa.} (10 ocorrências) Comentários sobre o processo de tocar juntos (\textit{``o som que você tocou influenciou diretamente o que eu ia fazer, o contrário também aconteceu''}, \textit{``sim, eu mudei a velocidade em função do que você tocou"}), e sobre o tipo de sons tocados (\textit{``alguns sons interessantes fora de contexto que nós abraçamos, mas que foi quase no limiar do riso"} ). 
 
-\textbf{Relevância e surpresa.} (7 ocorrências) Alguns participantes demonstraram excitação ao tocarem com a ferramenta (\textit{``a gente pode brincar?"}, , \textit{tem todos os sons do universo} \textit{``sonoramente está bem resolvido"}).
+\textbf{Relevância e surpresa.} (7 ocorrências) Demonstrações de excitação ao tocarem com a ferramenta (\textit{``a gente pode brincar?"}, , \textit{tem todos os sons do universo} \textit{``sonoramente está bem resolvido"}).
 
 \textbf{Engajamento emocional e estratégias para tocar} (10 ocorrências) Participantes relataram a novidade da ferramenta que permitia uma forma diferente de tocar (\textit{``isso gera uma forma de tocar específica"}, \textit{``são amostras interessantes que você pode manipular como um objeto sonoro"}, \textit{``a sacada é a busca por palavras"}), e sobre como eles usaram a ferramenta durante as performances (\textit{``eu fiquei tocando, depois eu mudei o tempo, e depois usei pra selecionar os trechos de loop"}).
 
-\textbf{Limitations.} (9 ocorrências) Os usuários relataram questões relativas à interface no momento, que deixava confusa a qual áudio os controles se relacionavam, e sobre a falta de feedback visual de qual arquivo estava tocando. Durante o estudo, a interface apresentava um \emph{bug} no elemento que indicava a posição de cada sample tocado. Os participantes também reclamaram da velocidade de resposta, uma vez que a internet estava bem lenta no estúdio e a versão atual, que funciona através de buffers, exige que se descarregue todo arquivo antes que se possa tocá-lo.
+\textbf{Limitações.} (9 ocorrências) Questões relativas à interface no momento, que deixava confusa a qual áudio os controles se relacionavam; sobre a falta de feedback visual de qual arquivo estava tocando. Durante o estudo, a interface apresentava um \emph{bug} no elemento que indicava a posição de cada sample tocado. Os participantes também reclamaram da velocidade de resposta, uma vez que a internet estava bem lenta no estúdio e a versão atual, que funciona através de \emph{buffers}, exige que se descarregue todo arquivo antes que se possa tocá-lo.
 
 
 %Users reported some issues with the current interface, that had misleading controllers and lack of visual feedback about the sounds being played. During the study, the interface faced a bug preventing the playhead positions to show the current position in each audio sample. Participants also commented on the speed of the response, since the Internet speed was very slow during the test.
@@ -451,32 +500,9 @@ Para conduzir a análise temática\cite{Braun2006}, transcrevi os diálogos das 
 
 Na resposta do questionário sobre o que os participantes mais gostaram a respeito do PS, eles mencionaram a quantidade de sons disponíveis e empoderamento (\textit{``senti uma espécie de poder por ter disponível uma imensa quantidade de sons para usar"}), e sobre a possibilidade de combinação de sons \textit{``As texturas com várias camadas sobrepostas''}. Sobre o tipo de sons pesquisados, os usuários reportaram a busca por  \textit{``sons não musicais"} e \textit{``sons graves, da natureza"}, curiosamente, um terceiro afirmou: \textit{``não procurei nada. Os sons vieram de encontro a mim."}.
 
-\subsubsection{Chat}
-Um desejo que esteve presente desde as primeiras ideias para esse software era de desenvolver uma plataforma colaborativa para performances coletivas. Quando fizemos a primeira avaliação, no laboratório da QMUL, os participantes da experiência também relataram desejos de se estabelecerem formas de comunicação entre os participantes.
-
-Começamos então a desenvolver uma interface para um sistema de chat cujo protótipo já está em funcionamento. Entrando no endereço \url{http://www.playsound.space/chat} o usuário é direcionado para uma sala de bate papo onde por enquanto é possível se compartilhar somente texto\footnote{Em uma próxima versão do projeto, pretendemos que seja possível compartilhar também o som gerado por todos participantes}. Cada palavra na janela do chat também se torna um link conectado ao campo de busca. Com isso é possível compartilhar informação entre os usuários conectados ao sistema.
-
-Na versão atual, o chat é baseado na tecnologia de comunicação via websockets, que foi implementada na versão atual em node.js através do uso da API socket.io. Atualmente, estamos em processo de desenvolvimento de uma nova versão do software, que permitirá aos usuários a criação de salas individuais de bate papo e compartilhamento dos processos sonoros.
-%The chat is based on socket communication, implemented in node.js through socket.io. Ids are assigned automatically to the clients accessing the address, and we are currently implementing the creation of user-defined chatrooms.
 
 
 
-
-
-%Since the last evaluation, we have included new features which will be the object of future evaluations. These features have been developed mostly to enhance participatory processes, by providing a chat environment, and accessibility, through a built-in translation system aiming to let non-English speakers use the tool.
-
-%At the address \url{http://www.playsound.space/chat}, the user can type messages that are shared with other users connected to the same address. Moreover, the messages, once sent, become hyperlinks which, when selected, trigger a query in the Freesound database. This in return shows results for the related word. 
-
-
-\subsection{Tradução}
-
-Outra questão, que ficou ainda mais clara quando voltei ao Brasil foi de que o idioma seria uma barreira significativa para a acessibilidade do sistema. A busca na API do Freesound, é feita por um mecanismo que simples que funciona através de buscas textuais no banco de dados do site, que é construído majoritariamente em inglês. Para falantes de outra línguas, o acesso ao conteúdo do site passa por essa barreira da linguagem. Como tínhamos como objetivo desenvolver um sistema que também pudesse ser utilizado em aulas e oficinas para o estudantes no Brasil, o que nos motivou a implementar um sistema de tradução interno, que por enquanto só funciona dentro do chat, que nos permite selecionar a língua de entrada e a língua de saída, incluindo inglês, que é a língua principal nos metadados do Freesound. Esse sistema foi implementado pelo engenheiro de computação Fábio Viola, que colaborou durante alguns meses como pesquisador pós-doc no projeto Audio Commons na QMUL. Ele também começou a desenvolver um sistema de recomendações semânticas\footnote{\cite{Viola2018}}, que sugeria conteúdos relacionados de outros provedores como Jamendo e Europeana. Infelizmente, o desenvolvimento foi interrompido antes que fosse possível chegar em um protótipo funcional que pudesse ser empregado em performances ao vivo.
-
-O sistema de tradução implementado é baseado na API Yandex\footnote{\url{https://tech.yandex.com/translate/}}, que suporta 90 línguas diferentes. No entanto, para facilitar a seleção, reduzimos a possibilidade às 17 línguas mais presentes no banco de dados do Freesound. Quando se digita uma palavra no campo de busca, a API sugere uma tradução, que pode ser selecionada pelo usuário para uma nova busca na língua desejada.
-
-Para exemplificar a utilidade da ferramenta de tradução, podemos testar um exemplo, baseado na palavra em português ``pandeiro'' (``tambourine'' em inglês). No momento que implementamos a ferramenta, o Freesound tinha como resultado, 52 sons que continham a palavra no nome, descrição ou tags, se traduzirmos para o inglês, conseguimos 460 resultados com a mesma busca. mar = 274 sea = 2471
-serra = 394
-saw = 3662
 
 %Freesound APIs \footnote{https://www.freesound.org/docs/api/overview.html} propose a text search mechanism that operates by matching tags and other metadata. This simple mechanism (exploited by PS) does not account for mismatches between the language that users employ in their queries and the ones used in tagged Freesound content. As this can impair the inclusion of non-english speakers, it motivated us to implement a translation tool, which now allows the user to select its own language and receive possible translations to English, the main language of the metadata. 
 
@@ -495,44 +521,57 @@ saw = 3662
 
 
 \subsection{Aplicação Prática}
-Após essas primeiras rodadas de avaliação, tive a oportunidade de aplicar o uso do instrumento em uma série de atividades práticas, como aulas, concertos e performances. 
+Após essas primeiras rodadas de avaliação, tive a oportunidade de aplicar o uso do instrumento em uma série de atividades práticas, como aulas, concertos e performances. Após o término da atividade de pesquisa em Londres, me mudei para Porto Seguro no Estado da Bahiam onde assumi o cargo de professora efetiva na Universidade Federal do Sul da Bahia (UFSB), no Instituto de Artes, Ciências e Humanidades (IACH), para ministrar principalmente cursos para a habilitação em ``Arte e Produção Sonora'' do curso ``Som e Imagem em Movimento'' (SIM) do Centro de Formação em Artes (CFA). Nesta seção reunimos algumas das experiências com o instrumento na nossa atividade profissional cotidiana, e em oportunidades que tivemos de apresentar com/o trabalho em eventos acadêmicos ou culturais desde então.
 
 
 \subsubsection{Curso de Edição, Captação e Produção de Audio Digital}
 
-Voltando ao Brasil, assumi a vaga de professora efetiva na UFSB, para ministrar principalmente cursos para a habilitação em ``Arte e Produção Sonora'' do curso ``Som e Imagem em Movimento''. No primeiro componente que ministrei ``Edição, Captação e Produção de Áudio Digital'', que ministrei em conjunto com o professor Leonardo Souza, do curso de artes do corpo em cena.
+O primeiro componente que ministrei na UFSB ``Edição, Captação e Produção de Áudio Digital'', em conjunto com o professor Leonardo Souza, era uma disciplina oferecida em conjuto para os alunos de segundo ciclo do SIM e do curso de artes do corpo em cena (ACC). O curso buscava dar uma introdução a técnicas de gravação, edição e produção de áudio digital, e abordava introdução a acústica e psicoacústica para alunos que eram na sua maioria formados em um dos Bacharelados Interdisciplinares oferecidos pela instituição. 
 
-Pudemos usar a ferramenta em diferentes contextos educacionais. Numa aula sobre timbre, por exemplo, reunimos num link vários exemplos de uma mesma nota gerada por instrumentos diferentes como diapasão, violino, clarinete, oboé, trompete, flauta, voz, piano, guitarra elétrica e diversos modelos diferentes de sintetizadores facilmente a partir do acervo do Freesound. Pudemos tocar todos esses sons facilmente e compará-los inclusive analisando e explicando os diferentes perfis de espectro de frequências sonoras.
+Durante o exercício da disciplina, pudemos usar a ferramenta em diferentes contextos educacionais. Numa aula sobre timbre, por exemplo, reunimos num link vários exemplos de uma mesma nota gerada por instrumentos diferentes como diapasão, violino, clarinete, oboé, trompete, flauta, voz, piano, guitarra elétrica e diversos modelos diferentes de sintetizadores facilmente a partir do acervo do Freesound. Pudemos tocar todos esses sons facilmente e compará-los inclusive analisando e explicando os diferentes perfis de espectro de frequências sonoras.
 
-Numa segunda oportunidade, o professor Leonardo trouxe uma série de playlists com diferentes tipos de sons como glissandos, batidas para realizar uma atividade de preparação de corpo sonoro com a turma de alunos. Um dos alunos operou com facilidade essas playlist improvisando com os sons reunidos enquanto o professor coordenava a atividade de corpo. 
+\begin{figure}
 
-Mais adiante no curso, quando partimos para produção musical, passamos a utilizar outras ferramentas como editores de áudio e trackers com sintetizadores e samplers. Nesta fase, usamos o Playsound principalmente para pesquisar sons para serem adicionados aos projetos dos alunos, que foram montados posteriormentes nos sequenciadores. Essa breve experiência foi importante para testar vários potenciais de aplicação do Playsound também na esfera educacional. Por ser livre, aberto e sem a necessidade de instalação, é uma ferramenta versátil que pode ser adotada por educadores em diversas práticas.
+\includegraphics[width=1\textwidth]{pictures/cap4/pstimbre}
+\caption{\label{psorquestra}Amostras selecionadas para a aula sobre timbre.}
+\legend{fonte: \url{http://www.playsound.space/player/sounds=308270,308618,309333,290401,43461,314864,399466,295858,278084,334534,428800,246658,357370,355118,356661,374567,220747}}
+\label{fig:psorquestra}
+\end{figure}
+
+Numa segunda oportunidade, o professor Leonardo trouxe uma série de \emph{playlists} com diferentes tipos de sons como glissandos, batidas para realizar uma atividade de preparação de corpo sonoro com a turma de alunos (Figura \ref{fig:psufsb}). Um dos alunos, Heictor Miranda Cruz, operou com facilidade essas \emph{playlists} improvisando com os sons reunidos enquanto o professor coordenava a atividade de corpo. 
+
+
 
 \begin{figure}
 
 \includegraphics[width=1\textwidth]{pictures/cap4/leo_ufsb}
-\caption{\label{psufsb}Professor Leo Souza coordenando a experiência de corpo sonoro na Aula da UFSB.}
+\caption{\label{psufsb}Professor Leo Souza coordenando a experiência de corpo sonoro em Aula na UFSB.}
+\legend{foto da autora.}
 \label{fig:psufsb}
 \end{figure}
 
 \begin{figure}
 
 \includegraphics[width=1\textwidth]{pictures/cap4/heitor_ufsb}
-\caption{\label{psufsb2}Heictor Miranda Cruz improvisando sobre a playlist pré definida pelo professor durante o exercício.}
+\caption{\label{psufsb2}Heictor Miranda Cruz improvisando sobre a playlist pré definida.}
+\legend{foto da autora.}
+
 \label{fig:psufsb2}
 \end{figure}
 
+Mais adiante no curso, quando partimos para a parte de produção sonora, passamos a utilizar outras ferramentas como editores de áudio e trackers com sintetizadores e samplers\footnote{Durante o curso, utilizamos principalmente o software Audacity, para edição de áudio digital e o software Jeskola Buzz como sintetizador e sequenciador.}. Nesta fase, usamos o Playsound principalmente para pesquisar sons para serem adicionados aos projetos dos alunos, que foram montados posteriormentes nos sequenciadores. Essa breve experiência foi importante para testar vários potenciais de aplicação da ferramenta também na esfera educacional. Por ser livre, aberto e sem a necessidade de instalação, é uma ferramenta versátil que pode ser adotada por educadores em diversas práticas na música, nas artes ou no audiovisual, por exemplo.
+
 \subsubsection{Sarau do Binho}
 
-Já no Brasil também, pude utilizar a ferramenta durante um evento organizado pela professora Cinara Araújo no Centro de Cultura da cidade de Porto Seguro. O evento tinha como proposta ser uma edição do ``Sarau do Binho'', que acontece regularmente na cidade de São Paulo, aproveitando a presença do poeta Binho, que estava de passagem pela Bahia. Durante o evento, utilizei a ferramenta para criar paisagens sonoras sobre as quais os participantes declamaram poemas de sua própria escolha ou autoria. A ferramenta se mostrou versátil para auxiliar a composição de diferentes ambientações sonoras que puderam acompanhar temas diversos dos oemas declamados no evento \footnote{Os sons utilizados na apresentação podem ser acessados no endereço: \url{http://www.playsound.space/sounds=376415,419165,346105,320306,213318,4832,321030,125346,101195,52502,52499,84715,59356,166709,238689,396268}}.
+Já no Brasil também, pude utilizar a ferramenta durante um evento organizado pela professora Cinara Araújo no Centro de Cultura da cidade de Porto Seguro. O evento tinha como proposta ser uma edição do ``Sarau do Binho'', que acontece regularmente na cidade de São Paulo, aproveitando a presença do poeta Binho, que estava de passagem pela Bahia. Utilizei a ferramenta para criar paisagens sonoras sobre as quais os participantes declamaram poemas de sua própria escolha ou autoria. A ferramenta se mostrou versátil para auxiliar a composição de diferentes ambientações sonoras que puderam acompanhar temas diversos dos poemas declamados no evento \footnote{Os sons utilizados na apresentação podem ser acessados no endereço: \url{http://www.playsound.space/sounds=376415,419165,346105,320306,213318,4832,321030,125346,101195,52502,52499,84715,59356,166709,238689,396268}}.
 
 
 \subsubsection{Cannibal Soundscapes}
-Cannibal Soundscapes foi uma performance apresentada no Congresso UBIMUS de 2018. A proposta da performance era de produzir uma interpretação sonora do Manifesto Antropófago de Oswald de Andrade, \footnote{\cite{Andrade1928}}. Publicado em 1928 no primeiro número da ``Revista de Antropofagia'', o manifesto é considerado  marco teórico central do movimento antropofágico no Brasil.
+``Cannibal Soundscapes'' foi uma performance apresentada no Congresso UBIMUS de 2018. A proposta da performance era de produzir uma interpretação sonora do Manifesto Antropófago de Oswald de Andrade, \footnote{\cite{Andrade1928}}. Publicado em 1928 no primeiro número da ``Revista de Antropofagia'', o manifesto é considerado  marco teórico central do movimento antropofágico no Brasil.
 
-O texto carrega referências diversas a teorias e autores, desde o pensamento revolucionário de Marx (1818- 1883), à idéia Freudiana de ``totem e tabu'', autores surrealistas como André Breton (1896 - 1966) e filósofos como Jean Jacques Rousseau (1712 - 1778), Francis Picabia (1879 - 1953) entre referências a figuras e movimentos da história brasileira. O manifesto traz a idéia de uma ``revolução Caraíba'', ``A unificação de todas as revoltas eficazes na direção do homem''. O antropófago é usado como uma metáfora para a devoração e digestão das influências culturais importadas, que deveriam ser repensadas criticamente sob os termos das condições locais \footnote{\cite{Berg-1999}}.
+O texto carrega referências diversas a teorias e autores, desde o pensamento revolucionário de Marx (1818- 1883), à idéia Freudiana de ``totem e tabu'', autores surrealistas como André Breton (1896 - 1966) e filósofos como Jean Jacques Rousseau (1712 - 1778), Francis Picabia (1879 - 1953) entre referências a figuras e movimentos da história brasileira. O manifesto traz a idéia de uma ``Revolução Caraíba'', ``A unificação de todas as revoltas eficazes na direção do homem''. O antropófago é usado como uma metáfora para a devoração e digestão das influências culturais importadas, que deveriam ser repensadas criticamente sob os termos das condições locais \footnote{\cite{Berg-1999}}.
 
-Para tanto, o manifesto se volta para a cultura indígena, nos lembrando que ``Já tínhamos o comunismo'' \footnote{\cite{Bradley2007}}, e se opondo a uma série de ``verdades'' trazidas junto com as caravelas que nos colonizaram. Propõe como horizonte utópico o ``matriarcado de Pindorama'', onde ``a alegria é a prova dos nove'':
+Para isso , o manifesto se volta para a cultura indígena, nos lembrando que ``Já tínhamos o comunismo'' \footnote{\cite{Bradley2007}}, e se opondo a uma série de ``verdades'' trazidas junto com as caravelas que nos colonizaram. Propõe como horizonte utópico o ``matriarcado de Pindorama'', onde ``a alegria é a prova dos nove'':
 
 \begin{citacao}
 Contra a realidade social, vestida e opressora, cadastrada por Freud - a realidade sem complexos, sem loucura, sem prostituições e sem penitenciárias do matriarcado de Pindorama. \footnote{\cite{Andrade1928}}
@@ -549,7 +588,7 @@ Por ser construído a partir de muitas referências da cultura brasileira, o Man
 
 A peça foi apresentada na sessão de concertos do Congresso UBIMUS, em São João Del Rey. A organização do evento não conseguiu garantir internet de boa qualidade no local do evento, então o processamento pelo sistema foi muito mais lento do que esperávamos. Apesar de ter sido possível realizar a performance proposta, a instabilidade da rede, que caiu várias vezes durante a performance causou um problema com o audio buffer, que a partir de um determinado momento, manteve um som em loop que não podia mais ser desligado.
 
-A dificuldade em tocar sons longos no fez também rever a escolha da mudança de HTM5 para WebAudio, e para a próxima versão do software, queremos fazer uma versão mista, onde sons curtos sejam carregados no buffer e sons longos sejam tocados como objetos HTML. A experiência demontrou no entanto, as capacidades de composição em tempo real com texturas concretas, como podemos ver no espectrograma abaixo, nas figuras \ref{spceubimus} e \ref{spceubimusdt}:
+A dificuldade em tocar sons longos no fez também rever a escolha da mudança de HTM5 para WebAudio, e para a próxima versão do software, queremos fazer uma versão mista, onde sons curtos sejam carregados no buffer e sons longos sejam tocados como objetos HTML. A experiência demontrou no entanto, as capacidades de composição em tempo real com texturas concretas, como podemos ver no espectrograma abaixo, nas figuras \ref{specubimus} e \ref{spceubimusdt}:
 
 \begin{figure}
 
@@ -561,28 +600,36 @@ A dificuldade em tocar sons longos no fez também rever a escolha da mudança de
 \begin{figure}
 
 \includegraphics[width=1\linewidth]{pictures/cap4/canibalspecdbvdt}
-\caption{Espectrograma da gravação da performance no UBIMUS.}
+\caption{Detalhe do espectrograma.}
 \label{spceubimusdt}
 \end{figure}
 
 \subsubsection{Tender Buttons | Sound Space}
 Similar à performance anterior, onde usamos como base um texto para criar uma paisagem sonora, ``Tender Buttons | Sound | Space''  foi uma performance baseada no texto da Gertrude Stein ``Tender Buttons''\footnote{\cite{Stein1914}}. Escrito em 1914, o poema traz combinações não usuais de palavras, que está associado com uma ideia de ``destruição da sintaxe''\footnote{\cite{Perloff1996}}, que também subverte a fala e a prosa feminina tradicional\footnote{\cite{Murphy1991}}. O texto pode ser considerado como uma experiência de Stein com a liguagem, e é uma mistura de poesia e prosa com sentenças que a primeira vista podem parecer ``nonsense'', mas que ganham sentido à medida que se observa a forma que são empregadas\footnote{\cite{Perloff1996}}. Apesar de certas polêmicas a respeito da posição que a poeta veio defender na Segunda Guerra\footnote{\cite{Bernstein2012}}, que foi motivo de discussão entre a equipe, decidimos trabalhar com o poema por ser um dos poucos exemplos de prosa poética escrito por uma mulher livre de direitos autorais da Era moderna.
 
-O texto é estruturado em três partes: \textit{Objects}, \textit{Food} e \textit{Rooms}. Nós escolhemos trabalhar com a terceira parte do poema, \textit{Rooms}, pela quantidade de sugestões sonoras que poderíamos usar durante a performance, como podemos ver neste trecho:
+O texto é estruturado em três partes: \textit{Objects}, \textit{Food} e \textit{Rooms}. Escolhemos trabalhar com a terceira parte do poema, \textit{Rooms}, pela quantidade de sugestões sonoras que poderíamos usar durante a performance, como podemos ver neste trecho:
 
 \begin{citacao}
 Currents, currents are not in the air and on the floor and in the door and behind it first. Currents do not show it plainer. This which is mastered has so thin a space to build it all that there is plenty of room and yet is it quarreling, it is not and the insistence is marked. A change is in a current and there is no habitable exercise. \footnote{\cite{Stein1914}}
 \end{citacao} 
 
-A performance foi apresentada na Web Audio Conference de 2018, em Berlim, na Alemanha, em conjunto com Alessia Milo. Diferente da anterior, onde o texto era apresentado por escrito na tela mas a performance era apenas sonora, sem elementos discursivos, construímos essa performance baseada em uma leitura que eu fiz do poema, que foram cortados, selecionados e transferidos para o banco de dados do Freesound. Desta forma pudemos tocar esses trechos durante a performance e criar a paisagem sonora por cima das leituras. Assim, enquanto Alessia soltava os trechos da leitura, e colava o texto na janela do chat, eu ia selecionando os sons e tocando com eles. 
+A performance foi apresentada na Web Audio Conference de 2018, em Berlim, na Alemanha, com Alessia Milo (Figura \ref{tenderbuttonsberlim}). Construímos essa performance baseada em uma leitura que eu fiz do poema, que foram cortados, selecionados e transferidos para o banco de dados do Freesound. Desta forma pudemos tocar esses trechos durante a performance e criar a paisagem sonora por cima das leituras. Assim, enquanto Alessia soltava os trechos da leitura, e colava o texto na janela do chat, eu ia selecionando os sons e tocando com eles. 
 
-Pelas condições de som e internet no local, que eram excelentes, considero que essa performance foi mais bem sucedida que anterior, já que não houveram bugs e os sons foram carregados rápidamente. Em um momento, por volta da metade da performance, quando abri uma quantidade de sons considerável, senti que o sistema começou a ficar um pouco lento. Foi apenas remover alguns dos sons que já estavam carregados que a performance continou correndo normalmente. Um vídeo da performance, que durou 20 minutos está dispoível em: \url{https://www.youtube.com/watch?v=LiNb_T8oluA}
+\begin{figure}
+\includegraphics[width=0.8\linewidth]{pictures/cap4/tenderbuttonssounds}
+\caption{Tender Buttons, performance em Berlim.}
+\legend{foto: Anna Xambó}
+\label{tenderbuttonsberlim}
+\end{figure}
+
+
+Pelas condições de som e internet no local, que eram excelentes, considero que essa performance foi mais bem sucedida que anterior, já que não houveram \emph{bugs} e os sons foram carregados rapidamente. Em um momento, por volta da metade da performance, quando abri uma quantidade de sons considerável, senti que o sistema começou a ficar um pouco lento. Foi apenas remover alguns dos sons que já estavam carregados que a performance continou correndo normalmente. A figura \ref{allsounds} apresenta todos o sons utilizados na performance. Um vídeo da performance, que durou 20 minutos está dispoível em: \url{https://www.youtube.com/watch?v=LiNb_T8oluA}
 
 \begin{figure}
 
 \includegraphics[width=0.8\linewidth]{pictures/cap4/tenderbuttonssounds}
-\caption{Todos sons utilizados na performance.}
-\label{diagram}
+\caption{Todos sons utilizados na performance Tender Buttons.}
+\label{allsounds}
 \end{figure}
 
 
@@ -602,7 +649,7 @@ No meu segundo quadrimestre de trabalho na UFSB, ministrei o componente ``Oficin
 \end{figure}
 
 
-Na ocasião, eu e a aluna Gislânia usamos PS como ferramenta para tocar, em conjunto com instrumentos de percussão e voz. Os outros participantes tocaram com seus instrumentos tradicionais (computador, guitarra, bateria, voz, percussão). Como não sabíamos as condições de internet no local, decidimos trabalhar com sons pré-selecionados, como um roteiro para garantir que o sistema funcionasse mesmo sem internet, apesar de necessitar de internet para a busca de sons, o sistema funciona mesmo offline. Uma vez que os sons são carregados no buffer, é só manter a página aberta que podemos tocar com a ferramenta normalmente.
+Na ocasião, eu e a aluna Gislânia, usamos PS como ferramenta para tocar, em conjunto com instrumentos de percussão e voz. Os outros participantes tocaram com seus instrumentos tradicionais (computador com FLStudio, guitarra, bateria, voz, percussão). Como não sabíamos as condições de internet no local, decidimos trabalhar com sons pré-selecionados, como um roteiro para garantir que o sistema funcionasse mesmo sem internet. No sistema, a internet é necessária para a busca de sons, mas uma vez que os sons são carregados no \emph{buffer}, é só manter a página aberta que podemos tocar com a ferramenta mesmo \emph{offline}. Os filmes selecionados para essa apresentação foram:  Meshes of the Afternoon, dirigido por Maya Deren, Viagem à Lua, de Georges Méliès e Um Cão Andaluz (1929), dirigido por Luis Buñuel e Salvador Dalí. 
 
 Para acompanhar os filmes, preparamos as seguintes playlists: 
 
@@ -618,7 +665,7 @@ Para tocar, utilizamos sons concretos, que tinham relação com as imagens apres
 
 \subsubsection{Transmusiking II}
 
-Na semana do dia 20 de novembro de 2018, o grupo Female Laptop Orchestra, do qual também faço parte desde a conferência Audio Mostly de 2017, quando participei da performance da peça Transmusiking com o projeto Banda Aberta, participou de uma residência no Sonic Arts Research Institute (SARC) da Queen's University em Belfast. Devido ãs atividades de docência e pesquisa em andamento e à distância e os custos de transporte, pude participar apenas remotamente do processo, que contou com a participação das musicistas residentes Nela Brown (Londres, Inglaterra), Anna Xambo (Trondheim, Noruega), Magdalena Chudy (Warsaw, Polônia), Tuna Pase (Barcelona, Espanha), Liz Dobson (Huddersfield, UK), Ada Mathea Hoel (NTNU Norway) e Franziska Schroeder (Belfast, UK) e colaboração à distância de Sonia Wilkie (Melbourne, Austrália) e Lea Ikkache (Paris, França) além da minha, por streaming do Brasil. O projeto se propôs a realizar um painel sobre a participação das mulheres no campo da tecnologia musical ao redor do mundo e um concerto coletivo, para o qual propusemos uma nova versão da peça Transmusiking:
+Na semana do dia 20 de novembro de 2018, o grupo Female Laptop Orchestra, do qual também faço parte desde a conferência Audio Mostly de 2017, quando participei da performance da peça Transmusiking com o projeto Banda Aberta, participou de uma residência no Sonic Arts Research Institute (SARC) da Queen's University em Belfast. Devido ãs atividades de docência e pesquisa em andamento e à distância e os custos de transporte, pude participar apenas remotamente do processo, que contou com a participação das musicistas residentes Nela Brown (Londres, Inglaterra), Anna Xambo (Trondheim, Noruega), Magdalena Chudy (Warsaw, Polônia), Tuna Pase (Barcelona, Espanha), Liz Dobson (Huddersfield, UK), Ada Mathea Hoel (NTNU Norway) e Franziska Schroeder (Belfast, UK) e colaboração à distância de Sonia Wilkie (Melbourne, Austrália) e Lea Ikkache (Paris, França) além da minha, por streaming do Brasil. O projeto se propôs a realizar um painel sobre a participação das mulheres no campo da tecnologia musical ao redor do mundo e um concerto coletivo, para o qual foi proposta uma nova versão da peça Transmusiking:
 
 
 \begin{citacao}
@@ -673,39 +720,35 @@ Liz wobbles with the others.
 
 Para viabilizar a execução da peça, organizamos alguns ensaios via skype, onde testamos o setup no computador e o feedback recebido das performers que estavam em Belfast. Na minha participação no concerto, utilizei técnicas vocais expandidas para improvisar sobre uma base preparada no PS, onde selecionei sons de piano, de água e um sino invertido. 
 
-Para fazer o \emph{streaming}, utilizei um aplicativo chamado Butt (Broadcast using this tool) que é um servidor alternativo de Icecast para windows e mac, utilizando o servidor \url{http://crowdj.net/}. Para enviar em conjunto o som que vinha do navegador e o som do microfone, foi preciso instalar um servidor de áudio que unia os fluxos sonoros de diferentes fontes do sistema. O atraso do som durante a transmissão era de cerca de sete segundos, e eu recebia o feedback das performance através do skype. Para não re-alimentar o som enviado com a resposta, o som era recebido da Irlanda pelo celular, enquanto eu tocava com o computador, o que me obrigou a usar dois fones de ouvido sobrepostos, para evitar vazamentos de áudio para o microfone. Apesar da logística complexa, a performance foi bem sucedida, devido a estratégias de tocar que não dependessem de um retorno imediato. Procurei produzir principalmente texturas, e por ser a fonte externa durante a parte da peça que toquei, acabava sendo um guia que enviava o som, enquanto as performers que estavam no local respondiam ao que eu enviava. 
+Para fazer o \emph{streaming}, utilizei um aplicativo chamado Butt (Broadcast using this tool) que é um servidor alternativo de Icecast para windows e mac, utilizando o servidor \url{http://crowdj.net/}. A figura \ref{telasarc} mostra o registro da tela utilizada o momento da perfromance. Para enviar em conjunto o som que vinha do navegador e o som do microfone, foi preciso instalar um servidor de áudio que unia os fluxos sonoros de diferentes fontes do sistema. O atraso do som durante a transmissão era de cerca de sete segundos, e eu recebia o feedback das performance através do skype. Para não re-alimentar o som enviado com a resposta, o som era recebido da Irlanda pelo celular, enquanto eu tocava com o computador. Isso me obrigou a usar dois fones de ouvido sobrepostos, para evitar vazamentos de áudio do retorno para o microfone. Apesar da logística complexa, a performance foi bem sucedida, devido a estratégias de tocar que não dependessem de um retorno imediato. Procurei produzir principalmente texturas, e por ser a fonte externa durante a parte da peça que toquei, acabava sendo um guia que enviava o som, enquanto as performers que estavam no local respondiam ao que eu enviava. 
+
+Separei uma seleção de sons de piano, que foram tocados em loops alternados e sobrepostos. Como tinham durações diferentes, criavam uma textura polirítmica. Sobre eles, improvisei com técnicas vocais de saturação do espectro e de ruídos.
 
 
-Separei uma seleção de sons de piano: 
-
-
-http://www.playsound.space/sounds=386440,351623,339821,316025,148571,176494,396483,427086,134908,332114,432441,232131,356107,373906,355826,355979,296145,148505,148508,409480,176494,351324,148548,295857,448552,148510,176504,351327,320306,320311,371494
 
 \begin{figure}
-
-
 \includegraphics[width=0.7\linewidth]{pictures/cap4/playsound_sarc}
 \caption{Sons usados na performance com a FLO.}
-\label{telasarc}
+\legend{fonte: \url{http://www.playsound.space/sounds=386440,351623,339821,316025,148571,176494,396483,427086,232131,296145,148505,148508,409480,176504,351327}}
+\label{sonssarc}
 \end{figure}
 
-sons usados:
 
-\url{http://www.playsound.space/sounds=386440,351623,339821,316025,148571,176494,396483,427086,232131,296145,148505,148508,409480,176504,351327}
 
-sound: Hand Bells, Reverse Cluster.wav by: InspectorJ; sound: PIANO\_MED\_F5.wav by: neatonk; sound: Piano key F3 by: Goup\_1; sound: PIANO\_LOUD\_F5.wav by: neatonk; sound: PIANO\_LOUD\_F6.wav by: neatonk; sound: Piano Key G\#6 by: Goup\_1;
+%#sound: Hand Bells, Reverse Cluster.wav by: InspectorJ; sound: PIANO\_MED\_F5.wav by: neatonk; sound: Piano key F3 by: Goup\_1; sound: PIANO\_LOUD\_F5.wav by: neatonk; sound: PIANO\_LOUD\_F6.wav by: neatonk; sound: Piano Key G\#6 by: Goup\_1;
 
 \begin{figure}
-
-
 \includegraphics[width=0.7\linewidth]{pictures/cap4/telasarc}
-\caption{Screenshot da tela no momento da apresentação online, com Playsound, Butt, para streaming e whatsapp para comunicação com o grupo à distância.}
+\caption{Screenshot da tela no momento da apresentação online.}
+\legend{Com Playsound, Butt, para streaming e whatsapp para comunicação com o grupo à distância.} }
 \label{telasarc}
 \end{figure}
 
 
 
 \phantomsection
+
+
 
 
 

@@ -60,11 +60,12 @@ Dispon{\'\i}vel em: \url{https://hal.inria.fr/hal-01158080/}.}
 \abntrefinfo{Barthes}{BARTHES}{1978}
 {BARTHES, R. \emph{{Image-Music-Text}}. New York: Hill and Wang, 1978. 220~p.}
 
-\bibitem[Barthet et al. 2011]{Barthet:11a}
-\abntrefinfo{Barthet et al.}{BARTHET et al.}{2011}
-{BARTHET, M. et al. Analysis-by-synthesis of timbre, timing, and dynamics in
-  expressive clarinet performance.
-\emph{Music Perception}, v.~28, n.~3, p. 265--278, 2011.}
+\bibitem[Barthet e Xamb{\'{o}} 2018]{Barthet2018}
+\abntrefinfo{Barthet e Xamb{\'{o}}}{BARTHET; XAMB{\'{O}}}{2018}
+{BARTHET, M.; XAMB{\'{O}}, A. \emph{{Deliverable D6.4 - Evaluation report on
+  the prototype of an embeddable tool for integrating Audio Commons music
+  samples}}.
+London, 2018.}
 
 \bibitem[Bary 1991]{Lesli-1991}
 \abntrefinfo{Bary}{BARY}{1991}
@@ -92,13 +93,6 @@ Dispon{\'\i}vel em: \url{https://hal.inria.fr/hal-01158080/}.}
 \abntrefinfo{Berg}{BERG}{1999}
 {BERG, S. An introduction to oswald de andrade's cannibalist manifesto.
 \emph{Third Text}, Taylor and Francis Group, v.~13, 03 1999.}
-
-\bibitem[Bergstroem-Nielsen 2016]{BERGSTROEM-NIELSEN2016}
-\abntrefinfo{Bergstroem-Nielsen}{BERGSTROEM-NIELSEN}{2016}
-{BERGSTROEM-NIELSEN, C. {Keywords in Musical Free Improvisation}.
-\emph{Music and Arts in Action}, v.~5, n.~1, 2016.
-Dispon{\'\i}vel em:
-  \url{http://www.musicandartsinaction.net/index.php/maia/article/view/improvkeywords/101}.}
 
 \bibitem[Bernstein 2012]{Bernstein2012}
 \abntrefinfo{Bernstein}{BERNSTEIN}{2012}
@@ -190,12 +184,6 @@ ISBN 978-85-7480-678-5.}
 \abntrefinfo{Campos e Vieira}{CAMPOS; VIEIRA}{2004}
 {CAMPOS, H. de.; VIEIRA, T. \emph{{Galáxias}}. S{\~{a}}o Paulo: Editora 34,
   2004. 127~p.}
-
-\bibitem[Canonne 2016]{Canonne2016}
-\abntrefinfo{Canonne}{CANONNE}{2016}
-{CANONNE, C. \emph{{Du concept d'improvisation {\`{a}} la pratique de
-  l'improvisation libre}}. Croatian Musicological Society, 2016. 17--43~p.
-Dispon{\'\i}vel em: \url{http://www.jstor.org/stable/43869452}.}
 
 \bibitem[Canonne e Garnier 2011]{canonne2011model}
 \abntrefinfo{Canonne e Garnier}{CANONNE; GARNIER}{2011}
@@ -342,6 +330,11 @@ Dispon{\'\i}vel em: \url{https://smartech.gatech.edu/handle/1853/54627}.}
   Input Capabilities for Expressive Musical Control}. In:  . New York, NY, USA:
   ACM, 2007.  (NIME '07), p. 164--167.}
 
+\bibitem[Figueir{\'o} 2013]{figueiro2013influencia}
+\abntrefinfo{Figueir{\'o}}{FIGUEIR{\'O}}{2013}
+{FIGUEIR{\'O}, C. \emph{Influ{\^e}ncia da Gestalt theory na
+  pr{\'e}-composi{\c{c}}{\~a}o da pe{\c{c}}a “Canela-Gamboa”}. 2013.}
+
 \bibitem[Font et al. 2016]{Font2016}
 \abntrefinfo{Font et al.}{FONT et al.}{2016}
 {FONT, F. et al. {Audio Commons: Bringing Creative Commons Audio Content to the
@@ -410,6 +403,13 @@ Dispon{\'\i}vel em:
 Dispon{\'\i}vel em:
   \url{https://www.kvraudio.com/focus/it{\\_}was{\\_}21{\\_}years{\\_}ago{\\_}today{\\_}how{\\_}the{\\_}first{\\_}so}.}
 
+\bibitem[Hill 2017]{Hill2017}
+\abntrefinfo{Hill}{HILL}{2017}
+{HILL, J. \emph{{Why you should care about digital brutalism – UX
+  Collective}}. 2017.
+Dispon{\'\i}vel em:
+  \url{https://uxdesign.cc/why-you-should-care-about-digital-brutalism-fa0c82d60133}.}
+
 \bibitem[Hofstadter 1985]{Metamagical1986}
 \abntrefinfo{Hofstadter}{HOFSTADTER}{1985}
 {HOFSTADTER, D. \emph{Metamagical Themas: Questing For The Essence Of Mind And
@@ -463,6 +463,13 @@ Dispon{\'\i}vel em: \url{https://www.jasondavies.com/wordcloud/}.}
 {JILLINGS, N.; STABLES, R. {An Intelligent audio workstation in the browser}.
   In:  \emph{WAC 2017}. [s.n.], 2017. Dispon{\'\i}vel em:
   \url{https://qmro.qmul.ac.uk/xmlui/handle/123456789/26146}.}
+
+\bibitem[Jord{\~{a}}o 2018]{Jordao2018}
+\abntrefinfo{Jord{\~{a}}o}{JORD{\~{A}}O}{2018}
+{JORD{\~{A}}O, G. \emph{{Panorama setorial da cultura brasileira 2017-2018}}.
+  S{\~{a}}o Paulo: Alluci e Associados, 2018. v.~91. 399--404~p.
+ISBN 9788561020095. Dispon{\'\i}vel em:
+  \url{http://panoramadacultura.com.br/edicao/2017-2018/}.}
 
 \bibitem[Kattwinkel 2003]{kattwinkel2003audience}
 \abntrefinfo{Kattwinkel}{KATTWINKEL}{2003}
@@ -552,6 +559,12 @@ Tese (Doutorado) --- Universidade de S{\~{a}}o Paulo, 2018.}
 {LUHAN, M. \emph{Marshall: Understanding Media--the extensions of man}. [S.l.]:
   Mc Graw Hill, New York, 1964.}
 
+\bibitem[Macedo 2015]{Macedo2015}
+\abntrefinfo{Macedo}{MACEDO}{2015}
+{MACEDO, M. A. A. R.~B. de. \emph{{Acupuntura Urbana: Teatro Oficina e o
+  centen{\'{a}}rio de Lina Bardi}}.
+Lisboa, 2015.}
+
 \bibitem[Madell e Muncer 2007]{Madell:2007}
 \abntrefinfo{Madell e Muncer}{MADELL; MUNCER}{2007}
 {MADELL, D. D.~E.; MUNCER, S.~J. Control over social interactions: An important
@@ -560,6 +573,12 @@ Tese (Doutorado) --- Universidade de S{\~{a}}o Paulo, 2018.}
 \emph{CyberPsychology \& Behavior}, v.~10, n.~1, p. 137--140, 2007.
 PMID: 17305461.
 Dispon{\'\i}vel em: \url{https://doi.org/10.1089/cpb.2006.9980}.}
+
+\bibitem[Magnusson 2005]{Magnusson2005}
+\abntrefinfo{Magnusson}{MAGNUSSON}{2005}
+{MAGNUSSON, T. {ixi software: The Interface as Instrument}. In:  \emph{NIME}.
+  Vancouver: [s.n.], 2005. Dispon{\'\i}vel em:
+  \url{https://pdfs.semanticscholar.org/0b7d/2d3a5ac52b2e68f817016ddff3d187048ba9.pdf}.}
 
 \bibitem[Manovich 2008]{Manovich2008}
 \abntrefinfo{Manovich}{MANOVICH}{2008}
@@ -651,6 +670,12 @@ Dispon{\'\i}vel em: \url{http://www.jstor.org/stable/1208563?origin=crossref}.}
 {ORDIALES, H.; BRUNO, M.~L. {Sound recycling from public databases}. In:
   \emph{Proc. Audio Mostly}. [S.l.: s.n.], 2017.}
 
+\bibitem[Palombini 1993]{Palombini1993}
+\abntrefinfo{Palombini}{PALOMBINI}{1993}
+{PALOMBINI, C. V. d.~L.
+\emph{{Pierre Schaeffer's Typo-Morphology of Sonic Objects}}.
+Tese (Doutorado) --- Durham University, 1993.}
+
 \bibitem[{Paoli, Jessica Smetak} 2010]{JessicaSmetakPaoli2010}
 \abntrefinfo{{Paoli, Jessica Smetak}}{{Paoli, Jessica Smetak}}{2010}
 {{Paoli, Jessica Smetak}. \emph{{SMETAK, SOM E ESP{\'{I}}RITO}}. 2010.
@@ -670,6 +695,12 @@ Dispon{\'\i}vel em:
   Central Modern Language Association, v.~13, n.~2/3, p.~35, 1996.
 Dispon{\'\i}vel em:
   \url{https://www.jstor.org/stable/3190371?origin=crossref}.}
+
+\bibitem[Pindado 2005]{Pindado2005}
+\abntrefinfo{Pindado}{PINDADO}{2005}
+{PINDADO, E.~V. {Arte electr{\'{o}}nico}.
+\emph{Manager}, 2005.
+Dispon{\'\i}vel em: \url{http://www.eugeniovega.es/written/electronico.pdf}.}
 
 \bibitem[{Plaza, Julio } 1969]{JulioPlaza1969}
 \abntrefinfo{{Plaza, Julio }}{{Plaza, Julio }}{1969}
@@ -712,6 +743,11 @@ Dispon{\'\i}vel em:
 \abntrefinfo{Roads}{ROADS}{1996}
 {ROADS, C. \emph{{The computer music tutorial}}. [S.l.]: The MIT Press, 1996.
   133~p.}
+
+\bibitem[Roads 2015]{Roads}
+\abntrefinfo{Roads}{ROADS}{2015}
+{ROADS, C. \emph{{Composing electronic music : a new aesthetic}}. [S.l.: s.n.],
+  2015. 480~p.}
 
 \bibitem[Roberts e Kuchera-Morin 2012]{Roberts2012gibberlivecoding}
 \abntrefinfo{Roberts e Kuchera-Morin}{ROBERTS; KUCHERA-MORIN}{2012}
@@ -760,6 +796,11 @@ Tese (Dissertação de Mestrado) --- Instituto de Artes da UNICAMP, 2001.}
 \emph{Tradu{\c{c}}{\~{a}}o de Ant{\'{o}}nio de Sousa Dias. Paris:}, 2007.
 Dispon{\'\i}vel em:
   \url{http://www.dmu.uem.br/aulas/tecnologia/SolObjSon/PDFs/Schaeffer{\\_}SolfejoObjeto{\\_}po}.}
+
+\bibitem[Schafer 2011]{Schafer2011}
+\abntrefinfo{Schafer}{SCHAFER}{2011}
+{SCHAFER, R.~M. \emph{{A afina{\c{c}}{\~{a}}o do mundo}}. S{\~{a}}o Paulo:
+  Unesp, 2011.}
 
 \bibitem[Schnell et al. 2013]{Schnell2013}
 \abntrefinfo{Schnell et al.}{SCHNELL et al.}{2013}
@@ -913,11 +954,18 @@ Dispon{\'\i}vel em:
   personal and crowdsourced databases.
 2018.}
 
-\bibitem[Xambó e Roma 2017]{Xambo2017}
-\abntrefinfo{Xambó e Roma}{XAMBó; ROMA}{2017}
-{XAMBó, A.; ROMA, G. {Hyperconnected Action Painting}.
+\bibitem[XAMBÓ e Roma 2017]{Xambo2017}
+\abntrefinfo{XAMBÓ e Roma}{XAMBÓ; ROMA}{2017}
+{XAMBÓ, A.; ROMA, G. {Hyperconnected Action Painting}.
 p.~3--5, 2017.
 Dispon{\'\i}vel em: \url{http://eecs.qmul.ac.uk/{~}keno/70.p}.}
+
+\bibitem[Xenakis e Kanach 1971]{Xenakis1971}
+\abntrefinfo{Xenakis e Kanach}{XENAKIS; KANACH}{1971}
+{XENAKIS, I.; KANACH, S. \emph{{Formalized music: thought and mathematics in
+  composition}}. Bloomington: Indiana University Press, 1971. 387~p.
+ISBN 9781576470794. Dispon{\'\i}vel em:
+  \url{http://www.pendragonpress.com/book.php?id=558}.}
 
 \bibitem[Youngblood 1970]{Youngblood1970}
 \abntrefinfo{Youngblood}{YOUNGBLOOD}{1970}

@@ -234,12 +234,12 @@ Neste primeiro teste em público, notamos que haviam alguns problemas com relaç
 
 
 
-\begin{figure}
+%\begin{figure}
    
        %\includegraphics[width=1\linewidth]{pictures/audiotype_sketch}
-   \caption{Primeiro teste do projeto realizado no NuSom.}
-    \label{fig:testenusom}
- \end{figure}
+ %  \caption{Primeiro teste do projeto Banda Aberta realizado no NuSom.}
+  %  \label{fig:testenusom}
+ %\end{figure}
 Nós queríamos assegurar a acessibilidade da audiência e garantir uma flexibilidade na montagem da performance, garantindo seu funcionamento mesmo em locais sem disponibilidade de acesso à Internet, o que seria o caso do Festival Bigorna. Para isso, utilizamos um roteador wifi para criar uma rede local aberta onde os usuários podiam ter acesso ao sistema em um servidor local (esta prática é frequentemente utilizada como estratégia para permitir a participação da audiência em sistemas de música móvel\footnote{\cite{Lambert:2016}}). Uma questão em performances participativas via celulares é que muitas vezes os usuários podem se distrair usando a internet, por informações vindas de outros aplicativos como de trocas de mensagens ou redes sociais\footnote{\cite{wu2017open}}, isto também é evitado pela rede local, que isola os usuários da internet, deixando os mais focados na performance e na experiência resultante. Durante as performances, os participantes acessaram o sistema através de um endereço IP que direcionava para uma máquina local com o servidor.
 
 Nossa intenção era de que os participantes pudessem interagir com pouca ou nenhuma explicação anterior. No início das apresentações, passávamos somente instruções de qual endereço acessar, e uma vez na página há um campo de entrada de texto com a informação ``envie sua mensagem''. O endereço IP e o nome da rede eram informados também em uma projeção na tela (na maioria das performances). Um site com uma versão online é mantido no ar desde o lançamento do projeto e pode ser acessado no endereço: \url{banda.codigo.xyz}
@@ -273,7 +273,7 @@ Em uma homenagem à poesia concreta, como definida por Augusto de Campos: ``tens
 Para os caracteres especiais e númerais, a relação direta entre os sons e os samples não é tão clara, uma vez que não são representações fonéticas, então optei por procurar outras relações possíveis bem como outras fontes de sons. Em alguns casos seguimos uma lógica de relação mais simbólica, como o som de caixa registradora para o signo \$ e em outros, associações mais icônicas, utilizando uma técnica de síntese subtrativa por corte visual de espectro. Este é o conjunto padrão de samples, e é usado como introdução para tornar as pessoas familiares com o sistema de associação. Exemplos deste pacote de sons podem ser ouvidos em: \url{http://spectro.codigo.xyz/spectrogramplayer/}
 
 \begin{figure}
-    \caption{\label{samplesgalaxias}Espectrogramas do Conjunto de Samples Galáxias}
+    \caption{\label{samplesgalaxias}Galáxias -- Espectrogramas do conjunto de samples}
     \begin{center}
         \includegraphics[width=1\linewidth]{pictures/cap3/bandagalaxias.jpg}
     \end{center}
@@ -285,7 +285,7 @@ Para os caracteres especiais e númerais, a relação direta entre os sons e os 
 A associação entre as consoantes e os sons percussivos foi feita através de uma escuta reduzida de uma coleção grande de samples, buscando identificar sons que lembrassem características fonéticas das letras originais, como um bumbo para a letra ``B'' e pratos para ``S''. Mais uma vez aqui, fizemos uma associação mais direta entre sons e fonemas nos caracteres do alfabeto, enquanto para os caracteres especiais procuramos outras relações, como por exemplo entre sua forma visual e o desenho espectral dos sons. Alguns caracteres especiais foram extraídos da peça de Velimir Khleibnikov ``Radio of the Future''\footnote{Disponível em: \url{http://www.ubu.com/sound/russian_avant.html}}.
 
 \begin{figure}
-    \caption{\label{samplespercussao}Espectrogramas do Conjunto de Samples Percussão e Acordes}
+    \caption{\label{samplespercussao}Percussão e Acordes -- Espectrogramas do conjunto de samples}
     \begin{center}
         \includegraphics[width=1\linewidth]{pictures/cap3/bandapercussao.jpg}
     \end{center}
@@ -295,7 +295,7 @@ A associação entre as consoantes e os sons percussivos foi feita através de u
 \item[Pacote Colaborativo] (sp2) O terceiro conjunto de samples foi montado a partir da colaboração de alunos da turma de Produção Musical da Universidade Anhembi Morumbi, sob orientação do professor Viktor Kisil, que solicitou da turma samples para a composição deste conjunto de sons. Este pacote contém amostras de fontes sonoras muito variadas, de sons concretos a sintetizados. A associação entre letras e sons não foi feita procurando analogias como nos outros conjuntos, e sendo assim, ele provém sons mais excêntricos. \footnote{Exemplos podem ser ouvidos em: \url{http://spectro.codigo.xyz/spectrogramplayer/fx.html}} 
 
 \begin{figure}
-    \caption{\label{samplescolab}Espectrogramas do Conjunto de Samples Colaborativo}
+    \caption{\label{samplescolab}Conjunto Colaborativo -- Espectrogramas do conjunto de samples}
     \begin{center}
         \includegraphics[width=1\linewidth]{pictures/cap3/bandaabertacolab.jpg}
     \end{center}
@@ -306,7 +306,7 @@ A associação entre as consoantes e os sons percussivos foi feita através de u
 \end{description}
 
 \begin{figure}
-    \caption{\label{samplesorquestra}Espectrogramas do Conjunto de Samples Orquestra Errante}
+    \caption{\label{samplesorquestra}Orquestra Errante -- Espectrogramas do conjunto de samples}
     \begin{center}
         \includegraphics[width=1\linewidth]{pictures/cap3/bandaorquestra.jpg}
     \end{center}
@@ -346,7 +346,7 @@ Após as primeiras experiências com síntese de voz, decidimos por uma outra ab
     
         \includegraphics[width=1\linewidth]{pictures/metamagical}
         \vspace{-10pt}
-    \caption{Um dos alfabetos modulares propostos por Douglas Hofstadter.}
+    \caption{Um dos alfabetos modulares propostos por Hofstadter.}
     \legend{fonte: \cite[p. 90]{Metamagical1986}}
     \label{fig:metamagical}
 \end{figure} 
@@ -423,7 +423,7 @@ Cada nó de saída de áudio passa também por um envelope ADSR \footnote{\cite{
     
         \includegraphics[width=1\textwidth]{pictures/spectrogram}
         \vspace{-10pt}
-    \caption{Espectrogramas gerados pelo programa.}
+    \caption{Espectrogramas gerados pelo sistema.}
     \vspace{-10pt}
     \label{fig:spectro}
 \end{figure}
@@ -713,7 +713,7 @@ Dentre as mensagens de conteúdo não semântico identificamos três subgrupos:
 
 \begin{figure}
 \includegraphics[width=1\linewidth]{pictures/cap3/bar_plot_new_revised}
-\caption{Gráfico mostrando as proporções dos temas recorrentes nas performances.}
+\caption{Proporções dos temas recorrentes nas performances.}
 \label{donut}
 \end{figure}
 
@@ -721,7 +721,7 @@ O gráfico representado na Figura \ref{donut} mostra a proporção de mensagens 
 
 \begin{figure}
 \includegraphics[width=1\linewidth]{pictures/cap3/ratios_bw}
-\caption{Gráfico mostrando as proporções dos temas subjetivos nas performances.}
+\caption{Proporções dos temas subjetivos nas performances.}
 \label{subj}
 \end{figure}
 
