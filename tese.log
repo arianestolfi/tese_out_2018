@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2018.8.31)  11 JAN 2019 22:47
+This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2018.8.31)  18 JAN 2019 15:54
  restricted system commands enabled.
 **tese.tex
 (./tese.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.215 seconds
+luaotfload | main : initialization completed in 0.284 seconds
 Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/abntex2/abntex2.cls
 Document Class: abntex2 2016/02/26 v-1.9.6 abnTeX2
@@ -1319,12 +1319,6 @@ LaTeX Warning: Label `fig:psorquestra' multiply defined.
 
 LaTeX Warning: Label `diagram' multiply defined.
 
-
-LaTeX Warning: Label `diagram' multiply defined.
-
-
-LaTeX Warning: Label `telasarc' multiply defined.
-
 (./abntex2-modelo-include-comandos.aux) (./ape-tabelagatorra.aux)
 (./ape-entrevistas.aux))
 \openout1 = tese.aux
@@ -1573,122 +1567,113 @@ Overfull \hbox (4.43912pt too wide) in paragraph at lines 27--27
  []
 
 
-Overfull \hbox (0.4168pt too wide) in paragraph at lines 51--51
- [][] [][][]\T1/ppl/m/n/12 Es-pec-tro-gra-mas do Con-junto de Sam-ples Per-cus-
-são e Acor- 
- []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[16] [17]) [18] [19
+ [16]
+[17]) [18] [19
 
 
 ] [20
 
 ] (./tese.toc
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 22.
+
 Overfull \hbox (1.5877pt too wide) detected at line 45
- \T1/lmss/bx/n/12 134
+ \T1/lmss/bx/n/12 129
  []
 
 [21]
-Overfull \hbox (1.5877pt too wide) detected at line 67
- \T1/lmss/bx/n/12 179
- []
-
-
 Overfull \hbox (1.5877pt too wide) detected at line 68
- \T1/lmss/bx/n/12 179
+ \T1/lmss/bx/n/12 175
  []
 
 
 Overfull \hbox (1.5877pt too wide) detected at line 69
+ \T1/lmss/bx/n/12 175
+ []
+
+
+Overfull \hbox (1.5877pt too wide) detected at line 70
+ \T1/lmss/bx/n/12 177
+ []
+
+
+Overfull \hbox (1.5877pt too wide) detected at line 74
  \T1/lmss/bx/n/12 181
  []
 
 
-Overfull \hbox (1.5877pt too wide) detected at line 73
- \T1/lmss/bx/n/12 185
- []
-
-
-Overfull \hbox (1.5877pt too wide) detected at line 81
- \T1/lmss/bx/n/12 199
- []
-
-
-Overfull \hbox (1.5877pt too wide) detected at line 85
- \T1/lmss/bx/n/12 201
+Overfull \hbox (1.5877pt too wide) detected at line 82
+ \T1/lmss/bx/n/12 195
  []
 
 
 Overfull \hbox (1.5877pt too wide) detected at line 86
- \T1/lmss/bx/n/12 202
+ \T1/lmss/bx/n/12 197
+ []
+
+
+Overfull \hbox (1.5877pt too wide) detected at line 87
+ \T1/lmss/bx/n/12 198
  []
 
 
 Underfull \vbox (badness 1546) has occurred while \output is active []
 
  [22]
-Overfull \hbox (1.5877pt too wide) detected at line 96
+Overfull \hbox (1.5877pt too wide) detected at line 97
+ \T1/lmss/bx/n/12 201
+ []
+
+
+Overfull \hbox (1.5877pt too wide) detected at line 105
  \T1/lmss/bx/n/12 205
  []
 
 
-Overfull \hbox (1.5877pt too wide) detected at line 104
- \T1/lmss/bx/n/12 209
- []
-
-
-Overfull \hbox (1.68547pt too wide) in paragraph at lines 104--104
+Overfull \hbox (1.68547pt too wide) in paragraph at lines 105--105
  [][] [][][]\T1/lmss/bx/n/12 QUES-TI-O-NÁ-RIO DE AVA-LI-A-ÇÃO DE 
  []
 
 ) [23] [24
 
-] (./cap-00-intro.tex
-Underfull \vbox (badness 1817) has occurred while \output is active []
+] (./cap-00-intro.tex [25
 
- [25
-
-]
-<pictures/radio_garden_2018-06-10.png, id=576, 1490.56876pt x 957.5775pt>
+] [26]
+<pictures/radio_garden_2018-06-10.png, id=580, 1490.56876pt x 957.5775pt>
 File: pictures/radio_garden_2018-06-10.png Graphic file (type png)
 <use pictures/radio_garden_2018-06-10.png>
 Package luatex.def Info: pictures/radio_garden_2018-06-10.png  used on input lin
-e 21.
+e 24.
 (luatex.def)             Requested size: 398.3386pt x 255.89009pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [26]
-[27
+ [27<./pictures/radio_garden_2018-06-10.png>] [28
 Missing character: There is no “ (U+201C) in font pplr8t!
 Missing character: There is no ” (U+201D) in font pplr8t!
 Missing character: There is no “ (U+201C) in font pplr8t!
 Missing character: There is no ” (U+201D) in font pplr8t!
-<./pictures/radio_garden_2018-06-10.png>] [28] [29]
-Underfull \vbox (badness 1231) has occurred while \output is active []
+] [29] [30]
+Underfull \vbox (badness 7925) has occurred while \output is active []
 
- [30]
-[31] [32
+ [31]
+[32
 Missing character: There is no – (U+2013) in font pplr8t!
-Missing character: There is no — (U+2014) in font pplr8t!
-Missing character: There is no — (U+2014) in font pplr8t!
 ] [33
+Missing character: There is no — (U+2014) in font pplr8t!
+Missing character: There is no — (U+2014) in font pplr8t!
+] [34
 Missing character: There is no – (U+2013) in font pplr8t!
 Missing character: There is no – (U+2013) in font pplr8t!
-]
-Underfull \vbox (badness 1371) has occurred while \output is active []
-
- [34]
-[35
+] [35
 Missing character: There is no “ (U+201C) in font pplr8t!
 Missing character: There is no ” (U+201D) in font pplr8t!
-]) (./cap-01-percurso.tex [36
-
-]
+] [36]) (./cap-01-percurso.tex
 Underfull \vbox (badness 2941) has occurred while \output is active []
 
- [37]
-<pictures/cap1/audiogalaxy.png, id=825, 803.0pt x 578.16pt>
+ [37
+
+]
+<pictures/cap1/audiogalaxy.png, id=827, 803.0pt x 578.16pt>
 File: pictures/cap1/audiogalaxy.png Graphic file (type png)
 <use pictures/cap1/audiogalaxy.png>
 Package luatex.def Info: pictures/cap1/audiogalaxy.png  used on input line 29.
@@ -1700,139 +1685,143 @@ Missing character: There is no ” (U+201D) in font pplr8t!
 ] [39
 Missing character: There is no – (U+2013) in font pplr8t!
 <./pictures/cap1/audiogalaxy.png>]
-<pictures/cap1/manualdosbixos.png, id=858, 4710.59875pt x 1537.745pt>
+<pictures/cap1/manualdosbixos.png, id=862, 4710.59875pt x 1537.745pt>
 File: pictures/cap1/manualdosbixos.png Graphic file (type png)
 <use pictures/cap1/manualdosbixos.png>
 Package luatex.def Info: pictures/cap1/manualdosbixos.png  used on input line 42
 .
 (luatex.def)             Requested size: 398.3386pt x 130.0144pt.
-
-Underfull \vbox (badness 1406) has occurred while \output is active []
-
  [40<./pictures/cap1/manualdosbixos.png>]
-<pictures/cap1/tosconcreto.png, id=882, 926.46124pt x 302.12875pt>
+<pictures/cap1/tosconcreto.png, id=886, 926.46124pt x 302.12875pt>
 File: pictures/cap1/tosconcreto.png Graphic file (type png)
 <use pictures/cap1/tosconcreto.png>
 Package luatex.def Info: pictures/cap1/tosconcreto.png  used on input line 60.
 (luatex.def)             Requested size: 398.3386pt x 129.9036pt.
- [41<./pictures/cap1/tosconcreto.png>]
-<pictures/cap1/eti1.jpg, id=900, 687.56876pt x 1027.84pt>
+<pictures/cap1/eti1.jpg, id=894, 687.56876pt x 1027.84pt>
 File: pictures/cap1/eti1.jpg Graphic file (type jpg)
 <use pictures/cap1/eti1.jpg>
 Package luatex.def Info: pictures/cap1/eti1.jpg  used on input line 70.
 (luatex.def)             Requested size: 199.1693pt x 297.7366pt.
-<pictures/cap1/eti2.jpg, id=901, 501.875pt x 334.24875pt>
+<pictures/cap1/eti2.jpg, id=895, 501.875pt x 334.24875pt>
 File: pictures/cap1/eti2.jpg Graphic file (type jpg)
 <use pictures/cap1/eti2.jpg>
 Package luatex.def Info: pictures/cap1/eti2.jpg  used on input line 78.
 (luatex.def)             Requested size: 398.3386pt x 265.30826pt.
- [42
+ [41<./pictures/cap1/tosconcreto.png>] [42<./pictures/cap1/eti1.jpg><./pictures/
+cap1/eti2.jpg>] [43
 Missing character: There is no – (U+2013) in font pplr8t!
 Missing character: There is no – (U+2013) in font pplr8t!
-<./pictures/cap1/eti1.jpg>] [43<./pictures/cap1/eti2.jpg>] [44]
-LaTeX Font Info:    Try loading font information for OMS+ppl on input line 109.
+]
+Underfull \vbox (badness 3333) has occurred while \output is active []
+
+ [44]
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 110.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omsppl.fd
 File: omsppl.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 109.
-<pictures/cap1/buzz1.png, id=940, 1294.8375pt x 815.045pt>
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 110.
+<pictures/cap1/buzz1.png, id=939, 1294.8375pt x 815.045pt>
 File: pictures/cap1/buzz1.png Graphic file (type png)
 <use pictures/cap1/buzz1.png>
-Package luatex.def Info: pictures/cap1/buzz1.png  used on input line 116.
+Package luatex.def Info: pictures/cap1/buzz1.png  used on input line 117.
 (luatex.def)             Requested size: 318.67209pt x 200.58942pt.
-<pictures/cap1/buzz.png, id=941, 631.35875pt x 461.725pt>
+<pictures/cap1/buzz.png, id=940, 631.35875pt x 461.725pt>
 File: pictures/cap1/buzz.png Graphic file (type png)
 <use pictures/cap1/buzz.png>
-Package luatex.def Info: pictures/cap1/buzz.png  used on input line 123.
+Package luatex.def Info: pictures/cap1/buzz.png  used on input line 124.
 (luatex.def)             Requested size: 318.67209pt x 233.05304pt.
-<pictures/cap1/buzz3.png, id=942, 631.35875pt x 462.72874pt>
+<pictures/cap1/buzz3.png, id=941, 631.35875pt x 462.72874pt>
 File: pictures/cap1/buzz3.png Graphic file (type png)
 <use pictures/cap1/buzz3.png>
-Package luatex.def Info: pictures/cap1/buzz3.png  used on input line 130.
+Package luatex.def Info: pictures/cap1/buzz3.png  used on input line 131.
 (luatex.def)             Requested size: 318.67209pt x 233.55966pt.
 
-Underfull \hbox (badness 3514) in paragraph at lines 138--138
+Underfull \hbox (badness 3514) in paragraph at lines 139--139
 [][] [][][]\T1/ppl/m/n/10 Dis-po-ní-vel em: [][]$<http://netanks.com/records/
 2005_2010/protomusica/dodecafunk.
  []
 
-<pictures/cap1/finetanksrecords.png, id=949, 1245.65375pt x 816.04875pt>
+<pictures/cap1/finetanksrecords.png, id=948, 1245.65375pt x 816.04875pt>
 File: pictures/cap1/finetanksrecords.png Graphic file (type png)
 <use pictures/cap1/finetanksrecords.png>
 Package luatex.def Info: pictures/cap1/finetanksrecords.png  used on input line 
-145.
+146.
 (luatex.def)             Requested size: 398.3386pt x 260.95416pt.
-[45] [46<./pictures/cap1/buzz1.png><./pictures/cap1/buzz.png>] [47<./pictures/ca
-p1/buzz3.png>] [48<./pictures/cap1/finetanksrecords.png>] [49]
+[45<./pictures/cap1/buzz1.png>] [46<./pictures/cap1/buzz.png><./pictures/cap1/bu
+zz3.png>] [47<./pictures/cap1/finetanksrecords.png>] [48]
 File: pictures/cap1/finetanksrecords.png Graphic file (type png)
 <use pictures/cap1/finetanksrecords.png>
 Package luatex.def Info: pictures/cap1/finetanksrecords.png  used on input line 
-186.
+187.
 (luatex.def)             Requested size: 398.3386pt x 260.95416pt.
-<pictures/cap1/finetanksmp3.png, id=1015, 1183.42125pt x 817.0525pt>
+<pictures/cap1/finetanksmp3.png, id=1007, 1183.42125pt x 817.0525pt>
 File: pictures/cap1/finetanksmp3.png Graphic file (type png)
 <use pictures/cap1/finetanksmp3.png>
-Package luatex.def Info: pictures/cap1/finetanksmp3.png  used on input line 195.
+Package luatex.def Info: pictures/cap1/finetanksmp3.png  used on input line 196.
 
 (luatex.def)             Requested size: 398.3386pt x 275.01399pt.
+ [49] [50<./pictures/cap1/finetanksmp3.png>]
+Underfull \vbox (badness 2326) has occurred while \output is active []
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [50]
-[51<./pictures/cap1/finetanksmp3.png>] [52]
-<pictures/cap1/CHDH.png, id=1053, 3854.4pt x 1027.84pt>
+ [51]
+<pictures/cap1/CHDH.png, id=1045, 3854.4pt x 1027.84pt>
 File: pictures/cap1/CHDH.png Graphic file (type png)
 <use pictures/cap1/CHDH.png>
-Package luatex.def Info: pictures/cap1/CHDH.png  used on input line 226.
+Package luatex.def Info: pictures/cap1/CHDH.png  used on input line 229.
 (luatex.def)             Requested size: 398.3386pt x 106.20903pt.
-<pictures/cap1/hp1.png, id=1055, 1537.745pt x 381.425pt>
+<pictures/cap1/hp1.png, id=1047, 1537.745pt x 381.425pt>
 File: pictures/cap1/hp1.png Graphic file (type png)
 <use pictures/cap1/hp1.png>
-Package luatex.def Info: pictures/cap1/hp1.png  used on input line 234.
+Package luatex.def Info: pictures/cap1/hp1.png  used on input line 237.
 (luatex.def)             Requested size: 398.3386pt x 98.80148pt.
- [53<./pictures/cap1/CHDH.png>]
-<pictures/cap1/cromocinetica.png, id=1066, 1204.5pt x 329.23pt>
+
+Underfull \vbox (badness 2302) has occurred while \output is active []
+
+ [52]
+<pictures/cap1/cromocinetica.png, id=1057, 1204.5pt x 329.23pt>
 File: pictures/cap1/cromocinetica.png Graphic file (type png)
 <use pictures/cap1/cromocinetica.png>
-Package luatex.def Info: pictures/cap1/cromocinetica.png  used on input line 246
+Package luatex.def Info: pictures/cap1/cromocinetica.png  used on input line 252
 .
 (luatex.def)             Requested size: 398.3386pt x 108.87732pt.
 
-[54
+Underfull \vbox (badness 2680) has occurred while \output is active []
+
+ [53
 Missing character: There is no – (U+2013) in font pplr8t!
 Missing character: There is no – (U+2013) in font pplr8t!
-<./pictures/cap1/hp1.png><./pictures/cap1/cromocinetica.png>]
-<pictures/cap1/mosaicages.png, id=1075, 973.6375pt x 1099.10625pt>
+<./pictures/cap1/CHDH.png><./pictures/cap1/hp1.png>]
+<pictures/cap1/mosaicages.png, id=1067, 973.6375pt x 1099.10625pt>
 File: pictures/cap1/mosaicages.png Graphic file (type png)
 <use pictures/cap1/mosaicages.png>
-Package luatex.def Info: pictures/cap1/mosaicages.png  used on input line 259.
+Package luatex.def Info: pictures/cap1/mosaicages.png  used on input line 265.
 (luatex.def)             Requested size: 318.67209pt x 359.73772pt.
 
-Underfull \hbox (badness 3471) in paragraph at lines 262--262
+Underfull \hbox (badness 3471) in paragraph at lines 268--268
 [][]|\T1/lmss/m/n/12 Fonte: [][]$<http://mosaicages.blogspot.com.br/2011/02/aug
 ustoitentanos.html>$[][]
  []
 
-[55]
-Underfull \vbox (badness 2837) has occurred while \output is active []
+[54<./pictures/cap1/cromocinetica.png>]
+Underfull \vbox (badness 2351) has occurred while \output is active []
 
- [56<./pictures/cap1/mosaicages.png>]
-<pictures/cap1/gil701.png, id=1091, 1397.22pt x 1040.88875pt>
+ [55<./pictures/cap1/mosaicages.png>]
+<pictures/cap1/gil701.png, id=1082, 1397.22pt x 1040.88875pt>
 File: pictures/cap1/gil701.png Graphic file (type png)
 <use pictures/cap1/gil701.png>
-Package luatex.def Info: pictures/cap1/gil701.png  used on input line 294.
+Package luatex.def Info: pictures/cap1/gil701.png  used on input line 298.
 (luatex.def)             Requested size: 398.3386pt x 296.75168pt.
-<pictures/cap1/gil702.png, id=1092, 1397.22pt x 1040.88875pt>
+<pictures/cap1/gil702.png, id=1083, 1397.22pt x 1040.88875pt>
 File: pictures/cap1/gil702.png Graphic file (type png)
 <use pictures/cap1/gil702.png>
-Package luatex.def Info: pictures/cap1/gil702.png  used on input line 302.
+Package luatex.def Info: pictures/cap1/gil702.png  used on input line 306.
 (luatex.def)             Requested size: 398.3386pt x 296.75168pt.
- [57] [58<./pictures/cap1/gil701.png><./pictures/cap1/gil702.png>] [59]) (./cap
--02-pesquisa.tex [60
+ [56] [57<./pictures/cap1/gil701.png><./pictures/cap1/gil702.png>] [58]) (./cap
+-02-pesquisa.tex [59
 
-] [61] [62
+] [60
 Missing character: There is no “ (U+201C) in font pplr8t!
 Missing character: There is no ” (U+201D) in font pplr8t!
 Missing character: There is no “ (U+201C) in font pplr8t!
@@ -1840,7 +1829,9 @@ Missing character: There is no ” (U+201D) in font pplr8t!
 Missing character: There is no “ (U+201C) in font pplr8t!
 Missing character: There is no ” (U+201D) in font pplr8t!
 ]
-<pictures/cap2/mother_of_all.png, id=1167, 2734.215pt x 648.4225pt>
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <12> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 25.
+<pictures/cap2/mother_of_all.png, id=1153, 2734.215pt x 648.4225pt>
 File: pictures/cap2/mother_of_all.png Graphic file (type png)
 <use pictures/cap2/mother_of_all.png>
 Package luatex.def Info: pictures/cap2/mother_of_all.png  used on input line 36.
@@ -1852,198 +1843,193 @@ Underfull \hbox (badness 1460) in paragraph at lines 38--38
  [][]$<https://youtu.be/
  []
 
-[63]
-<pictures/cap2/oramics.png, id=1183, 1349.04pt x 450.68375pt>
+[61] [62<./pictures/cap2/mother_of_all.png>]
+<pictures/cap2/oramics.png, id=1180, 1349.04pt x 450.68375pt>
 File: pictures/cap2/oramics.png Graphic file (type png)
 <use pictures/cap2/oramics.png>
-Package luatex.def Info: pictures/cap2/oramics.png  used on input line 60.
+Package luatex.def Info: pictures/cap2/oramics.png  used on input line 61.
 (luatex.def)             Requested size: 398.3386pt x 133.07433pt.
- [64<./pictures/cap2/mother_of_all.png>]
-<pictures/cap2/witney.png, id=1199, 2806.485pt x 657.45625pt>
+<pictures/cap2/witney.png, id=1186, 2806.485pt x 657.45625pt>
 File: pictures/cap2/witney.png Graphic file (type png)
 <use pictures/cap2/witney.png>
-Package luatex.def Info: pictures/cap2/witney.png  used on input line 75.
+Package luatex.def Info: pictures/cap2/witney.png  used on input line 76.
 (luatex.def)             Requested size: 398.3386pt x 93.30727pt.
- [65<./pictures/cap2/oramics.png><./pictures/cap2/witney.png>]
-<pictures/cap2/witney2.png, id=1223, 1702.36pt x 2006.49625pt>
+ [63<./pictures/cap2/oramics.png>]
+[64
+Missing character: There is no – (U+2013) in font pplr8t!
+<./pictures/cap2/witney.png>]
+<pictures/cap2/witney2.png, id=1219, 1702.36pt x 2006.49625pt>
 File: pictures/cap2/witney2.png Graphic file (type png)
 <use pictures/cap2/witney2.png>
-Package luatex.def Info: pictures/cap2/witney2.png  used on input line 93.
+Package luatex.def Info: pictures/cap2/witney2.png  used on input line 94.
 (luatex.def)             Requested size: 318.67209pt x 375.6048pt.
 
-Underfull \vbox (badness 5345) has occurred while \output is active []
+Underfull \vbox (badness 2717) has occurred while \output is active []
 
- [66
-Missing character: There is no – (U+2013) in font pplr8t!
-]
-[67<./pictures/cap2/witney2.png>]
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <12> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 110.
-<pictures/cap2/metastasis.jpg, id=1249, 426.8748pt x 200.4288pt>
+ [65<./pictures/cap2/witney2.png>]
+<pictures/cap2/metastasis.jpg, id=1236, 426.8748pt x 200.4288pt>
 File: pictures/cap2/metastasis.jpg Graphic file (type jpg)
 <use pictures/cap2/metastasis.jpg>
-Package luatex.def Info: pictures/cap2/metastasis.jpg  used on input line 112.
+Package luatex.def Info: pictures/cap2/metastasis.jpg  used on input line 113.
 (luatex.def)             Requested size: 398.3386pt x 187.04214pt.
- [68
+ [66
 Missing character: There is no ” (U+201D) in font pplr8t!
-<./pictures/cap2/metastasis.jpg>] [69]
-<pictures/analogicos.jpg, id=1305, 1435.3625pt x 459.7175pt>
+<./pictures/cap2/metastasis.jpg>]
+<pictures/analogicos.jpg, id=1256, 1435.3625pt x 459.7175pt>
 File: pictures/analogicos.jpg Graphic file (type jpg)
 <use pictures/analogicos.jpg>
-Package luatex.def Info: pictures/analogicos.jpg  used on input line 157.
+Package luatex.def Info: pictures/analogicos.jpg  used on input line 158.
 (luatex.def)             Requested size: 398.3386pt x 127.57661pt.
 
-Underfull \hbox (badness 2894) in paragraph at lines 159--159
+Underfull \hbox (badness 2894) in paragraph at lines 160--160
 [][]|\T1/lmss/m/n/12 Fonte: ([][]Wil-li-ams, Hay-ley[][], [][]2015[][][]) e htt
 p://web.me-dia.mit.edu/ joep/pics/
  []
 
-[70<./pictures/analogicos.jpg>]
-<pictures/MaxHolmes-251.jpg, id=1323, 277.035pt x 275.5896pt>
+<pictures/MaxHolmes-251.jpg, id=1264, 277.035pt x 275.5896pt>
 File: pictures/MaxHolmes-251.jpg Graphic file (type jpg)
 <use pictures/MaxHolmes-251.jpg>
-Package luatex.def Info: pictures/MaxHolmes-251.jpg  used on input line 167.
+Package luatex.def Info: pictures/MaxHolmes-251.jpg  used on input line 168.
 (luatex.def)             Requested size: 199.1693pt x 198.12999pt.
 
-Underfull \vbox (badness 1342) has occurred while \output is active []
+Underfull \vbox (badness 5622) has occurred while \output is active []
 
- [71<./pictures/MaxHolmes-251.jpg>] [72]
-Underfull \vbox (badness 6188) has occurred while \output is active []
+ [67<./pictures/analogicos.jpg>]
+Underfull \vbox (badness 3989) has occurred while \output is active []
 
- [73]
-<pictures/protools.jpg, id=1384, 256.0767pt x 144.2991pt>
+ [68<./pictures/MaxHolmes-251.jpg>] [69]
+Underfull \vbox (badness 1715) has occurred while \output is active []
+
+ [70
+Missing character: There is no “ (U+201C) in font pplr8t!
+Missing character: There is no ” (U+201D) in font pplr8t!
+]
+<pictures/protools.jpg, id=1335, 256.0767pt x 144.2991pt>
 File: pictures/protools.jpg Graphic file (type jpg)
 <use pictures/protools.jpg>
-Package luatex.def Info: pictures/protools.jpg  used on input line 196.
+Package luatex.def Info: pictures/protools.jpg  used on input line 197.
 (luatex.def)             Requested size: 318.67209pt x 179.58075pt.
-<pictures/protools2.jpg, id=1385, 436.9926pt x 221.628pt>
+<pictures/protools2.jpg, id=1336, 436.9926pt x 221.628pt>
 File: pictures/protools2.jpg Graphic file (type jpg)
 <use pictures/protools2.jpg>
-Package luatex.def Info: pictures/protools2.jpg  used on input line 197.
+Package luatex.def Info: pictures/protools2.jpg  used on input line 198.
 (luatex.def)             Requested size: 318.67209pt x 161.62814pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 196--198
+Underfull \hbox (badness 10000) in paragraph at lines 197--199
 [][]
  []
 
 
-Underfull \hbox (badness 4013) in paragraph at lines 199--199
+Underfull \hbox (badness 4013) in paragraph at lines 200--200
 [][]|\T1/lmss/m/n/12 Fonte: Print Screen da Au-tora em 17 de de-zem-bro de 2015
 . Site:
  []
 
-[74
-Missing character: There is no “ (U+201C) in font pplr8t!
-Missing character: There is no ” (U+201D) in font pplr8t!
-]
-<pictures/cap2/patcher.jpg, id=1395, 1506.62875pt x 887.315pt>
+<pictures/cap2/patcher.jpg, id=1340, 1506.62875pt x 887.315pt>
 File: pictures/cap2/patcher.jpg Graphic file (type jpg)
 <use pictures/cap2/patcher.jpg>
-Package luatex.def Info: pictures/cap2/patcher.jpg  used on input line 207.
+Package luatex.def Info: pictures/cap2/patcher.jpg  used on input line 208.
 (luatex.def)             Requested size: 398.3386pt x 234.59578pt.
 
-Overfull \hbox (20.937pt too wide) in paragraph at lines 213--214
+Underfull \vbox (badness 7116) has occurred while \output is active []
+
+ [71
+Missing character: There is no – (U+2013) in font pplr8t!
+]
+Overfull \hbox (20.937pt too wide) in paragraph at lines 214--215
 []\T1/ppl/m/n/12 Em 1990 o Pat-cher foi li-cen-ci-ado à Op-code e foi co-mer-c
 i-a-li-zado como MaxOpcode,
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 4279) has occurred while \output is active []
 
- [75
+ [72<./pictures/protools.jpg><./pictures/protools2.jpg>] [73<./pictures/cap2/pat
+cher.jpg>]
+[74
 Missing character: There is no – (U+2013) in font pplr8t!
-<./pictures/protools.jpg><./pictures/protools2.jpg>]
-Underfull \vbox (badness 1590) has occurred while \output is active []
-
- [76<./pictures/cap2/patcher.jpg>] [77] [78
-Missing character: There is no – (U+2013) in font pplr8t!
-]
-<pictures/cap2/laloli.png, id=1446, 1798.72pt x 1166.3575pt>
+] [75]
+<pictures/cap2/laloli.png, id=1400, 1798.72pt x 1166.3575pt>
 File: pictures/cap2/laloli.png Graphic file (type png)
 <use pictures/cap2/laloli.png>
-Package luatex.def Info: pictures/cap2/laloli.png  used on input line 266.
+Package luatex.def Info: pictures/cap2/laloli.png  used on input line 267.
 (luatex.def)             Requested size: 398.3386pt x 258.29018pt.
- [79<./pictures/cap2/laloli.png>]
-<pictures/cap2/spectrogramandoscilator.png, id=1460, 1798.72pt x 1166.3575pt>
+<pictures/cap2/spectrogramandoscilator.png, id=1403, 1798.72pt x 1166.3575pt>
 File: pictures/cap2/spectrogramandoscilator.png Graphic file (type png)
 <use pictures/cap2/spectrogramandoscilator.png>
 Package luatex.def Info: pictures/cap2/spectrogramandoscilator.png  used on inpu
-t line 278.
+t line 279.
 (luatex.def)             Requested size: 398.3386pt x 258.29018pt.
-<pictures/cap2/patatap.png, id=1464, 1696.3375pt x 1043.9pt>
+<pictures/cap2/patatap.png, id=1407, 1696.3375pt x 1043.9pt>
 File: pictures/cap2/patatap.png Graphic file (type png)
 <use pictures/cap2/patatap.png>
-Package luatex.def Info: pictures/cap2/patatap.png  used on input line 288.
+Package luatex.def Info: pictures/cap2/patatap.png  used on input line 289.
 (luatex.def)             Requested size: 398.3386pt x 245.12538pt.
-<pictures/cap2/plink.png, id=1466, 1798.72pt x 1166.3575pt>
+ [76<./pictures/cap2/laloli.png>] [77<./pictures/cap2/spectrogramandoscilator.pn
+g><./pictures/cap2/patatap.png>]
+<pictures/cap2/plink.png, id=1423, 1798.72pt x 1166.3575pt>
 File: pictures/cap2/plink.png Graphic file (type png)
 <use pictures/cap2/plink.png>
-Package luatex.def Info: pictures/cap2/plink.png  used on input line 298.
+Package luatex.def Info: pictures/cap2/plink.png  used on input line 299.
 (luatex.def)             Requested size: 398.3386pt x 258.29018pt.
- [80<./pictures/cap2/spectrogramandoscilator.png>] [81<./pictures/cap2/patatap.p
-ng><./pictures/cap2/plink.png>]
-<pictures/cap2/multiplayerpiano.png, id=1483, 1798.72pt x 1166.3575pt>
+<pictures/cap2/multiplayerpiano.png, id=1426, 1798.72pt x 1166.3575pt>
 File: pictures/cap2/multiplayerpiano.png Graphic file (type png)
 <use pictures/cap2/multiplayerpiano.png>
 Package luatex.def Info: pictures/cap2/multiplayerpiano.png  used on input line 
-309.
+310.
 (luatex.def)             Requested size: 398.3386pt x 258.29018pt.
-
-Underfull \vbox (badness 4036) has occurred while \output is active []
-
- [82<./pictures/cap2/multiplayerpiano.png>]
-<pictures/cap2/musicamovel.png, id=1504, 2009.5075pt x 601.24625pt>
+ [78<./pictures/cap2/plink.png>]
+<pictures/cap2/musicamovel.png, id=1447, 2009.5075pt x 601.24625pt>
 File: pictures/cap2/musicamovel.png Graphic file (type png)
 <use pictures/cap2/musicamovel.png>
-Package luatex.def Info: pictures/cap2/musicamovel.png  used on input line 340.
+Package luatex.def Info: pictures/cap2/musicamovel.png  used on input line 341.
 (luatex.def)             Requested size: 398.3386pt x 119.18289pt.
-) (./cap-03-experimentos.tex [83<./pictures/cap2/musicamovel.png>] [84] [85
+
+[79<./pictures/cap2/multiplayerpiano.png>]) (./cap-03-experimentos.tex [80<./pic
+tures/cap2/musicamovel.png>] [81
 
 ]
-<pictures/cap3/bandascriticaspartitura.jpg, id=1539, 2006.49625pt x 542.025pt>
+<pictures/cap3/bandascriticaspartitura.jpg, id=1487, 2006.49625pt x 542.025pt>
 File: pictures/cap3/bandascriticaspartitura.jpg Graphic file (type jpg)
 <use pictures/cap3/bandascriticaspartitura.jpg>
 Package luatex.def Info: pictures/cap3/bandascriticaspartitura.jpg  used on inpu
-t line 29.
+t line 32.
 (luatex.def)             Requested size: 398.3386pt x 107.60081pt.
-<pictures/cap3/bandascriticaspd.png, id=1541, 1395.2125pt x 569.12625pt>
+<pictures/cap3/bandascriticaspd.png, id=1489, 1395.2125pt x 569.12625pt>
 File: pictures/cap3/bandascriticaspd.png Graphic file (type png)
 <use pictures/cap3/bandascriticaspd.png>
 Package luatex.def Info: pictures/cap3/bandascriticaspd.png  used on input line 
-39.
+42.
 (luatex.def)             Requested size: 398.3386pt x 162.48924pt.
-<pictures/cap3/bandascriticasspectro2.png, id=1542, 1314.9125pt x 311.1625pt>
+<pictures/cap3/bandascriticasspectro2.png, id=1490, 1314.9125pt x 311.1625pt>
 File: pictures/cap3/bandascriticasspectro2.png Graphic file (type png)
 <use pictures/cap3/bandascriticasspectro2.png>
 Package luatex.def Info: pictures/cap3/bandascriticasspectro2.png  used on input
- line 47.
+ line 50.
 (luatex.def)             Requested size: 398.3386pt x 94.26108pt.
- [86<./pictures/cap3/bandascriticaspartitura.jpg>]
-Underfull \vbox (badness 1436) has occurred while \output is active []
+ [82]
+Underfull \vbox (badness 1675) has occurred while \output is active []
 
- [87<./pictures/cap3/bandascriticaspd.png><./pictures/cap3/bandascriticasspectro
-2.png>]
-<pictures/cap3/codigo5.png, id=1566, 1314.9125pt x 1082.0425pt>
+ [83<./pictures/cap3/bandascriticaspartitura.jpg><./pictures/cap3/bandascriticas
+pd.png>]
+<pictures/cap3/codigo5.png, id=1514, 1314.9125pt x 1082.0425pt>
 File: pictures/cap3/codigo5.png Graphic file (type png)
 <use pictures/cap3/codigo5.png>
-Package luatex.def Info: pictures/cap3/codigo5.png  used on input line 66.
+Package luatex.def Info: pictures/cap3/codigo5.png  used on input line 69.
 (luatex.def)             Requested size: 398.3386pt x 327.7853pt.
-<pictures/cap3/qwerty.png, id=1567, 1011.78pt x 557.08125pt>
+<pictures/cap3/qwerty.png, id=1515, 1011.78pt x 557.08125pt>
 File: pictures/cap3/qwerty.png Graphic file (type png)
 <use pictures/cap3/qwerty.png>
-Package luatex.def Info: pictures/cap3/qwerty.png  used on input line 74.
+Package luatex.def Info: pictures/cap3/qwerty.png  used on input line 77.
 (luatex.def)             Requested size: 398.3386pt x 219.3264pt.
 
-[88] [89<./pictures/cap3/codigo5.png>]
-<pictures/cap3/protesta.png, id=1591, 984.67876pt x 819.06pt>
-File: pictures/cap3/protesta.png Graphic file (type png)
-<use pictures/cap3/protesta.png>
-Package luatex.def Info: pictures/cap3/protesta.png  used on input line 97.
-(luatex.def)             Requested size: 398.3386pt x 331.34254pt.
+Underfull \vbox (badness 3179) has occurred while \output is active []
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ [84<./pictures/cap3/bandascriticasspectro2.png>] [85<./pictures/cap3/codigo5.pn
+g>]
+Underfull \vbox (badness 5175) has occurred while \output is active []
 
- [90
+ [86
 Missing character: There is no “ (U+201C) in font pplr8t!
 Missing character: There is no ” (U+201D) in font pplr8t!
 Missing character: There is no “ (U+201C) in font pplr8t!
@@ -2055,199 +2041,191 @@ Missing character: There is no ” (U+201D) in font pplr8t!
 Missing character: There is no “ (U+201C) in font pplr8t!
 Missing character: There is no ” (U+201D) in font pplr8t!
 <./pictures/cap3/qwerty.png>]
-<pictures/banda_aberta_mob_crowd.png, id=1602, 803.0pt x 657.45625pt>
+<pictures/cap3/protesta.png, id=1543, 984.67876pt x 819.06pt>
+File: pictures/cap3/protesta.png Graphic file (type png)
+<use pictures/cap3/protesta.png>
+Package luatex.def Info: pictures/cap3/protesta.png  used on input line 100.
+(luatex.def)             Requested size: 398.3386pt x 331.34254pt.
+ [87<./pictures/cap3/protesta.png>]
+<pictures/banda_aberta_mob_crowd.png, id=1554, 803.0pt x 657.45625pt>
 File: pictures/banda_aberta_mob_crowd.png Graphic file (type png)
 <use pictures/banda_aberta_mob_crowd.png>
 Package luatex.def Info: pictures/banda_aberta_mob_crowd.png  used on input line
- 111.
+ 114.
 (luatex.def)             Requested size: 398.3386pt x 326.14911pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [91<./pictures/cap3/protesta.png>]
-Underfull \vbox (badness 1502) has occurred while \output is active []
-
- [92<./pictures/banda_aberta_mob_crowd.png>]
-<pictures/cap3/parangole.jpg, id=1630, 633.3261pt x 350.9913pt>
+ [88<./pictures/banda_aberta_mob_crowd.png>]
+<pictures/cap3/parangole.jpg, id=1575, 633.3261pt x 350.9913pt>
 File: pictures/cap3/parangole.jpg Graphic file (type jpg)
 <use pictures/cap3/parangole.jpg>
-Package luatex.def Info: pictures/cap3/parangole.jpg  used on input line 127.
+Package luatex.def Info: pictures/cap3/parangole.jpg  used on input line 130.
 (luatex.def)             Requested size: 398.3386pt x 220.7615pt.
- [93<./pictures/cap3/parangole.jpg>]
 
-Package hyperref Warning: Suppressing empty link on input line 134.
 
-<pictures/cap3/moodconductor.jpg, id=1662, 2055.68pt x 682.55pt>
+Package hyperref Warning: Suppressing empty link on input line 137.
+
+[89]
+<pictures/cap3/moodconductor.jpg, id=1613, 2055.68pt x 682.55pt>
 File: pictures/cap3/moodconductor.jpg Graphic file (type jpg)
 <use pictures/cap3/moodconductor.jpg>
-Package luatex.def Info: pictures/cap3/moodconductor.jpg  used on input line 144
+Package luatex.def Info: pictures/cap3/moodconductor.jpg  used on input line 147
 .
 (luatex.def)             Requested size: 398.3386pt x 132.25832pt.
-<pictures/cap3/opensymphony.png, id=1663, 2133.9725pt x 533.995pt>
+<pictures/cap3/opensymphony.png, id=1614, 2133.9725pt x 533.995pt>
 File: pictures/cap3/opensymphony.png Graphic file (type png)
 <use pictures/cap3/opensymphony.png>
-Package luatex.def Info: pictures/cap3/opensymphony.png  used on input line 152.
+Package luatex.def Info: pictures/cap3/opensymphony.png  used on input line 155.
 
 (luatex.def)             Requested size: 398.3386pt x 99.67566pt.
-[94]
-<pictures/cap3/crowdincloud.png, id=1685, 2054.67625pt x 717.68124pt>
+ [90<./pictures/cap3/parangole.jpg>]
+<pictures/cap3/crowdincloud.png, id=1632, 2054.67625pt x 717.68124pt>
 File: pictures/cap3/crowdincloud.png Graphic file (type png)
 <use pictures/cap3/crowdincloud.png>
-Package luatex.def Info: pictures/cap3/crowdincloud.png  used on input line 163.
+Package luatex.def Info: pictures/cap3/crowdincloud.png  used on input line 166.
 
 (luatex.def)             Requested size: 398.3386pt x 139.13142pt.
-<pictures/cap3/tweetdreams.png, id=1692, 2133.9725pt x 937.5025pt>
+<pictures/cap3/tweetdreams.png, id=1639, 2133.9725pt x 937.5025pt>
 File: pictures/cap3/tweetdreams.png Graphic file (type png)
 <use pictures/cap3/tweetdreams.png>
-Package luatex.def Info: pictures/cap3/tweetdreams.png  used on input line 175.
+Package luatex.def Info: pictures/cap3/tweetdreams.png  used on input line 178.
 (luatex.def)             Requested size: 398.3386pt x 174.9945pt.
+ [91<./pictures/cap3/moodconductor.jpg><./pictures/cap3/opensymphony.png>] [92<.
+/pictures/cap3/crowdincloud.png><./pictures/cap3/tweetdreams.png>] [93]
 
-Underfull \vbox (badness 6708) has occurred while \output is active []
+Package hyperref Warning: Suppressing empty link on input line 202.
 
- [95<./pictures/cap3/moodconductor.jpg><./pictures/cap3/opensymphony.png>] [96<.
-/pictures/cap3/crowdincloud.png><./pictures/cap3/tweetdreams.png>]
+[94]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Package hyperref Warning: Suppressing empty link on input line 199.
-
-
-Underfull \vbox (badness 6157) has occurred while \output is active []
-
- [97]
-Underfull \vbox (badness 3724) has occurred while \output is active []
-
- [98]
-<pictures/server.jpg, id=1799, 597.1911pt x 597.1911pt>
+ [95]
+<pictures/server.jpg, id=1754, 597.1911pt x 597.1911pt>
 File: pictures/server.jpg Graphic file (type jpg)
 <use pictures/server.jpg>
-Package luatex.def Info: pictures/server.jpg  used on input line 220.
+Package luatex.def Info: pictures/server.jpg  used on input line 223.
 (luatex.def)             Requested size: 199.1693pt x 199.16953pt.
 
-Underfull \vbox (badness 8113) has occurred while \output is active []
-
- [99]
-[100<./pictures/server.jpg>] [101] [102] [103]
-<pictures/cap3/bandagalaxias.jpg, id=1890, 1439.3775pt x 2006.49625pt>
+[96<./pictures/server.jpg>] [97] [98] [99]
+<pictures/cap3/bandagalaxias.jpg, id=1839, 1439.3775pt x 2006.49625pt>
 File: pictures/cap3/bandagalaxias.jpg Graphic file (type jpg)
 <use pictures/cap3/bandagalaxias.jpg>
-Package luatex.def Info: pictures/cap3/bandagalaxias.jpg  used on input line 278
+Package luatex.def Info: pictures/cap3/bandagalaxias.jpg  used on input line 281
 .
 (luatex.def)             Requested size: 398.3386pt x 555.2938pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 284--284
+Underfull \hbox (badness 10000) in paragraph at lines 287--287
 [][] [][][]\T1/ppl/m/n/10 Exem-plos deste pa-cote po-dem ser ou-vi-dos em: [][]
 $<http://spectro.codigo.xyz/
  []
 
-<pictures/cap3/bandapercussao.jpg, id=1895, 1439.3775pt x 2006.49625pt>
+<pictures/cap3/bandapercussao.jpg, id=1844, 1439.3775pt x 2006.49625pt>
 File: pictures/cap3/bandapercussao.jpg Graphic file (type jpg)
 <use pictures/cap3/bandapercussao.jpg>
 Package luatex.def Info: pictures/cap3/bandapercussao.jpg  used on input line 29
-0.
+3.
 (luatex.def)             Requested size: 398.3386pt x 555.2938pt.
-[104] [105<./pictures/cap3/bandagalaxias.jpg>] [106<./pictures/cap3/bandapercuss
+[100] [101<./pictures/cap3/bandagalaxias.jpg>] [102<./pictures/cap3/bandapercuss
 ao.jpg>]
-<pictures/cap3/bandaabertacolab.jpg, id=1914, 1439.3775pt x 2006.49625pt>
+<pictures/cap3/bandaabertacolab.jpg, id=1863, 1439.3775pt x 2006.49625pt>
 File: pictures/cap3/bandaabertacolab.jpg Graphic file (type jpg)
 <use pictures/cap3/bandaabertacolab.jpg>
 Package luatex.def Info: pictures/cap3/bandaabertacolab.jpg  used on input line 
-300.
+303.
 (luatex.def)             Requested size: 398.3386pt x 555.2938pt.
-<pictures/cap3/bandaorquestra.jpg, id=1916, 1439.3775pt x 2006.49625pt>
+<pictures/cap3/bandaorquestra.jpg, id=1865, 1439.3775pt x 2006.49625pt>
 File: pictures/cap3/bandaorquestra.jpg Graphic file (type jpg)
 <use pictures/cap3/bandaorquestra.jpg>
 Package luatex.def Info: pictures/cap3/bandaorquestra.jpg  used on input line 31
-1.
+4.
 (luatex.def)             Requested size: 398.3386pt x 555.2938pt.
- [107] [108<./pictures/cap3/bandaabertacolab.jpg>] [109<./pictures/cap3/bandaorq
-uestra.jpg>] [110]
-<pictures/cap3/audiotype.png, id=1962, 423.5022pt x 432.6564pt>
+ [103] [104<./pictures/cap3/bandaabertacolab.jpg>] [105<./pictures/cap3/bandaorq
+uestra.jpg>] [106]
+<pictures/cap3/audiotype.png, id=1909, 423.5022pt x 432.6564pt>
 File: pictures/cap3/audiotype.png Graphic file (type png)
 <use pictures/cap3/audiotype.png>
-Package luatex.def Info: pictures/cap3/audiotype.png  used on input line 331.
+Package luatex.def Info: pictures/cap3/audiotype.png  used on input line 334.
 (luatex.def)             Requested size: 398.3386pt x 406.94795pt.
-<pictures/metamagical.png, id=1963, 741.7311pt x 406.6392pt>
+<pictures/metamagical.png, id=1910, 741.7311pt x 406.6392pt>
 File: pictures/metamagical.png Graphic file (type png)
 <use pictures/metamagical.png>
-Package luatex.def Info: pictures/metamagical.png  used on input line 347.
+Package luatex.def Info: pictures/metamagical.png  used on input line 350.
 (luatex.def)             Requested size: 398.3386pt x 218.37816pt.
 
 Underfull \vbox (badness 1014) has occurred while \output is active []
 
- [111<./pictures/cap3/audiotype.png>]
-<pictures/audiotype_sketch.png, id=1980, 948.54375pt x 705.63625pt>
+ [107<./pictures/cap3/audiotype.png>]
+<pictures/audiotype_sketch.png, id=1928, 948.54375pt x 705.63625pt>
 File: pictures/audiotype_sketch.png Graphic file (type png)
 <use pictures/audiotype_sketch.png>
-Package luatex.def Info: pictures/audiotype_sketch.png  used on input line 370.
+Package luatex.def Info: pictures/audiotype_sketch.png  used on input line 373.
 (luatex.def)             Requested size: 398.3386pt x 296.3329pt.
- [112<./pictures/metamagical.png>] [113<./pictures/audiotype_sketch.png>]
-<pictures/audiotype_v1_noise.png, id=2006, 458.4327pt x 89.6148pt>
+ [108<./pictures/metamagical.png>] [109<./pictures/audiotype_sketch.png>]
+<pictures/audiotype_v1_noise.png, id=1955, 458.4327pt x 89.6148pt>
 File: pictures/audiotype_v1_noise.png Graphic file (type png)
 <use pictures/audiotype_v1_noise.png>
-Package luatex.def Info: pictures/audiotype_v1_noise.png  used on input line 409
+Package luatex.def Info: pictures/audiotype_v1_noise.png  used on input line 412
 .
 (luatex.def)             Requested size: 398.3386pt x 77.87126pt.
-<pictures/audiotype_v1_sine.png, id=2007, 459.3963pt x 89.3739pt>
+<pictures/audiotype_v1_sine.png, id=1956, 459.3963pt x 89.3739pt>
 File: pictures/audiotype_v1_sine.png Graphic file (type png)
 <use pictures/audiotype_v1_sine.png>
-Package luatex.def Info: pictures/audiotype_v1_sine.png  used on input line 415.
+Package luatex.def Info: pictures/audiotype_v1_sine.png  used on input line 418.
 
 (luatex.def)             Requested size: 398.3386pt x 77.49828pt.
-<pictures/spectrogram.png, id=2008, 1374.13374pt x 164.615pt>
+<pictures/spectrogram.png, id=1957, 1374.13374pt x 164.615pt>
 File: pictures/spectrogram.png Graphic file (type png)
 <use pictures/spectrogram.png>
-Package luatex.def Info: pictures/spectrogram.png  used on input line 424.
+Package luatex.def Info: pictures/spectrogram.png  used on input line 427.
 (luatex.def)             Requested size: 398.3386pt x 47.71703pt.
- [114<./pictures/audiotype_v1_noise.png><./pictures/audiotype_v1_sine.png><./pic
+ [110<./pictures/audiotype_v1_noise.png><./pictures/audiotype_v1_sine.png><./pic
 tures/spectrogram.png>]
-<pictures/bigorna.jpg, id=2020, 284.5029pt x 188.8656pt>
+<pictures/bigorna.jpg, id=1969, 284.5029pt x 188.8656pt>
 File: pictures/bigorna.jpg Graphic file (type jpg)
 <use pictures/bigorna.jpg>
-Package luatex.def Info: pictures/bigorna.jpg  used on input line 450.
+Package luatex.def Info: pictures/bigorna.jpg  used on input line 453.
 (luatex.def)             Requested size: 398.3386pt x 264.43596pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 460--460
+Underfull \hbox (badness 10000) in paragraph at lines 463--463
 [][] [][][]\T1/ppl/m/n/10 Gra-va-ção dis-po-ní-vel em: [][]$<https://soundcl
 oud.com/asss/
  []
 
-[115<./pictures/bigorna.jpg>]
-Overfull \hbox (1.16452pt too wide) in paragraph at lines 467--468
+[111<./pictures/bigorna.jpg>]
+Overfull \hbox (1.16452pt too wide) in paragraph at lines 470--471
 []\T1/ppl/m/n/12 No con-certo de com-pu-ta-ção mu-
  []
 
 
-Underfull \hbox (badness 5091) in paragraph at lines 471--471
+Underfull \hbox (badness 5091) in paragraph at lines 474--474
 [][] [][][]\T1/ppl/m/n/10 A gra-va-ção do chat pode ser vista em: [][]$<https
 ://www.youtube.com/watch?v=
  []
 
-[116] [117]
-<pictures/cap3/tcnxmnsm_aarhus.png, id=2067, 4111.36pt x 1370.11874pt>
+[112] [113]
+<pictures/cap3/tcnxmnsm_aarhus.png, id=2015, 4111.36pt x 1370.11874pt>
 File: pictures/cap3/tcnxmnsm_aarhus.png Graphic file (type png)
 <use pictures/cap3/tcnxmnsm_aarhus.png>
 Package luatex.def Info: pictures/cap3/tcnxmnsm_aarhus.png  used on input line 4
-92.
+95.
 (luatex.def)             Requested size: 398.3386pt x 132.7341pt.
- [118] [119<./pictures/cap3/tcnxmnsm_aarhus.png>] [120]
-Underfull \hbox (badness 5105) in paragraph at lines 566--566
+ [114] [115<./pictures/cap3/tcnxmnsm_aarhus.png>] [116]
+Underfull \hbox (badness 5105) in paragraph at lines 569--569
 []|\T1/ppl/m/n/10 Es-co-lha li-mi-tada de
  []
 
 
-Underfull \hbox (badness 8038) in paragraph at lines 566--567
+Underfull \hbox (badness 8038) in paragraph at lines 569--570
 []|\T1/ppl/m/n/10 Os pa-co-tes de sam-ples são pré-
  []
 
 
-Overfull \hbox (7.54721pt too wide) in paragraph at lines 558--576
+Overfull \hbox (7.54721pt too wide) in paragraph at lines 561--579
 [][]
  []
 
-[121] [122]
+[117] [118]
 
-Package hyperref Warning: Suppressing empty link on input line 656.
+Package hyperref Warning: Suppressing empty link on input line 659.
 
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 656.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 659.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -2255,246 +2233,240 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [123]
-<pictures/cap3/wordcloud_performances.png, id=2138, 2000.47375pt x 1934.22626pt>
+ [119]
+<pictures/cap3/wordcloud_performances.png, id=2087, 2000.47375pt x 1934.22626pt>
 
 File: pictures/cap3/wordcloud_performances.png Graphic file (type png)
 <use pictures/cap3/wordcloud_performances.png>
 Package luatex.def Info: pictures/cap3/wordcloud_performances.png  used on input
- line 663.
+ line 666.
 (luatex.def)             Requested size: 398.3386pt x 385.1266pt.
-<pictures/cap3/wordcloud_pb.png, id=2139, 1905.1175pt x 1192.455pt>
+<pictures/cap3/wordcloud_pb.png, id=2088, 1905.1175pt x 1192.455pt>
 File: pictures/cap3/wordcloud_pb.png Graphic file (type png)
 <use pictures/cap3/wordcloud_pb.png>
-Package luatex.def Info: pictures/cap3/wordcloud_pb.png  used on input line 671.
+Package luatex.def Info: pictures/cap3/wordcloud_pb.png  used on input line 674.
 
 (luatex.def)             Requested size: 398.3386pt x 249.33122pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [124<./pictures/cap3/wordcloud_performances.png>] [125<./pictures/cap3/wordclou
+ [120<./pictures/cap3/wordcloud_performances.png>] [121<./pictures/cap3/wordclou
 d_pb.png>]
-<pictures/cap3/bar_plot_new_revised.pdf, id=2155, 462.52798pt x 346.89601pt>
+<pictures/cap3/bar_plot_new_revised.pdf, id=2103, 462.52798pt x 346.89601pt>
 File: pictures/cap3/bar_plot_new_revised.pdf Graphic file (type pdf)
 <use pictures/cap3/bar_plot_new_revised.pdf>
 Package luatex.def Info: pictures/cap3/bar_plot_new_revised.pdf  used on input l
-ine 715.
+ine 718.
 (luatex.def)             Requested size: 398.3386pt x 298.76938pt.
-<pictures/cap3/ratios_bw.pdf, id=2157, 433.62pt x 361.35pt>
+<pictures/cap3/ratios_bw.pdf, id=2105, 433.62pt x 361.35pt>
 File: pictures/cap3/ratios_bw.pdf Graphic file (type pdf)
 <use pictures/cap3/ratios_bw.pdf>
-Package luatex.def Info: pictures/cap3/ratios_bw.pdf  used on input line 723.
+Package luatex.def Info: pictures/cap3/ratios_bw.pdf  used on input line 726.
 (luatex.def)             Requested size: 398.3386pt x 331.96634pt.
-[126]
-<pictures/cap3/p_values.pdf, id=2166, 716.6775pt x 320.19624pt>
+[122] [123<./pictures/cap3/bar_plot_new_revised.pdf><./pictures/cap3/ratios_bw.p
+df>]
+<pictures/cap3/p_values.pdf, id=2161, 716.6775pt x 320.19624pt>
 File: pictures/cap3/p_values.pdf Graphic file (type pdf)
 <use pictures/cap3/p_values.pdf>
-Package luatex.def Info: pictures/cap3/p_values.pdf  used on input line 762.
+Package luatex.def Info: pictures/cap3/p_values.pdf  used on input line 765.
 (luatex.def)             Requested size: 438.17488pt x 195.7689pt.
 
-Overfull \hbox (39.83629pt too wide) in paragraph at lines 762--763
+Overfull \hbox (39.83629pt too wide) in paragraph at lines 765--766
 [][] 
  []
 
-[127<./pictures/cap3/bar_plot_new_revised.pdf>] [128<./pictures/cap3/ratios_bw.p
-df>]
+[124<./pictures/cap3/p_values.pdf>]
 File: pictures/cap3/p_values.pdf Graphic file (type pdf)
 <use pictures/cap3/p_values.pdf>
-Package luatex.def Info: pictures/cap3/p_values.pdf  used on input line 773.
+Package luatex.def Info: pictures/cap3/p_values.pdf  used on input line 776.
 (luatex.def)             Requested size: 398.3386pt x 177.96996pt.
- [129<./pictures/cap3/p_values.pdf>]
-Underfull \vbox (badness 2932) has occurred while \output is active []
+ [125]
+Underfull \vbox (badness 1062) has occurred while \output is active []
 
- [130]
-[131]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ [126]
+Underfull \vbox (badness 7099) has occurred while \output is active []
 
- [132]
-[133]) (./cap-04-playsound.tex [134]
+ [127]
+[128]) (./cap-04-playsound.tex [129]
 Underfull \vbox (badness 1097) has occurred while \output is active []
 
- [135]
-<pictures/cap4/kutiman.png, id=2331, 2027.575pt x 832.10875pt>
+ [130]
+<pictures/cap4/kutiman.png, id=2275, 2027.575pt x 832.10875pt>
 File: pictures/cap4/kutiman.png Graphic file (type png)
 <use pictures/cap4/kutiman.png>
 Package luatex.def Info: pictures/cap4/kutiman.png  used on input line 50.
 (luatex.def)             Requested size: 398.3386pt x 163.47311pt.
 
-[136<./pictures/cap4/kutiman.png>] [137]
-<pictures/cap4/exemplospec.png, id=2404, 940.51375pt x 284.06125pt>
+[131<./pictures/cap4/kutiman.png>] [132]
+<pictures/cap4/exemplospec.png, id=2350, 940.51375pt x 284.06125pt>
 File: pictures/cap4/exemplospec.png Graphic file (type png)
 <use pictures/cap4/exemplospec.png>
-Package luatex.def Info: pictures/cap4/exemplospec.png  used on input line 81.
+Package luatex.def Info: pictures/cap4/exemplospec.png  used on input line 82.
 (luatex.def)             Requested size: 398.3386pt x 120.31049pt.
-<pictures/cap4/exemplowave.png, id=2405, 915.42pt x 285.065pt>
+<pictures/cap4/exemplowave.png, id=2351, 915.42pt x 285.065pt>
 File: pictures/cap4/exemplowave.png Graphic file (type png)
 <use pictures/cap4/exemplowave.png>
-Package luatex.def Info: pictures/cap4/exemplowave.png  used on input line 87.
+Package luatex.def Info: pictures/cap4/exemplowave.png  used on input line 88.
 (luatex.def)             Requested size: 398.3386pt x 124.04141pt.
- [138]
-<pictures/cap4/utopia.png, id=2429, 861.2175pt x 484.81125pt>
+ [133]
+<pictures/cap4/utopia.png, id=2374, 861.2175pt x 484.81125pt>
 File: pictures/cap4/utopia.png Graphic file (type png)
 <use pictures/cap4/utopia.png>
-Package luatex.def Info: pictures/cap4/utopia.png  used on input line 97.
+Package luatex.def Info: pictures/cap4/utopia.png  used on input line 98.
 (luatex.def)             Requested size: 398.3386pt x 224.24388pt.
- [139<./pictures/cap4/exemplospec.png><./pictures/cap4/exemplowave.png>]
-<pictures/cap4/firstsketch.jpg, id=2440, 3276.24pt x 2324.685pt>
+ [134<./pictures/cap4/exemplospec.png><./pictures/cap4/exemplowave.png>]
+<pictures/cap4/firstsketch.jpg, id=2384, 3276.24pt x 2324.685pt>
 File: pictures/cap4/firstsketch.jpg Graphic file (type jpg)
 <use pictures/cap4/firstsketch.jpg>
-Package luatex.def Info: pictures/cap4/firstsketch.jpg  used on input line 111.
+Package luatex.def Info: pictures/cap4/firstsketch.jpg  used on input line 112.
 (luatex.def)             Requested size: 398.3386pt x 282.63924pt.
-<pictures/playsoundtimeline.png, id=2444, 2088.80376pt x 2936.9725pt>
+ [135<./pictures/cap4/utopia.png>]
+<pictures/playsoundtimeline.png, id=2395, 2088.80376pt x 2936.9725pt>
 File: pictures/playsoundtimeline.png Graphic file (type png)
 <use pictures/playsoundtimeline.png>
-Package luatex.def Info: pictures/playsoundtimeline.png  used on input line 121.
+Package luatex.def Info: pictures/playsoundtimeline.png  used on input line 122.
 
 (luatex.def)             Requested size: 398.3386pt x 560.04724pt.
 
-Underfull \vbox (badness 2073) has occurred while \output is active []
 
- [140<./pictures/cap4/utopia.png>]
+Package hyperref Warning: Suppressing empty link on input line 127.
 
-Package hyperref Warning: Suppressing empty link on input line 126.
-
-[141<./pictures/cap4/firstsketch.jpg>] [142<./pictures/playsoundtimeline.png>]
-<pictures/cap4/audioquery_browsers.png, id=2471, 2409.0pt x 3006.23125pt>
+[136<./pictures/cap4/firstsketch.jpg>] [137<./pictures/playsoundtimeline.png>]
+<pictures/cap4/audioquery_browsers.png, id=2415, 2409.0pt x 3006.23125pt>
 File: pictures/cap4/audioquery_browsers.png Graphic file (type png)
 <use pictures/cap4/audioquery_browsers.png>
 Package luatex.def Info: pictures/cap4/audioquery_browsers.png  used on input li
-ne 136.
+ne 137.
 (luatex.def)             Requested size: 398.3386pt x 497.0618pt.
 
-[143] [144<./pictures/cap4/audioquery_browsers.png>]
-<pictures/cap4/spacefrogs_spectrogram.png, id=2487, 6009.45125pt x 294.09875pt>
+[138] [139<./pictures/cap4/audioquery_browsers.png>]
+<pictures/cap4/spacefrogs_spectrogram.png, id=2433, 6009.45125pt x 294.09875pt>
 File: pictures/cap4/spacefrogs_spectrogram.png Graphic file (type png)
 <use pictures/cap4/spacefrogs_spectrogram.png>
 Package luatex.def Info: pictures/cap4/spacefrogs_spectrogram.png  used on input
- line 149.
+ line 150.
 (luatex.def)             Requested size: 398.3386pt x 19.49403pt.
-<pictures/cap4/spacefrogs_spectrogram_dt.png, id=2488, 1471.4975pt x 588.1975pt>
+<pictures/cap4/spacefrogs_spectrogram_dt.png, id=2434, 1471.4975pt x 588.1975pt>
 
 File: pictures/cap4/spacefrogs_spectrogram_dt.png Graphic file (type png)
 <use pictures/cap4/spacefrogs_spectrogram_dt.png>
 Package luatex.def Info: pictures/cap4/spacefrogs_spectrogram_dt.png  used on in
-put line 156.
+put line 158.
 (luatex.def)             Requested size: 398.3386pt x 159.2283pt.
- [145<./pictures/cap4/spacefrogs_spectrogram.png><./pictures/cap4/spacefrogs_spe
-ctrogram_dt.png>] [146]
-<pictures/cap4/usertest.jpg, id=2511, 284.5029pt x 100.6962pt>
+ [140<./pictures/cap4/spacefrogs_spectrogram.png><./pictures/cap4/spacefrogs_spe
+ctrogram_dt.png>] [141]
+<pictures/cap4/usertest.jpg, id=2457, 284.5029pt x 100.6962pt>
 File: pictures/cap4/usertest.jpg Graphic file (type jpg)
 <use pictures/cap4/usertest.jpg>
-Package luatex.def Info: pictures/cap4/usertest.jpg  used on input line 203.
+Package luatex.def Info: pictures/cap4/usertest.jpg  used on input line 206.
 (luatex.def)             Requested size: 398.3386pt x 140.98752pt.
 
 Underfull \vbox (badness 2384) has occurred while \output is active []
 
- [147]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ [142]
+Underfull \vbox (badness 4765) has occurred while \output is active []
 
- [148<./pictures/cap4/usertest.jpg>]
-<pictures/cap4/SUS_lower.pdf, id=2549, 588.1975pt x 376.40625pt>
+ [143<./pictures/cap4/usertest.jpg>]
+<pictures/cap4/SUS_lower.pdf, id=2494, 588.1975pt x 376.40625pt>
 File: pictures/cap4/SUS_lower.pdf Graphic file (type pdf)
 <use pictures/cap4/SUS_lower.pdf>
-Package luatex.def Info: pictures/cap4/SUS_lower.pdf  used on input line 221.
+Package luatex.def Info: pictures/cap4/SUS_lower.pdf  used on input line 224.
 (luatex.def)             Requested size: 398.3386pt x 254.90753pt.
 
-Underfull \vbox (badness 2302) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [149<./pictures/cap4/SUS_lower.pdf>]
-<pictures/cap4/questionnaire_lower.pdf, id=2573, 592.2125pt x 324.21124pt>
+ [144<./pictures/cap4/SUS_lower.pdf>]
+<pictures/cap4/questionnaire_lower.pdf, id=2517, 592.2125pt x 324.21124pt>
 File: pictures/cap4/questionnaire_lower.pdf Graphic file (type pdf)
 <use pictures/cap4/questionnaire_lower.pdf>
 Package luatex.def Info: pictures/cap4/questionnaire_lower.pdf  used on input li
-ne 233.
+ne 236.
 (luatex.def)             Requested size: 398.3386pt x 218.08119pt.
- [150<./pictures/cap4/questionnaire_lower.pdf>]
-<pictures/cap4/CSI.png, id=2598, 1091.07625pt x 450.68375pt>
+ [145<./pictures/cap4/questionnaire_lower.pdf>]
+<pictures/cap4/CSI.png, id=2543, 1091.07625pt x 450.68375pt>
 File: pictures/cap4/CSI.png Graphic file (type png)
 <use pictures/cap4/CSI.png>
-Package luatex.def Info: pictures/cap4/CSI.png  used on input line 243.
+Package luatex.def Info: pictures/cap4/CSI.png  used on input line 246.
 (luatex.def)             Requested size: 398.3386pt x 164.53601pt.
 
-[151<./pictures/cap4/CSI.png>] [152] [153] [154] [155]
-<pictures/cap4/ariane_amas.jpg, id=2637, 1842.885pt x 1228.59pt>
+[146<./pictures/cap4/CSI.png>] [147] [148] [149] [150]
+<pictures/cap4/ariane_amas.jpg, id=2583, 1842.885pt x 1228.59pt>
 File: pictures/cap4/ariane_amas.jpg Graphic file (type jpg)
 <use pictures/cap4/ariane_amas.jpg>
-Package luatex.def Info: pictures/cap4/ariane_amas.jpg  used on input line 332.
+Package luatex.def Info: pictures/cap4/ariane_amas.jpg  used on input line 336.
 (luatex.def)             Requested size: 398.3386pt x 265.5477pt.
- [156]
-Underfull \vbox (badness 6575) has occurred while \output is active []
-
- [157<./pictures/cap4/ariane_amas.jpg>]
-<pictures/cap4/handbellreverse.png, id=2656, 1656.1875pt x 298.11375pt>
+ [151] [152<./pictures/cap4/ariane_amas.jpg>]
+<pictures/cap4/handbellreverse.png, id=2602, 1656.1875pt x 298.11375pt>
 File: pictures/cap4/handbellreverse.png Graphic file (type png)
 <use pictures/cap4/handbellreverse.png>
 Package luatex.def Info: pictures/cap4/handbellreverse.png  used on input line 3
-71.
+76.
 (luatex.def)             Requested size: 398.3386pt x 71.69887pt.
-<pictures/cap4/handbellreverse_detail.png, id=2657, 1108.14pt x 298.11375pt>
+<pictures/cap4/handbellreverse_detail.png, id=2603, 1108.14pt x 298.11375pt>
 File: pictures/cap4/handbellreverse_detail.png Graphic file (type png)
 <use pictures/cap4/handbellreverse_detail.png>
 Package luatex.def Info: pictures/cap4/handbellreverse_detail.png  used on input
- line 387.
+ line 392.
 (luatex.def)             Requested size: 398.3386pt x 107.16165pt.
- [158] [159<./pictures/cap4/handbellreverse.png><./pictures/cap4/handbellreverse
+ [153] [154<./pictures/cap4/handbellreverse.png><./pictures/cap4/handbellreverse
 _detail.png>]
-<pictures/cap4/playsound-chat.png, id=2679, 1796.7125pt x 1164.35pt>
+<pictures/cap4/playsound-chat.png, id=2623, 1796.7125pt x 1164.35pt>
 File: pictures/cap4/playsound-chat.png Graphic file (type png)
 <use pictures/cap4/playsound-chat.png>
 Package luatex.def Info: pictures/cap4/playsound-chat.png  used on input line 41
-1.
+6.
 (luatex.def)             Requested size: 398.3386pt x 258.12988pt.
- [160]
+ [155]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [161<./pictures/cap4/playsound-chat.png>] [162]
-Overfull \hbox (11.4337pt too wide) in paragraph at lines 446--456
+ [156<./pictures/cap4/playsound-chat.png>] [157]
+Overfull \hbox (11.4337pt too wide) in paragraph at lines 451--461
 [][]
  []
 
-<pictures/cap4/orquestra_errante_usertest.jpg, id=2715, 4407.46625pt x 803.0pt>
+<pictures/cap4/orquestra_errante_usertest.jpg, id=2660, 4407.46625pt x 803.0pt>
 File: pictures/cap4/orquestra_errante_usertest.jpg Graphic file (type jpg)
 <use pictures/cap4/orquestra_errante_usertest.jpg>
 Package luatex.def Info: pictures/cap4/orquestra_errante_usertest.jpg  used on i
-nput line 462.
+nput line 467.
 (luatex.def)             Requested size: 398.3386pt x 72.5732pt.
-[163<./pictures/cap4/orquestra_errante_usertest.jpg>] [164] [165]
-<pictures/cap4/pstimbre.png, id=2742, 3113.6325pt x 929.4725pt>
+[158<./pictures/cap4/orquestra_errante_usertest.jpg>] [159] [160]
+<pictures/cap4/pstimbre.png, id=2688, 3113.6325pt x 929.4725pt>
 File: pictures/cap4/pstimbre.png Graphic file (type png)
 <use pictures/cap4/pstimbre.png>
-Package luatex.def Info: pictures/cap4/pstimbre.png  used on input line 530.
+Package luatex.def Info: pictures/cap4/pstimbre.png  used on input line 535.
 (luatex.def)             Requested size: 398.3386pt x 118.90683pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 532--532
+Underfull \hbox (badness 10000) in paragraph at lines 537--537
 [][]|\T1/lmss/m/n/12 fonte: [][]$<http://www.playsound.space/player/sounds=3082
 70,308618,309333,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 532--532
+Underfull \hbox (badness 10000) in paragraph at lines 537--537
 \T1/lmss/m/n/12 290401,43461,314864,399466,295858,278084,334534,428800,246658,3
 57370,
  []
 
-<pictures/cap4/leo_ufsb.jpeg, id=2745, 1284.8pt x 963.6pt>
+<pictures/cap4/leo_ufsb.jpeg, id=2691, 1284.8pt x 963.6pt>
 File: pictures/cap4/leo_ufsb.jpeg Graphic file (type jpg)
 <use pictures/cap4/leo_ufsb.jpeg>
-Package luatex.def Info: pictures/cap4/leo_ufsb.jpeg  used on input line 542.
+Package luatex.def Info: pictures/cap4/leo_ufsb.jpeg  used on input line 547.
 (luatex.def)             Requested size: 398.3386pt x 298.75702pt.
-<pictures/cap4/heitor_ufsb.jpeg, id=2746, 1284.8pt x 963.6pt>
+<pictures/cap4/heitor_ufsb.jpeg, id=2692, 1284.8pt x 963.6pt>
 File: pictures/cap4/heitor_ufsb.jpeg Graphic file (type jpg)
 <use pictures/cap4/heitor_ufsb.jpeg>
-Package luatex.def Info: pictures/cap4/heitor_ufsb.jpeg  used on input line 550.
+Package luatex.def Info: pictures/cap4/heitor_ufsb.jpeg  used on input line 555.
 
 (luatex.def)             Requested size: 398.3386pt x 298.75702pt.
-[166<./pictures/cap4/pstimbre.png>]
-Underfull \hbox (badness 5064) in paragraph at lines 561--561
+[161<./pictures/cap4/pstimbre.png>]
+Underfull \hbox (badness 5064) in paragraph at lines 566--566
 [][] [][][]\T1/ppl/m/n/10 Os sons uti-li-za-dos na apre-sen-ta-ção po-dem ser
  aces-sa-dos no en-de-reço: [][]$<http:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 561--561
+Underfull \hbox (badness 10000) in paragraph at lines 566--566
 \T1/ppl/m/n/10 //www.playsound.space/sounds=376415,419165,346105,320306,213318,
 4832,321030,
  []
@@ -2502,144 +2474,141 @@ Underfull \hbox (badness 10000) in paragraph at lines 561--561
 
 Underfull \vbox (badness 5939) has occurred while \output is active []
 
- [167<./pictures/cap4/leo_ufsb.jpeg>] [168<./pictures/cap4/heitor_ufsb.jpeg>]
-<pictures/cap4/diagrama-cannibal.png, id=2785, 341.3553pt x 341.3553pt>
+ [162<./pictures/cap4/leo_ufsb.jpeg>] [163<./pictures/cap4/heitor_ufsb.jpeg>]
+<pictures/cap4/diagrama-cannibal.png, id=2730, 341.3553pt x 341.3553pt>
 File: pictures/cap4/diagrama-cannibal.png Graphic file (type png)
 <use pictures/cap4/diagrama-cannibal.png>
 Package luatex.def Info: pictures/cap4/diagrama-cannibal.png  used on input line
- 577.
+ 582.
 (luatex.def)             Requested size: 398.3386pt x 398.34755pt.
-
-
-LaTeX Warning: Reference `spceubimus' on page 169 undefined on input line 586.
-
-[169]
-<pictures/cap4/canibalspec2.png, id=2807, 11382.525pt x 423.5825pt>
+ [164]
+<pictures/cap4/canibalspec2.png, id=2752, 11382.525pt x 423.5825pt>
 File: pictures/cap4/canibalspec2.png Graphic file (type png)
 <use pictures/cap4/canibalspec2.png>
-Package luatex.def Info: pictures/cap4/canibalspec2.png  used on input line 590.
+Package luatex.def Info: pictures/cap4/canibalspec2.png  used on input line 595.
 
 (luatex.def)             Requested size: 398.3386pt x 14.82043pt.
-<pictures/cap4/canibalspecdbvdt.png, id=2808, 962.59625pt x 388.45125pt>
+<pictures/cap4/canibalspecdbvdt.png, id=2753, 962.59625pt x 388.45125pt>
 File: pictures/cap4/canibalspecdbvdt.png Graphic file (type png)
 <use pictures/cap4/canibalspecdbvdt.png>
 Package luatex.def Info: pictures/cap4/canibalspecdbvdt.png  used on input line 
-597.
+602.
 (luatex.def)             Requested size: 398.3386pt x 160.74193pt.
- [170<./pictures/cap4/diagrama-cannibal.png><./pictures/cap4/canibalspec2.png>]
- [171<./pictures/cap4/canibalspecdbvdt.png>]
-<pictures/cap4/tenderbuttonssounds.png, id=2849, 1409.265pt x 3200.95876pt>
+
+[165<./pictures/cap4/diagrama-cannibal.png><./pictures/cap4/canibalspec2.png>]
+[166<./pictures/cap4/canibalspecdbvdt.png>]
+<pictures/cap4/tenderbuttonssounds.png, id=2795, 1409.265pt x 3200.95876pt>
 File: pictures/cap4/tenderbuttonssounds.png Graphic file (type png)
 <use pictures/cap4/tenderbuttonssounds.png>
 Package luatex.def Info: pictures/cap4/tenderbuttonssounds.png  used on input li
-ne 617.
+ne 619.
 (luatex.def)             Requested size: 318.67209pt x 723.79901pt.
 
 
-LaTeX Warning: Float too large for page by 45.51591pt on input line 620.
+LaTeX Warning: Float too large for page by 70.0159pt on input line 623.
 
-<pictures/cap4/imagina1a.jpg, id=2850, 1027.84pt x 770.88pt>
+File: pictures/cap4/tenderbuttonssounds.png Graphic file (type png)
+<use pictures/cap4/tenderbuttonssounds.png>
+Package luatex.def Info: pictures/cap4/tenderbuttonssounds.png  used on input li
+ne 630.
+(luatex.def)             Requested size: 318.67209pt x 723.79901pt.
+
+LaTeX Warning: Float too large for page by 45.51591pt on input line 633.
+
+<pictures/cap4/imagina1a.jpg, id=2798, 1027.84pt x 770.88pt>
 File: pictures/cap4/imagina1a.jpg Graphic file (type jpg)
 <use pictures/cap4/imagina1a.jpg>
-Package luatex.def Info: pictures/cap4/imagina1a.jpg  used on input line 630.
+Package luatex.def Info: pictures/cap4/imagina1a.jpg  used on input line 643.
 (luatex.def)             Requested size: 278.83578pt x 209.12845pt.
-<pictures/cap4/imagina1b.jpg, id=2851, 1284.8pt x 963.6pt>
+<pictures/cap4/imagina1b.jpg, id=2799, 1284.8pt x 963.6pt>
 File: pictures/cap4/imagina1b.jpg Graphic file (type jpg)
 <use pictures/cap4/imagina1b.jpg>
-Package luatex.def Info: pictures/cap4/imagina1b.jpg  used on input line 631.
+Package luatex.def Info: pictures/cap4/imagina1b.jpg  used on input line 644.
 (luatex.def)             Requested size: 278.83578pt x 209.1255pt.
-<pictures/cap4/imagina1c.jpg, id=2852, 1027.84pt x 770.88pt>
+<pictures/cap4/imagina1c.jpg, id=2800, 1027.84pt x 770.88pt>
 File: pictures/cap4/imagina1c.jpg Graphic file (type jpg)
 <use pictures/cap4/imagina1c.jpg>
-Package luatex.def Info: pictures/cap4/imagina1c.jpg  used on input line 632.
+Package luatex.def Info: pictures/cap4/imagina1c.jpg  used on input line 645.
 (luatex.def)             Requested size: 278.83578pt x 209.12845pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 630--633
+Underfull \hbox (badness 10000) in paragraph at lines 643--646
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 630--633
+Underfull \hbox (badness 10000) in paragraph at lines 643--646
 []
  []
 
-[172] [173<./pictures/cap4/tenderbuttonssounds.png>] [174<./pictures/cap4/imagin
-a1a.jpg><./pictures/cap4/imagina1b.jpg><./pictures/cap4/imagina1c.jpg>]
-Overfull \hbox (32.35898pt too wide) in paragraph at lines 643--644
+[167] [168<./pictures/cap4/tenderbuttonssounds.png>] [169] [170<./pictures/cap4/
+imagina1a.jpg><./pictures/cap4/imagina1b.jpg><./pictures/cap4/imagina1c.jpg>]
+Overfull \hbox (32.35898pt too wide) in paragraph at lines 656--657
 [][][]$\T1/ppl/m/n/12 <http://www.playsound.space/sounds=373811,36274,50737,360
 540,398712,238454,
  []
 
 
-Overfull \hbox (35.28177pt too wide) in paragraph at lines 643--644
+Overfull \hbox (35.28177pt too wide) in paragraph at lines 656--657
 \T1/ppl/m/n/12 423526,397948,145685,47623,76420,76421,397948,417046,76422,43541
 5,435414,340646,
  []
 
 
-Overfull \hbox (20.58176pt too wide) in paragraph at lines 645--646
+Overfull \hbox (20.58176pt too wide) in paragraph at lines 658--659
 \T1/ppl/m/n/12 411206,379249,266977,266916,382735,331624,321404,193900,188048,1
 88051,373751,
  []
 
 
-Overfull \hbox (8.22174pt too wide) in paragraph at lines 645--646
+Overfull \hbox (8.22174pt too wide) in paragraph at lines 658--659
 \T1/ppl/m/n/12 193810,193808,369913,433584,416439,7454,134968,101871,220910,326
 542,341561,
  []
 
-[175] [176
+[171] [172
 Missing character: There is no “ (U+201C) in font pplr8t!
 Missing character: There is no ” (U+201D) in font pplr8t!
 Missing character: There is no ’ (U+2019) in font pplr8t!
 Missing character: There is no ’ (U+2019) in font pplr8t!
 Missing character: There is no ’ (U+2019) in font pplr8t!
-Missing character: There is no ’ (U+2019) in font pplr8t!
 ]
-Overfull \hbox (993.60919pt too wide) in paragraph at lines 716--717
-[]\T1/ppl/m/n/12 http://www.play-sound.space/sounds=386440,351623,339821,316025
-,148571,176494,396483,427086,134908,332114,432441,232131,356107,373906,355826,3
-55979,296145,148505,148508,409480,176494,351324,148548,295857,448552,148510,176
-504,351327,320306,320311,371494 
- []
-
-<pictures/cap4/playsound_sarc.png, id=2885, 2006.49625pt x 1127.21124pt>
+<pictures/cap4/playsound_sarc.png, id=2838, 2006.49625pt x 1127.21124pt>
 File: pictures/cap4/playsound_sarc.png Graphic file (type png)
 <use pictures/cap4/playsound_sarc.png>
-Package luatex.def Info: pictures/cap4/playsound_sarc.png  used on input line 72
-1.
+Package luatex.def Info: pictures/cap4/playsound_sarc.png  used on input line 73
+0.
 (luatex.def)             Requested size: 278.83578pt x 156.6389pt.
 
-Overfull \hbox (5.89896pt too wide) in paragraph at lines 728--729
-[][][]$\T1/ppl/m/n/12 <http://www.playsound.space/sounds=386440,351623,339821,3
-16025,148571,
+Underfull \hbox (badness 8132) in paragraph at lines 732--732
+[][]|\T1/lmss/m/n/12 fonte: [][]$<http://www.playsound.space/sounds=386440,3516
+23,339821,316025,
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [177<./pictures/cap4/playsound_sarc.png>]
-Overfull \hbox (39.58185pt too wide) in paragraph at lines 730--731
-[]\T1/ppl/m/n/12 sound: Hand Bells, Re-verse Clus-ter.wav by: Ins-pec-torJ; sou
-nd: PI-ANO_MED_F5.wav
+Underfull \hbox (badness 10000) in paragraph at lines 732--732
+\T1/lmss/m/n/12 148571,176494,396483,427086,232131,296145,148505,148508,409480,
+176504,
  []
 
-<pictures/cap4/telasarc.png, id=2893, 1275.76625pt x 737.75626pt>
+<pictures/cap4/telasarc.png, id=2840, 1275.76625pt x 737.75626pt>
 File: pictures/cap4/telasarc.png Graphic file (type png)
 <use pictures/cap4/telasarc.png>
-Package luatex.def Info: pictures/cap4/telasarc.png  used on input line 735.
+Package luatex.def Info: pictures/cap4/telasarc.png  used on input line 741.
 (luatex.def)             Requested size: 278.83578pt x 161.23744pt.
-) (./cap-05-conclusao.tex [178<./pictures/cap4/telasarc.png>] [179
+[173
+Missing character: There is no ’ (U+2019) in font pplr8t!
+]) (./cap-05-conclusao.tex [174<./pictures/cap4/playsound_sarc.png><./pictures/c
+ap4/telasarc.png>] [175
 
 Missing character: There is no – (U+2013) in font pplr8t!
-] [180]
+] [176]
 
-LaTeX Warning: Citation `barbrook2009' on page 181 undefined on input line 54.
+LaTeX Warning: Citation `barbrook2009' on page 177 undefined on input line 54.
 
-[181] [182
+[177] [178
 Missing character: There is no – (U+2013) in font pplr8t!
 Missing character: There is no – (U+2013) in font pplr8t!
-] [183]) [184]
+]) [179]
 \openout2 = abntex2-modelo-include-comandos.aux
 
 No file abntex2-modelo-include-comandos.tex.
@@ -2647,67 +2616,61 @@ No file abntex2-modelo-include-comandos.tex.
 \tf@brf=\write6
 
 \openout6 = tese.brf
+ [180
 
+
+
+]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 3.
 
 bibitemlist
-[185
-
-
-
-] [186] [187
+[181] [182] [183
 Missing character: There is no – (U+2013) in font pplri8t!
-] [188
+] [184
 Missing character: There is no “ (U+201C) in font pplr8t!
 Missing character: There is no ” (U+201D) in font pplr8t!
 Missing character: There is no — (U+2014) in font pplr8t!
 Missing character: There is no “ (U+201C) in font pplri8t!
 Missing character: There is no ” (U+201D) in font pplri8t!
-] [189
+] [185
 Missing character: There is no “ (U+201C) in font pplr8t!
 Missing character: There is no ” (U+201D) in font pplr8t!
 Missing character: There is no – (U+2013) in font pplri8t!
-] [190] [191] [192]
-Overfull \hbox (13.5478pt too wide) in paragraph at lines 684--684
-\T1/ppl/m/n/12 IwAR2DeAvc3ZgyDY2QUl2TJ7eZDrK9QsuefUHkZ8uA1BoXhrO6vORFfyAg>$[][]
-. 
- []
-
-[193] [194] [195]) [196]
+] [186] [187] [188] [189] [190] [191]) [192]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\uppercase' on input line 667.
+(hyperref)                removing `\uppercase' on input line 668.
 
-[197
+[193
 
 
-] [198]
+] [194]
 \openout2 = ape-tabelagatorra.aux
- (./ape-tabelagatorra.tex [199
+ (./ape-tabelagatorra.tex [195
 
 
-] [200
+] [196
 
-] [201] [202
+] [197] [198
 Missing character: There is no — (U+2014) in font pplr8t!
-] [203] [204
+] [199] [200
 Missing character: There is no “ (U+201C) in font pplr8t!
 Missing character: There is no ” (U+201D) in font pplr8t!
 ]
-[205]
+[201]
 Underfull \vbox (badness 3895) has occurred while \output is active []
 
- [206])
-[207]
+ [202])
+[203]
 \openout2 = ape-entrevistas.aux
- (./ape-entrevistas.tex [208
+ (./ape-entrevistas.tex [204
 
 
 
 ]
-<parcial-textuais.pdf, id=3414, 614.295pt x 794.97pt>
+<parcial-textuais.pdf, id=3361, 614.295pt x 794.97pt>
 File: parcial-textuais.pdf Graphic file (type pdf)
 <use parcial-textuais.pdf>
 Package luatex.def Info: parcial-textuais.pdf  used on input line 6.
@@ -2716,7 +2679,7 @@ File: parcial-textuais.pdf Graphic file (type pdf)
 <use parcial-textuais.pdf>
 Package luatex.def Info: parcial-textuais.pdf  used on input line 6.
 (luatex.def)             Requested size: 614.29349pt x 794.96806pt.
-<parcial-textuais.pdf, id=3417, page=1, 614.295pt x 794.97pt>
+<parcial-textuais.pdf, id=3364, page=1, 614.295pt x 794.97pt>
 File: parcial-textuais.pdf Graphic file (type pdf)
 <use parcial-textuais.pdf, page 1>
 Package luatex.def Info: parcial-textuais.pdf , page1 used on input line 6.
@@ -2725,7 +2688,7 @@ File: parcial-textuais.pdf Graphic file (type pdf)
 <use parcial-textuais.pdf, page 1>
 Package luatex.def Info: parcial-textuais.pdf , page1 used on input line 6.
 (luatex.def)             Requested size: 922.21822pt x 1193.4589pt.
- [209]
+ [205]
 File: parcial-textuais.pdf Graphic file (type pdf)
 <use parcial-textuais.pdf, page 1>
 Package luatex.def Info: parcial-textuais.pdf , page1 used on input line 6.
@@ -2737,121 +2700,121 @@ Package luatex.def Info: parcial-textuais.pdf , page1 used on input line 6.
 File: parcial-textuais.pdf Graphic file (type pdf)
 <use parcial-textuais.pdf, page 1>
 Package luatex.def Info: parcial-textuais.pdf , page1 used on input line 6.
+(luatex.def)             Requested size: 922.21822pt x 1193.4589pt.
+ [206<./parcial-textuais.pdf>]
+<parcial-textuais.pdf, id=3404, page=2, 614.295pt x 794.97pt>
+File: parcial-textuais.pdf Graphic file (type pdf)
+<use parcial-textuais.pdf, page 2>
+Package luatex.def Info: parcial-textuais.pdf , page2 used on input line 6.
+(luatex.def)             Requested size: 922.21822pt x 1193.4589pt.
+File: parcial-textuais.pdf Graphic file (type pdf)
+<use parcial-textuais.pdf, page 2>
+Package luatex.def Info: parcial-textuais.pdf , page2 used on input line 6.
+(luatex.def)             Requested size: 922.21822pt x 1193.4589pt.
+File: parcial-textuais.pdf Graphic file (type pdf)
+<use parcial-textuais.pdf, page 2>
+Package luatex.def Info: parcial-textuais.pdf , page2 used on input line 6.
+(luatex.def)             Requested size: 922.21822pt x 1193.4589pt.
+ [207<./parcial-textuais.pdf>]
+<parcial-textuais.pdf, id=3422, page=3, 614.295pt x 794.97pt>
+File: parcial-textuais.pdf Graphic file (type pdf)
+<use parcial-textuais.pdf, page 3>
+Package luatex.def Info: parcial-textuais.pdf , page3 used on input line 6.
+(luatex.def)             Requested size: 922.21822pt x 1193.4589pt.
+File: parcial-textuais.pdf Graphic file (type pdf)
+<use parcial-textuais.pdf, page 3>
+Package luatex.def Info: parcial-textuais.pdf , page3 used on input line 6.
+(luatex.def)             Requested size: 922.21822pt x 1193.4589pt.
+File: parcial-textuais.pdf Graphic file (type pdf)
+<use parcial-textuais.pdf, page 3>
+Package luatex.def Info: parcial-textuais.pdf , page3 used on input line 6.
+(luatex.def)             Requested size: 922.21822pt x 1193.4589pt.
+ [208<./parcial-textuais.pdf>]
+<parcial-textuais.pdf, id=3428, page=4, 614.295pt x 794.97pt>
+File: parcial-textuais.pdf Graphic file (type pdf)
+<use parcial-textuais.pdf, page 4>
+Package luatex.def Info: parcial-textuais.pdf , page4 used on input line 6.
+(luatex.def)             Requested size: 922.21822pt x 1193.4589pt.
+File: parcial-textuais.pdf Graphic file (type pdf)
+<use parcial-textuais.pdf, page 4>
+Package luatex.def Info: parcial-textuais.pdf , page4 used on input line 6.
+(luatex.def)             Requested size: 922.21822pt x 1193.4589pt.
+File: parcial-textuais.pdf Graphic file (type pdf)
+<use parcial-textuais.pdf, page 4>
+Package luatex.def Info: parcial-textuais.pdf , page4 used on input line 6.
+(luatex.def)             Requested size: 922.21822pt x 1193.4589pt.
+ [209<./parcial-textuais.pdf>]
+<parcial-textuais.pdf, id=3435, page=5, 614.295pt x 794.97pt>
+File: parcial-textuais.pdf Graphic file (type pdf)
+<use parcial-textuais.pdf, page 5>
+Package luatex.def Info: parcial-textuais.pdf , page5 used on input line 6.
+(luatex.def)             Requested size: 922.21822pt x 1193.4589pt.
+File: parcial-textuais.pdf Graphic file (type pdf)
+<use parcial-textuais.pdf, page 5>
+Package luatex.def Info: parcial-textuais.pdf , page5 used on input line 6.
+(luatex.def)             Requested size: 922.21822pt x 1193.4589pt.
+File: parcial-textuais.pdf Graphic file (type pdf)
+<use parcial-textuais.pdf, page 5>
+Package luatex.def Info: parcial-textuais.pdf , page5 used on input line 6.
 (luatex.def)             Requested size: 922.21822pt x 1193.4589pt.
  [210<./parcial-textuais.pdf>]
-<parcial-textuais.pdf, id=3458, page=2, 614.295pt x 794.97pt>
+<parcial-textuais.pdf, id=3441, page=6, 614.295pt x 794.97pt>
 File: parcial-textuais.pdf Graphic file (type pdf)
-<use parcial-textuais.pdf, page 2>
-Package luatex.def Info: parcial-textuais.pdf , page2 used on input line 6.
+<use parcial-textuais.pdf, page 6>
+Package luatex.def Info: parcial-textuais.pdf , page6 used on input line 6.
 (luatex.def)             Requested size: 922.21822pt x 1193.4589pt.
 File: parcial-textuais.pdf Graphic file (type pdf)
-<use parcial-textuais.pdf, page 2>
-Package luatex.def Info: parcial-textuais.pdf , page2 used on input line 6.
+<use parcial-textuais.pdf, page 6>
+Package luatex.def Info: parcial-textuais.pdf , page6 used on input line 6.
 (luatex.def)             Requested size: 922.21822pt x 1193.4589pt.
 File: parcial-textuais.pdf Graphic file (type pdf)
-<use parcial-textuais.pdf, page 2>
-Package luatex.def Info: parcial-textuais.pdf , page2 used on input line 6.
+<use parcial-textuais.pdf, page 6>
+Package luatex.def Info: parcial-textuais.pdf , page6 used on input line 6.
 (luatex.def)             Requested size: 922.21822pt x 1193.4589pt.
  [211<./parcial-textuais.pdf>]
-<parcial-textuais.pdf, id=3477, page=3, 614.295pt x 794.97pt>
+<parcial-textuais.pdf, id=3447, page=7, 614.295pt x 794.97pt>
 File: parcial-textuais.pdf Graphic file (type pdf)
-<use parcial-textuais.pdf, page 3>
-Package luatex.def Info: parcial-textuais.pdf , page3 used on input line 6.
+<use parcial-textuais.pdf, page 7>
+Package luatex.def Info: parcial-textuais.pdf , page7 used on input line 6.
 (luatex.def)             Requested size: 922.21822pt x 1193.4589pt.
 File: parcial-textuais.pdf Graphic file (type pdf)
-<use parcial-textuais.pdf, page 3>
-Package luatex.def Info: parcial-textuais.pdf , page3 used on input line 6.
+<use parcial-textuais.pdf, page 7>
+Package luatex.def Info: parcial-textuais.pdf , page7 used on input line 6.
 (luatex.def)             Requested size: 922.21822pt x 1193.4589pt.
 File: parcial-textuais.pdf Graphic file (type pdf)
-<use parcial-textuais.pdf, page 3>
-Package luatex.def Info: parcial-textuais.pdf , page3 used on input line 6.
+<use parcial-textuais.pdf, page 7>
+Package luatex.def Info: parcial-textuais.pdf , page7 used on input line 6.
 (luatex.def)             Requested size: 922.21822pt x 1193.4589pt.
  [212<./parcial-textuais.pdf>]
-<parcial-textuais.pdf, id=3483, page=4, 614.295pt x 794.97pt>
+<parcial-textuais.pdf, id=3453, page=8, 614.295pt x 794.97pt>
 File: parcial-textuais.pdf Graphic file (type pdf)
-<use parcial-textuais.pdf, page 4>
-Package luatex.def Info: parcial-textuais.pdf , page4 used on input line 6.
+<use parcial-textuais.pdf, page 8>
+Package luatex.def Info: parcial-textuais.pdf , page8 used on input line 6.
 (luatex.def)             Requested size: 922.21822pt x 1193.4589pt.
 File: parcial-textuais.pdf Graphic file (type pdf)
-<use parcial-textuais.pdf, page 4>
-Package luatex.def Info: parcial-textuais.pdf , page4 used on input line 6.
+<use parcial-textuais.pdf, page 8>
+Package luatex.def Info: parcial-textuais.pdf , page8 used on input line 6.
 (luatex.def)             Requested size: 922.21822pt x 1193.4589pt.
 File: parcial-textuais.pdf Graphic file (type pdf)
-<use parcial-textuais.pdf, page 4>
-Package luatex.def Info: parcial-textuais.pdf , page4 used on input line 6.
+<use parcial-textuais.pdf, page 8>
+Package luatex.def Info: parcial-textuais.pdf , page8 used on input line 6.
 (luatex.def)             Requested size: 922.21822pt x 1193.4589pt.
  [213<./parcial-textuais.pdf>]
-<parcial-textuais.pdf, id=3489, page=5, 614.295pt x 794.97pt>
+<parcial-textuais.pdf, id=3465, page=9, 614.295pt x 794.97pt>
 File: parcial-textuais.pdf Graphic file (type pdf)
-<use parcial-textuais.pdf, page 5>
-Package luatex.def Info: parcial-textuais.pdf , page5 used on input line 6.
+<use parcial-textuais.pdf, page 9>
+Package luatex.def Info: parcial-textuais.pdf , page9 used on input line 6.
 (luatex.def)             Requested size: 922.21822pt x 1193.4589pt.
 File: parcial-textuais.pdf Graphic file (type pdf)
-<use parcial-textuais.pdf, page 5>
-Package luatex.def Info: parcial-textuais.pdf , page5 used on input line 6.
+<use parcial-textuais.pdf, page 9>
+Package luatex.def Info: parcial-textuais.pdf , page9 used on input line 6.
 (luatex.def)             Requested size: 922.21822pt x 1193.4589pt.
 File: parcial-textuais.pdf Graphic file (type pdf)
-<use parcial-textuais.pdf, page 5>
-Package luatex.def Info: parcial-textuais.pdf , page5 used on input line 6.
+<use parcial-textuais.pdf, page 9>
+Package luatex.def Info: parcial-textuais.pdf , page9 used on input line 6.
 (luatex.def)             Requested size: 922.21822pt x 1193.4589pt.
  [214<./parcial-textuais.pdf>]
-<parcial-textuais.pdf, id=3495, page=6, 614.295pt x 794.97pt>
-File: parcial-textuais.pdf Graphic file (type pdf)
-<use parcial-textuais.pdf, page 6>
-Package luatex.def Info: parcial-textuais.pdf , page6 used on input line 6.
-(luatex.def)             Requested size: 922.21822pt x 1193.4589pt.
-File: parcial-textuais.pdf Graphic file (type pdf)
-<use parcial-textuais.pdf, page 6>
-Package luatex.def Info: parcial-textuais.pdf , page6 used on input line 6.
-(luatex.def)             Requested size: 922.21822pt x 1193.4589pt.
-File: parcial-textuais.pdf Graphic file (type pdf)
-<use parcial-textuais.pdf, page 6>
-Package luatex.def Info: parcial-textuais.pdf , page6 used on input line 6.
-(luatex.def)             Requested size: 922.21822pt x 1193.4589pt.
- [215<./parcial-textuais.pdf>]
-<parcial-textuais.pdf, id=3501, page=7, 614.295pt x 794.97pt>
-File: parcial-textuais.pdf Graphic file (type pdf)
-<use parcial-textuais.pdf, page 7>
-Package luatex.def Info: parcial-textuais.pdf , page7 used on input line 6.
-(luatex.def)             Requested size: 922.21822pt x 1193.4589pt.
-File: parcial-textuais.pdf Graphic file (type pdf)
-<use parcial-textuais.pdf, page 7>
-Package luatex.def Info: parcial-textuais.pdf , page7 used on input line 6.
-(luatex.def)             Requested size: 922.21822pt x 1193.4589pt.
-File: parcial-textuais.pdf Graphic file (type pdf)
-<use parcial-textuais.pdf, page 7>
-Package luatex.def Info: parcial-textuais.pdf , page7 used on input line 6.
-(luatex.def)             Requested size: 922.21822pt x 1193.4589pt.
- [216<./parcial-textuais.pdf>]
-<parcial-textuais.pdf, id=3507, page=8, 614.295pt x 794.97pt>
-File: parcial-textuais.pdf Graphic file (type pdf)
-<use parcial-textuais.pdf, page 8>
-Package luatex.def Info: parcial-textuais.pdf , page8 used on input line 6.
-(luatex.def)             Requested size: 922.21822pt x 1193.4589pt.
-File: parcial-textuais.pdf Graphic file (type pdf)
-<use parcial-textuais.pdf, page 8>
-Package luatex.def Info: parcial-textuais.pdf , page8 used on input line 6.
-(luatex.def)             Requested size: 922.21822pt x 1193.4589pt.
-File: parcial-textuais.pdf Graphic file (type pdf)
-<use parcial-textuais.pdf, page 8>
-Package luatex.def Info: parcial-textuais.pdf , page8 used on input line 6.
-(luatex.def)             Requested size: 922.21822pt x 1193.4589pt.
- [217<./parcial-textuais.pdf>]
-<parcial-textuais.pdf, id=3519, page=9, 614.295pt x 794.97pt>
-File: parcial-textuais.pdf Graphic file (type pdf)
-<use parcial-textuais.pdf, page 9>
-Package luatex.def Info: parcial-textuais.pdf , page9 used on input line 6.
-(luatex.def)             Requested size: 922.21822pt x 1193.4589pt.
-File: parcial-textuais.pdf Graphic file (type pdf)
-<use parcial-textuais.pdf, page 9>
-Package luatex.def Info: parcial-textuais.pdf , page9 used on input line 6.
-(luatex.def)             Requested size: 922.21822pt x 1193.4589pt.
-File: parcial-textuais.pdf Graphic file (type pdf)
-<use parcial-textuais.pdf, page 9>
-Package luatex.def Info: parcial-textuais.pdf , page9 used on input line 6.
-(luatex.def)             Requested size: 922.21822pt x 1193.4589pt.
- [218<./parcial-textuais.pdf>]
-<parcial-textuais.pdf, id=3525, page=10, 614.295pt x 794.97pt>
+<parcial-textuais.pdf, id=3471, page=10, 614.295pt x 794.97pt>
 File: parcial-textuais.pdf Graphic file (type pdf)
 <use parcial-textuais.pdf, page 10>
 Package luatex.def Info: parcial-textuais.pdf , page10 used on input line 6.
@@ -2865,8 +2828,8 @@ File: parcial-textuais.pdf Graphic file (type pdf)
 Package luatex.def Info: parcial-textuais.pdf , page10 used on input line 6.
 (luatex.def)             Requested size: 922.21822pt x 1193.4589pt.
 
-[219<./parcial-textuais.pdf>]
-<parcial-textuais.pdf, id=3532, page=11, 614.295pt x 794.97pt>
+[215<./parcial-textuais.pdf>]
+<parcial-textuais.pdf, id=3477, page=11, 614.295pt x 794.97pt>
 File: parcial-textuais.pdf Graphic file (type pdf)
 <use parcial-textuais.pdf, page 11>
 Package luatex.def Info: parcial-textuais.pdf , page11 used on input line 6.
@@ -2878,121 +2841,121 @@ Package luatex.def Info: parcial-textuais.pdf , page11 used on input line 6.
 File: parcial-textuais.pdf Graphic file (type pdf)
 <use parcial-textuais.pdf, page 11>
 Package luatex.def Info: parcial-textuais.pdf , page11 used on input line 6.
+(luatex.def)             Requested size: 922.21822pt x 1193.4589pt.
+ [216<./parcial-textuais.pdf>]
+<parcial-textuais.pdf, id=3483, page=12, 614.295pt x 794.97pt>
+File: parcial-textuais.pdf Graphic file (type pdf)
+<use parcial-textuais.pdf, page 12>
+Package luatex.def Info: parcial-textuais.pdf , page12 used on input line 6.
+(luatex.def)             Requested size: 922.21822pt x 1193.4589pt.
+File: parcial-textuais.pdf Graphic file (type pdf)
+<use parcial-textuais.pdf, page 12>
+Package luatex.def Info: parcial-textuais.pdf , page12 used on input line 6.
+(luatex.def)             Requested size: 922.21822pt x 1193.4589pt.
+File: parcial-textuais.pdf Graphic file (type pdf)
+<use parcial-textuais.pdf, page 12>
+Package luatex.def Info: parcial-textuais.pdf , page12 used on input line 6.
+(luatex.def)             Requested size: 922.21822pt x 1193.4589pt.
+ [217<./parcial-textuais.pdf>]
+<parcial-textuais.pdf, id=3489, page=13, 614.295pt x 794.97pt>
+File: parcial-textuais.pdf Graphic file (type pdf)
+<use parcial-textuais.pdf, page 13>
+Package luatex.def Info: parcial-textuais.pdf , page13 used on input line 6.
+(luatex.def)             Requested size: 922.21822pt x 1193.4589pt.
+File: parcial-textuais.pdf Graphic file (type pdf)
+<use parcial-textuais.pdf, page 13>
+Package luatex.def Info: parcial-textuais.pdf , page13 used on input line 6.
+(luatex.def)             Requested size: 922.21822pt x 1193.4589pt.
+File: parcial-textuais.pdf Graphic file (type pdf)
+<use parcial-textuais.pdf, page 13>
+Package luatex.def Info: parcial-textuais.pdf , page13 used on input line 6.
+(luatex.def)             Requested size: 922.21822pt x 1193.4589pt.
+ [218<./parcial-textuais.pdf>]
+<parcial-textuais.pdf, id=3496, page=14, 614.295pt x 794.97pt>
+File: parcial-textuais.pdf Graphic file (type pdf)
+<use parcial-textuais.pdf, page 14>
+Package luatex.def Info: parcial-textuais.pdf , page14 used on input line 6.
+(luatex.def)             Requested size: 922.21822pt x 1193.4589pt.
+File: parcial-textuais.pdf Graphic file (type pdf)
+<use parcial-textuais.pdf, page 14>
+Package luatex.def Info: parcial-textuais.pdf , page14 used on input line 6.
+(luatex.def)             Requested size: 922.21822pt x 1193.4589pt.
+File: parcial-textuais.pdf Graphic file (type pdf)
+<use parcial-textuais.pdf, page 14>
+Package luatex.def Info: parcial-textuais.pdf , page14 used on input line 6.
+(luatex.def)             Requested size: 922.21822pt x 1193.4589pt.
+ [219<./parcial-textuais.pdf>]
+<parcial-textuais.pdf, id=3509, page=15, 614.295pt x 794.97pt>
+File: parcial-textuais.pdf Graphic file (type pdf)
+<use parcial-textuais.pdf, page 15>
+Package luatex.def Info: parcial-textuais.pdf , page15 used on input line 6.
+(luatex.def)             Requested size: 922.21822pt x 1193.4589pt.
+File: parcial-textuais.pdf Graphic file (type pdf)
+<use parcial-textuais.pdf, page 15>
+Package luatex.def Info: parcial-textuais.pdf , page15 used on input line 6.
+(luatex.def)             Requested size: 922.21822pt x 1193.4589pt.
+File: parcial-textuais.pdf Graphic file (type pdf)
+<use parcial-textuais.pdf, page 15>
+Package luatex.def Info: parcial-textuais.pdf , page15 used on input line 6.
 (luatex.def)             Requested size: 922.21822pt x 1193.4589pt.
  [220<./parcial-textuais.pdf>]
-<parcial-textuais.pdf, id=3538, page=12, 614.295pt x 794.97pt>
+<parcial-textuais.pdf, id=3515, page=16, 614.295pt x 794.97pt>
 File: parcial-textuais.pdf Graphic file (type pdf)
-<use parcial-textuais.pdf, page 12>
-Package luatex.def Info: parcial-textuais.pdf , page12 used on input line 6.
+<use parcial-textuais.pdf, page 16>
+Package luatex.def Info: parcial-textuais.pdf , page16 used on input line 6.
 (luatex.def)             Requested size: 922.21822pt x 1193.4589pt.
 File: parcial-textuais.pdf Graphic file (type pdf)
-<use parcial-textuais.pdf, page 12>
-Package luatex.def Info: parcial-textuais.pdf , page12 used on input line 6.
+<use parcial-textuais.pdf, page 16>
+Package luatex.def Info: parcial-textuais.pdf , page16 used on input line 6.
 (luatex.def)             Requested size: 922.21822pt x 1193.4589pt.
 File: parcial-textuais.pdf Graphic file (type pdf)
-<use parcial-textuais.pdf, page 12>
-Package luatex.def Info: parcial-textuais.pdf , page12 used on input line 6.
+<use parcial-textuais.pdf, page 16>
+Package luatex.def Info: parcial-textuais.pdf , page16 used on input line 6.
 (luatex.def)             Requested size: 922.21822pt x 1193.4589pt.
  [221<./parcial-textuais.pdf>]
-<parcial-textuais.pdf, id=3544, page=13, 614.295pt x 794.97pt>
+<parcial-textuais.pdf, id=3521, page=17, 614.295pt x 794.97pt>
 File: parcial-textuais.pdf Graphic file (type pdf)
-<use parcial-textuais.pdf, page 13>
-Package luatex.def Info: parcial-textuais.pdf , page13 used on input line 6.
+<use parcial-textuais.pdf, page 17>
+Package luatex.def Info: parcial-textuais.pdf , page17 used on input line 6.
 (luatex.def)             Requested size: 922.21822pt x 1193.4589pt.
 File: parcial-textuais.pdf Graphic file (type pdf)
-<use parcial-textuais.pdf, page 13>
-Package luatex.def Info: parcial-textuais.pdf , page13 used on input line 6.
+<use parcial-textuais.pdf, page 17>
+Package luatex.def Info: parcial-textuais.pdf , page17 used on input line 6.
 (luatex.def)             Requested size: 922.21822pt x 1193.4589pt.
 File: parcial-textuais.pdf Graphic file (type pdf)
-<use parcial-textuais.pdf, page 13>
-Package luatex.def Info: parcial-textuais.pdf , page13 used on input line 6.
+<use parcial-textuais.pdf, page 17>
+Package luatex.def Info: parcial-textuais.pdf , page17 used on input line 6.
 (luatex.def)             Requested size: 922.21822pt x 1193.4589pt.
  [222<./parcial-textuais.pdf>]
-<parcial-textuais.pdf, id=3550, page=14, 614.295pt x 794.97pt>
+<parcial-textuais.pdf, id=3527, page=18, 614.295pt x 794.97pt>
 File: parcial-textuais.pdf Graphic file (type pdf)
-<use parcial-textuais.pdf, page 14>
-Package luatex.def Info: parcial-textuais.pdf , page14 used on input line 6.
+<use parcial-textuais.pdf, page 18>
+Package luatex.def Info: parcial-textuais.pdf , page18 used on input line 6.
 (luatex.def)             Requested size: 922.21822pt x 1193.4589pt.
 File: parcial-textuais.pdf Graphic file (type pdf)
-<use parcial-textuais.pdf, page 14>
-Package luatex.def Info: parcial-textuais.pdf , page14 used on input line 6.
+<use parcial-textuais.pdf, page 18>
+Package luatex.def Info: parcial-textuais.pdf , page18 used on input line 6.
 (luatex.def)             Requested size: 922.21822pt x 1193.4589pt.
 File: parcial-textuais.pdf Graphic file (type pdf)
-<use parcial-textuais.pdf, page 14>
-Package luatex.def Info: parcial-textuais.pdf , page14 used on input line 6.
+<use parcial-textuais.pdf, page 18>
+Package luatex.def Info: parcial-textuais.pdf , page18 used on input line 6.
 (luatex.def)             Requested size: 922.21822pt x 1193.4589pt.
  [223<./parcial-textuais.pdf>]
-<parcial-textuais.pdf, id=3562, page=15, 614.295pt x 794.97pt>
+<parcial-textuais.pdf, id=3533, page=19, 614.295pt x 794.97pt>
 File: parcial-textuais.pdf Graphic file (type pdf)
-<use parcial-textuais.pdf, page 15>
-Package luatex.def Info: parcial-textuais.pdf , page15 used on input line 6.
+<use parcial-textuais.pdf, page 19>
+Package luatex.def Info: parcial-textuais.pdf , page19 used on input line 6.
 (luatex.def)             Requested size: 922.21822pt x 1193.4589pt.
 File: parcial-textuais.pdf Graphic file (type pdf)
-<use parcial-textuais.pdf, page 15>
-Package luatex.def Info: parcial-textuais.pdf , page15 used on input line 6.
+<use parcial-textuais.pdf, page 19>
+Package luatex.def Info: parcial-textuais.pdf , page19 used on input line 6.
 (luatex.def)             Requested size: 922.21822pt x 1193.4589pt.
 File: parcial-textuais.pdf Graphic file (type pdf)
-<use parcial-textuais.pdf, page 15>
-Package luatex.def Info: parcial-textuais.pdf , page15 used on input line 6.
+<use parcial-textuais.pdf, page 19>
+Package luatex.def Info: parcial-textuais.pdf , page19 used on input line 6.
 (luatex.def)             Requested size: 922.21822pt x 1193.4589pt.
  [224<./parcial-textuais.pdf>]
-<parcial-textuais.pdf, id=3568, page=16, 614.295pt x 794.97pt>
-File: parcial-textuais.pdf Graphic file (type pdf)
-<use parcial-textuais.pdf, page 16>
-Package luatex.def Info: parcial-textuais.pdf , page16 used on input line 6.
-(luatex.def)             Requested size: 922.21822pt x 1193.4589pt.
-File: parcial-textuais.pdf Graphic file (type pdf)
-<use parcial-textuais.pdf, page 16>
-Package luatex.def Info: parcial-textuais.pdf , page16 used on input line 6.
-(luatex.def)             Requested size: 922.21822pt x 1193.4589pt.
-File: parcial-textuais.pdf Graphic file (type pdf)
-<use parcial-textuais.pdf, page 16>
-Package luatex.def Info: parcial-textuais.pdf , page16 used on input line 6.
-(luatex.def)             Requested size: 922.21822pt x 1193.4589pt.
- [225<./parcial-textuais.pdf>]
-<parcial-textuais.pdf, id=3574, page=17, 614.295pt x 794.97pt>
-File: parcial-textuais.pdf Graphic file (type pdf)
-<use parcial-textuais.pdf, page 17>
-Package luatex.def Info: parcial-textuais.pdf , page17 used on input line 6.
-(luatex.def)             Requested size: 922.21822pt x 1193.4589pt.
-File: parcial-textuais.pdf Graphic file (type pdf)
-<use parcial-textuais.pdf, page 17>
-Package luatex.def Info: parcial-textuais.pdf , page17 used on input line 6.
-(luatex.def)             Requested size: 922.21822pt x 1193.4589pt.
-File: parcial-textuais.pdf Graphic file (type pdf)
-<use parcial-textuais.pdf, page 17>
-Package luatex.def Info: parcial-textuais.pdf , page17 used on input line 6.
-(luatex.def)             Requested size: 922.21822pt x 1193.4589pt.
- [226<./parcial-textuais.pdf>]
-<parcial-textuais.pdf, id=3580, page=18, 614.295pt x 794.97pt>
-File: parcial-textuais.pdf Graphic file (type pdf)
-<use parcial-textuais.pdf, page 18>
-Package luatex.def Info: parcial-textuais.pdf , page18 used on input line 6.
-(luatex.def)             Requested size: 922.21822pt x 1193.4589pt.
-File: parcial-textuais.pdf Graphic file (type pdf)
-<use parcial-textuais.pdf, page 18>
-Package luatex.def Info: parcial-textuais.pdf , page18 used on input line 6.
-(luatex.def)             Requested size: 922.21822pt x 1193.4589pt.
-File: parcial-textuais.pdf Graphic file (type pdf)
-<use parcial-textuais.pdf, page 18>
-Package luatex.def Info: parcial-textuais.pdf , page18 used on input line 6.
-(luatex.def)             Requested size: 922.21822pt x 1193.4589pt.
- [227<./parcial-textuais.pdf>]
-<parcial-textuais.pdf, id=3586, page=19, 614.295pt x 794.97pt>
-File: parcial-textuais.pdf Graphic file (type pdf)
-<use parcial-textuais.pdf, page 19>
-Package luatex.def Info: parcial-textuais.pdf , page19 used on input line 6.
-(luatex.def)             Requested size: 922.21822pt x 1193.4589pt.
-File: parcial-textuais.pdf Graphic file (type pdf)
-<use parcial-textuais.pdf, page 19>
-Package luatex.def Info: parcial-textuais.pdf , page19 used on input line 6.
-(luatex.def)             Requested size: 922.21822pt x 1193.4589pt.
-File: parcial-textuais.pdf Graphic file (type pdf)
-<use parcial-textuais.pdf, page 19>
-Package luatex.def Info: parcial-textuais.pdf , page19 used on input line 6.
-(luatex.def)             Requested size: 922.21822pt x 1193.4589pt.
- [228<./parcial-textuais.pdf>]
-<parcial-textuais.pdf, id=3592, page=20, 614.295pt x 794.97pt>
+<parcial-textuais.pdf, id=3539, page=20, 614.295pt x 794.97pt>
 File: parcial-textuais.pdf Graphic file (type pdf)
 <use parcial-textuais.pdf, page 20>
 Package luatex.def Info: parcial-textuais.pdf , page20 used on input line 6.
@@ -3005,7 +2968,7 @@ File: parcial-textuais.pdf Graphic file (type pdf)
 <use parcial-textuais.pdf, page 20>
 Package luatex.def Info: parcial-textuais.pdf , page20 used on input line 6.
 (luatex.def)             Requested size: 922.21822pt x 1193.4589pt.
- [229<./parcial-textuais.pdf>]) (./tese.ind) 
+ [225<./parcial-textuais.pdf>]) (./tese.ind) 
 AED: lastpage setting LastPage
 \tf@lof=\write7
 
@@ -3013,14 +2976,14 @@ AED: lastpage setting LastPage
 \tf@toc=\write8
 
 \openout8 = tese.toc
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 727.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 727.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 728.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 728.
 (./tese.aux (./abntex2-modelo-include-comandos.aux) (./ape-tabelagatorra.aux)
 (./ape-entrevistas.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 727.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 727.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 728.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 728.
 Package rerunfilecheck Info: File `tese.brf' has not changed.
-(rerunfilecheck)             Checksum: AAA5B51987C08F0823C93757651837B0;13694.
+(rerunfilecheck)             Checksum: 627F1468361F3AF4A968BE113763E2A2;13170.
 
 
 LaTeX Warning: There were undefined references.
@@ -3028,39 +2991,40 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 727.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 728.
 )
 (\end occurred inside a group at level 1)
 
-### simple group (level 1) entered at line 112 ({)
+### simple group (level 1) entered at line 115 ({)
 ### bottom level
 
 Here is how much of LuaTeX's memory you used:
- 31713 strings out of 494413
- 2274304,953878 words of node,token memory allocated
- 2024975 words of node memory still in use:
-   3 hlist, 1 vlist, 1 rule, 361 glue, 1 penalty, 280258 glyph, 25260 attribute,
- 198 glue_spec, 4210 attribute_list, 5 write, 1 pdf_dest, 96 pdf_action nodes
-   avail lists: 1:2,2:1411,3:398,4:153,5:168,6:45,7:1936,8:255,9:291,10:31,11:55
-4
- 32208 multiletter control sequences out of 65536+600000
- 170 fonts using 10877799 bytes
- 68i,18n,95p,2276b,1061s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 31690 strings out of 494413
+ 2274312,953878 words of node,token memory allocated
+ 1996668 words of node memory still in use:
+   3 hlist, 1 vlist, 1 rule, 352 glue, 1 penalty, 276344 glyph, 24918 attribute,
+ 198 glue_spec, 4153 attribute_list, 5 write, 1 pdf_dest, 88 pdf_action nodes
+   avail lists: 1:1,2:1411,3:398,4:149,5:170,6:45,7:1936,8:255,9:291,10:31,11:50
+3
+ 32186 multiletter control sequences out of 65536+600000
+ 171 fonts using 10960775 bytes
+ 68i,18n,95p,2161b,1045s stack positions out of 5000i,500n,10000p,200000b,100000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/tex
 live/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2018/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-di
 st/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/2018/texmf-dist/fonts/ty
 pe1/public/lm/lmss12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/
 lm/lmss17.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmssbx10
-.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmsso12.pfb></usr
-/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmtt12.pfb></usr/local/texl
-ive/2018/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2018
-/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2018/texmf-d
-ist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on tese.pdf (231 pages, 76463466 bytes).
+.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmsso10.pfb></usr
+/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmsso12.pfb></usr/local/tex
+live/2018/texmf-dist/fonts/type1/public/lm/lmtt12.pfb></usr/local/texlive/2018/t
+exmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2018/texmf-dis
+t/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/
+type1/urw/palatino/uplri8a.pfb>
+Output written on tese.pdf (227 pages, 76478145 bytes).
 
-PDF statistics: 3932 PDF objects out of 4296 (max. 8388607)
- 3439 compressed objects within 35 object streams
- 877 named destinations out of 1000 (max. 131072)
- 712 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 3882 PDF objects out of 4296 (max. 8388607)
+ 3393 compressed objects within 34 object streams
+ 862 named destinations out of 1000 (max. 131072)
+ 720 words of extra memory for PDF output out of 10000 (max. 100000000)
 
