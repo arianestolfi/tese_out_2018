@@ -43,7 +43,7 @@ Dispon{\'\i}vel em: \url{https://hal.inria.fr/hal-01158080/}.}
 \abntrefinfo{Barbrook}{BARBROOK}{2009}
 {BARBROOK, R. \emph{{Futuros imagin{\'{a}}rios: das m{\'{a}}quinas pensantes
   {\`{a}} aldeia global}}. [s.n.], 2009. 447~p. Dispon{\'\i}vel em:
-  \url{http://futurosimaginarios.midiatatica.info/futuros{\\_}imaginarios.}}
+  \url{http://futurosimaginarios.midiatatica.info/futuros\_imaginarios.pdf}.}
 
 \bibitem[Barry, Born e Weszkalnys 2008]{Barry2008}
 \abntrefinfo{Barry, Born e Weszkalnys}{BARRY; BORN; WESZKALNYS}{2008}
@@ -54,10 +54,10 @@ Dispon{\'\i}vel em: \url{https://hal.inria.fr/hal-01158080/}.}
 \abntrefinfo{Barthes}{BARTHES}{1978}
 {BARTHES, R. \emph{{Image-Music-Text}}. New York: Hill and Wang, 1978. 220~p.}
 
-\bibitem[Barthet e Xamb{\'{o}} 2018]{Barthet2018}
-\abntrefinfo{Barthet e Xamb{\'{o}}}{BARTHET; XAMB{\'{O}}}{2018}
-{BARTHET, M.; XAMB{\'{O}}, A. \emph{{Deliverable D6.4 - Evaluation report on
-  the prototype of an embeddable tool for integrating Audio Commons music
+\bibitem[Barthet e Xambó 2018]{Barthet2018}
+\abntrefinfo{Barthet e Xambó}{BARTHET; XAMBó}{2018}
+{BARTHET, M.; XAMBó, A. \emph{{Deliverable D6.4 - Evaluation report on the
+  prototype of an embeddable tool for integrating Audio Commons music
   samples}}.
 London, 2018.}
 
@@ -110,12 +110,9 @@ Dispon{\'\i}vel em:
 International Society for Music Information Retrieval (ISMIR), 2013.
 Dispon{\'\i}vel em: \url{https://repositori.upf.edu/handle/10230/32252}.}
 
-\bibitem[{Borges, Fabiane Moraes} e {Etlin, Marc}
-  2010]{FabianeMoraesBorges2010}
-\abntrefinfo{{Borges, Fabiane Moraes} e {Etlin, Marc}}{{Borges, Fabiane
-  Moraes}; {Etlin, Marc}}{2010}
-{{Borges, Fabiane Moraes}; {Etlin, Marc}. {Imers{\~{o}}es, reciclagens e
-  singularidades}.
+\bibitem[Borges e Etlin 2010]{FabianeMoraesBorges2010}
+\abntrefinfo{Borges e Etlin}{BORGES; ETLIN}{2010}
+{BORGES, F.~M.; ETLIN, M. {Imers{\~{o}}es, reciclagens e singularidades}.
 \emph{BIS. Boletim do Instituto de Saúde (Impresso)}, Instituto de Saúde,
   v.~12, n.~1, p. 94--98, 2010.
 Dispon{\'\i}vel em:
@@ -174,10 +171,9 @@ Dispon{\'\i}vel em:
   brasileira edition. [S.l.]: Atelie, 2014.
 ISBN 978-85-7480-678-5.}
 
-\bibitem[Campos e Vieira 2004]{Campos2004}
-\abntrefinfo{Campos e Vieira}{CAMPOS; VIEIRA}{2004}
-{CAMPOS, H. de.; VIEIRA, T. \emph{{Galáxias}}. S{\~{a}}o Paulo: Editora 34,
-  2004. 127~p.}
+\bibitem[Campos 2004]{Campos2004}
+\abntrefinfo{Campos}{CAMPOS}{2004}
+{CAMPOS, H. de. \emph{{Galáxias}}. S{\~{a}}o Paulo: Editora 34, 2004. 127~p.}
 
 \bibitem[Canonne e Garnier 2011]{canonne2011model}
 \abntrefinfo{Canonne e Garnier}{CANONNE; GARNIER}{2011}
@@ -263,6 +259,11 @@ ISSN 22204806.
 Dispon{\'\i}vel em:
   \url{http://www.nime2011.org/proceedings/papers/G16-Dahl.pdf}.}
 
+\bibitem[Davies 2017]{JasonDavies}
+\abntrefinfo{Davies}{DAVIES}{2017}
+{DAVIES, J. \emph{{Word Cloud Generator}}. 2017.
+Dispon{\'\i}vel em: \url{https://www.jasondavies.com/wordcloud/}.}
+
 \bibitem[Delacroix 2009]{Delacroix2009}
 \abntrefinfo{Delacroix}{DELACROIX}{2009}
 {DELACROIX, E. {Arte e inclusi{\'{o}}n “metadigital”: ¿desvelando arte
@@ -281,15 +282,15 @@ Dispon{\'\i}vel em:
 \emph{Proc. NIME}, IRCAM — Centre Pompidou, p. 277--282, 2006.
 Dispon{\'\i}vel em: \url{https://dl.acm.org/citation.cfm?id=1142283}.}
 
+\bibitem[Eco 1970]{Eco1970}
+\abntrefinfo{Eco}{ECO}{1970}
+{ECO, U. \emph{{Apocalípticos e integrados}}. S{\~{a}}o Paulo: Perspectiva,
+  1970. 386~p.}
+
 \bibitem[Eco 1991]{Eco1991}
 \abntrefinfo{Eco}{ECO}{1991}
 {ECO, U. {Obra Aberta}.
 Perspectiva, p.~291, 1991.}
-
-\bibitem[Eco e Carvalho 1970]{Eco1970}
-\abntrefinfo{Eco e Carvalho}{ECO; CARVALHO}{1970}
-{ECO, U.; CARVALHO, P. de. \emph{{Apocalípticos e integrados}}. S{\~{a}}o
-  Paulo: Perspectiva, 1970. 386~p.}
 
 \bibitem[eigenfeldt 2010]{Arneeigenfeldt2010}
 \abntrefinfo{eigenfeldt}{EIGENFELDT}{2010}
@@ -318,10 +319,13 @@ ISBN 978-3-319-12976-1. Dispon{\'\i}vel em:
 \emph{Proc. WAC}, WAC, 2016.
 Dispon{\'\i}vel em: \url{https://smartech.gatech.edu/handle/1853/54627}.}
 
-\bibitem[{Ferro, Sergio} 2002]{FerroSergio2002}
-\abntrefinfo{{Ferro, Sergio}}{{Ferro, Sergio}}{2002}
-{{Ferro, Sergio}. \emph{conversa com s{\'{e}}rgio ferro}. [S.l.]: Gfau, 2002.
-  38~p.}
+\bibitem[{Female Laptop Orchestra} 2016]{noauthor_transglasphone_nodate}
+\abntrefinfo{{Female Laptop Orchestra}}{{Female Laptop Orchestra}}{2016}
+{{Female Laptop Orchestra}. \emph{In {Transglasph{\=o}n{\=e}}}. 2016.}
+
+\bibitem[Ferro 2002]{FerroSergio2002}
+\abntrefinfo{Ferro}{FERRO}{2002}
+{FERRO, S. \emph{conversa com s{\'{e}}rgio ferro}. [S.l.]: Gfau, 2002. 38~p.}
 
 \bibitem[Fiebrink, Wang e Cook 2007]{Fiebrink2007}
 \abntrefinfo{Fiebrink, Wang e Cook}{FIEBRINK; WANG; COOK}{2007}
@@ -439,9 +443,10 @@ Dispon{\'\i}vel em:
 \emph{Revista Opus}, v.~4, p. 1--20, 1997.
 ISSN 15177017.}
 
-\bibitem[Jadhav et al.]{Jadhav}
-\abntrefinfo{Jadhav et al.}{JADHAV et al.}{}
+\bibitem[Jadhav et al. 2017]{Jadhav}
+\abntrefinfo{Jadhav et al.}{JADHAV et al.}{2017}
 {JADHAV, M.~A. et al. {Single Page Application using AngularJS}.
+2017.
 Dispon{\'\i}vel em:
   \url{http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.736.4771{\&}rep=rep1{\&}ty}.}
 
@@ -451,11 +456,6 @@ Dispon{\'\i}vel em:
 1960.
 Dispon{\'\i}vel em:
   \url{http://pubman.mpdl.mpg.de/pubman/item/escidoc:2350615/component/escidoc:2350614/Jakobson{\\_}1960{\\_}Linguistics{\\_}po}.}
-
-\bibitem[{Jason Davies}]{JasonDavies}
-\abntrefinfo{{Jason Davies}}{{Jason Davies}}{}
-{{Jason Davies}. \emph{{Word Cloud Generator}}.
-Dispon{\'\i}vel em: \url{https://www.jasondavies.com/wordcloud/}.}
 
 \bibitem[Jillings e Stables 2017]{Jillings2017}
 \abntrefinfo{Jillings e Stables}{JILLINGS; STABLES}{2017}
@@ -480,6 +480,11 @@ ISBN 9788561020095. Dispon{\'\i}vel em:
 {KELLER, D. {Challenges for a second decade of ubimus research : Knowledge
   transfer in ubimus activities}.
 \emph{Revista M{\'{u}}sica Hodie}, v.~13, n.~1, p. 147--165, 2018.}
+
+\bibitem[Keller, Lazzarini e Pimenta 2011]{Keller}
+\abntrefinfo{Keller, Lazzarini e Pimenta}{KELLER; LAZZARINI; PIMENTA}{2011}
+{KELLER, D.; LAZZARINI, V.; PIMENTA, M.~S. \emph{{Ubiquitous music}}. [S.l.]:
+  Springer, 2011. 153~p.}
 
 \bibitem[{Knuth, Donald E.} 1982]{knuth-meta-font_1982}
 \abntrefinfo{{Knuth, Donald E.}}{{Knuth, Donald E.}}{1982}
@@ -654,10 +659,6 @@ Dispon{\'\i}vel em: \url{http://www.jstor.org/stable/1208563?origin=crossref}.}
 {ORAM, D. \emph{{An individual note: of music, sound and electronics}}. [S.l.]:
   Galliard, 1972. 176~p.}
 
-\bibitem[Orchestra]{noauthor_transglasphone_nodate}
-\abntrefinfo{Orchestra}{ORCHESTRA}{}
-{ORCHESTRA, F.~L. \emph{In {Transglasph{\=o}n{\=e}}}.}
-
 \bibitem[Ordiales e Bruno 2017]{Ordiales2017}
 \abntrefinfo{Ordiales e Bruno}{ORDIALES; BRUNO}{2017}
 {ORDIALES, H.; BRUNO, M.~L. {Sound recycling from public databases}. In:
@@ -669,9 +670,9 @@ Dispon{\'\i}vel em: \url{http://www.jstor.org/stable/1208563?origin=crossref}.}
 \emph{{Pierre Schaeffer's Typo-Morphology of Sonic Objects}}.
 Tese (Doutorado) --- Durham University, 1993.}
 
-\bibitem[{Paradiso, Joseph} 1998]{JosephParadiso1998}
-\abntrefinfo{{Paradiso, Joseph}}{{Paradiso, Joseph}}{1998}
-{{Paradiso, Joseph}. \emph{{Electronic Music Interfaces}}. 1998.
+\bibitem[Paradiso 1998]{JosephParadiso1998}
+\abntrefinfo{Paradiso}{PARADISO}{1998}
+{PARADISO, J. \emph{{Electronic Music Interfaces}}. 1998.
 Dispon{\'\i}vel em:
   \url{https://web.archive.org/web/20150302082747/http://web.media.mit.edu/{~}joep/SpectrumWeb/SpectrumX.ht}.}
 
@@ -689,10 +690,10 @@ Dispon{\'\i}vel em:
 \emph{Manager}, 2005.
 Dispon{\'\i}vel em: \url{http://www.eugeniovega.es/written/electronico.pdf}.}
 
-\bibitem[{Plaza, Julio } 1969]{JulioPlaza1969}
-\abntrefinfo{{Plaza, Julio }}{{Plaza, Julio }}{1969}
-{{Plaza, Julio }. \emph{{Tradu{\c{c}}{\~{a}}o Intersemi{\'{o}}tica}}. S{\~{a}}o
-  Paulo: Perspectiva, 1969.}
+\bibitem[Plaza 1969]{JulioPlaza1969}
+\abntrefinfo{Plaza}{PLAZA}{1969}
+{PLAZA, J. \emph{{Tradu{\c{c}}{\~{a}}o Intersemi{\'{o}}tica}}. S{\~{a}}o Paulo:
+  Perspectiva, 1969.}
 
 \bibitem[PMSP 2008]{PMSP2008}
 \abntrefinfo{PMSP}{PMSP}{2008}
@@ -771,9 +772,9 @@ ISBN 978-3-7212-0043-0.}
 \emph{Revista Acrobata}, v.~5, n. ARTE É, 2016.
 Dispon{\'\i}vel em: \url{https://issuu.com/revistaacrobata/docs/acrobata\\_5}.}
 
-\bibitem[Schaeffer e REIBEL 2007]{Schaeffer2007}
-\abntrefinfo{Schaeffer e REIBEL}{SCHAEFFER; REIBEL}{2007}
-{SCHAEFFER, P.; REIBEL, G. {Solfejo do objecto sonoro}.
+\bibitem[Schaeffer 2007]{Schaeffer2007}
+\abntrefinfo{Schaeffer}{SCHAEFFER}{2007}
+{SCHAEFFER, P. {Solfejo do objecto sonoro}.
 \emph{Tradu{\c{c}}{\~{a}}o de Ant{\'{o}}nio de Sousa Dias. Paris:}, 2007.
 Dispon{\'\i}vel em:
   \url{http://www.dmu.uem.br/aulas/tecnologia/SolObjSon/PDFs/Schaeffer{\\_}SolfejoObjeto{\\_}po}.}
@@ -826,8 +827,14 @@ ISBN 0486298973.}
 {STOLFI, A. et al. Open band: A platform for collective sound dialogues. In:
   \emph{Proc. Audio Mostly}. [S.l.]: ACM, 2017.}
 
-\bibitem[Stolfi et al. 2017]{Stolfi2017w}
+\bibitem[Stolfi et al. 2017]{Stolfi2017b}
 \abntrefinfo{Stolfi et al.}{STOLFI et al.}{2017b}
+{STOLFI, A. et al. {Open band: Audience Creative Participation Using Web Audio
+  Synthesis}. In:  \emph{Proc. of WAC}. [s.n.], 2017. Dispon{\'\i}vel em:
+  \url{http://eecs.qmul.ac.uk/{~}keno/11.p}.}
+
+\bibitem[Stolfi et al. 2017]{Stolfi2017w}
+\abntrefinfo{Stolfi et al.}{STOLFI et al.}{2017c}
 {STOLFI, A. et al. {Open band: Audience Creative Participation Using Web Audio
   Synthesis}. In:  \emph{Web Audio Conference}. [s.n.], 2017. Dispon{\'\i}vel
   em: \url{http://eecs.qmul.ac.uk/{~}keno/11.p}.}
@@ -837,6 +844,17 @@ ISBN 0486298973.}
 {STOLFI, A. et al. {Playsound.space: Inclusive Free Music Improvisations Using
   Audio Commons}. In:  \emph{Proc. Int. Conf. on New Interfaces for Musical
   Expression}. [S.l.: s.n.], 2018.}
+
+\bibitem[Stolfi et al.]{Stolfi2018w}
+\abntrefinfo{Stolfi et al.}{STOLFI et al.}{}
+{STOLFI, A. et al. {Participatory musical improvisations with Playsound.space}.
+Dispon{\'\i}vel em: \url{https://youtu.be/yv8T70rawzs.}}
+
+\bibitem[Stolfi et al. 2018]{Stolfi2018}
+\abntrefinfo{Stolfi et al.}{STOLFI et al.}{2018}
+{STOLFI, A. et al. {Audio Semantics : Online Chat Communication in Open Band
+  Participatory Music Performances}.
+\emph{J. Audio Eng. Soc. (in press)}, n.~1, 2018.}
 
 \bibitem[Stolfi 2016]{Stolfi2016}
 \abntrefinfo{Stolfi}{STOLFI}{2016}
@@ -864,11 +882,11 @@ ISSN 10715819.
 Dispon{\'\i}vel em:
   \url{http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.160.3899{\&}rep=rep1{\&}ty}.}
 
-\bibitem[Tenney e Polansky 1988]{Tenney1988}
-\abntrefinfo{Tenney e Polansky}{TENNEY; POLANSKY}{1988}
-{TENNEY, J.; POLANSKY, L. \emph{{Meta+Hodos : a phenomenology of 20th-century
-  musical materials and an approach to the study of form ; and, META
-  Meta+Hodos}}. [S.l.]: Frog Peak Music, 1988. 116~p.}
+\bibitem[Tenney 1988]{Tenney1988}
+\abntrefinfo{Tenney}{TENNEY}{1988}
+{TENNEY, J. \emph{{Meta+Hodos : a phenomenology of 20th-century musical
+  materials and an approach to the study of form ; and, META Meta+Hodos}}.
+  [S.l.]: Frog Peak Music, 1988. 116~p.}
 
 \bibitem[Tkatschuk e Freitas 2011]{Tkatschuk2011}
 \abntrefinfo{Tkatschuk e Freitas}{TKATSCHUK; FREITAS}{2011}
@@ -908,10 +926,10 @@ Tese (Doutorado), 2004.}
   visual art}}. [S.l.]: Byte Books, 1980. 235~p.
 ISBN 007070015X.}
 
-\bibitem[{Williams, Hayley} 2015]{HayleyWilliams2015}
-\abntrefinfo{{Williams, Hayley}}{{Williams, Hayley}}{2015}
-{{Williams, Hayley}. \emph{{Invisible Women: The Six Human Computers Behind The
-  ENIAC | Lifehacker Australia}}. 2015.
+\bibitem[Williams 2015]{HayleyWilliams2015}
+\abntrefinfo{Williams}{WILLIAMS}{2015}
+{WILLIAMS, H. \emph{{Invisible Women: The Six Human Computers Behind The ENIAC
+  | Lifehacker Australia}}. 2015.
 Dispon{\'\i}vel em:
   \url{https://www.lifehacker.com.au/2015/11/invisible-women-the-six-human-computers-behind-the-eniac/}.}
 
@@ -941,10 +959,10 @@ Dispon{\'\i}vel em:
 p.~3--5, 2017.
 Dispon{\'\i}vel em: \url{http://eecs.qmul.ac.uk/{~}keno/70.p}.}
 
-\bibitem[Xenakis e Kanach 1971]{Xenakis1971}
-\abntrefinfo{Xenakis e Kanach}{XENAKIS; KANACH}{1971}
-{XENAKIS, I.; KANACH, S. \emph{{Formalized music: thought and mathematics in
-  composition}}. Bloomington: Indiana University Press, 1971. 387~p.
+\bibitem[Xenakis 1971]{Xenakis1971}
+\abntrefinfo{Xenakis}{XENAKIS}{1971}
+{XENAKIS, I. \emph{{Formalized music: thought and mathematics in composition}}.
+  Bloomington: Indiana University Press, 1971. 387~p.
 ISBN 9781576470794. Dispon{\'\i}vel em:
   \url{http://www.pendragonpress.com/book.php?id=558}.}
 

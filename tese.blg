@@ -1,12 +1,8 @@
 This is BibTeX, Version 0.99d (TeX Live 2018)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: tese.aux
-Case mismatch error between cite keys barbrook2009 and Barbrook2009
----line 884 of file tese.aux
- : \citation{barbrook2009
- :                       }
-I'm skipping whatever remains of this command
 A level-1 auxiliary file: abntex2-modelo-include-comandos.aux
+A level-1 auxiliary file: ape-complementos.aux
 A level-1 auxiliary file: ape-tabelagatorra.aux
 A level-1 auxiliary file: ape-entrevistas.aux
 The style file: abntex2-alf.bst
@@ -19,34 +15,38 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-Reallocated field_info (elt_size=4) to 15557 items from 5000.
+Reallocated field_info (elt_size=4) to 15833 items from 5000.
 Database file #1: abntex2-options.bib
 Database file #2: biblioz.bib
 Repeated entry---line 501 of file biblioz.bib
  : @book{Barbrook2009
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1224 of file biblioz.bib
+Repeated entry---line 1219 of file biblioz.bib
  : @inproceedings{Font2016
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1243 of file biblioz.bib
+Repeated entry---line 1238 of file biblioz.bib
  : @article{Font2013
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1578 of file biblioz.bib
+Repeated entry---line 1575 of file biblioz.bib
  : @article{Keller2018
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2227 of file biblioz.bib
+Repeated entry---line 2224 of file biblioz.bib
  : @article{PucketteMiller
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2532 of file biblioz.bib
+Repeated entry---line 2548 of file biblioz.bib
  : @inproceedings{Stolfi2017
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2565 of file biblioz.bib
+Repeated entry---line 2572 of file biblioz.bib
+ : @article{Stolfi2018
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2581 of file biblioz.bib
  : @article{Stowell
  :                 ,
 I'm skipping whatever remains of this entry
@@ -55,53 +55,51 @@ Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 Warning--campo year vazio ou faltando em Freeman
-Warning--campo year vazio ou faltando em JasonDavies
-Warning--campo year vazio ou faltando em noauthor_transglasphone_nodate
 Warning--faltando school em Twyman2004
 +---------------------------------------------------------+
 | Estilo bibliográfico abntex2-alf.bst versão v-1.9.6           |
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 153 entries,
+You've used 157 entries,
             6714 wiz_defined-function locations,
-            2177 strings with 35493 characters,
-and the built_in function-call counts, 184027 in all, are:
-= -- 19740
-> -- 3798
-< -- 4032
-+ -- 5284
-- -- 1174
-* -- 11713
-:= -- 23217
-add.period$ -- 604
-call.type$ -- 153
-change.case$ -- 1375
-chr.to.int$ -- 281
-cite$ -- 156
-duplicate$ -- 17106
-empty$ -- 8902
-format.name$ -- 5571
-if$ -- 37897
-int.to.chr$ -- 1
+            2195 strings with 35945 characters,
+and the built_in function-call counts, 187932 in all, are:
+= -- 20096
+> -- 3887
+< -- 4099
++ -- 5383
+- -- 1200
+* -- 11976
+:= -- 23753
+add.period$ -- 622
+call.type$ -- 157
+change.case$ -- 1411
+chr.to.int$ -- 284
+cite$ -- 158
+duplicate$ -- 17432
+empty$ -- 9139
+format.name$ -- 5704
+if$ -- 38719
+int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 2671
-newline$ -- 769
-num.names$ -- 761
-pop$ -- 3421
+missing$ -- 2740
+newline$ -- 788
+num.names$ -- 781
+pop$ -- 3505
 preamble$ -- 1
-purify$ -- 554
+purify$ -- 569
 quote$ -- 0
-skip$ -- 17328
+skip$ -- 17646
 stack$ -- 1
-substring$ -- 7516
-swap$ -- 6299
-text.length$ -- 183
+substring$ -- 7675
+swap$ -- 6410
+text.length$ -- 186
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 30
-warning$ -- 4
-while$ -- 1094
+type$ -- 31
+warning$ -- 2
+while$ -- 1122
 width$ -- 0
-write$ -- 2391
+write$ -- 2453
 (There were 8 error messages)

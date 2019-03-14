@@ -98,6 +98,9 @@
 % CONFIGURAÇÕES DE PACOTES
 % --- 
 
+\finalhyphendemerits=5000
+
+
 % ---
 % Configurações do pacote backref
 % Usado sem a opção hyperpageref de backref
@@ -133,7 +136,7 @@
 \tipotrabalho{Tese (Doutorado)}
 % O preambulo deve conter o tipo do trabalho, o objetivo, 
 % o nome da instituição e a área de concentração 
-\preambulo{Tese apresentada à Escola de Comunicação e Artes para obtenção do título de Doutora em Música. Área de concentração: Processos de Criação Musical.}
+\preambulo{Tese apresentada à Escola de Comunicação e Artes da Universidade de São Paulo para obtenção do título de Doutora em Música. Área de concentração: Processos de Criação Musical.}
 %Linha de pesquisa: Sonologia
 % ---
 
@@ -154,10 +157,10 @@
 	    pdfcreator={LaTeX with abnTeX2},
 		pdfkeywords={abnt}{latex}{abntex}{abntex2}{trabalho acadêmico}, 
 		colorlinks=true,       		% false: boxed links; true: colored links
-    	linkcolor=blue,          	% color of internal links
-    	citecolor=blue,        		% color of links to bibliography
+    	linkcolor=black,          	% color of internal links
+    	citecolor=black,        		% color of links to bibliography
     	filecolor=magenta,      		% color of file links
-		urlcolor=blue,
+		urlcolor=black,
 		bookmarksdepth=4
 }
 \makeatother
@@ -315,7 +318,7 @@
     \vspace*{\fill}
    \end{center}
         
-   Trabalho aprovado. \imprimirlocal,    de           de 2018:
+   Trabalho aprovado. São Paulo,    de           de 2019:
 %
    \assinatura{\textbf{\imprimirorientador} \\ Orientador} 
    \assinatura{\textbf{Professor} \\ Convidado 1}
@@ -353,11 +356,20 @@
 % ---
 \begin{agradecimentos}
 %
-À minha família, pelo apoio e suporte especialmente meu pai Guido Stolfi e meu filho Tales Stolfi Barboza, e também às minhas famílias provisórias que também me apoiaram nos lugares onde estive: Francesca Caravella, Miguel Ceriani, Eleonora Oreggia, Marcio JUnqueira, Erick Vinicius.
+À minha família, pelo apoio e suporte especialmente meu pai Guido e meu filho Tales, minha mãe dona Celina e minha irmã Adriana, e agradeço também às minhas famílias provisórias e escolhidas que também me acolheram nos lugares onde estive: Francesca Caravella, Miguel Ceriani, Eleonora Oreggia, Márcio Junqueira, Erick Vinicius.
 
-Aos colegas que colaboraram em alguma medida no desenvolvimento dos experimentos aqui apresentados, em especial Alessia Millo e Fábio Goródscy.
+Aos colegas que colaboraram em alguma medida no desenvolvimento dos experimentos aqui apresentados, em especial Alessia Millo, Fábio Goródscy e Janis Sokolovskis, sem os quais parte desse trabalho não teria ocorrido.
 
+Frederic Font, pelo Freesound.org e pelo apoio dado a esse projeto. Gyorgy Fazekas, e toda a equipe do projeto Audio Commons que me receberam na Queen Mary, em especial Mathieu Barthet, que supervisionou meu estágio lá e colaborou diretamente com várias das produções resultantes deste trabalho. 
 
+A todos membros da Orquestra Errante, em especial ao professor Rogério Costa por semear a prática da improvisação livre. Ao coletivo Sonora.me pela inspiração para lutar por um mundo menos desigual para as mulheres na música. 
+
+Ao meu orientador Fernando Iazzetta pela confiança depositada. Aos pesquisadores do NuSom pela inspiração e discussões, e a todos pesquisadores e artistas cujos trabalhos inspiraram ou colaboraram em certa medida com esse trabalho. Aos colegas da rede de Tecnoxamanismo em especial Fabiane Borges e Carsten Agger, mas também todos amigos Pataxós.
+
+Juliana Gontijo, Luciana D'Avila, Aline Nunes, Alemar Rena, Leonardo Souza, Raquel Siqueira e todos os colegas professores e estudantes da Universidade Federal do Sul da Bahia pela acolhida nesse Porto Seguro. 
+
+A todos que eu amei e odiei nesse processo. 
+Awery Tupã.
 
 
 % À toda a minha família, agradeço pelo apoio e instigação constante, às Júlias e ao pequeno Miguel, agradeço pela paciência e pelo amor em todos os momentos;
@@ -395,16 +407,52 @@ Aos colegas que colaboraram em alguma medida no desenvolvimento dos experimentos
 \setlength{\absparsep}{18pt} % ajusta o espaçamento dos parágrafos do resumo
 \begin{resumo}
 
+Este trabalho apresenta os resultados de uma pesquisa prática de investigação das potencialidades de aplicação de tecnologias web --- como HTML, JavaScript e CSS --- para o desenvolvimento de novas interfaces para produção de música experimental. Partindo do fato de que essas tecnologias permitiriam o desenvolvimento de aplicativos \emph{online} acessíveis pela maioria dos computadores e dispositivos móveis, pela internet, sem a necessidade de instalação de software adicional. Desenvolvemos aqui algumas ferramentas que pudessem servir de suporte para nossa própria prática artística e profissional, principalmente no campo da improvisação livre, e que não dependessem também de um domínio de técnicas de gesto musical. 
+Parto aqui de uma breve introdução onde apresento a problemática deste trabalho. Em seguida, apresento uma síntese do meu percurso de pesquisa do campo do design para a música. No segundo capítulo apresento algumas referências importantes para essa pesquisa no campo das interfaces para produção musical e no terceiro capítulo os resultados obtidos durante a pesquisa prática, especialmente os projetos ``Banda Aberta'' e ``Playsound.space''.
+Banda Aberta, uma plataforma para diálogos coletivos,  é um projeto de performance participativa, onde o público pode usar o celular como forma de interação para criar música, através de uma plataforma \emph{online} de \emph{chat} que transforma mensagens de texto em informação sonora. A ideia era a de criar uma web ágora, onde os participantes têm liberdade de fala ao mesmo tempo que participam de uma prática de experimentação musical. Para tanto, utilizamos procedimentos de tradução intersemiótica para mapear as letras em sons.  Apresentamos o projeto em uma série de eventos no Brasil e no exterior. Posteriormente,  analisamos as mensagens enviadas pelos participantes para avaliar o uso da ferramenta durante algumas das sessões realizadas. 
+
+Playsound.space, é uma plataforma online para prática de improvisação musical livre baseada no acervo de sons em Creative Commons Freesound.org. Funciona como um tocador de música concreta, que permite busca, loop e processamento de objetos sonoros em tempo real a partir do navegador, através de buscas semânticas textuais assessoradas por espectrogramas. Avaliamos o seu uso como ferramenta através de testes com usuários e em aplicações práticas em performances e eventos, em apresentações solo ou em grupo e contextos pedagógicos.
+
+Os processos de análise envolveram métodos quantitativos e qualitativos, que incluíram análises temáticas, estatísticas e aplicações práticas. Por fim, apresentamos algumas conclusões que tiramos deste processo e possíveis desdobramentos para pesquisas futuras nesse campo.
+
+
+%que envolveram testes com usuários, análises de dados, análises temáticas, aplicações práticas em performances solo, em grupo ou com participação da audiência em uma série de eventos. Os projetos desenvolvidos apresentam também possíveis desdobramentos futuros, ao sugerir novas direções de pesquisa nesse campo.
+
+
+
+
+%O presente artigo apresenta alguns dos resultados obtidos de uma pesquisa de pesquisa prática em desenvolvimento de interfaces para prática musical baseados em tecnologias web. Mais especificamente, apresentaremos aqui os projetos “Banda Aberta” e “Playsound.space”, desenvolvidos pela autora durante sua pesquisa de doutorado em Sonologia, que procurava testar os potenciais das tecnologias web a criação de interfaces experimentais e acessíveis para produção musical.
+
+
+
+
 
 %Este trabalho faz um levantamento da produção brasileira de luteria experimental, com ênfase na produção realizada ao longo das últimas duas décadas. Inicialmente é delineado um panorama de referências relacionadas com este tido de produção na literatura europeia e estadunidense, assim como discutida a atuação de alguns artistas e criadores fundamentais para o estabelecimento de práticas de luteria experimental no século XX. No segundo capítulo faço um levantamento de referências sobre este tipo de produção no Brasil, assim como relaciono artistas em atividade no país nos últimos 20 anos, detalhando na maior parte dos casos algumas de suas obras. Partindo deste panorama, realizo um estudo mais aprofundado sobre o instrumento conhecido por gatorra, fabricado por Tony da Gatorra, artesão, técnico em eletrônica e músico gaúcho que criou seu instrumento nos anos 1990 a partir de materiais de sucata, componentes eletrônicos reaproveitados e da combinação de projetos de circuitos eletrônicos geradores de som. Por fim, relaciono a produção estudada com referenciais que lidam com a noção de cultura material, alguns dos quais já realizam uma aproximação com a atividade musical e artística.
 
 
- \textbf{Palavras-chave}: Música experimental. Luteria digital, Música Interativa. \textit{WebAudio}. Música Ubíqua. 
+ \textbf{Palavras-chave}: Música Experimental. Música Ubíqua, Música Interativa. \textit{WebAudio}. Interfaces para Produção Musical. 
 \end{resumo}
 
 % resumo em inglês
 \begin{resumo}[Abstract]
 \begin{otherlanguage*}{english}
+
+This work brings the results of a practice based research investigating the potentials of applying web technologies --- such as HTML, JavaScript and CSS --- on developing of new interfaces for experimental music production, starting from the fact that these technologies would allow the development of online applications accessible by most of personal computers and mobile devices without the necessity of any extra software installation. We sought to develop tools that would give support for our own artistic practice and wouldn't depend also on the mastery of musical gesture techniques.
+
+Starting from a brief introduction where I present the problematic of this work, I then present a synthesis of my research course from the design to the music field. In the second chapter, some important references on the research field of interfaces for musical production are presented and in the third the results obtained during the practical research, especially the projects ``Open Band'' and ``Playsound.space''.
+
+``Open Band'', a platform for collective sound dialogues, is a participatory performance project, where the public can use the cellphone as a form of interaction to create music, trough an online chat platform that transforms text messages into sound information. The idea was to create a ``web agora'', where the participants had freedom of speech while joining a practice of musical experiment. For that, we used procedures of intersemiotic translation to map letters into sound. We presented the project in series of events in Brazil and in Europe. After that, we analyze messages sent by the participants to evaluate the use of the tool on some of the performances made.
+
+Playsound.space is an online platform for free music improvisation based on Freesound.org Creative Commons content. I works as a concrete music player, which allow to search, loop and process sound objects in real time from the browser, with semantic text searches supported by spectrograms. We evaluated the use of the tool trough user tests and practical applications in performance and events, in solo and group presentations and also in pedagogical contexts. 
+
+The analysis processes involved quantitative and qualitative methods, which included thematic analysis, statistics and practical applications. Finally, we present some conclusions drawn from this process and possible developments for future research in this field.
+
+
+
+
+
+
+
 %This work presents a survey on the Brazilian production of experimental lutherie, with emphasis on the production over the last two decades. A framework of references related to this production in the European and American literature is outlined as an introduction, as well as the works of some key artists and creators whose production influenced experimental instrument building practices in the 20th century. In the second chapter I make a survey of references on this type of production in Brazil, as well a profile of artists active in the country for the last 20 years, detailing in most cases some of his works. Based on this outline, I carry out a more detailed study on the instrument known as gatorra, manufactured by Tony da Gatorra, an artisan, technician and musician who created his instrument in the 1990s from scrap materials, reused electronic components and the combination of electronic circuits sound generators. Finally, I relate the production studied with references that deal with the notion of material culture, some of which already make an approximation with musical and artistic activity.
 
 
@@ -456,23 +504,30 @@ Aos colegas que colaboraram em alguma medida no desenvolvimento dos experimentos
 \begin{siglas}
 %  \item[ABNT] Associação Brasileira de Normas Técnicas
 %  \item[abnTeX] ABsurdas Normas para TeX
-\item[W3C] \textit{World Wide Web Consortium}, entidade que define os padrões das linguages web.
+\item[CC] \textit{Creative Commons}, sistema de licensas livres para conteúdo criativo. 
+
+\item[CSS] \textit{Cascading Stylesheets}, linguagem de estilização de páginas web.
+
+\item[DAW] \textit{Digital Audio Workstation}, modelo de software para produção musical.
+\item[FAU] \textit{Faculdade de Arquitetura e Urbanismo da Universidade de São Paulo}
 
 \item[FFT] \textit{Fast Fourier Transform}, transformada rápida de Fourrier.
-\item[SVG] \textit{Standard Vector Graphics}, formato aberto para imagens vetoriais.
-\item[MIDI] \textit{Musical Instrument Digital Interface}, Interface Digital de Instrumentos Musicais, um protocolo para comunicação entre instrumentos digitais.
-\item[DAW] \textit{Digital Audio Workstation}, modelo de software para produção musical.
+\item[FLO] \textit{Female Laptop Orchestra}
+
+
 \item[HTML] \textit{HyperText Markup Language}, linguagem de marcação para formatação de páginas web.
-\item[CSS] \textit{Cascading Stylesheets}, linguagem de estilização de páginas web.
-\item[IRCAM] \textit{IRCAM}, instituição francesa dedicada à pesquisa e à criação de música contemporânea.
-\item[FAU] \textit{Faculdade de Arquitetura e Urbanismo da Universidade de São Paulo}
-\item[CC] \textit{Creative Commons}, sistema de licensas livres para conteúdo criativo. 
 \item[IHC] \textit{Interação Humano Computador}
+
+\item[IRCAM] \textit{IRCAM}, instituição francesa dedicada à pesquisa e à criação de música contemporânea.
+\item[MIDI] \textit{Musical Instrument Digital Interface}, Interface Digital de Instrumentos Musicais, um protocolo para comunicação entre instrumentos digitais.
 \item[NIME] Conferência \textit{New Interfaces for Musical Expression}
 \item[NuSom] Núcleo de estudos em sonologia da Universidade de São Paulo
-\item[USP] Universidade de São Paulo
 \item[QMUL] \textit{Queen Mary University of London}, sistema doméstico de gravação e reprodução de vídeo
-\item[FLO] \textit{Female Laptop Orchestra}
+\item[SVG] \textit{Standard Vector Graphics}, formato aberto para imagens vetoriais.
+\item[USP] Universidade de São Paulo
+\item[W3C] \textit{World Wide Web Consortium}, entidade que define os padrões das linguages web.
+
+
 
 \end{siglas}
 % ---
@@ -501,6 +556,11 @@ Aos colegas que colaboraram em alguma medida no desenvolvimento dos experimentos
 % ----------------------------------------------------------
 % ELEMENTOS TEXTUAIS
 % ----------------------------------------------------------
+
+
+
+
+
 \textual
 \clubpenalty=9996
 \widowpenalty=9999
@@ -666,9 +726,10 @@ Aos colegas que colaboraram em alguma medida no desenvolvimento dos experimentos
 % Imprime uma página indicando o início dos apêndices
 \partapendices
 
+\include{ape-complementos}
 \include{ape-tabelagatorra}
 \include{ape-entrevistas} 
-%\include{ape-complementos}
+
 
 % ----------------------------------------------------------
 %\chapter{Quisque libero justo}

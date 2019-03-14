@@ -150,7 +150,7 @@ Receber \emph{feedback} da audiência para performances de improvisação ao viv
 \end{figure}
 
 \begin{figure}
-    \caption{\label{moodconductor}Open Symphony}
+    \caption{\label{opensymphony}Open Symphony}
     \begin{center}
         \includegraphics[width=1\linewidth]{pictures/cap3/opensymphony}
     \end{center}
@@ -169,11 +169,11 @@ Em outros, a participação da audiência acontece também no processo de tocar,
 }.}
 \end{figure}
 
-``TweetDreams'', de Luke Dahl, Jorge Herrera e Carr Wilkerson\footnote{\cite{Dahl2011}}, calcula melodias a partir de informações de postagens no Twitter recebidas em tempo real\footnote{Postagens são recuperadas usando Python e as melodias através do framework Chuck. Um vídeo da performance está disponível em: \url{https://ccrma.stanford.edu/groups/tweetdreams/}}. Durante performance, a audiência é encorajada a fazer postagens no Twitter, que são recuperadas e sonificadas pelos performers. 
+``TweetDreams'' (Figura \ref{tweetdreams}), de Luke Dahl, Jorge Herrera e Carr Wilkerson\footnote{\cite{Dahl2011}}, calcula melodias a partir de informações de postagens no Twitter recebidas em tempo real\footnote{Postagens são recuperadas usando Python e as melodias através do framework Chuck. Um vídeo da performance está disponível em: \url{https://ccrma.stanford.edu/groups/tweetdreams/}}. Durante performance, a audiência é encorajada a fazer postagens no Twitter, que são recuperadas e sonificadas pelos performers. 
 
 
 \begin{figure}
-    \caption{\label{crowdincloud}Tweetdreams, de Luke Dahl, Jorge Herrera e Carr Wilkerson}
+    \caption{\label{tweetdreams}Tweetdreams, de Luke Dahl, Jorge Herrera e Carr Wilkerson}
     \begin{center}
         \includegraphics[width=1\linewidth]{pictures/cap3/tweetdreams}
     \end{center}
@@ -199,15 +199,15 @@ Além disso, aponta ela, esse tipo de experiência conta em geral como público 
 Apesar de ambas serem divertidas como experiências participativas, o resultado sonoro nesses dois casos, na minha impressão como participante, foi de uma massa de sons desordenada e fora de ritmo. Isso aconteceu em parte pela falta de prática em processos musicais coletivos por parte da audiência, que não necessariamente domina o gestual musical. Pensando nessa questão, queríamos propor uma ferramenta que pudesse ser acessada por qualquer usuário, independente de qualquer formação ou treinamento em práticas musicais, e para isso, procuramos partir de tecnologias que as pessoas já usam com mais desenvoltura.
 
 \subsection{Desenvolvimento do Projeto}
-Como já apontava McLuhan\footnote{\cite{mcluhan1968comunicaccoes}}, o alfabeto fonético é uma tecnologia fundamental para o desenvolvimento da cultura ocidental. Ele é fácil de se aprender e ajustável a várias linguagens, sendo assim, a base de toda cultura literata. Neste trabalho, nós fazemos uso do alfabeto como tecnologia para produzir música experimental. Texto e mensagens instantâneas se tornaram a principal forma de comunicação nos celulares hoje em dia, seja em comunicações síncronas ou assíncronas \footnote{\cite{Madell:2007}}, e por isso, decidimos experimentar com  o texto através de mensagens como forma de interação musical nesta primeira proposta. Muitos tipos de interfaces para produção musical usam o texto como forma de \emph{input}, como nos processos de \emph{live coding} \footnote{\cite{Collins2003}}, em processos participativos que usam \emph{feedback} verbal da audiência \footnote{\cite{noauthor_transglasphone_nodate}}, em composições algorítmicas geradas por dados textuais ou sistemas que usam o teclado como controlador musical \footnote{\cite{Fiebrink2007}}. Neste projeto, nós procuramos criar um sistema que funcionasse para a produção musical de uma maneira análoga ao alfabeto e sua relação com a linguagem oral.
+Como já apontava McLuhan\footnote{\cite{mcluhan1968comunicaccoes}}, o alfabeto fonético é uma tecnologia fundamental para o desenvolvimento da cultura ocidental. Ele é fácil de se aprender e ajustável a várias linguagens, sendo assim, é fundamental para a cultura literata. Neste trabalho, nós fazemos uso do alfabeto como tecnologia para produzir música experimental. Texto e mensagens instantâneas se tornaram a principal forma de comunicação nos celulares hoje em dia, seja em comunicações síncronas ou assíncronas \footnote{\cite{Madell:2007}}, e por isso, decidimos experimentar com  o texto através de mensagens como forma de interação musical nesta primeira proposta. Muitos tipos de interfaces para produção musical usam o texto como forma de \emph{input}, como nos processos de \emph{live coding} \footnote{\cite{Collins2003}}, em processos participativos que usam \emph{feedback} verbal da audiência \footnote{\cite{noauthor_transglasphone_nodate}}, em composições algorítmicas geradas por dados textuais ou sistemas que usam o teclado como controlador musical \footnote{\cite{Fiebrink2007}}. Neste projeto, nós procuramos criar um sistema que funcionasse para a produção musical de uma maneira análoga ao alfabeto e sua relação com a linguagem oral.
 
-A comunicação \emph{online} por texto se aproxima muito da comunicação oral, pela facilidade de escrita, e pela velocidade quase instantânea,\footnote{\cite[33]{Levinson2001}} Como aponta McLuhan, o conteúdo de um meio sempre agrega um meio anterior. O discurso, que é o meio mais antigo, está contido em quase todos meios subsequentes, como o livro, o telégrafo, o cinema e a televisão, e, é claro, a internet \footnote{\cite[42]{Levinson2001}}. 
+A comunicação \emph{online} por texto se aproxima muito da comunicação oral, pela facilidade de escrita, e pela velocidade quase instantânea,\footnote{\cite[p. 33]{Levinson2001}} Como aponta McLuhan, o conteúdo de um meio sempre agrega um meio anterior. O discurso, que é o meio mais antigo, está contido em quase todos meios subsequentes, como o livro, o telégrafo, o cinema e a televisão, e, é claro, a internet \footnote{\cite[p. 42]{Levinson2001}}. 
 
-McLuhan aponta que o espaço visual surge quando as consoantes foram criadas, ``como uma abstração sem significado", permitindo a análise das unidades silábicas em cada um de seus componentes. A consoante é para ele um não-som, algo que necessariamente ``soa junto". \footnote{\cite[13-14]{mcluhan1968comunicaccoes}} A base do discurso, segundo ele é o fonema, a unidade mínima do som, que seria a unidade mínima do som. Na música, no entanto, Tenney (\citeyear{Tenney1988}) propõe em ``Meta-Hodos and Meta Hodos" o conceito de ``clang", que seria uma unidade \emph{gestalt} mínima reconhecível \footnote{\cite[23]{Tenney1988}}. 
+McLuhan aponta que o espaço visual surge quando as consoantes foram criadas, ``como uma abstração sem significado", permitindo a análise das unidades silábicas em cada um de seus componentes. A consoante é para ele um não-som, algo que necessariamente ``soa junto". \footnote{\cite[p. 13-14]{mcluhan1968comunicaccoes}} A base do discurso, segundo ele é o fonema, a unidade mínima do som, que seria a unidade mínima do som. Na música, no entanto, Tenney (\citeyear{Tenney1988}) propõe em ``Meta-Hodos and Meta Hodos" o conceito de ``clang", que seria uma unidade \emph{gestalt} mínima reconhecível \footnote{\cite[p. 23]{Tenney1988}}. 
 
 Neste projeto, ao buscarmos o som das consoantes de um modo isolado, criamos uma desconstrução do discurso e procuramos reforçar esse caráter atomizante da linguagem escrita através de um duplo processo de conversão: discurso convertido em texto e posteriormente convertido em música.
 
-A digitação é um processo muito mais simples para a maioria dos usuários de computadores e dispositivos digitais, em relação à operação de interfaces musicais, assim como a digitação na máquina de escrever era mais acessível para o homem comum do que o tocar de instrumentos analógicos. \footnote{\cite[172]{Levinson2001}}. Nossa ideia foi utilizar o \emph{input} de texto como forma de interação musical. 
+A digitação é um processo muito mais simples para a maioria dos usuários de computadores e dispositivos digitais, em relação à operação de interfaces musicais, assim como a digitação na máquina de escrever era mais acessível para o homem comum do que o tocar de instrumentos analógicos. \footnote{\cite[p. 172]{Levinson2001}}. Nossa ideia foi utilizar o \emph{input} de texto como forma de interação musical. 
 
 Num projeto realizado previamente, o QWERTY, já tinha começado a explorar a digitação como forma de entrada, mapeando cada letra do teclado para um sample, que eram disparados de acordo com a digitação. Nós percebemos que isto exige do performer uma certa habilidade de controle do gesto, para que os sons saiam em ritmo. Além disso, como as interfaces dos \emph{smartphones} não facilitam a digitação, queríamos pensar um sistema que não dependesse de agilidade para funcionar. Para encorajar a participação, nós projetamos um sistema que funcionava a partir de simples mensagens de texto.
 
@@ -215,7 +215,15 @@ No nosso projeto, utilizamos as frases como disparadores para uma sequência de 
 
 Diferente de processos de síntese vocal, nosso chat não concatena as sílabas, somente toca os sons pré-determinados em uma sequência, de modo que as palavras não são compreendidas como palavras, mas como frases musicais. Para adicionar um certo grau de controle à performance, utilizamos uma lógica da interface por linha de comando, com de certos comandos especiais desconhecidos pela audiência que podem alterar a dinâmica da peça, ou alternar entre os conjuntos de samples compostos.
 
-O projeto é construído a partir de dois dispositivos, o servidor de mensagens, que é programado em \emph{Ruby} e necessita de instalação em um servidor web, e a interface que faz o processamento das mensagens e é construída em HTML e \emph{JavaScript} e funciona a partir da Web Audio API.    
+O projeto é construído a partir de dois dispositivos, o servidor de mensagens, que é programado em \emph{Ruby} e necessita de instalação em um servidor web, e a interface que faz o processamento das mensagens  e é construída em HTML e \emph{JavaScript} e funciona a partir da Web Audio API.    
+
+\begin{figure}
+    \caption{\label{chatinterface}Interface do projeto Banda Aberta}
+    \begin{center}
+        \includegraphics[width=0.7\linewidth]{pictures/cap3/bandaabertainterface}
+    \end{center}
+    \legend{Fonte: screenshot da autora, janeiro de 2017.}
+\end{figure}
 
 \begin{figure}
     \caption{\label{bandaabertaserver}Diagrama esquemático dos servidores do projeto Banda Aberta}
@@ -227,7 +235,6 @@ O projeto é construído a partir de dois dispositivos, o servidor de mensagens,
 
 Na primeira versão, o processamento de áudio funcionava somente por sampleamento. Os \emph{samples} são numerados de acordo com a tabela de ASCII e um sample foi designado para caractere dela. O sistema converte as letras nos números equivalentes segundo a tabela, e toca o sample respectivo segundo a ordem estabelecida por cada frase enviada. Posteriormente, desenvolvemos também uma segunda versão baseada somente em síntese sonora no navegador.
 
-\subsection{Desenvolvimento do Projeto}
 Para o desenvolvimento do projeto Banda Aberta, adotamos ``Lean UX'' como metodologia de design, uma metodologia ágil de desenvolvimento de software que tem sido aplicada em muitos projetos de webdesign \footnote{\cite{leanux}}. Envolve a criação de um protótipo mínimo e viável a partir de um estágio muito inicial do projeto. Este protótipo deve então ser testado em condições reais de uso e melhorias são feitas de modo iterativo, baseando-se em observações e \emph{feedbacks} recolhidos. O projeto foi desenvolvido como software de código aberto e está disponível no Github. \footnote{Os códigos-fonte do projeto estão disponíveis em: \url{https://github.com/fabiogoro/bandaserver}}. A arquitetura do sistema foi descrita com mais detalhes no artigo publicado na conferência Audio Mostly de 2017 ``Open Band: A Platform for Collective Sound Dialogues''\footnote{\cite{Stolfi2017}}.
 
 Nosso primeiro protótipo contava apenas com o conjunto inicial de samples nomeado de ``Galáxias'', e pudemos testá-lo menos de um mês após a proposta inicial em uma reunião do NuSom. Os samples utilizados nessa primeira versão eram os mesmos reunidos para o experimento QWERTY, descrito na seção \ref{sec:QWERTY}. A experiência foi registrada e fizemos uma análise dos comentários dos participantes\footnote{Registro da experiência pode ser visto em: \url{https://www.youtube.com/watch?v=Utc_4mT5b8s}}. Pudemos notar desde o princípio que a performance tinha um certo grau de ludicidade, pelas reações de riso e divertimento dos presentes. 
@@ -258,20 +265,20 @@ Nossa intenção era de que os participantes pudessem interagir com pouca ou nen
 Neste projeto, queríamos manter uma relação semântica entre as letras utilizadas nas mensagens e o resultado sonoro gerado. Para isso, buscamos algumas formas de tradução intersemiótica entre os caracteres e os sons, que fosse além dessa analogia com as teclas de piano. A tradução semiótica é um procedimento utilizado para traduzir diferentes códigos, como aponta Plaza: 
 
 \begin{citacao}
-Na tradução intersemiótica como transcriação de formas o que se visa é penetrar pelas entranhas dos diferentes signos, buscando iluminar suas relações estruturais, pois são essas relações que mais interessam quando se trata de focalizar os procedimentos que regem a tradução. Traduzir criativamente é, sobretudo, inteligir estruturas que visam à transformação de formas. \footnote{\cite[71]{JulioPlaza1969}}
+Na tradução intersemiótica como transcriação de formas o que se visa é penetrar pelas entranhas dos diferentes signos, buscando iluminar suas relações estruturais, pois são essas relações que mais interessam quando se trata de focalizar os procedimentos que regem a tradução. Traduzir criativamente é, sobretudo, inteligir estruturas que visam à transformação de formas. \footnote{\cite[p. 71]{JulioPlaza1969}}
 \end{citacao}
 
 Aplicar um processo de tradução inter-semiótica de texto para som se relaciona com a idéia de áudio semântico \footnote{\cite{Kostek:2010}}, mas não no sentido tradicional, já que o objetivo aqui não foi o de dar sentido semântico aos sons, mas sim o de explorar quais poderiam ser os significados das letras próprias quando transformadas em sons. A abordagem foi de produzir os \emph{samples} de acordo com o conceito de James Tenney \footnote{\cite{Tenney1988}} de ``Clang'', ou ``gestalt aural", que é similar também ao conceito de objeto celular de Pierre Schaeffer: objetos sonoros breves ou redundantes \footnote{\cite{Chion1983}}. A ideia foi pensar em átomos que pudessem ser recombinados livremente na medida em que as mensagens fossem escritas. Este procedimento aumenta as possibilidades paratáticas do sistema ao permitir re-combinações para além das possibilitadas pela linguagem escrita.
 
 
-O uso do teclado do computador como \emph{input} para produzir sons em instrumentos musicais digitais pode ser relacionado muitas vezes com o teclado de piano, mas de uma forma limitada, já que a sensibilidade das teclas do teclado é muito reduzida em relação às potencialidades das teclas de um piano de verdade. A maioria dos softwares do tipo DAW, como o ``Logic Audio" ou o ``Pro Tools" propõe uma interface de ``digitação musical" onde o teclado pode ser usado como um controlador MIDI precário (no sentido de que não possui sensibilidade à pressão) que relaciona teclas a notas musicais determinadas. Neste paradigma, a associação entre letras e sons é geralmente arbitrariamente determinada pela posição das teclas do teclado em comparação com a posição das teclas do piano, sem nenhuma relação semântica entre o som gerado e as próprias letras do alfabeto fonético. 
+O uso do teclado do computador como \emph{input} para produzir sons em instrumentos musicais digitais pode ser relacionado muitas vezes com o teclado de piano, mas de uma forma limitada, já que a sensibilidade das teclas do teclado é muito reduzida em relação às potencialidades das teclas de um piano de verdade. A maioria dos softwares do tipo DAW, como o ``Logic Audio" ou o ``Pro Tools" propõe uma interface de ``digitação musical" onde o teclado pode ser usado como um controlador MIDI precário (no sentido de que não possui sensibilidade à velocidade e pressão) que relaciona teclas a notas musicais determinadas. Neste paradigma, a associação entre letras e sons é geralmente arbitrariamente determinada pela posição das teclas do teclado em comparação com a posição das teclas do piano, sem nenhuma relação semântica entre o som gerado e as próprias letras do alfabeto fonético. 
 
 
 No sistema fonético, Schaeffer \footnote{\cite{Schaeffer2007}} aponta que as vogais em geral servem como sons de suporte e as consoantes como articulação. Segui esse princípio como guia para o mapeamento das letras em sons, buscando cobrir uma grande variação de ``clangs", para deixar espaço para o acaso. Para a primeira versão do projeto, foram feitos 4 grupos de samples com sonoridades diferentes que podem ser mudados em tempo real por quem souber os comandos especiais: 
 
 \begin{description}
  \item[Galáxias] (sp0) A primeira estratégia foi de construir um alfabeto sonoro, usando processo de analogia com os sons do alfabeto fonético. Apesar de existirem muitos sistemas de síntese de discurso, a tentativa foi de isolar os sons, atomizando o discurso e consequentemente, o transformando em música através do encadeamento sucessivo de sons em uma estrutura rítmica. 
-Em uma homenagem à poesia concreta, como definida por Augusto de Campos: ``tensão de palavras-coisas no espaço-tempo'' \footnote{\cite[45]{campos_teoria_2014}}, começamos a recortar os sons desse alfabeto a partir das leituras de Haroldo de Campos do Poema Galáxias \footnote{\cite{Campos2004}}, um poema épico longo que se situa entre a prosa e a poesia, com várias páginas de texto sem nenhuma divisão de parágrafos ou marcas de pontuação. Sua leitura calma e grave foi percebida como uma fonte rica para um conjunto consistente de sons, e dessas gravações conseguimos extrair um conjunto que cobriu todas as letras em caixa baixa. Para as letras maiúsculas, procurei buscar sons mais poderosos, parte dos quais retirei de uma demonstração de técnicas vocais estendidas gravada por Stênio Biazon e outros que gravei especialmente para isso usando minha própria voz.  
+Em uma homenagem à poesia concreta, como definida por Augusto de Campos: ``tensão de palavras-coisas no espaço-tempo'' \footnote{\cite[p. 45]{campos_teoria_2014}}, começamos a recortar os sons desse alfabeto a partir das leituras de Haroldo de Campos do Poema Galáxias \footnote{\cite{Campos2004}}, um poema épico longo que se situa entre a prosa e a poesia, com várias páginas de texto sem nenhuma divisão de parágrafos ou marcas de pontuação. Sua leitura calma e grave foi percebida como uma fonte rica para um conjunto consistente de sons, e dessas gravações conseguimos extrair um conjunto que cobriu todas as letras em caixa baixa. Para as letras maiúsculas, procurei buscar sons mais poderosos, parte dos quais retirei de uma demonstração de técnicas vocais estendidas gravada por Stênio Biazon e outros que gravei especialmente para isso usando minha própria voz.  
 
 Para os caracteres especiais e númerais, a relação direta entre os sons e os samples não é tão clara, uma vez que não são representações fonéticas, então optei por procurar outras relações possíveis bem como outras fontes de sons. Em alguns casos seguimos uma lógica de relação mais simbólica, como o som de caixa registradora para o signo \$ e em outros, associações mais icônicas, utilizando uma técnica de síntese subtrativa por corte visual de espectro. Este é o conjunto padrão de samples, e é usado como introdução para tornar as pessoas familiares com o sistema de associação. Exemplos deste pacote de sons podem ser ouvidos em: \url{http://spectro.codigo.xyz/spectrogramplayer/}
 
@@ -444,7 +451,15 @@ Apresentamos o Banda aberta em diferentes ocasiões, para diferentes perfis de p
 \begin{description}
 
 \item[Ensaio no Nusom] 
-A primeira apresentação informal do projeto aconteceu na reunião do NuSom do dia 9 de maio de 2016. O público presente era de pesquisadores do grupo, e cerca de 9 pessoas participaram da experiência. Notamos uma diferença considerável de tocabilidade entre quem estava com laptop em relação a quem estava com celulares. O site também não funcionava em todos celulares, especialmente modelos de iphone mais antigos. \footnote{Registro da apresentação em \url{https://www.youtube.com/watch?v=Utc_4mT5b8s}}
+A primeira apresentação informal do projeto aconteceu na reunião do NuSom do dia 9 de maio de 2016. O público presente era de pesquisadores do grupo, e cerca de 9 pessoas participaram da experiência. Notamos uma diferença considerável de tocabilidade entre quem estava com laptop em relação a quem estava com celulares. O site também não funcionava em todos celulares, especialmente em modelos de iphone mais antigos. \footnote{Registro da apresentação em \url{https://www.youtube.com/watch?v=Utc_4mT5b8s}}
+
+\begin{figure}
+        \includegraphics[width=1\textwidth]{pictures/cap3/spectrograma_primeira}
+        \vspace{-10pt}
+    \caption{Espectrogramas de trechos da gravação da primeira apresentação do projeto no ensaio do NuSom.}
+    \legend{Screenshot da autora.}
+    \label{fig:specprim}
+\end{figure}
 
 \item[Festival Bigorna]
 No dia 26 de junho de 2016, estreamos publicamente o projeto no Festival Bigorna, que aconteceu na Praça José Molina, próxima à Avenida Paulista em São Paulo. O Estúdio Fita Crepe, um pequeno espaço dedicado à produção e difusão de música experimental organizou o festival que ocupava essa praça considerada subutilizada, pela sua localização\footnote{A programação do festival está disponível em: \url{http://www.festivalbigorna.com/2016/}}.
@@ -457,7 +472,7 @@ No dia 26 de junho de 2016, estreamos publicamente o projeto no Festival Bigorna
     \label{fig:bigorna}
 \end{figure}
 
-O público presente no momento era de cerca de 80 pessoas, mais do que o roteador podia comportar (30 pessoas ao mesmo tempo), o que deixou várias pessoas de fora da interação. A audiência incluía membros do NuSom, músicos da cena experimental e o público geral do festival, mas grande parte era formada pelos estudantes de produção musical que colaboraram com o terceiro conjunto de samples. Jovens, ficaram bastante eufóricos com a possibilidade do anonimato e praticaram um certo nível de \emph{bulling} entre eles. 
+O público presente no momento era de cerca de 80 pessoas, mais do que o roteador podia comportar (30 pessoas ao mesmo tempo), o que deixou várias pessoas de fora da interação. A audiência incluía membros do NuSom, músicos da cena experimental e o público geral do festival, mas grande parte era formada pelos estudantes de produção musical que colaboraram com o terceiro conjunto de samples. Jovens, ficaram bastante eufóricos com a possibilidade do anonimato e praticaram um certo nível de \emph{bullyng} entre eles. 
 
 \item[Rádio grave] 
 Fomos fazer uma performance também no dia 30 de junho de 2016 na Rádio Grave, uma rádio web que foi montada no Gfau para ajudar na mobilização dos  estudantes durante a greve do ano passado. Os locutores simulavam que rádio era uma nave espacial, e a ``aterrissagem'' do Banda Aberta por lá rendeu um episódio que ficou conhecido como ``reset do universo'', pela surpresa gerada pelos sons fora do comum.\footnote{Gravação disponível em: \url{https://soundcloud.com/asss/banda-aberta-na-radiograve-reset-do-universo}}.
@@ -522,7 +537,7 @@ Como em uma conversa real, se as pessoas não param para ouvir uns aos outros, a
 
 %Like in a real conversation, if people don't take time to listen to the others, the sound becomes more difficult to distinguish. We received a lot of feedback from the public on the chat, with people asking things about the project and supporting it.
 
-Um problema da primeira versão do projeto era de que ela era baseada em um volume grande de dados dos samples (cerca de 60mB), então, pelo menos no Brasil onde a qualidade das redes de internet é menor, era necessário criar uma rede local, e mesmo assim o sistema ainda demorava significativamente para carregar. Na segunda versão do projeto, que era baseada em síntese, o volume de dados foi reduzido drasticamente, para apenas alguns \emph{kilobytes}, o que reduziu também o tempo de carregamento do sistema. Durante as performances, no entanto, o uso de dados é baixo em ambas versões, uma vez que não há transmissão de áudio entre os usuários, somente de mensagens de texto, que em geral não são muito pesadas. 
+Um problema da primeira versão do projeto era de que ela era baseada em um volume grande de dados dos samples (cerca de 60 MB), então, pelo menos no Brasil onde a qualidade das redes de internet é menor, era necessário criar uma rede local, e mesmo assim o sistema ainda demorava significativamente para carregar. Na segunda versão do projeto, que era baseada em síntese, o volume de dados foi reduzido drasticamente, para apenas alguns \emph{kilobytes}, o que reduziu também o tempo de carregamento do sistema. Durante as performances, no entanto, o uso de dados é baixo em ambas versões, uma vez que não há transmissão de áudio entre os usuários, somente de mensagens de texto, que em geral não são muito pesadas. 
 
 %One problem of the previous version was that been based on heavy volume of data from samples, we had always to create a local network and even with that we had a long time of download before playing. With the present version relying only on web audio synthesis, the size of the project reduced dramatically ---- from 60 megabytes to kilobytes ---- and also the downloading time when compared with the previous version.
 %This new aspect of the Open Band facilitates users to participate using 4G data plan as the data consumption is now comprised of text messages only as no samples files are downloaded. 
@@ -722,16 +737,10 @@ Dentre as mensagens de conteúdo não semântico identificamos três subgrupos:
 
 O gráfico representado na Figura \ref{donut} mostra a proporção de mensagens em cada tema identificado na média das performances. De uma maneira geral, pudemos notar que a maior quantidade de mensagens em todas performances foram as mensagens de caracteres sozinhos. Também notamos que as audiências tiveram comportamentos diferentes com relação à proporção de temas durante as performances. Por exemplo, na performance p1, os caracteres sozinhos foram mais explorados, enquanto na p3 foram menos, mensagens de conteúdo de código foram mais utilizadas na p3, onde a audiência era de cientistas da computação.
 
-\begin{figure}
-\includegraphics[width=1\linewidth]{pictures/cap3/ratios_bw}
-\caption{Proporções dos temas subjetivos nas performances.}
-\label{subj}
-\end{figure}
-
 
  %the proportion of the messages in each of the identified themes considering all the performances on average. Overall we can see that messages containing a single character is the most dominating theme. We can note that the audience had different behaviors in respect of the proportion of themes used during the performances. For example, much more exploring "single character'' messages in p1 and less in p3, and much more use of "code'' in p3.  
 
-Depois de categorizar as mensagens em temas de acordo com suas funções linguísticas, fizemos uma nova análise temática, desta vez procurando buscar mais especificamente mensagens de suporte ou crítica, e também com a tentativa de perceber diferenças de comportamentos entre os diferentes conjuntos de samples. A figura \ref{subj} mostra a distribuição de temas subjetivos pelas performances. Identificamos os seguintes temas\footnote{Os temas não são exclsivos, podendo ser aplicados a mais de uma menagem, número total de mensagens entre parêntesis.}: sem sentido (1989), slogans (180), questões (73), bullying (77), imperativas (99), presença própria (81), reclamações (89), amor (84), humor (284), música (174), satisfação (518) e teste/condução (237). Exemplos incluem slogans (e.g. ``Do it"), amor (e.g. ``Paz e amor"), expressões de auto-presença (e.g.``Estou online"), referencias a outros músicos (``Lady gaga") e programas de TV (``Winter is coming" referência à série Game of Thrones), questões (``tem alguém aí?"). 
+Depois de categorizar as mensagens em temas de acordo com suas funções linguísticas, fizemos uma nova análise temática, desta vez procurando buscar mais especificamente mensagens de suporte ou crítica, e também com a tentativa de perceber diferenças de comportamentos entre os diferentes conjuntos de samples. A figura \ref{subj_themes} mostra a distribuição de temas subjetivos pelas performances. Identificamos os seguintes temas\footnote{Os temas não são exclusivos, podendo ser aplicados a mais de uma menagem, número total de mensagens entre parêntesis.}: sem sentido (1989), slogans (180), questões (73), bullying (77), imperativas (99), presença própria (81), reclamações (89), amor (84), humor (284), música (174), satisfação (518) e teste/condução (237). Exemplos incluem slogans (e.g. ``Do it"), amor (e.g. ``Paz e amor"), expressões de auto-presença (e.g.``Estou online"), referencias a outros músicos (``Lady gaga") e programas de TV (``Winter is coming" referência à série Game of Thrones), questões (``tem alguém aí?"). 
 
 %After categorizing the messages into functional themes, we further analyzed their content to search for differences in expressions of support from the audience and how the sample packs affected the nature of the messages. We identified  the following (non exclusive) themes (total number of messages reported in brackets): senseless (1989), slogan (180), questioning (73), bullying (77), commanding (99), self-presence (81), complaining (89), love (84), humor (284), music (174), satisfaction (518), and testing/conduction (237). Examples include slogans (e.g. ``Do it"), love (e.g. ``Paz e amor": `` Peace and love"), expressions of self-presence (e.g.``I'm online"), references to musicians (``Lady gaga") and TV shows (``Winter is coming" referring to the Game of Thrones series), questions (``Is there anybody out there?"). %Some out of context copy/pasted text also appeared on the logs now and then.
 
@@ -762,12 +771,13 @@ Para investigar como os diferentes conjuntos de samples afetaram a natureza e o 
 
 \begin{figure}
 
-\includegraphics[width=1.1\linewidth]{pictures/cap3/p_values}
+\includegraphics[width=1.1\linewidth]{pictures/cap3/subj}
 \caption{Frequências de conteúdos por pacote de sample.}
+\legend{fonte: \cite{Stolfi2018}}
 \label{subj_themes}
 \end{figure}
 
-A Tabela \ref{subj} apresenta a frequência dos temas entre os conjuntos de samples. Usamos análise estatística para checar se haviam diferenças entre a frequência dos temas de acordo com a mudança de conjunto de samples durante as performances. Como a quantidade de mensagens e o tempo de cada conjunto de samples era variável entre as apresentações, comparamos as frequências dos temas utilizando um teste qui-quadrado de independência. Como referência, utilizamos testes estatísticos descritos em \footnote{\cite{beasley1995multiple}} e \footnote{\cite{garcia2003cellwise}}. 
+A Tabela \ref{subj_themes} apresenta a frequência dos temas entre os conjuntos de samples. Usamos análise estatística para checar se haviam diferenças entre a frequência dos temas de acordo com a mudança de conjunto de samples durante as performances. Como a quantidade de mensagens e o tempo de cada conjunto de samples era variável entre as apresentações, comparamos as frequências dos temas utilizando um teste qui-quadrado de independência. Como referência, utilizamos testes estatísticos descritos em \footnote{\cite{beasley1995multiple}} e \footnote{\cite{garcia2003cellwise}}. 
 
 %Table \ref{subj_themes} presents the content theme frequencies across sample packs. Several differences can be noted and their significance was tested using statistical analyses. A Chi-square test of independence was calculated to compare the theme frequencies across sample packs. A significant interaction effect was found ($\chi^2$ (33) = 181.97, $p < .00001$). We performed the post-hoc test described in \cite{beasley1995multiple} and \cite{garcia2003cellwise} using Bonferroni adjusted alpha levels of 0.001.
 
@@ -775,7 +785,8 @@ A Tabela \ref{subj} apresenta a frequência dos temas entre os conjuntos de samp
 
 \includegraphics[width=1\linewidth]{pictures/cap3/p_values}
 \caption{Variação na frequência de temas entre pacotes de samples.}
-\legend{O tamanho dos círculos representa o tamanho do resíduo padrão (quanto maior o círculo, maior a diferença de frequência). A gradação de cor representa diminuição (vermelho) e ampliação (azul).}
+\legend{O tamanho dos círculos representa o tamanho do resíduo padrão (quanto maior o círculo, maior a diferença de frequência). A gradação de cor representa diminuição (vermelho) e ampliação (azul). \cite{Stolfi2018}}
+
 \label{fig:bblplot2}
 \end{figure}
 
@@ -837,6 +848,10 @@ A experiência foi bastante importante também para demonstrar as capacidades de
 Como um instrumento para performance ao vivo, no entanto, ainda me parecia insuficiente. Durante minhas atividades práticas musicais, tive a oportunidade de tocar com o sistema em performances de improvisação livre em algumas situações, como na apresentação para o festival aMostra Sonora. Durante a performance, onde utilizei também um patch de Pure Data que desenvolvo há cerca de 10 anos, percebi que a quantidade de sons não era suficiente para proporcionar uma variação sonora satisfatória em performances longas. O sistema, que é propositalmente simples, para que seja o mais leve possível, não permite processamentos mais complexos do som, e por mais que o conjunto de sons fosse grande, a falta de controle em fatores mais sutis, que são importantes em uma performance solo de improvisação musical me deixaram entediada com o sistema durante a apresentação. Para isso, precisaria também de algo que realmente servisse como um instrumento musical, e não somente como um sampler de mapeamento fixo. 
 
 A partir daí, surgiu a idéia de um projeto que envolvesse a API do Freesound, que inicialmente pensava como um \emph{framework} que expandisse as potencialidades sonoras deste projeto. A idéia inicial era usar a API do Freesound como um método para mapear os sons em letras, que iriam ser acessadas dentro do sistema do Banda Aberta. Para conseguir desenvolver essa tecnologia, escrevi um projeto para um estágio de pesquisa junto ao Centre for Digital Music (C4DM) da Queen Mary University of London (QMUL),  sob orientação do professor Mathieu Barthet, uma vez que lá havia um dos grupos de trabalho do projeto Audio Commons, que entre outras coisas, estava dando suporte ao Freesound. 
+
+A iniciativa Audio Commons visa trazer conteúdo sonoro em Creative Commons (CC) para artistas e indústrias criativas. Licenças CC fornecem uma maneira padronizada para dar permissão ao público no compartilhamento e utilização de trabalho criativo em condições definidas pelos criadores de conteúdo, que pesquisa formas de aproveitamento e utilização de serviços online de distribuição de conteúdo sonoro com licenças em Creative Commons \footnote{\url{https://creativecommons.org/}}. O projeto é financiado pela união Européia e tem entre seus objetivos, desenvolver uma ontologia para sons, e criar um mecanismo mediador para pesquisar sons de diversas fontes como as bibliotecas Freesound.org, um grande repositório de samples; Europeana.org, que reúne um acervo de gravações históricas de diversas instituições européias e Jamendo.com, que reúne músicas novas produzidas em licenças livres.
+
+
 
 
 \newpage

@@ -1,10 +1,5 @@
 % !TEX root = tese.tex
 
-
-A iniciativa Audio Commons visa trazer conteúdo sonoro em Creative Commons (CC) para artistas e indústrias criativas. Licenças CC fornecem uma maneira padronizada para dar permissão ao público no compartilhamento e utilização de trabalho criativo em condições definidas pelos criadores de conteúdo, que pesquisa formas de aproveitamento e utilização de serviços online de distribuição de conteúdo sonoro com licenças em Creative Commons \footnote{\url{https://creativecommons.org/}}. O projeto é financiado pela união Européia e tem entre seus objetivos, desenvolver uma ontologia para sons, e criar um mecanismo mediador para pesquisar sons de diversas fontes como as bibliotecas Freesound.org, um grande repositório de samples; Europeana.org, que reúne um acervo de gravações históricas de diversas instituições européias e Jamendo.com, que reúne músicas novas produzidas em licenças livres.
-
-
-
 % \chapter{Playsound}
 
 
@@ -12,7 +7,7 @@ A iniciativa Audio Commons visa trazer conteúdo sonoro em Creative Commons (CC)
 \label{ch:playsound}
 
 
-O desenvolvimento da plataforma Playsound.space (PS) começou durante o meu período de estágio no Centre for Digital Music (C4DM) na Queen Mary University of London (QMUL)\footnote{O Estágio aconteceu de junho de 2017 a maio de 2018 e foi financiado pelo Programa de Doutorado Sanduíche da CAPES}, onde tive a oportunidade de participar do grupo de pesquisa ligado ao projeto Audio Commons\footnote{\cite{Font2016}}. Depois do projeto Banda Aberta, o desejo era de trabalhar em um sistema que pudesse ser utilizado como um instrumento musical, que fosse capaz de produzir uma gama rica de sonoridades e não fosse somente uma plataforma para tocar sons pré determinados. 
+O desenvolvimento da plataforma Playsound.space (PS) começou durante o período de estágio no Centre for Digital Music (C4DM) na Queen Mary University of London (QMUL)\footnote{O Estágio aconteceu de junho de 2017 a maio de 2018 e foi financiado pelo Programa de Doutorado Sanduíche da CAPES}, onde tive a oportunidade de participar do grupo de pesquisa ligado ao projeto Audio Commons\footnote{\cite{Font2016}}. Depois do projeto Banda Aberta, o desejo era de trabalhar em um sistema que pudesse ser utilizado como um instrumento musical, que fosse capaz de produzir uma gama rica de sonoridades e não fosse somente uma plataforma para tocar sons pré determinados. 
 
 
 Durante as práticas de improvisação musical que participei até agora, encontrava algumas dificuldades em utilizar softwares tradicionais como DAW ou \emph{patchers} em performances ao vivo. Uma delas é de que muitos softwares do tipo DAW são baseados em grids temporais fixos, ou seja, existe um tempo que determina o fluxo dos acontecimentos sonoros, e embora esse tempo possa ser mudado, a estrutura rígida é imcompatível com a necessidade da liberdade na improvisação. A estrutura em grade ou se impõe para os demais músicos, como um metrônomo, ou entra em conflito com os demais participantes. Além disso, as estruturas temporais também dificultam a criação de polirritmias. 
@@ -75,18 +70,15 @@ Entre diversos serviços que provém conteúdo sonoro online, uma imensa gama de
 
 Compor a partir de espectrogramas era uma ideia que acompanhava meu trabalho já faz algum tempo. Em 2011 publiquei um trabalho chamado UTOPIA (Figura \ref{utopia}), onde desenhava a palavra utopia através de síntese subtrativa sobre uma gravação feita de uma serra de fita em funcionamento, que era uma amostra bastante saturada. Essa ideia também voltou outras vezes no meu trabalho, na composição da peça Bandas Críticas e no processo de composição de sons para o Banda Aberta. 
 
-Espectrogramas (ou sonogramas) são imagens geradas a partir da análise do som por um algoritmo chamado de \emph{Fast Fourier Transform} (FFT), que decompõe as frequências formantes de ondas complexas\footnote{\cite[55]{Roads}} (Figura \ref{specrep}). Diferente da representação da forma de onda (Figura \ref{wave}), que é a mais comum em softwares de edição de áudio digital, e é uma representação bi-dimensional, onde estão representadas intensidade e tempo de um som, os espectrogramas trazem uma representação que ``incorpora todas as três dimensões do som''\footnote{\cite{Schafer2011}}, intensidade, frequência e tempo. 
+Espectrogramas (ou sonogramas) são imagens geradas a partir da análise do som por um algoritmo chamado de \emph{Fast Fourier Transform} (FFT), que decompõe as frequências formantes de ondas complexas\footnote{\cite[p. 55]{Roads}} (Figura \ref{specrep}). Diferente da representação da forma de onda (Figura \ref{wave}), que é a mais comum em softwares de edição de áudio digital, e é uma representação bi-dimensional, onde estão representadas intensidade e tempo de um som, os espectrogramas trazem uma representação que ``incorpora todas as três dimensões do som''\footnote{\cite{Schafer2011}}, intensidade, frequência e tempo. 
 
 
 \begin{figure}
 \includegraphics[width=1\textwidth]{pictures/cap4/exemplospec}
-\caption{\label{utopia}Exemplo de representação do som por espectrograma. }
+\caption{\label{exemplospec}Exemplo de representação do som por espectrograma. }
 \label{specrep}
-\end{figure}
-
-\begin{figure}
 \includegraphics[width=1\textwidth]{pictures/cap4/exemplowave}
-\caption{\label{utopia}Exemplo de representação do som pela forma da onda. }
+\caption{\label{exemplowave}Exemplo de representação do som pela forma da onda. }
 \label{wave}
 \end{figure}
 
@@ -98,7 +90,6 @@ Quando comecei a desenvolver este novo projeto, descobri que a API do Freesound\
 \includegraphics[width=1\textwidth]{pictures/cap4/utopia}
 \caption{\label{utopia}Utopia.}
 \legend: Fonte: screenshot da autora.
-\label{utopia}
 \end{figure}
 
 Queria desenvolver uma ferramenta que não dependesse de expertise técnica ou virtuosismo, que era um dos objetivos dessa pesquisa. Assim como no projeto Banda Aberta, decidimos manter o texto como forma de interação com o sistema, mas ao invés de fazer um mapeamento de sons por letras, como no projeto anterior, aqui o texto serve como fonte para buscar informações, ao permitir a busca através de significados semânticos ou descritivos, por exemplo: ``wood saw'', ``crowd noise'' ou ``applause''. A solução técnica foi o desenvolvimento de um sistema de busca e de um tocador que permite o acesso a centenas de milhares de sons em Creative Commons fornecidos com a mediação da API do Freesound.
@@ -234,7 +225,7 @@ Quanto à familiaridade com o uso de espectrogramas, tivemos também um resultad
 \begin{figure}
 
 \includegraphics[width=1\textwidth]{pictures/cap4/questionnaire_lower}
-\caption{\label{amas}Resultados obtidos na avaliação do questionário.}
+\caption{Resultados obtidos na avaliação do questionário.}
 \label{fig:questionnaire}
 \end{figure}
 
@@ -246,7 +237,7 @@ Uma segunda parte do questionário incluiu questões relativas à medição do �
 \includegraphics[width=1\textwidth]{pictures/cap4/CSI}
 \caption{Resultados do questionário CSI}
 \legend{Como os maiores valores médios em negrito.}
-\label{fig:questionnaire}
+\label{fig:questionnairecsi}
 \end{figure}
 
 
@@ -414,7 +405,7 @@ No futuro, gostaríamos de desenvolver uma nova versão do software, que permita
 
 \begin{figure}
 \includegraphics[width=1\textwidth]{pictures/cap4/playsound-chat}
-\caption{\label{handbell}Interface da página de chat.}
+\caption{Interface da página de chat.}
 \legend{Fonte: screenshot da autora no dia 7 de janeiro de 2018}
 \label{fig:pschat}
 \end{figure}
@@ -521,38 +512,35 @@ Na resposta do questionário sobre o que os participantes mais gostaram a respei
 
 
 \subsection{Aplicação Prática}
-Após essas primeiras rodadas de avaliação, tive a oportunidade de aplicar o uso do instrumento em uma série de atividades práticas, como aulas, concertos e performances. Após o término da atividade de pesquisa em Londres, me mudei para Porto Seguro no Estado da Bahiam onde assumi o cargo de professora efetiva na Universidade Federal do Sul da Bahia (UFSB), no Instituto de Artes, Ciências e Humanidades (IACH), para ministrar principalmente cursos para a habilitação em ``Arte e Produção Sonora'' do curso ``Som e Imagem em Movimento'' (SIM) do Centro de Formação em Artes (CFA). Nesta seção reunimos algumas das experiências com o instrumento na nossa atividade profissional cotidiana, e em oportunidades que tivemos de apresentar com/o trabalho em eventos acadêmicos ou culturais desde então.
+Após essas primeiras rodadas de avaliação, tive a oportunidade de aplicar o uso do instrumento em uma série de atividades práticas, como aulas, concertos e performances. Após o término da atividade de pesquisa em Londres, na Inglaterra, onde comecei o desenvolvimento da ferramenta, me mudei para Porto Seguro, no Brasil, onde assumi o cargo de professora efetiva na Universidade Federal do Sul da Bahia (UFSB), no Instituto de Artes, Ciências e Humanidades (IACH) para ministrar principalmente cursos para a habilitação em ``Arte e Produção Sonora'' do curso ``Som e Imagem em Movimento'' (SIM) do Centro de Formação em Artes (CFA). Nesta seção reunimos algumas das experiências com o instrumento na nossa atividade profissional cotidiana, e em oportunidades que tivemos de apresentar com/o trabalho em eventos acadêmicos ou culturais desde então.
 
 
 \subsubsection{Curso de Edição, Captação e Produção de Audio Digital}
 
 O primeiro componente que ministrei na UFSB ``Edição, Captação e Produção de Áudio Digital'', em conjunto com o professor Leonardo Souza, era uma disciplina oferecida em conjuto para os alunos de segundo ciclo do SIM e do curso de artes do corpo em cena (ACC). O curso buscava dar uma introdução a técnicas de gravação, edição e produção de áudio digital, e abordava introdução a acústica e psicoacústica para alunos que eram na sua maioria formados em um dos Bacharelados Interdisciplinares oferecidos pela instituição. 
 
-Durante o exercício da disciplina, pudemos usar a ferramenta em diferentes contextos educacionais. Numa aula sobre timbre, por exemplo, reunimos num link vários exemplos de uma mesma nota gerada por instrumentos diferentes como diapasão, violino, clarinete, oboé, trompete, flauta, voz, piano, guitarra elétrica e diversos modelos diferentes de sintetizadores facilmente a partir do acervo do Freesound. Pudemos tocar todos esses sons facilmente e compará-los inclusive analisando e explicando os diferentes perfis de espectro de frequências sonoras.
+Durante o exercício da disciplina, pudemos usar a ferramenta em diferentes contextos educacionais. Numa aula sobre timbre, por exemplo, reunimos num link vários exemplos de uma mesma nota gerada por instrumentos diferentes como diapasão, violino, clarinete, oboé, trompete, flauta, voz, piano, guitarra elétrica e diversos modelos diferentes de sintetizadores facilmente a partir do acervo do Freesound. Pudemos tocar todos esses sons facilmente e compará-los inclusive analisando e explicando os diferentes perfis de espectro de frequências sonoras (Figura \ref{fig:amostrastimbre}).
 
-\begin{figure}
+\begin{figure}[hp]
 
 \includegraphics[width=1\textwidth]{pictures/cap4/pstimbre}
-\caption{\label{psorquestra}Amostras selecionadas para a aula sobre timbre.}
+\caption{Amostras selecionadas para a aula sobre timbre.}
 \legend{fonte: \url{http://www.playsound.space/player/sounds=308270,308618,309333,290401,43461,314864,399466,295858,278084,334534,428800,246658,357370,355118,356661,374567,220747}}
-\label{fig:psorquestra}
+\label{fig:amostrastimbre}
 \end{figure}
 
 Numa segunda oportunidade, o professor Leonardo trouxe uma série de \emph{playlists} com diferentes tipos de sons como glissandos, batidas para realizar uma atividade de preparação de corpo sonoro com a turma de alunos (Figura \ref{fig:psufsb}). Um dos alunos, Heictor Miranda Cruz, operou com facilidade essas \emph{playlists} improvisando com os sons reunidos enquanto o professor coordenava a atividade de corpo. 
 
 
 
-\begin{figure}
+\begin{figure}[hp]
 
-\includegraphics[width=1\textwidth]{pictures/cap4/leo_ufsb}
+\includegraphics[width=0.8\textwidth]{pictures/cap4/leo_ufsb}
 \caption{\label{psufsb}Professor Leo Souza coordenando a experiência de corpo sonoro em Aula na UFSB.}
 \legend{foto da autora.}
 \label{fig:psufsb}
-\end{figure}
 
-\begin{figure}
-
-\includegraphics[width=1\textwidth]{pictures/cap4/heitor_ufsb}
+\includegraphics[width=0.8\textwidth]{pictures/cap4/heitor_ufsb}
 \caption{\label{psufsb2}Heictor Miranda Cruz improvisando sobre a playlist pré definida.}
 \legend{foto da autora.}
 
@@ -616,7 +604,7 @@ Currents, currents are not in the air and on the floor and in the door and behin
 A performance foi apresentada na Web Audio Conference de 2018, em Berlim, na Alemanha, com Alessia Milo (Figura \ref{tenderbuttonsberlim}). Construímos essa performance baseada em uma leitura que eu fiz do poema, que foram cortados, selecionados e transferidos para o banco de dados do Freesound. Desta forma pudemos tocar esses trechos durante a performance e criar a paisagem sonora por cima das leituras. Assim, enquanto Alessia soltava os trechos da leitura, e colava o texto na janela do chat, eu ia selecionando os sons e tocando com eles. 
 
 \begin{figure}
-\includegraphics[width=0.8\linewidth]{pictures/cap4/tenderbuttonssounds}
+\includegraphics[width=1\linewidth]{pictures/cap4/tenderbuttonsberlim}
 \caption{Tender Buttons, performance em Berlim.}
 \legend{foto: Anna Xambó}
 \label{tenderbuttonsberlim}
@@ -645,7 +633,7 @@ No meu segundo quadrimestre de trabalho na UFSB, ministrei o componente ``Oficin
 \includegraphics[width=0.7\linewidth]{pictures/cap4/imagina1c}
 \caption{Imagina! Reverbera.}
 \label{Fotos: Juliana Gontijo}
-\label{diagram}
+\label{reverbera}
 \end{figure}
 
 

@@ -5,54 +5,67 @@
 \label{ch:conclusao}
 %\begin{quote} {\small
 \begin{flushright}
-\textit{``A síntese
-O equilíbrio
-O acabamento de carrosserie
-A invenção
-A surpresa
-Uma nova perspectiva
-Uma nova escala
+\textit{``A síntese\\*
+O equilíbrio\\*
+O acabamento de carrosserie\\*
+A invenção\\*
+A surpresa\\*
+Uma nova perspectiva\\*
+Uma nova escala\\*
 Qualquer esforço natural nesse sentido será bom.''} \\
 Oswald de Andrade – Manifesto Pau Brasil    
 \end{flushright}
 %}\end{quote}
-% Inicio este capítulo aprofundando um percurso sugerido por Théberge...
 
-Essa pesquisa partiu de um desejo de investigar a aplicabilidade de tecnologias web para o desenvolvimento de aplicativos para produção musical online. Para isso, passamos primeiro por um processo de investigação das interfaces existentes, e identificamos alguns problemas das interfaces atuais especialmente para práticas de música experimental e improvisação livre. As interfaces que pesquisamos podem ser caras --- como a maioria dos DAW --- ou complexas de usar --- como os \emph{patchers} ou impor constrições --- de tempo, ritmo ou escala, ou ainda muito simples e incapazes de produzir uma gama variada de sonoridades. Além disso, a operação de muitas delas depende do domínio de conhecimentos específicos como de uma prática de gesto musical, ou de técnicas tradicionais de notação ou edição de áudio digital. Constatamos que existem poucas ferramentas voltadas para a inclusão de noviços nas práticas criativas em música de uma maneira geral, mas também que é um campo de investigação de outros pesquisadores. No curso dessa pesquisa entramos em contato e pudemos nos relacionar com outros grupos de pesquisadores interessados nesses temas, principalmente acompanhando os grupos de pesquisa do NuSom\footnote{\url{http://www2.eca.usp.br/nusom/}}, da Orquestra Errante, da rede Sonora\footnote{\url{http://www.sonora.me/}} e do grupo de Computação Musical da Universidade de São Paulo, do Centre for Digital Music\footnote{\url{http://c4dm.eecs.qmul.ac.uk/}} e do Audio Commons\footnote{\url{https://www.audiocommons.org/}} na QMUL e participando das últimas conferências de Web Audio\footnote{\url{https://webaudioconf.com/}} e Ubimus\footnote{\url{https://alice.dcomp.ufsj.edu.br/ubimus/}}.
 
-Ubimus é um campo de pesquisa que se estabelece há cerca de dez anos para pensar em tecnologias para aplicações musicais criativas especialmente voltadas para ``promover a criação de música em contextos que antes não eram acessíveis a empreitadas artísticas''\footnote{\cite{Keller2018}}. Isso é especialmente importante em um contexto como o do Brasil, onde mesmo o acesso a computadores é relativamente precário em muitas regiões, por questões geopolíticas que se desdobram desde a colonização. Nesse sentido é importante pensar não só em ampiar o acesso mas também de pensar alternativas possíveis para produzir outros tipos de música, que superem também a perspectiva imposta pela música ocidental --- de ritmo, escala, harmonia etc --- que não deixa de ser também uma perspectiva colonialista.
+
+Essa pesquisa partiu de um desejo de investigar a aplicação de tecnologias web --- como HTML, CSS e JavaScript --- para o desenvolvimento de aplicativos para produção musical. Para isso, passamos primeiro por um processo de investigação das interfaces existentes, e identificamos alguns problemas das interfaces atuais; especialmente para práticas de música experimental e improvisação livre. Podem ser caras --- como a maioria dos DAW --- ou complexas de usar --- como os \emph{patchers} ou impor constrições --- de tempo, ritmo ou escala, ou ainda muito simples e incapazes de produzir uma gama variada de sonoridades. Além disso, a operação de muitas delas depende do domínio de conhecimentos específicos como de uma prática de gesto musical, de técnicas tradicionais de notação ou edição de áudio digital. Constatamos que existem poucas ferramentas voltadas para a inclusão de pessoas amadoras nas práticas criativas em música de uma maneira geral, mas também que é um campo de investigação de outros pesquisadores. No curso dessa pesquisa entramos em contato e pudemos nos relacionar com outros grupos de pesquisadores interessados nesses temas, principalmente acompanhando os grupos de pesquisa do NuSom\footnote{\url{http://www2.eca.usp.br/nusom/}}, da Orquestra Errante, da rede Sonora\footnote{\url{http://www.sonora.me/}} e do grupo de Computação Musical da Universidade de São Paulo, do Centre for Digital Music\footnote{\url{http://c4dm.eecs.qmul.ac.uk/}} e do Audio Commons\footnote{\url{https://www.audiocommons.org/}} na QMUL e participando das últimas conferências de Web Audio\footnote{\url{https://webaudioconf.com/}} e Ubimus\footnote{\url{https://alice.dcomp.ufsj.edu.br/ubimus/}}.
+
+UbiMus é um campo de pesquisa que se estabelece há cerca de dez anos para pensar em tecnologias para aplicações musicais criativas especialmente voltadas para ``promover a criação de música em contextos que antes não eram acessíveis a empreitadas artísticas''\footnote{\cite{Keller2018}}. Isso é especialmente importante em um contexto como o do Brasil, onde mesmo o acesso a computadores é relativamente precário em muitas regiões, por questões geopolíticas que se desdobram desde a colonização. Nesse sentido é importante pensar também alternativas possíveis para produzir outros tipos de música, que superem também a perspectiva imposta pela música ocidental --- de ritmo, escala, harmonia etc --- que não deixa de ser colonialista.
 
 %foster music making in contexts that were previously not accessible to artistic endeavors.  
 %One of the objectives of ubimus endeavors is to provide access to creative music
 %making for a wide range of participants. Supporting good-quality musical products without creating unnecessary barriers to novice participation is particularly tricky. Hence, ubimus research has yielded alternative approaches, including the development of creativity sup- port metaphors. These metaphors can be used to guide the implementation of technological infrastructure. Whether the metaphors are effective means of support for creative activities demands experimentation and data collection in real settings. Consequently, ubimus stu- dies deal with the assessment of creative products and of creative processes while subjects carry out musical activities in everyday contexts.
 
-Durante nossa pesquisa, tivemos a oportunidade de desenvolver algumas propostas práticas, para tentar outras abordagens para interação musical para além da tradicional associação entre gesto e som. Os projetos desenvolvidos, principalmente o projeto ``Banda Aberta'' e a ferramenta online ``Palysound.space'' se mostrararam interessantes e úteis em avaliações e performances realizadas. 
+Durante nossa pesquisa, tivemos a oportunidade de desenvolver algumas propostas práticas, para tentar outras abordagens para interação musical para além da tradicional associação entre gesto e som. Os projetos desenvolvidos, principalmente o projeto ``Banda Aberta'' e a ferramenta online ``Palysound.space'' se mostraram interessantes e úteis em avaliações e performances realizadas. 
 
-O Projeto ``Banda Aberta''\footnote{Disponível em: \url{http://banda.codigo.xyz/chat/index.html}} que desenvolvi com a parceria do cientista de computação Fábio Goródscy propunha uma performance participativa que funcionava a partir de um \emp{chat} de internet onde as letras eram mapeadas em sons\footnote{\cite{Stolfi2017}, \cite{Stolfi2017w}, \cite{Stolfi2018}}. Foi apresentado publicamente em 13 diferentes ocasiões, e funcionou como uma ``web agora'' onde os participantes tinham liberdade de fala (uma vez que não eram identificados). Utilizamos o \emph{chat} como forma de \emph{input} porque consideramos que o alfabeto é a tecnologia de linguagem comum mais compartilhada entre as pessoas que participariam das performances propostas. Avaliamos o projeto através de análises temáticas\footnote{\cite{Braun2006}} e estatísticas para atestar se essa liberdade chegou também a permitir à audiência a vivência de experiências de práticas musicais, e pela análise das mensagens enviadas, constatamos que a maioria das interações se dava fora do campos semântico, indicando que os participantes estavam exerimentando com as possibilidades compositivas que a ferramenta oferecia, mesmo que limitadas. O projeto funcionou como uma peça musical interativa, mas onde as relações estabelecidas previamente pela compositora se mantiveram como uma estrutura comum estética a todas performances realizadas, pela associação fixa entre letras e sons. Apesar da liberdade dos usuários, a forma ainda era pré determinada e composta. 
+O Projeto ``Banda Aberta''\footnote{Disponível em: \url{http://banda.codigo.xyz/chat/index.html}} que desenvolvi com a parceria do cientista de computação Fábio Goródscy propunha uma performance participativa que funcionava a partir de um \emph{chat} de internet onde as letras eram mapeadas em sons\footnote{\cite{Stolfi2017}, \cite{Stolfi2017w}, \cite{Stolfi2018}}. Foi apresentado publicamente em 13 diferentes ocasiões, e funcionou como uma ``web agora'' onde os participantes tinham liberdade de fala (uma vez que não eram identificados). Utilizamos o \emph{chat} como forma de \emph{input} porque consideramos que o alfabeto é a tecnologia de linguagem comum mais compartilhada entre as pessoas que participariam das performances propostas. Avaliamos o projeto através de análises temáticas\footnote{\cite{Braun2006}} e estatísticas para atestar se essa liberdade chegou também a permitir à audiência a vivência de experiências de práticas musicais, e pela análise das mensagens enviadas, constatamos que a maioria das interações se dava fora do campos semântico, indicando que os participantes estavam experimentando com as possibilidades compositivas que a ferramenta oferecia, mesmo que limitadas. O projeto funcionou como uma peça musical interativa, mas onde as relações estabelecidas previamente pela compositora se mantiveram como uma estrutura comum estética a todas performances realizadas, pela associação fixa entre letras e sons. Para fazer essa associação, utilizamos procedimentos de tradução intersemiótica, que descrevemos no capítulo anterior. Apesar da liberdade dos usuários, a forma ainda era pré determinada e composta. 
 
-A partir da colaboração com o grupo de pesquisa Audio Commons da QMUL, durante estágio supervisionado por Mathieu Barthet, comecei a desenvolver um segundo projeto, de um instrumento para tocar conteúdos disponíveis online através da API do Freesound.org; dessa vez não como um projeto de performance, mas como um projeto de instrumento para minha própria expressão musical: o Playsound\footnote{Disponível na url:\url{http://www.playsound.space/}}. Parti mais uma vez do texto como forma de entrada, mas dessa vez, utilizando seu conteúdo semântico como base de entrada para buscas. Para selecionar os sons em tempo real, propusemos a utilização de espectrogramas, que fornecem informações sobre a sonoridade dos arquivos, mas não necessariamente sobre tonalidade. O Playsound é uma proposta de instrumento para tocar música concreta, que ainda pode ser desenvolvido se houverem recuros para isso. Até o momento teve colaboração de diversos pesquisadores no seu desenvolvimento\footnote{\cite{}} 
+%traducao intersemiotica
 
 
-O desenvolvimento dessa pesquisa trouxe algumas respostas para nossas indagações iniciais. Mostrou que sim, é possível pensar novas formas de interface que permitam o acesso de pessoas não virtuosas em situações de práticas musical. Também confirmou nossa hipótese de que as tecnologias de sistemas web são viáveis para a construção de interfaces experimentais, como as que desenvolvemos. E trouxe algumas questões e indagações, que também apontam para desenvolvimentos futuros: Porque fazer? e o que fazer? São questões que não têm uma resposta exata, mas que ficam apontadas para uma pesquisa que não se encerra com essa tese.
+A partir da colaboração com o grupo de pesquisa Audio Commons da QMUL, durante estágio supervisionado por Mathieu Barthet, comecei a desenvolver um segundo projeto, de um instrumento para tocar conteúdos disponíveis online através da API do Freesound.org; dessa vez não como um projeto de performance, mas como um projeto de instrumento para minha própria expressão musical: o Playsound\footnote{Disponível na url:\url{http://www.playsound.space/}}. Como costumo praticar improvisação vocal com técnicas expandidas, queria um instrumento que não dependesse do gesto pra tocar, porque muitas vezes sinto dificuldade em coordenar linhas diferentes de voz enquanto toco instrumentos digitais. Parti mais uma vez do texto como forma de entrada, mas dessa vez, utilizando seu conteúdo semântico como base de entrada para buscas. Para selecionar os sons em tempo real, propusemos a utilização de espectrogramas, que fornecem informações sobre a sonoridade dos arquivos, mas não necessariamente sobre tonalidade. O Playsound é uma proposta de instrumento para tocar música concreta, que ainda pode ser desenvolvido se houverem recursos para isso. Até o momento teve colaboração de diversos pesquisadores no seu desenvolvimento, como Mathieu Barthet, Miguel Ceriani, Fábio Viola e especialmente Alessia Milo que é hoje a principal desenvolvedora back-end do projeto e já gerou quatro publicações \footnote{\cite{Stolfi2018b, Viola2018, Stolfi2018b, Stolfi2018w}} nos anais das conferências NIME, WAC e UbiMus no ano de 2018. Também fizemos duas performances além de uma apresentação solo e algumas em grupo utilizando a ferramenta em contextos de improvisação.
+
+O desenvolvimento dessa pesquisa trouxe algumas respostas para nossas indagações iniciais. Mostrou que sim, é possível pensar novas formas de interface que permitam o acesso de pessoas não virtuosas em situações de práticas musical. Também confirmou nossa hipótese de que as tecnologias de sistemas web são viáveis para a construção de interfaces experimentais, como as que desenvolvemos. E trouxe algumas questões e indagações, que também apontam para desenvolvimentos futuros: o que fazer? e porque? São questões que não têm uma resposta exata, mas que ficam apontadas para uma pesquisa que não se encerra com essa tese.
 
 
 \section{O que fazer?}
 
-Um instrumento musical é um meio de comunicação. As novas tecnologias podem vir a transformar a música como as mídias digitais transformaram as comuniçãções humanas. O maior desejo de continuidade desta pesquisa é de desenvolver o Playsound para ampliar suas potencialidades de comunicação. A idéia é chegar em algo que sintetize os porjetos Banda Aberta de alguma forma, oferencendo um ambiente de comunicação e tocar colaborativo de forma a possibilitar a interação entre pessoas em um ambiente virtual. Essa direção, que é uma das mais excitantes, é também a mais complexa e custosa em termos de recursos humanos e conhecimentos necessários.
+\begin{quote} {\small
+\textit{
+pegue um objeto\\
+faça alguma coisa com ele\\
+faça algo mais para ele\\ }
+John Cage\footnote{\cite[p.71]{Cage2015}}}
+\end{quote}
 
-Nos últimos meses, tivemos a colaboração do programador Sasha Rudin para desenvolver uma nova versão do Playsound que permitiria essa funcionalidade desejada. Sua abordagem no entanto, foi de tentar reescrever o programa do zero, o que descartou todos desenvolvimentos que fizemos na interface. Talvez por falta de intimidade com a prática musical, foram descartados recursos importantes de processamento e edição de som em tempo real, e a ênfase foi dada em recuperar sons de outras fontes parceiras do projeto AC. Não ficamos satisfeitas com a velocidade, as fucionalidades e nem com a aparência do sistema desenvolvido por ele, o que nos levou a abandonar essa versão nova e voltar para o desenvolvimento da versão atual. 
+Um instrumento musical é um meio de comunicação. As novas tecnologias podem vir a transformar a música como as mídias digitais transformaram as comunicações humanas. O maior desejo de continuidade desta pesquisa é de desenvolver o Playsound para ampliar suas potencialidades também como sistema de comunicação. A idéia é chegar em algo que sintetize os projetos Banda Aberta de alguma forma, oferecendo um ambiente de comunicação e tocar colaborativo de forma a possibilitar a interação entre pessoas em um ambiente virtual. Essa direção, que é uma das mais excitantes, é também a mais complexa e custosa em termos de recursos humanos e conhecimentos necessários.
 
-Cage fala de um processo de composição através do fluxo ``uma das formas de compor é examinar o que você está fazendo e e ver se ainda funciona se acrescentar algo mais Apenas examine novamente e veja como continua''\cite{Cage2015}. Aqui, também nosso processo se deu dessa forma. As vezes, no desenvolvimento do projeto exploramos diversas direções de para onde ir e chegamos à conclusão de que não eram interessantes, ou que não tínhamos recursos disponíveis para sua realização. Isso aconteceu por exemplo com essa versão nova, e aconteceu também com a colaboração do pesquisador Fábio Viola, que trabalhou por um tempo também em um sistema de recomendações automáticas para a ferramenta\footnote{\cite{Viola2018}}, quando percebemos que os recursos incuídos estavam deixando mais complexa. Puckette \citeyear{PucketteMiller}, aponta que ``complexidade não é sinônimo de poder expressivo'' e que as pessoas querem ``ter o maior poder expressivo, da maiera mais simples possível''. Nesses dois momentos mencionados, tivemos que voltar atrás também ao perceber que estávamos ampliando o nível de complexidade, mas prejudicando o poder expressivo da ferramenta.
+Nos últimos meses, tivemos a colaboração do programador Sasha Rudin para desenvolver uma nova versão do Playsound que permitiria essa funcionalidade desejada. Sua abordagem no entanto, foi de tentar reescrever o programa do zero, o que descartou todos desenvolvimentos que fizemos na interface. Talvez por falta de intimidade com a prática musical, foram descartados recursos importantes de processamento e edição de som em tempo real, e a ênfase foi dada em recuperar sons de outras fontes parceiras do projeto AC. Não ficamos satisfeitas com a velocidade, as funcionalidades e nem com a aparência do sistema desenvolvido por ele, o que nos levou a abandonar essa versão nova e voltar para o desenvolvimento da versão atual. 
 
-Também pensamos em uma série de recursos que poderiam ser implementados em versões futuras, como incluir a possibilidade de sequenciamento de sons em grade, ou criar sequências de sons, incluir filtros mais complexos. A possibilidade de incluir silêncio depois dos loops é uma que permitiria construir estruturas mais ricas em variação dinâmica. Automatização de processos como criação de crossfades ou variações de loops, poderíam também ser incluídos, mas será necessário um trabalho intensivo de design de interface para conseguir incluir esses recursos sem dificultar o uso da ferramenta como um todo. O mesmo podemos dizer de incluir também mecanismos de síntese sonora na plataforma: poderia ser interessante para ampliar a riqueza de sons produzidos, mas também surgem questões de como incluir isso sem reproduzir novamente parâmetros de tonalidade impostas pela música tradicional, e de como disparar esses sons sem fazer novamente a mimese do piano no computador.
+Cage fala de um processo de composição através do fluxo ``uma das formas de compor é examinar o que você está fazendo e e ver se ainda funciona se acrescentar algo mais Apenas examine novamente e veja como continua''\cite{Cage2015}. Aqui, também nosso processo se deu dessa forma. As vezes, no desenvolvimento do projeto exploramos diversas direções de para onde ir e chegamos à conclusão de que não eram interessantes, ou que não tínhamos recursos disponíveis para sua realização. Isso aconteceu por exemplo com essa versão nova, e aconteceu também com a colaboração do pesquisador Fábio Viola, que trabalhou por um tempo também em um sistema de recomendações automáticas para a ferramenta\footnote{\cite{Viola2018}}. Quando percebemos que os recursos incluídos estavam deixando mais complexa e prejudicando a tocabilidade enquanto instrumento, decidimos manter a versão anterior. Puckette (\citeyear{PucketteMiller}), aponta que ``complexidade não é sinônimo de poder expressivo'' e que as pessoas querem ``ter o maior poder expressivo, da maneira mais simples possível''. Nesses dois momentos mencionados, tivemos que voltar atrás também ao perceber que estávamos ampliando o nível de complexidade, mas prejudicando o poder expressivo da ferramenta. No momento vivemos um novo desafio nesse sentido, uma vez a implementação do \emph{buffer} em WebAudio também deixou a ferramenta mais lenta do que é desejável, mas como os ganhos expressivos superaram as perdas com a velocidade do sistema, ainda mantivemos a versão até que consigamos recursos para desenvolver um tocador híbrido que recupere a agilidade dos objetos HTML que tínhamos na primeira versão do software.
 
-Analizando as faixas produzidas utilizando playsound, percebemos que existe uma certa tendência à saturação sonora, porque atualmente a interface só permite cortar e repetir trechos de um áudio. Idealmente, para permitir maiores possibilidades de composição pensamos em incluir a possibilidade de adicionar intervalos de silêncio entre as faixas. Isso também premitiria sincronizar diferentes trechos de loop, com a formatação de loops de uma mesma duração ou durações múltiplas entre si.
+Também pensamos em uma série de recursos que poderiam ser implementados em versões futuras, como incluir a possibilidade de sequenciamento de sons em grade, ou criar sequências de sons, incluir filtros mais complexos. A possibilidade de incluir silêncio depois dos loops é uma que permitiria construir estruturas mais ricas em variação dinâmica. Automatização de processos como criação de crossfades ou variações de loops, poderiam também ser incluídos, mas será necessário um trabalho intensivo de design de interface para conseguir incluir esses recursos sem dificultar o uso da ferramenta como um todo. O mesmo podemos dizer de incluir também mecanismos de síntese sonora na plataforma: poderia ser interessante para ampliar a riqueza de sons produzidos, mas também surgem questões de como incluir esses recursos sem reproduzir novamente parâmetros de tonalidade impostas pela música tradicional, e também de como disparar esses sons sem fazer novamente a mimese do piano no computador.
 
-Outra possibilidade interessante seria criar uma forma de dar vazão às produções feitas com o uso da ferramenta, criando uma espécie de rádio ou repositório de faixas produzidas pelo Playsound. Também pensamos em incluir outras fontes de dados inclusive de fora do ambiente AC, como sons próprios autorais ou o prórpio Youtube.
+Analisando as faixas produzidas utilizando Playsound, percebemos que existe uma certa tendência à saturação sonora, porque atualmente a interface só permite cortar e repetir trechos de um áudio. Idealmente, para permitir maiores possibilidades de composição pensamos em incluir a possibilidade de adicionar intervalos de silêncio entre as faixas. Isso também permitiria sincronizar diferentes trechos de loop, com a formatação de loops de uma mesma duração ou durações múltiplas entre si.
 
-Da nossa prática com o instrumento, percebemos também que apesar de ser acessível, e tocável sem a necessidade de um virtuosismo do gesto musical, a complexidade de sons e de processamento ofertada pelo sistema até permite que se desenvolva uma virtuosidade no uso da ferramenta, que leva em conta também a capacidade de ler espectrogramas e de compreender os sons mas também um conhecimento sobre os sons disponibiliados pela ferramenta e de como pesquisar utilizando o sistema. O fato de qualquer um conseguir usar o sistema não significa que qualquer um seja capaz de produzir um som agradável ou desejável com ele, e isso vai depender também da habilidade do músicista. 
+Outra possibilidade interessante seria criar uma forma de dar vazão às produções feitas com o uso da ferramenta, criando ferramentas para transmissão de rádio ou webradio, ou repositório de faixas produzidas pelo Playsound. Também pensamos em incluir outras fontes de dados inclusive de fora do ambiente AC, como sons próprios autorais ou o próprio Youtube.
 
-No momento atual, o Playsound não é um produto, ele se encontra atualmente hospedado na plataforma Heroku\footnote{\url{Heroku.com}}, que oferece hospedagem gratuita para projetos web. Isso limita o número de usuários permitidos simultaneamente no sistema, então para garantir que esteja sempre funcionando, o ideal é manter uma versão instalada em um servidor local no computador. De agora em diante, teremos também que pensar na sustentabilidade do sistema, para garantir recursos para colocar o projeto em um servidor dedicado, e também para o desenvolvimento futuro da ferramenta. 
+Da nossa prática com o instrumento, percebemos também que apesar de ser acessível, e tocável sem a necessidade de um virtuosismo do gesto musical, a complexidade de sons e de processamento ofertada pelo sistema até permite que se desenvolva uma virtuosidade de uso da ferramenta. Isso leva em conta a capacidade de ler espectrogramas e de compreender os sons mas também um conhecimento sobre os sons disponibilizados pela ferramenta e de como pesquisar utilizando o sistema. O fato de qualquer um conseguir usar o sistema não significa que qualquer um seja capaz de produzir um som agradável ou desejável com ele, e isso vai depender também da habilidade do musicista. Mas nossa experiência mostrou que a ferramenta é também uma porta de entrada possível e relativamente acessível para a prática musical. Relativamente porque no limite ainda depende de um computador para funcionar de uma maneira mais confortável, e por mais que os computadores e celulares sejam acessíveis hoje em dia, ainda estão distante de uma parcela considerável da população, e não podem ser usados em quaisquer condições de tempo e espaço. 
+
+No momento atual, o Playsound não é um produto, ele se encontra atualmente hospedado na plataforma Heroku\footnote{\url{Heroku.com}}, que oferece hospedagem gratuita para projetos web. Isso limita o número de usuários permitidos simultaneamente no sistema, então para garantir que esteja sempre funcionando, o ideal é manter uma versão instalada em um servidor local no computador. De agora em diante, teremos também que pensar na sustentabilidade do sistema; em como garantir recursos para colocar o projeto em um servidor dedicado e continuar o projeto.  
+
+
 
 
 
@@ -66,13 +79,13 @@ No momento atual, o Playsound não é um produto, ele se encontra atualmente hos
 
 \section{Porque fazer?}
 
-Desde que a web foi criada, como um sistema de compartilhamento de informações entre computadores em rede, ela já mudou bastante, No princípio, muitos acreditaram que a web seria uma ferramenta capaz de trazer a ``democracia participativa e a criatividade cooperativa''\footnote{\cite[360]{Barbrook2009}}, como aponta Barbrook \citeyear{barbrook2009}:
+Desde que a web foi criada, como um sistema de compartilhamento de informações entre computadores em rede, ela já mudou bastante, no princípio, muitos acreditaram que ela seria uma ferramenta capaz de trazer a ``democracia participativa e a criatividade cooperativa''\footnote{\cite[p. 360]{Barbrook2009}}, como aponta Barbrook \citeyear{Barbrook2009}:
 
 \begin{citacao}
-Todos os sonhos de democracia participativa e criatividade cooperativa seriam realizados dentro da aldeia global por vir. Em estágios iniciais da modernidade, esses princípios libertários foram somente parcialmente realizados. Felizmente, uma vez que estivessem conectados à Internet, todos – inclusive os descendentes dos escravos – desfrutariam dos benefícios da democracia da alta tecnologia jeffersoniana.
-\end{citacao}\cite[365]{Barbrook2009}
+Todos os sonhos de democracia participativa e criatividade cooperativa seriam realizados dentro da aldeia global por vir. Em estágios iniciais da modernidade, esses princípios libertários foram somente parcialmente realizados. Felizmente, uma vez que estivessem conectados à Internet, todos – inclusive os descendentes dos escravos – desfrutariam dos benefícios da democracia da alta tecnologia jeffersoniana.\cite[p. 365]{Barbrook2009}
+\end{citacao}
 
-Mas o que temos visto acontecer na verdade é quase o contrário. Novas coorporações surgiram para estabelecer monopólios e concentração de dados, como é o caso das redes sociais. A indústria cultural hoje controla por meio de algoritmos obscuros o que se vê, o que se pode falar, o que se pode mostrar, e analisa dados da população em escala global, sempre com a desculpa de oferecer melhores e mais direcionados anúncios publicitários, ou nas palavras de Barbrook: ``graças ao panóptico em rede, a elite corporativa era agora capaz de controlar suas vidas muito mais detalhadamente do que no passado fordista''\footnote{\cite[345]{Barbrook2009}}. Em ``Educação como prática da liberdade'' pedagogo Paulo Freire nota o caráter nocivo dessa nivelação, que já era praticado pela indústria cultural mesmo antes da internet:
+Mas o que temos visto acontecer na verdade é quase o contrário. Novas corporações surgiram para estabelecer monopólios e concentração de dados, como é o caso das redes sociais. A indústria cultural hoje controla por meio de algoritmos obscuros o que se vê, o que se pode falar, o que se pode mostrar, e analisa dados da população em escala global, sempre com a desculpa de oferecer melhores e mais direcionados anúncios publicitários, ou nas palavras de Barbrook: ``graças ao panóptico em rede, a elite corporativa era agora capaz de controlar suas vidas muito mais detalhadamente do que no passado fordista''\footnote{\cite[p.  345]{Barbrook2009}}. Em ``Educação como prática da liberdade'' pedagogo Paulo Freire nota o caráter nocivo dessa nivelação, que já era praticado pela indústria cultural, mesmo antes da internet:
 
 
 %\begin{citacao}
@@ -81,29 +94,72 @@ Mas o que temos visto acontecer na verdade é quase o contrário. Novas coorpora
 
 
 \begin{citacao}
-Uma das grandes, senão a maior, tragédia do homem moderno está em que é hoje dominado pela força dos mitos e comandado pela publicidade organizada, ideológica ou não, e por isso vem renunciando cada vez, sem o saber, à sua capacidade de decidir. Vem sendo expluso da órbita das decisões. As tarefas do seu tempo não são capatadas pelo homem simples, mas a eles apresentadas por uma ``elite" que as interpreta e as entrega em forma de receita, de prescrição a ser seguida. E, quando julga que se salva seguindo as prescrições, afoga-se no anonimato nivelador da massificação, sem esperança e sem fé, domesticado e acomodado: já não é sujeito. Rebaixa-se a puro objeto. Coisifica-se. \cite[60]{Freire2015}
+Uma das grandes, senão a maior, tragédia do homem moderno está em que é hoje dominado pela força dos mitos e comandado pela publicidade organizada, ideológica ou não, e por isso vem renunciando cada vez, sem o saber, à sua capacidade de decidir. Vem sendo expulso da órbita das decisões. As tarefas do seu tempo não são captadas pelo homem simples, mas a eles apresentadas por uma ``elite" que as interpreta e as entrega em forma de receita, de prescrição a ser seguida. E, quando julga que se salva seguindo as prescrições, afoga-se no anonimato nivelador da massificação, sem esperança e sem fé, domesticado e acomodado: já não é sujeito. Rebaixa-se a puro objeto. Coisifica-se. \cite[60]{Freire2015}
 \end{citacao} 
 
 
-As eleições de 2018 provaram o potencial destruidor dos novos meios de comunicação, esse sujeito objeto massificado, impulsionado pela era da pós-verdade, em ambientes completamente controlados por algoritmos que não se sabe o que e quem controlam. Contra essa massificação que nos é imposta, Freire \citeyear{Freire2015} aponta a necessidade de se pensar novos processos pedagógicos que formem sujeitos capazes de criar e recriar as suas próprias realidades:
+As eleições de 2018 provaram o potencial destruidor dos novos meios de comunicação, esse sujeito objeto massificado, impulsionado pela era da pós-verdade, em ambientes completamente controlados por algoritmos que não se sabe o que e quem controlam. Contra essa massificação que nos é imposta, Freire \citeyear{Freire2015} aponta a necessidade de se pensar novos processos pedagógicos que formem sujeitos capazes de criar e recriar as suas próprias realidades: 
 
 \begin{citacao}
-A partir das relações do homem com a realidade, resultantes de estar com ela e de estar nela, pelos atos de criação, recriação e decisão, vai ele dinamizando o seu mundo. Vai dominando a realidade. Vai humanizando-a. Vai acrescentando a ela algo de que ele mesmo é o fazedor. Vai temporalizando os espaços geográficos. Faz Cultura. E é ainda o jogo destas relações do homem com o mundo e do mundo e do homem com os homens, desafiado e respondendo ao desafio, alterando, criando, que não permite a imobilidade, a não ser em termos de relativa preponderância, nem das sociedades nem das culturas. E, à medida que cria, recria e decide, vão se conformando as épocas históricas. É também criando, recriando e decidindo o que o homem deve participar destas épocas. \cite[60]{Freire2015}
+A partir das relações do homem com a realidade, resultantes de estar com ela e de estar nela, pelos atos de criação, recriação e decisão, vai ele dinamizando o seu mundo. Vai dominando a realidade. Vai humanizando-a. Vai acrescentando a ela algo de que ele mesmo é o fazedor. Vai temporalizando os espaços geográficos. Faz Cultura. E é ainda o jogo destas relações do homem com o mundo e do mundo e do homem com os homens, desafiado e respondendo ao desafio, alterando, criando, que não permite a imobilidade, a não ser em termos de relativa preponderância, nem das sociedades nem das culturas. E, à medida que cria, recria e decide, vão se conformando as épocas históricas. É também criando, recriando e decidindo o que o homem deve participar destas épocas. \cite[p. 60]{Freire2015}
 \end{citacao} 
 
 
 %``No momento em que todos tivessem acesso à Internet, a democracia participativa e a criatividade cooperativa seriam a ordem do dia. Entretanto'' 
 
 
-Ao decidir seguir a carreira de professora, de ter um compromisso com a educação e as potências que emanam dessas relações, nos obriga também a pensar em desenhar novas ferramentas que também possam fomentar processos de prática musical mais inclusivas. Tive felizmente, no final deste processo a oportunidade de lecionar e utilizar ferramentas desenvolvidas nessa pesquisa em aulas. Pude também exercitar de maneira livre uma prática de design, na busca de construir ferramentas que são objetos técnicos mas também exercícios estéticos, ao propor formas novas de interação musical. 
+Ao decidir seguir a carreira de professora, de ter um compromisso com a educação e as potências que emanam dessas relações, nos obriga também a pensar em desenhar novas ferramentas que também possam fomentar processos de prática musical mais inclusivas. Tive felizmente, no final deste processo a oportunidade de lecionar e utilizar ferramentas desenvolvidas nesta pesquisa em aulas. Pude também exercitar de maneira livre uma prática de design, na busca de construir ferramentas que são objetos técnicos mas também exercícios estéticos, ao propor formas novas de interação musical. 
+
+
+Se o desejo partiu de uma necessidade própria, os resultados mostraram que alguns dos exercícios desenvolvidos serviram para além disso. Ao procurar resolver problemas de nossa própria prática musical, chegamos no Playsound, que também é uma ferramenta aberta e acessível para qualquer pessoa através da web.  Ele possibilita também uma experiência de ``tocar sem saber tocar'', ao oferecer acesso aos sons por meio de conceitos semânticos e textuais e não através do domínio de uma técnica ou posse de um instrumento musical. Com isso, nos inserimos no campo de pesquisa da música ubíqua, que tem como propósito desenvolver ferramentas acessíveis e portáteis. Mas, se é verdade que os dispositivos móveis e computacionais são cada vez mais presentes e acessíveis, é também que as ferramentas analógicas --- como os instrumentos portáteis de percussão e a voz --- têm também muita potência, por vezes até mais que os dispositivos computacionais, ao passo que não dependem nem de bateria nem de eletricidade. Nossas experiências foram no sentido de procurar sentido na internet, mas no final acredito também cada vez mais no que está fora dela. Parafraseando Décio Pignatari: na música interessa o que não é música. O sentido que queremos dar para essa pesquisa não está só na computação musical, e gostaríamos muito de direcionar essa pesquisa para pensar estruturas que pudessem fazer essa relação entre as tecnologias digitais e analógicas. Para empoderar e para fazer o carnaval permanente. Ganhar as ruas, e sair das salas de performance, aí pode estar a grande delícia.
 
 
 
-Se o desejo partiu de uma necessidade própria, os resultados mostraram que alguns dos exercícios desenvolvidos servem para além disso. Ao procurar resolver problemas de nossa própria prática musical, chegamos no Playsound, que também é uma ferramenta aberta e acessível para qualquer pessoa através da web, que possibilita também uma exeriência de ``tocar sem saber tocar'', ao oferecer acesso aos sons por meio de conceitos semânticos e textuais. Com isso, nos inserimos no campo de pesquisa da música ubíquia, que tem como norte esse propósito de desenvolver ferramentas acessíveis e portáveis. 
+
+
+%insuficiência do computador em condições de praia
+
+%Chegamos também a pensar nos próprios meios de compunicação, ao propor uma espécie de tradução intersemiótica de meios. Como traduzir o alfabeto em música, como mapear letras em sons, utilizando métodos diversos, como analogias por forma ou por significado; Chegamos em um processo de tradução semântica, utilizando a mediação 
+
+
+
+ %não textuais ou não mediadas por terceiros. 
+
+% Nossas experiências também foram no sentido de procurar sentido na internet, .   Gostaria muito de poder direcionar essa pesquisa no futuro a pensar estruturas para . 
 
 
 
 
+\begin{quote} {\small
+\textit{
+``
+Na vida interessa o que não é vida\\ Na morte interessa o que não é morte\\
+Na arte interessa o que não é arte\\
+Na ciência interessa o que não é ciência\\
+Na prosa interessa o que não é prosa\\
+Na poesia interessa o que não é poesia\\
+Na pedra interessa o que não é pedra\\
+No corpo interessa o que não é corpo\\
+Na alma interessa o que não é alma\\
+Na história interessa o que não é história\\
+Na natureza interessa o que não é natureza\\
+No sexo interessa o que não é sexo\\
+(: o amor que, de resto, pode ser abominável)\\
+No homem interessa o que não é homem\\
+Na mulher interessa o que não é mulher\\
+No animal interessa o que não é animal\\
+Na arquitetura interessa o que não é arquitetura\\
+Na flor interessa o que não é flor\\
+Em Joyce interessa o que não é Joyce\\
+No concretismo interessa o que não é concretismo\\
+No paradigma interessa o que não é paradigma\\
+No sintagma interessa o que não é sintagma\\
+Em tudo interessa o que não é tudo\\
+No signo interessa o que não é signo\\
+Em nada interessa o que não é nada.''
+} \\
+Décio Pignatari – Interessere    
+}\end{quote}
 
 
 
@@ -198,11 +254,7 @@ Se o desejo partiu de uma necessidade própria, os resultados mostraram que algu
 
 
 
-%peque um objeto
-%faça alguma coisa com ele
-%faça algo mais para ele
 
-%\cite[71]{Cage2015} 
 
 %- ferramenta colaborativa
 %- tracker
@@ -224,4 +276,7 @@ Se o desejo partiu de uma necessidade própria, os resultados mostraram que algu
 %\begin{citacao}
 %Operar sobre o passado encerra um problema de valor. Não é escolher um dado do passado, uma referência passada; é uma referência a uma situação passada de forma que seja capaz de resolver um problema presente e tenha afinidade com suas necessidades precisas e concretas, de modo a projetar o presente sobre o futuro. Toda época distingue entre formas conservadoras e mais inovadoras. As inovadoras são as que se projetam para o futuro através do caráter inacabado que aponta para um possível leitor, o que é também uma forma de ``perceber na cultura de hoje os traços reais e inconfundíveis do amanhã''. Operar sobre o passado, além de um problema de valor, constitui-se também numa operação ideológica através da qual podemos confirmar a produção do presente ou encobrir essa realidade. Se, no primeiro caso se favorece um encontro dialético com o passado para preparar o futuro, no segundo, trata-se de distanciar esse futuro indefinidamente. No primeiro caso, os valores da história constituem-se num modelo para a ação, já no segundo, trata-se de um fantasma a ser evocado como nostalgia, moda ou revival. \footnote{\cite{JulioPlaza1969}}
 %\end{citacao}
+
+
+
 
